@@ -1,55 +1,100 @@
-# Purpose of This Repo
+# AI Marketer (C2) — Exercises & Demos
 
-This repo is the source of truth for all exercises in this course.
+Source of truth for all demos and exercises in this course. **12 modules**, each with a filmed **demo** (instructor-led) and a hands-on **exercise** (learner self-assessed). Everything runs in **Claude Code**.
 
-> IMPORTANT!  Please remove these instructions before sharing this repo with learners.
+> **Internal doc — do not ship this README to learners.** Learners receive the exercise starter instructions and (after recording) the solutions. The demo briefs/walkthroughs and this guide are for the build team.
 
-## Folder Structure
+---
 
-This repo contains one folder for each module and each module folder contains subdirectories for exercises:
+## Folder structure (what's actually here)
 
-```bash
-module-#-name/
-├── exercise-name-starter/
-│   └── INSTRUCTIONS.md
-└── solution/
-    └── .gitkeep
+Each module folder is content-named and **unnumbered** (see the rule at the bottom). Inside every module:
+
+```
+<module>/
+├── demo/                         # instructor-led walkthrough (filmed)
+│   ├── starter/
+│   │   ├── INSTRUCTIONS.md        # the demo BRIEF — what to record + why
+│   │   └── <input assets>         # datasets / prompts the demo uses
+│   └── solution/
+│       ├── walkthrough.md         # the demo worked through, with reasoning
+│       └── example-output.md      # the finished artifact the demo produces
+│                                  #   (data modules: CSVs + chart PNGs instead)
+└── exercise/                     # hands-on, learner self-assessed
+    ├── starter/
+    │   ├── INSTRUCTIONS.md        # the learner TASK — scenario, requirements, done-when
+    │   └── <starter assets>       # datasets / prompts / templates provided
+    └── solution/
+        ├── SOLUTION.md            # worked answer key + Common Mistakes
+        └── <output artifacts>     # data modules: forecast/LTV CSVs + charts
 ```
 
-- `exercise-name-starter/` - Contains the starter files and instructions for the exercise (INSTRUCTIONS.md template provided)
-- `solution/` - Contains the solution files for the exercise.
+### What each file type is
 
-> **Note:** The `.gitkeep` file in the solution folder preserves the directory structure in the repository when the folder is empty. It should be removed when one or more solution files have been added to this folder.
+| File | Audience | Purpose |
+|---|---|---|
+| `demo/starter/INSTRUCTIONS.md` | Instructor | The demo **brief**: setup, the beats to hit on camera, key takeaway |
+| `demo/solution/walkthrough.md` | Instructor | The demo **worked through**, with the reasoning to narrate |
+| `demo/solution/example-output.md` | Instructor | The **finished artifact** the demo produces (clean, no narration) |
+| `exercise/starter/INSTRUCTIONS.md` | Learner | The **task**: scenario → What to produce → Requirements → Done when |
+| `exercise/solution/SOLUTION.md` | Learner (post-record) | Worked **answer key**, one strong example, with Common Mistakes |
+| `*.csv`, `*.png` | Both | Provided datasets (starter) and computed outputs (solution) |
 
-Eight module folders have been provided as a template; However, you may need to add more or possibly use less than eight depending on what is needed. If you require an additional module folder, you can make a copy of an existing folder and paste it into the root directory.
+> **Note on solutions:** on the `main` branch, `exercise/solution/` is an empty placeholder for the instructor to fill while recording. The `generated-solutions` branch contains generated worked solutions + demo outputs for review.
 
-As you build the exercises, the module and exercise folder names should be changed to reflect the content e.g.,
+---
 
-- python-basics/simple-calculator-starter
-- object-oriented/classes-vs-instances-starter
-- web-development/simple-api-starter
-- error-handling/try-catch-practice-starter
-- ai-agents/fact-checker-agent-starter
+## The 12 modules (folder → skill → brand)
 
-> ⚠️ **DO NOT NUMBER the exercises!**
-> Our modular content may be used in more than one program where the order and number of exercises may differ from the order and number in the primary build.
+| # | Folder | Skill | Brand |
+|---|---|---|---|
+| SP1 | `goal-rich-briefing` | Goal-Rich Marketing Briefing | Flowline (freemium SaaS) |
+| SP2 | `stress-test-strategy` | AI as Adversarial Reviewer | Flowline |
+| SP3 | `evaluate-ai-tools` | AI Marketing Tool Evaluation | generic (copywriting) |
+| SP4 | `synthetic-persona-interviews` | Synthetic Persona Design & Execution | Barkwell (dog beds) |
+| SP5 | `synthetic-ab-test` | Synthetic A/B Testing Discipline | Barkwell |
+| SP6 | `scaled-audience-research` | Scaled Synthetic Audience Research | Barkwell |
+| SP7 | `cpa-cvr-forecast` | AI-Augmented Forecast Construction | Steep (DTC tea) |
+| SP8 | `validate-forecast` | Forecast Validation & Calibration | Steep |
+| SP9 | `ltv-to-bidding` | AI-Augmented LTV Forecasting | Steep |
+| M6 | `claude-code-knowledge-work` | Marketing Knowledge-Work in Claude Code | Vessl (smart bottle) |
+| M8 | `ai-generated-creative` | AI-Generated Marketing Creative | Vessl |
+| M9 | `background-agent-research` | Single-User Agentic Delegation | Vessl |
 
-## Resources for Building Exercises
+Brands repeat within a family (Flowline, Barkwell, Steep, Vessl) but **no module references another** — each is self-contained so learners can enter at any point.
 
-The [Exercise Creation Resources](Exercise%20Creation%20Resources/) folder contains essential guidelines and standards for creating high-quality, accessible, and engaging exercises. These resources ensure consistency and help you follow best practices when developing course content.
+---
 
-### [Exercise Guidance.md](Exercise%20Creation%20Resources/Exercise%20Guidance.md)
+## What to review
 
-Comprehensive guide covering exercise design principles, instruction writing, starter and solution code best practices, and requirements for solution videos and text. This is your primary resource for understanding what makes an effective exercise.
+- [ ] **Demo brief** reads as a recordable ~8–12 min segment; the beats land the key takeaway.
+- [ ] **Exercise task** is clear: a learner knows what to produce, the requirements, and when they're done — without being handed a step-by-step recipe.
+- [ ] **No spoilers** in exercise starters (the answer isn't stated in the task).
+- [ ] **Solutions** are correct and, for the data modules, match the provided datasets.
+- [ ] **Brand voice / scenario** is appropriate for a global audience.
+- [ ] **Assets** referenced by each INSTRUCTIONS.md are present in the same folder.
 
-### [Accessibility Standards.md](Exercise%20Creation%20Resources/Accessibility%20Standards.md)
+---
 
-Details the WCAG 2.1 AA accessibility standards that all content must meet, including guidelines for headings, alt text, hyperlinks, color contrast, and avoiding images of text. Ensures exercises are accessible to all learners regardless of their abilities or use of assistive technology.
+## Open decisions (for Patrick / the author)
 
-### [Real-World Content Guidelines.md](Exercise%20Creation%20Resources/Real-World%20Content%20Guidelines.md)
+1. **SP5** — the A/B *demo* needs a senior-dog persona panel; only the furniture-grade panel (for the exercise) exists. Build one, or seed live on camera?
+2. **SP9** — the cohort dataset uses real country codes (IN/CA/UK/US), engineered so India *looks* low-value until the confound is found. Keep, or switch to neutral region labels?
+3. **M9** — pin the exact background-agent surface to teach/record.
+4. **M8** — reframed from the dictionary's "Claude Design + Figma" to Claude Code + any image tool (Claude Design retired). Confirm.
+5. **M6** — now Claude Code (not "Claude Chat"); dictionary title should update.
+6. **SP7** — anchors on CPA, not the dictionary's "CPM" (agreed); dictionary wording to update.
+7. **Demo file model** — demos currently carry brief + walkthrough + example-output; decide whether to keep all three or collapse to brief + output.
 
-Guidelines for using real-world examples, company logos, trademarks, and references to people and organizations in exercises. Covers when it's appropriate to use actual brands versus creating fictitious examples and how to avoid legal and ethical issues.
+---
 
-### [Third Party Images and Datasets.md](Exercise%20Creation%20Resources/Third%20Party%20Images%20and%20Datasets.md)
+## Building & standards
 
-Requirements for using third-party content including licensing requirements (Creative Commons, public domain), attribution standards, and approved sources for images, coding libraries, and datasets. Lists acceptable and unacceptable license types for commercial educational use.
+The [Exercise Creation Resources](Exercise%20Creation%20Resources/) folder holds Udacity's guidelines:
+
+- **[Exercise Guidance.md](Exercise%20Creation%20Resources/Exercise%20Guidance.md)** — exercise design, instruction writing, solution requirements. Primary reference.
+- **[Accessibility Standards.md](Exercise%20Creation%20Resources/Accessibility%20Standards.md)** — WCAG 2.1 AA.
+- **[Real-World Content Guidelines.md](Exercise%20Creation%20Resources/Real-World%20Content%20Guidelines.md)** — brands, trademarks, references (relevant to open decision #2).
+- **[Third Party Images and Datasets.md](Exercise%20Creation%20Resources/Third%20Party%20Images%20and%20Datasets.md)** — licensing & attribution.
+
+> ⚠️ **DO NOT NUMBER the exercises.** Modular content may be reused across programs where order and count differ, so folder names are content-named, not numbered. (The SP#/M# labels above are for this build's reference only.)
