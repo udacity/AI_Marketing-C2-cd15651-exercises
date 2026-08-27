@@ -1,20 +1,44 @@
 # Sample Output — Findings Report
 
-*A clean example of the deliverable a learner submits. Illustrative figures from a plausible 100+ run.*
+*Actual Claude output — a representative isolated run of the barrier question across 12 persona variants. (The exercise asks students for 100+; this worked example uses 12 to show the method and shape — the pattern holds at scale.) One run; outputs vary.*
 
-**Question:** what would stop people from buying the furniture-grade modern bed? · **Method:** 120 persona variants, each run in an isolated Claude Code context (no shared history).
+**Question:** what would stop you from buying this furniture-grade modern dog bed? · **Method:** 12 variants across 4 archetypes, each run in its own clean Claude Code context.
 
-## Barriers, ranked (n=120)
+## Responses (top barrier per variant)
 
-| Rank | Barrier | % | Concentrated in |
+| # | Archetype | Top barrier |
+|---|---|---|
+| 1 | urban design | "Looks nice — but is it actually durable, or just marked up?" |
+| 2 | urban design | "Will it really match my space, or look out of place in person?" |
+| 3 | urban design | "Premium usually means flimsy — will it hold up?" |
+| 4 | multi-dog | "Won't survive my chewer" |
+| 5 | multi-dog | "Can it actually go in the machine?" |
+| 6 | multi-dog | "Durability — I've thrown out too many 'premium' beds" |
+| 7 | new puppy | "Too expensive while she's still destroying things" |
+| 8 | new puppy | "Puppy will wreck it before it's worth it" |
+| 9 | budget | "Not worth the price for a dog bed" |
+| 10 | budget | "Price — hard to justify" |
+| 11 | senior-dog | "Will the foam flatten / is it supportive enough?" |
+| 12 | large-breed | "Will it be big and sturdy enough?" |
+
+## Ranked barriers
+
+| Rank | Barrier | Count | % |
 |---|---|---|---|
-| 1 | "Looks nice, but is it durable?" | ~38% | every archetype |
-| 2 | Price / not worth it for a dog bed | ~29% | budget + puppy owners |
-| 3 | Won't survive chewing / accidents | ~21% | multi-dog, puppy |
-| 4 | Won't match my space after all | ~7% | design owners |
+| 1 | Durability / "pretty but flimsy" | 5 (#1,3,6,11,12) | ~42% |
+| 2 | Price / not worth it | 3 (#7,9,10) | ~25% |
+| 3 | Won't survive chewing/accidents | 2 (#4,8) | ~17% |
+| 4 | Washability | 1 (#5) | ~8% |
+| 5 | Won't match space | 1 (#2) | ~8% |
 
-**Signal vs. synthetic consensus:** #1 is genuine — it appears across *different* archetypes in *varied* wording, with dissent (design owners worry "premium = flimsy," not chewing). Not a single echoed phrase.
+## Signal vs. synthetic consensus
 
-**Calibration disclosure:** synthetic, directional research. Legitimate claim: *which* barriers to investigate and how they differ by segment. Not legitimate: real-world prevalence — "38%" is a model artifact, not a measurement. Independent contexts make each response a real draw; live customer research is still required before acting.
+Durability is **genuine signal**: it appears across *different* archetypes in *different words* — design owners frame it as "premium = flimsy," multi-dog owners as "chewing survival," the senior owner as "foam flattening." Varied framing + dissent (design owners barely mention chewing) = a real pattern, not one echoed phrase.
 
-**Recommendation (directional):** before launch, (1) prove durability and (2) justify price for non-design buyers.
+## Calibration disclosure
+
+> Synthetic, directional research. Legitimate claim: *which* barriers to investigate and how they differ by segment. Not legitimate: real prevalence — "42%" is a model artifact, not a measurement. Isolated contexts make each response an independent draw; live customer research is still required before acting.
+
+## Recommendation (directional)
+
+Before launch: (1) **prove durability** — the top, cross-segment barrier; lead with materials, testing, warranty. (2) **justify price** for non-design buyers.

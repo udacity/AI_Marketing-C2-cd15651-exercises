@@ -1,13 +1,51 @@
 # Sample Output — Rewrite Three, Compare Three
 
-*A clean example of the deliverable a learner submits. One plausible version; wording will vary.*
+*Actual Claude output — each starter prompt run as-is, then rewritten via a goal-rich brief and re-run. One run; generative outputs vary run to run.*
 
-| # | Failure type | Rewritten brief (Audience · Goal · Context · Constraints · Success) | Element that changed the output most |
-|---|---|---|---|
-| 1. Checkout recovery | **Over-prescribed** | one step from paying, left at annual-Premium checkout · recover that upgrade · already chose to upgrade, don't re-sell · no discount, no fake countdown, short · click back to checkout | **Audience/Context** — "already at payment" turned a re-explainer into a "pick up where you left off" nudge (brief shorter than the original) |
-| 2. New-user activation | **Under-specified** | free user ~3 days in, no first project · drive first project creation · hasn't reached value yet · one CTA, in-app, short · completes first project | **Goal** — pinning one action turned a vague welcome into a single push |
-| 3. Power-user referral | **Vague** | weekly-active heavy users · a referral ask · they already get value · don't over-incentivize, keep warm · a qualified referral | **Goal** — turned "feel appreciated" into a concrete referral ask |
+---
 
-**Before/after (prompt 1, abridged):**
-- *Before output:* four-sentence email with a countdown and P.S., but generic — could be any product.
-- *After output:* short "you were one step away — pick up where you left off" email, one link back to checkout, no discount.
+## Prompt 1 — Checkout recovery — **over-prescribed**
+
+**Naked run** (`Write a checkout-recovery email. Exactly four sentences. Open with a question. Mention our 20-percent-faster workflow. Add a countdown timer. End with a P.S.`):
+> Ready to work 20% faster? You were about to upgrade to Flowline Premium, but your checkout is still waiting. Complete it in the next 24 hours — ⏳ 23:59:00 — and put that faster workflow to work today. P.S. We saved your cart, but this reminder won't last long!
+
+*Mechanically correct, but it obeys arbitrary rules instead of speaking to the reader — fake countdown, forced 20% mention, no real reason.*
+
+**Goal-rich brief:** reached the annual-Premium payment screen and left · goal: return to checkout · context: already chose to upgrade, stopped at payment · constraints: no discount, no fake urgency, don't re-explain the product, short.
+
+**Rewritten run:**
+> **Subject:** You were one step from Premium
+> Hi [First name], you'd reached the last step of upgrading to Flowline Premium (annual) when something got in the way — it happens. Your plan is still saved, so you can pick up exactly where you left off in a couple of clicks. **[Return to checkout →]**
+
+---
+
+## Prompt 2 — New-user activation — **under-specified**
+
+**Naked run** (`Write an in-app message for new users.`):
+> 👋 Welcome to Flowline! We're glad you're here. Take a look around and explore everything Flowline has to offer — and reach out if you need a hand. Happy organizing!
+
+*Generic welcome; no stage, no action.*
+
+**Goal-rich brief:** free user ~3 days in, no first project yet · goal: create first project · constraints: one CTA, short, in-app.
+
+**Rewritten run:**
+> You're almost set up. Create your first project to see how Flowline keeps your work moving — takes about a minute. **[Create a project]**
+
+---
+
+## Prompt 3 — Power-user referral — **vague**
+
+**Naked run** (`Make our best users feel appreciated.`):
+> 💙 Thank you for being one of our favorite Flowline users! We appreciate everything you do. You're the best!
+
+*No task, no action — pure sentiment.*
+
+**Goal-rich brief:** weekly-active heavy users · goal: a referral ask · constraints: don't over-incentivize, keep it warm.
+
+**Rewritten run:**
+> **Subject:** You get more out of Flowline than almost anyone
+> Hi [First name] — you're one of our most active users, and it shows. If Flowline's become part of how you work, someone you know would probably get the same value from it. Know a good fit? **[Send them an invite]** — no strings, just passing on something useful.
+
+---
+
+*Each fix was different: prompt 1 got **shorter** (rules cut), prompt 2 gained a specific goal, prompt 3 gained a task where there was none.*

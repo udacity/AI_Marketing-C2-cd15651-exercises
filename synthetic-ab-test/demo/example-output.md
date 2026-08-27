@@ -1,30 +1,25 @@
 # Demo Output — Score Three Creative Directions, Rank the Winner
 
-*The clean deliverable the demo produces. The [`walkthrough.md`](walkthrough.md) narrates how; this is just the artifact. Illustrative — and note the demo's senior-dog panel is seeded live (no provided panel asset yet), so these three personas are examples.*
+*Actual Claude output — each direction scored in character by three senior-dog-owner personas per the scoring prompt, then aggregated. Personas seeded live (no provided senior-dog panel yet). One run; outputs vary.*
 
-**Directions (orthopedic senior-dog line):** A = "Comfort for their golden years" (emotional) · B = "Vet-recommended orthopedic support" (clinical) · C = "The bed they'll actually sleep in" (practical).
-**Panel:** three senior-dog owners (seeded live).
+**Directions:** A = "Comfort for their golden years" (emotional) · B = "Vet-recommended orthopedic support" (clinical) · C = "The bed they'll actually sleep in" (practical).
 
-## Scores (1–5 per dimension, total /20)
+## Scores (1–5: Resonance / Believability / Relevance / Distinctiveness → total /20)
 
 | Persona | A | B | C |
 |---|---|---|---|
-| Owner 1 (emotional, aging dog) | 18 | 14 | 15 |
-| Owner 2 (vet-driven) | 13 | 18 | 14 |
-| Owner 3 (practical) | 14 | 15 | 17 |
-| **Avg** | **15.0** | **15.7** | **15.3** |
+| P1 — emotional, aging dog | 5/3/4/2 = **14** | 3/5/4/3 = **15** | 3/4/4/4 = **15** |
+| P2 — vet-driven | 3/2/3/2 = **10** | 4/5/5/3 = **17** | 3/3/4/4 = **14** |
+| P3 — practical/outcome | 2/2/3/2 = **9** | 3/4/4/3 = **14** | 5/4/5/5 = **19** |
+| **Average** | **11.0** | **15.3** | **16.0** |
 
 ## Ranked recommendation
 
-- **Winner: B ("Vet-recommended")** — avg 15.7. Strongest on *believability*; most vulnerable on *resonance* (least emotional).
-- **Runner-up: C** — avg 15.3, margin 0.4.
-- **Third: A** — avg 15.0.
-- **Confidence: LOW.** Basis: all three land within 0.7 points — effectively a tie. No decisive winner.
+- **Winner: C** (16.0) — strongest on relevance/distinctiveness; weakest on believability.
+- **Runner-up: B** (15.3), margin **0.7**. Third: A (11.0).
+- **Panel:** C is consistent across all three (15/14/19); B peaks with the vet-driven owner; A trails everywhere.
+- **Confidence: low–medium** — B and C are within ~0.7, effectively tied at the top.
 
-## Limits (stated)
+## Limits (stated on camera)
 
-3-person synthetic panel (directional, not significant); synthetic reasoning over-weights logic vs. gut; brief descriptions, not finished ads.
-
-## Honest read
-
-This is too close to crown a winner. The real output is: all three are viable, "vet-recommended" edges ahead on credibility — advance the top two to a real test rather than committing on a 0.4-point gap.
+3-persona synthetic panel (directional, not significant); over-weights reasoning vs. gut; brief descriptions, not finished ads. This test kills the weak concept (A) and surfaces B/C to validate for real — it doesn't crown a winner.

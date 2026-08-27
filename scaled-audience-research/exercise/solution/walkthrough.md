@@ -15,11 +15,11 @@ Independence is the point: if all 120 ran in one conversation, later personas wo
 
 | Rank | Barrier | % raising it | Notes |
 |---|---|---|---|
-| 1 | "Looks nice but is it actually durable?" | ~38% | strongest across every archetype |
-| 2 | Price / not worth it for a dog bed | ~29% | concentrated in budget + puppy owners |
-| 3 | Won't survive chewing / accidents | ~21% | multi-dog and puppy owners |
-| 4 | Won't match my space after all | ~7% | design owners only |
-| 5 | Other / no barrier | ~5% | — |
+| 1 | Durability / "pretty but flimsy" | ~42% | strongest across every archetype |
+| 2 | Price / not worth it for a dog bed | ~25% | budget + puppy owners |
+| 3 | Won't survive chewing / accidents | ~17% | multi-dog and puppy owners |
+| 4 | Washability | ~8% | multi-dog owners |
+| 5 | Won't match my space | ~8% | design owners |
 
 Chart/table of the full breakdown by segment would accompany this (bar chart of barriers × archetype).
 
@@ -31,7 +31,7 @@ A **red flag to watch:** if 90%+ had returned the same barrier in near-identical
 
 ## Calibration disclosure
 
-> This is synthetic, directional research. It can legitimately claim *which barriers are worth investigating* and *how they differ by segment*. It **cannot** claim real-world prevalence — "38%" is a model artifact, not a market measurement. Independent contexts make each response a genuine separate draw (not an echo), which is why the spread is meaningful; but real customer research (surveys, interviews, a live pre-order test) is still needed before acting at scale.
+> This is synthetic, directional research. It can legitimately claim *which barriers are worth investigating* and *how they differ by segment*. It **cannot** claim real-world prevalence — "42%" is a model artifact, not a market measurement. Independent contexts make each response a genuine separate draw (not an echo), which is why the spread is meaningful; but real customer research (surveys, interviews, a live pre-order test) is still needed before acting at scale.
 
 ## Recommendation
 

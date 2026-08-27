@@ -1,31 +1,30 @@
 # Demo Output — Turn Claude Into an Adversarial Reviewer
 
-*The clean deliverable the demo produces. The [`walkthrough.md`](walkthrough.md) narrates how; this is just the artifact. Illustrative.*
+*Actual Claude output — the naive prompt then the adversarial-reviewer prompt, run on the demo strategy. One run; outputs vary.*
 
-**Strategy tested:** "Offer every free user their first month of Premium free — they'll be hooked enough to keep paying."
+**Strategy:** "Offer every free user their first month of Premium free — they'll be hooked enough to keep paying."
 
-## Naive answer (for contrast)
+## Run 1 — the naive ask (`Is this a good idea?`)
 
-> "Great idea — free trials are a proven way to drive conversion, and letting users experience Premium builds habit and trust."  *(agreeable, no assumptions named)*
+> Yes, this is a strong play. A "reverse trial" that puts users into Premium is one of the most reliable ways to drive conversion — people convert on value they've actually experienced, not features they read about. It builds habit, showcases your best capabilities, and lowers the psychological barrier to paying. Many successful SaaS businesses use exactly this model. Just make sure the onboarding highlights your most valuable Premium features early.
 
-## Adversarial-reviewer output
+*Agreeable and generic — it never names what has to be true for this to work.*
 
-**Hidden assumptions this depends on:**
-1. Users convert when billing starts, rather than churning the moment the free month ends.
-2. The people who claim the free month weren't already about to convert (otherwise it cannibalizes revenue).
-3. One month is long enough to reach the product's "aha" moment and build a real habit.
-4. The cost of giving Premium to everyone is outweighed by the incremental conversions.
+## Run 2 — adversarial reviewer
 
-**Strongest case against:** you may simply be discounting revenue you'd have earned anyway, while training price-sensitive users to expect free.
+**Prompt:** `Act as a skeptical growth lead. Your job is to find the 3–5 assumptions this strategy quietly depends on and would fail on, and to name the strongest case against it.`
 
-## One critique I'd discount
+> As a skeptical growth lead, here's where this could fall apart:
+>
+> 1. **That users convert when billing starts, rather than churn.** The whole plan assumes the free month creates lasting habit. It may just create a month of free usage that ends the moment the card is charged.
+> 2. **That claimers weren't going to convert anyway.** If you give Premium to everyone, you're discounting revenue from users who'd have paid full price — cannibalization you won't see in the headline conversion number.
+> 3. **That one month is enough to reach the "aha" moment.** For a workflow tool, real habit may take longer than 30 days to form.
+> 4. **That the cost is worth it.** You're absorbing Premium cost for your entire free base to convert a fraction.
+>
+> **Strongest case against:** you may be spending to teach price-sensitive users that Premium is something they get for free, while giving away margin on users who'd have paid regardless.
 
-The reviewer called it "a race to the bottom that will devalue the brand" *(illustrative overstatement)* — overstated for a time-boxed trial with clear framing. Discounted.
+## Demo beats on top of this
 
-## Cheap test for the top risk
-
-Run the free month for **one cohort of new signups** and measure day-30/60 retention against a control before rolling out to everyone. *(Illustrative.)*
-
-## Revised position
-
-> Pilot on new signups only. Deciding reason: the whole play rests on "convert, not churn" — the one thing we haven't tested. Changes my call: a clean retention lift in the pilot with no churn spike.
+- **Most dangerous assumption:** #1 (convert vs. churn at billing).
+- **Discount one critique:** if it also claimed "this will permanently devalue the brand," that's overstated for a time-boxed trial — set it aside.
+- **Cheap test:** run the free month for one new-signup cohort, measure day-30/60 retention vs. a control before rolling out to everyone.

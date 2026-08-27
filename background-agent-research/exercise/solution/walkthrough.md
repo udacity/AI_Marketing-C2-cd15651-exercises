@@ -17,15 +17,15 @@ The returned brief was well-organized and complete-looking — competitors, a pr
 
 | Claim | Cited source | Credible? | Verified against source? | Verdict |
 |---|---|---|---|---|
-| Premium reusable bottles retail ~$35–50 | Major retailer listings | Yes | Yes — prices match | **Trust** |
-| "Smart bottle market growing ~15% CAGR" | Unnamed "industry report" | Unclear | No — no link, figure unfindable | **Verify-first** |
-| Competitor X has 2M app users | A 2021 press release | Weak (dated, self-reported) | Partially — number is 3+ yrs old | **Verify-first** |
+| Reusable pricing ~$29–55 (Hydro Flask, Owala) | Retailer pages | Yes | Yes — prices match | **Trust** |
+| HidrateSpark PRO ~$70–85 (smart entrant) | HidrateSpark store, Apple, Amazon | Yes | Yes | **Trust** |
+| "Smart bottle market ~12% CAGR" | Four research firms | Weak | No — firms disagree 6.75%–19.5%, base sizes ~100× apart | **Verify-first** |
 | "Most consumers want hydration reminders" | SEO listicle | No | No — opinion stated as data | **Drop** |
-| Wearables/health-tracking adoption rising | Reputable research summary, recent | Yes | Yes | **Trust** |
+| Wearables/health-tracking adoption rising | Research summaries | Yes (directional) | Partial | **Trust** |
 
 ## 4. Two-line verdict (for the CMO)
 
-> About half this brief is solid — competitor pricing and the wearables trend are well-sourced and I'd act on them now. The market-size growth stat and the competitor user count are unverifiable or stale; I'd confirm both before either goes into our positioning or pricing deck, and I'd drop the "consumers want reminders" claim entirely (it's an SEO opinion, not evidence).
+> About half this brief is solid — competitor pricing (reusable and smart) and the wearables trend are well-sourced and I'd act on them now. The "~12% CAGR" is unusable as stated: reputable firms disagree by an order of magnitude, so I'd pick one clearly-scoped source or drop the number before it reaches the CMO. The "consumers want reminders" claim goes entirely (SEO opinion, not evidence).
 
 ## Common mistakes
 

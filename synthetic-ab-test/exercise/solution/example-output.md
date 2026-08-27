@@ -1,22 +1,29 @@
 # Sample Output — Run the Test, Deliver the Recommendation
 
-*A clean example of the deliverable a learner submits. Illustrative scores — a synthetic panel varies between runs.*
+*Actual Claude output — each direction scored in character by the three provided panel personas (Maya / Rick / Priya) per the scoring prompt, then run through the aggregation prompt. One run; outputs vary.*
 
-**Directions:** A = design-magazine · B = "your dog deserves nice things too" · C = "won't hide when guests come over".
+**Directions:** A = design-magazine aesthetic · B = "your dog deserves nice things too" (indulgence) · C = "a dog bed you won't hide when guests come over" (honesty).
 
-| Persona | A | B | C | Top |
-|---|---|---|---|---|
-| Maya | 18 | 12 | 16 | A |
-| Rick | 8 | 7 | 13 | C |
-| Priya | 13 | 15 | 14 | B |
-| **Avg** | **13.0** | **11.3** | **14.3** | — |
+## Scores (1–5: Resonance / Believability / Relevance / Distinctiveness → total /20)
 
-**Ranked recommendation**
-- **Winner: C** (avg 14.3) — strongest on relevance, weakest on distinctiveness.
-- Runner-up: A (13.0), margin 1.3. Third: B (11.3).
-- **Panel split:** A polarizes (Maya 18 / Rick 8); C is the most consistent.
-- **Confidence: medium-low** — top two within ~1.3 pts; A's result depends entirely on which audience you weight.
+| Persona | A | B | C |
+|---|---|---|---|
+| Maya — design apartment | 5/4/5/4 = **18** | 3/3/3/3 = **12** | 4/5/4/4 = **17** |
+| Rick — practical multi-dog | 2/2/2/2 = **8** | 2/2/2/2 = **8** | 4/4/3/4 = **15** |
+| Priya — new puppy | 3/3/3/3 = **12** | 4/3/4/3 = **14** | 4/4/4/4 = **16** |
+| **Average** | **12.7** | **11.3** | **16.0** |
 
-**Limits:** 3-persona synthetic panel (directional, not significant); over-weights reasoning vs. gut; brief descriptions, not finished ads.
+## Ranked recommendation (aggregation prompt output)
 
-**Next step:** advance **C** to a real A/B (broad relevance); run **A** as a *targeted* play to design-minded urban owners only.
+- **Winner: C** — avg **16.0**. Strongest dimension: relevance (names a real, universal moment). Most vulnerable: distinctiveness.
+- **Runner-up: A** — avg 12.7, margin **3.3**. Third: B — 11.3.
+- **Panel split:** **A polarizes hard** (Maya 18 / Rick 8) — a targeted play, not a safe default. **C is the most consistent** (17 / 15 / 16) across very different owners.
+- **Confidence: medium** — C wins on both margin (~3.3) and agreement, but a 3-persona synthetic panel is directional.
+
+## Limits
+
+3-persona synthetic panel (not statistically meaningful); synthetic responses over-weight reasoning vs. gut; brief descriptions, not finished ads.
+
+## Next step
+
+Advance **C** to a real-world A/B (broad, consistent appeal). Run **A** as a *targeted* creative to a design-minded urban audience only — test C vs. A on click-through and add-to-cart before committing budget.

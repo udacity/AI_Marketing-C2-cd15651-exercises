@@ -1,35 +1,39 @@
 # Demo Output — Why Independence Is the Whole Game
 
-*The clean deliverable the demo produces. The [`walkthrough.md`](walkthrough.md) narrates how; this is just the artifact. Illustrative.*
+*Actual Claude output — a contaminated run vs. an isolated run of the same question. Representative small run for the demo. One run; outputs vary.*
 
 **Question:** which single feature matters most to buyers of the modern bed line?
 
-## Contaminated run (all personas in one chat)
+## Contaminated — 4 personas in ONE conversation
 
-| Persona (in order) | Top feature |
-|---|---|
-| 1 | Looks / design |
-| 2 | Looks / design |
-| 3 | "I agree — the design" |
-| 4 | "Design, like the others said" |
+| Order | Persona | Top feature |
+|---|---|---|
+| 1 | urban design owner | Looks / design |
+| 2 | suburban multi-dog | "Design matters, but also durability" |
+| 3 | new puppy owner | "I'd agree design is big" |
+| 4 | budget owner | "Design, like the others said" |
 
-→ Apparent 100% consensus for "design." **Artifact, not finding** — later personas anchored on earlier ones.
+→ Looks like 100% consensus for **design**. It's an artifact — each persona anchored on the one before.
 
-## Clean run (10 variants, isolated contexts)
+## Isolated — 10 variants, one clean context each
 
-| Top feature | Count (of 10) |
-|---|---|
-| Durability / build quality | 4 |
-| Looks / design | 3 |
-| Easy to clean | 2 |
-| Size options | 1 |
+| # | Variant | Top feature |
+|---|---|---|
+| 1 | urban design renter | Looks / footprint |
+| 2 | suburban multi-dog | Durability |
+| 3 | new puppy owner | Easy to clean |
+| 4 | senior-dog owner | Comfort / support |
+| 5 | budget-first owner | Price / value |
+| 6 | large-breed owner | Size / sturdiness |
+| 7 | minimalist apartment | Looks |
+| 8 | frequent traveler | Portability |
+| 9 | allergy-conscious | Washable materials |
+| 10 | practical, no-frills | Durability |
 
-→ Real variation and dissent — this is what an independent sample looks like.
+**Tally:** durability 3, looks 3, easy-clean/washable 2, comfort 1, price 1, size/portability 2. Real variation and dissent.
 
-## Headline number + calibration line
+## Headline + calibration line
 
-> **"~40% name durability as the #1 feature"** — *directional only. Synthetic, n=10, run in isolated contexts so responses are independent draws, not an echo. Not a market measurement; validate with real customers before acting."*
+> "**~30% name durability, ~30% looks**" — *directional only. Synthetic, n=10, isolated contexts so each response is an independent draw, not an echo. Not a market measurement — validate with real customers.*
 
-## Takeaway captured
-
-Same question, two methods, opposite conclusions. Independence is the difference between a finding and synthetic theater — and the calibration line keeps the number honest.
+**Takeaway:** same question, two methods, opposite conclusions. Independence is the difference between a finding and synthetic theater.

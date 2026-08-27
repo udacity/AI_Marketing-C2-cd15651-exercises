@@ -9,21 +9,21 @@
 
 | Persona | A total | B total | C total | Top pick |
 |---|---|---|---|---|
-| Maya | 18 | 12 | 16 | A |
-| Rick | 8 | 7 | 13 | C |
-| Priya | 13 | 15 | 14 | B |
-| **Avg** | **13.0** | **11.3** | **14.3** | — |
+| Maya | 18 | 12 | 17 | A |
+| Rick | 8 | 8 | 15 | C |
+| Priya | 12 | 14 | 16 | C |
+| **Avg** | **12.7** | **11.3** | **16.0** | — |
 
 ## Aggregation
 
-- **Winner: Direction C ("won't hide when guests come over")** — avg 14.3. Strongest on *relevance* (it names a real, universal moment); most vulnerable on *distinctiveness*.
-- **Runner-up: A** — avg 13.0, margin 1.3. Wins big with Maya, loses badly with Rick.
+- **Winner: Direction C ("won't hide when guests come over")** — avg 16.0. Strongest on *relevance* (it names a real, universal moment); most vulnerable on *distinctiveness*.
+- **Runner-up: A** — avg 12.7, margin 3.3. Wins big with Maya, loses badly with Rick.
 - **Third: B** — avg 11.3.
 - **Panel split:** A polarizes hard (Maya 18 / Rick 8). C is the most *consistent* across very different owners.
 
 ## Confidence
 
-**Medium-low.** Basis: the top two (C 14.3, A 13.0) are within ~1.3 points — too close to call a decisive winner — and A's result depends entirely on which audience you weight. C wins on *consistency*, not margin.
+**Medium.** Basis: C wins on both margin (~3.3 over A) and agreement across the panel — but a 3-persona synthetic panel is directional, not significant. Watch that A polarizes: strong for Maya, weak for Rick, so its average hides the split.
 
 ## Stated limits
 
