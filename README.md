@@ -1,8 +1,8 @@
 # AI Marketer (C2) — Exercises & Demos
 
-Source of truth for all demos and exercises in this course. **12 modules**, each with a filmed **demo** (instructor-led) and a hands-on **exercise** (learner self-assessed). Everything runs in **Claude Code**.
+Source of truth for all demos and exercises in this course. **12 modules**, each with a **demo** (a worked demonstration the learner watches) and a hands-on **exercise** (learner self-assessed). Everything runs in **Claude Code**.
 
-> **Internal doc — do not ship this README to learners.** Learners receive the exercise starter instructions and (after recording) the solutions. The demo briefs/walkthroughs and this guide are for the build team.
+> **Internal doc — do not ship this README to learners.** Everything else is learner-facing: the demo is watched, the exercise starter is the task, and the solution is shown after. Only this README is for the build team.
 
 ---
 
@@ -12,33 +12,30 @@ Each module folder is content-named and **unnumbered** (see the rule at the bott
 
 ```
 <module>/
-├── demo/                         # instructor-led walkthrough (filmed)
-│   ├── starter/
-│   │   ├── INSTRUCTIONS.md        # the demo BRIEF — what to record + why
-│   │   └── <input assets>         # datasets / prompts the demo uses
-│   └── solution/
-│       ├── walkthrough.md         # the demo worked through, with reasoning
-│       └── example-output.md      # the finished artifact the demo produces
-│                                  #   (data modules: CSVs + chart PNGs instead)
-└── exercise/                     # hands-on, learner self-assessed
+├── demo/                          # worked demonstration (flat — no subfolders)
+│   ├── walkthrough.md             # the demo worked through
+│   └── example-output.md          # the finished artifact it produces
+│                                  #   (data modules: CSVs + chart PNGs)
+└── exercise/                      # hands-on, learner self-assessed
     ├── starter/
-    │   ├── INSTRUCTIONS.md        # the learner TASK — scenario, requirements, done-when
-    │   └── <starter assets>       # datasets / prompts / templates provided
+    │   ├── INSTRUCTIONS.md         # the TASK — what's expected (scenario, requirements, done-when)
+    │   └── <assets>                # datasets / prompts / templates provided
     └── solution/
-        ├── SOLUTION.md            # worked answer key + Common Mistakes
-        └── <output artifacts>     # data modules: forecast/LTV CSVs + charts
+        ├── walkthrough.md          # the worked solution + Common Mistakes
+        └── example-output.md       # a sample output (data modules: CSVs + charts)
 ```
 
 ### What each file type is
 
-| File | Audience | Purpose |
-|---|---|---|
-| `demo/starter/INSTRUCTIONS.md` | Instructor | The demo **brief**: setup, the beats to hit on camera, key takeaway |
-| `demo/solution/walkthrough.md` | Instructor | The demo **worked through**, with the reasoning to narrate |
-| `demo/solution/example-output.md` | Instructor | The **finished artifact** the demo produces (clean, no narration) |
-| `exercise/starter/INSTRUCTIONS.md` | Learner | The **task**: scenario → What to produce → Requirements → Done when |
-| `exercise/solution/SOLUTION.md` | Learner (post-record) | Worked **answer key**, one strong example, with Common Mistakes |
-| `*.csv`, `*.png` | Both | Provided datasets (starter) and computed outputs (solution) |
+| File | Purpose |
+|---|---|
+| `demo/walkthrough.md` | The demo **worked through** — what the learner watches demonstrated |
+| `demo/example-output.md` | The **finished artifact** the demo produces (data modules: CSVs + chart PNGs) |
+| `exercise/starter/INSTRUCTIONS.md` | The **task**: scenario → What to produce → Requirements → Done when |
+| `exercise/solution/walkthrough.md` | The **worked solution** (one strong example) + Common Mistakes |
+| `exercise/solution/example-output.md` | A **sample output** — the clean deliverable (data modules: CSVs + charts) |
+
+All of the above is learner-facing (demos are watched; solutions are shown on the solution page). Only this README is internal.
 
 > **Note on solutions:** on the `main` branch, `exercise/solution/` is an empty placeholder for the instructor to fill while recording. The `generated-solutions` branch contains generated worked solutions + demo outputs for review.
 
@@ -67,7 +64,7 @@ Brands repeat within a family (Flowline, Barkwell, Steep, Vessl) but **no module
 
 ## What to review
 
-- [ ] **Demo brief** reads as a recordable ~8–12 min segment; the beats land the key takeaway.
+- [ ] **Demo walkthrough** reads as a recordable ~8–12 min segment and lands the key takeaway.
 - [ ] **Exercise task** is clear: a learner knows what to produce, the requirements, and when they're done — without being handed a step-by-step recipe.
 - [ ] **No spoilers** in exercise starters (the answer isn't stated in the task).
 - [ ] **Solutions** are correct and, for the data modules, match the provided datasets.
