@@ -1,0 +1,7 @@
+segment,predicted_ltv,value_tier
+discount|paid_social,97.0,low
+discount|referral,101.0,mid
+discount|search,91.0,low
+full_price|paid_social,377.0,high
+full_price|referral,670.0,high
+full_price|search,393.0,high
