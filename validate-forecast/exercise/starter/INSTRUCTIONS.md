@@ -19,7 +19,7 @@ A short calibration report a non-technical decision-maker (think CFO) could act 
 
 ## Requirements
 
-- Distinguish a **systematic** (directional) miss from random scatter. Diagnosing the miss as directional is the core insight; shrugging it off as noise is the failure.
+- Distinguish a **systematic** (directional) miss from random scatter, and say which each metric is. Treating a real directional miss as mere noise is the trap to avoid.
 - Diagnose per metric. CPA and CVR can behave differently, and which one misses tells you where the error lives.
 - Write for a CFO: put in the verdict, the confidence, the one-line reason, and the recommended action. Keep out the raw variance math and model internals — they need the call and the why, not the calculations.
 - Separate tuning levers (adjust the model) from override conditions (throw it out and rebuild). They're different responses to different kinds of miss.

@@ -52,3 +52,10 @@
 ## The portable point
 
 The same five-element scaffold fixed three different failures across three audiences and channels — and the fix was **not always "add more"**: the over-prescribed prompt got shorter. Students should be able to name *why* an output was generic (which element was missing), not just feel that it was.
+
+## Common mistakes
+
+- Misdiagnosing the failure type — e.g., treating the over-prescribed prompt as under-specified and piling on *more* rules instead of cutting them.
+- Filling brief elements with placeholders ("Audience: our users") instead of real decisions.
+- Making all three rewrites converge on the same shape, when different failures and audiences should produce visibly different briefs.
+- Naming an element that changed the output without explaining *why* it mattered.
