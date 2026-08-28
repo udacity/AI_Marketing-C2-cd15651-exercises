@@ -79,7 +79,7 @@ Brands repeat within a family (Flowline, Barkwell, Steep, Vessl) but **no module
 2. **SP9** — the cohort dataset uses real country codes (IN/CA/UK/US), engineered so India *looks* low-value until the confound is found. Keep, or switch to neutral region labels?
 3. ~~**M9** — pin the exact background-agent surface.~~ **Resolved:** it is a **Claude Code subagent** (`.claude/agents/*.md`). Starter agent definition + invocation now provided; demo/solution scope aligned to the water-bottle market.
 4. ~~**M8** — reframed from the dictionary's "Claude Design + Figma" to Claude Code + any image tool.~~ **Resolved (confirmed):** Claude Code + any image tool. Dictionary title/wording to follow.
-5. **M6** — now Claude Code (not "Claude Chat"); dictionary title should update.
+5. ~~**M6** — now Claude Code (not "Claude Chat").~~ **Resolved (team decision):** the course standardizes on **Claude Code**, and M6 teaches the persistent-workspace idea via a **project folder + `CLAUDE.md` + files on disk**, not chat "Projects." Assets were audited and already use Claude Code language (project folder / workspace / `CLAUDE.md`), with no chat-"Projects"/"project knowledge"/"upload" phrasing. **Team to-do:** update the module dictionary title (M6 "Claude Chat" → Claude Code) and make sure any classroom/course-level copy uses "project folder," not chat "Projects," so the surface language matches.
 6. **SP7** — anchors on CPA, not the dictionary's "CPM" (agreed); dictionary wording to update.
 7. **Demo file model** — demos currently carry brief + walkthrough + example-output; decide whether to keep all three or collapse to brief + output.
 
