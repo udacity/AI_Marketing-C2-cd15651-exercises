@@ -1,6 +1,6 @@
 # Demo Output — Score Three Creative Directions, Rank the Winner
 
-*Actual Claude output — each direction scored in character by three senior-dog-owner personas per the scoring prompt, then aggregated. Personas seeded live (no provided senior-dog panel yet). One run; outputs vary.*
+*Actual Claude output — each direction scored in character by the three senior-dog-owner personas in [`persona-panel-senior-dog.md`](persona-panel-senior-dog.md) (P1 = Eleanor, emotional/aging; P2 = David, vet-driven; P3 = Marcus, practical/outcome), per the scoring prompt, then aggregated. One run; outputs vary.*
 
 **Directions:** A = "Comfort for their golden years" (emotional) · B = "Vet-recommended orthopedic support" (clinical) · C = "The bed they'll actually sleep in" (practical).
 

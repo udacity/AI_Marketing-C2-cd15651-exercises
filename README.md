@@ -75,9 +75,9 @@ Brands repeat within a family (Flowline, Barkwell, Steep, Vessl) but **no module
 
 ## Open decisions (for Patrick / the author)
 
-1. **SP5** — the A/B *demo* needs a senior-dog persona panel; only the furniture-grade panel (for the exercise) exists. Build one, or seed live on camera?
+1. ~~**SP5** — the A/B *demo* needs a senior-dog persona panel.~~ **Resolved:** provided at `synthetic-ab-test/demo/persona-panel-senior-dog.md` (Eleanor / David / Marcus, mapped to the three angles). Related: the SP4 persona-interview demo was missing its senior-dog research asset after the demo/exercise split; now provided at `synthetic-persona-interviews/demo/research-snippets-senior-dog.md`.
 2. **SP9** — the cohort dataset uses real country codes (IN/CA/UK/US), engineered so India *looks* low-value until the confound is found. Keep, or switch to neutral region labels?
-3. **M9** — pin the exact background-agent surface to teach/record.
+3. ~~**M9** — pin the exact background-agent surface.~~ **Resolved:** it is a **Claude Code subagent** (`.claude/agents/*.md`). Starter agent definition + invocation now provided; demo/solution scope aligned to the water-bottle market.
 4. **M8** — reframed from the dictionary's "Claude Design + Figma" to Claude Code + any image tool (Claude Design retired). Confirm.
 5. **M6** — now Claude Code (not "Claude Chat"); dictionary title should update.
 6. **SP7** — anchors on CPA, not the dictionary's "CPM" (agreed); dictionary wording to update.

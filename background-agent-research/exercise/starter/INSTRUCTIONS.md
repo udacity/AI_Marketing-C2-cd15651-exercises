@@ -2,8 +2,9 @@
 
 The CMO wants a competitive-landscape and market-trends brief before Vessl locks its launch. Delegate the research to a background agent, then audit what comes back for source quality and write an audit note.
 
-Work with a **Claude background agent**. Use:
+Work with a **Claude Code subagent** — a helper Claude Code runs in the background with its own instructions and web-research tools, which hands back a finished brief. (This is the Claude Code feature, not the Anthropic API "Managed Agents" or the Agent SDK, which are separate developer products.) Use:
 
+- [`market-researcher-subagent.md`](market-researcher-subagent.md) — a ready-made subagent definition and how to install it (`.claude/agents/market-researcher.md`).
 - [`research-task-brief.md`](research-task-brief.md) — the CMO's raw request to scope.
 - [`source-quality-audit-checklist.md`](source-quality-audit-checklist.md) — the checklist for auditing the returned brief.
 

@@ -4,7 +4,7 @@
 
 ## Delegating is goals-not-steps with autonomy
 
-Start from the CMO's request in [`research-task-brief.md`](../exercise/starter/research-task-brief.md) ("competitive landscape + market trends for smart hydration bottles") and write it into a clear agent brief:
+Start from the CMO's request in [`research-task-brief.md`](../exercise/starter/research-task-brief.md) (competitive landscape + market trends for the water bottle market, with premium reusable brands and smart/tracking entrants as one segment to watch) and write it into a clear brief for a **Claude Code subagent**:
 
 - **The question** — exactly what to answer.
 - **The scope** — which competitors, and what dimensions (positioning, pricing, features, market trends).
@@ -13,7 +13,7 @@ Start from the CMO's request in [`research-task-brief.md`](../exercise/starter/r
 
 ## Let it run, then read once for usefulness
 
-Set the background agent running and let it work autonomously. When it returns, read the brief once to see whether it's useful. An autonomous agent always returns a confident, complete-looking brief — but completeness is not credibility.
+Set the subagent running and let it work autonomously. When it returns, read the brief once to see whether it's useful. An autonomous agent always returns a confident, complete-looking brief — but completeness is not credibility.
 
 ## The audit is the real work
 

@@ -10,7 +10,7 @@ For Barkwell's orthopedic senior-dog bed line:
 - **B — "Vet-recommended orthopedic support"** — clinical/credibility angle.
 - **C — "The bed they'll actually sleep in"** — practical/outcome angle.
 
-Tested across three senior-dog-owner personas.
+Tested across three senior-dog-owner personas from [`persona-panel-senior-dog.md`](persona-panel-senior-dog.md).
 
 ## Score on fixed dimensions
 

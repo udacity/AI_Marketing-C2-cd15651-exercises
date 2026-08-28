@@ -4,7 +4,7 @@
 
 ## Seed from evidence
 
-Start with the senior-dog research snippets and build the persona seed, tying each trait to a specific quote:
+Start with the senior-dog research snippets in [`research-snippets-senior-dog.md`](research-snippets-senior-dog.md) and build the persona seed, tying each trait to a specific quote:
 
 - *"comfort is the only thing I care about … I just want her to not be in pain"* → a persona whose single priority is relief, not looks.
 - *"Bought this after our vet mentioned arthritis … I'd have paid double"* → vet influence and real willingness to pay for comfort.

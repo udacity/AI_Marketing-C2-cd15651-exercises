@@ -30,4 +30,4 @@ The brief + audit use **real web sources** captured at authoring time (competito
 ## Also worth knowing
 
 - Exercise solutions are **one strong example** — student submissions will legitimately differ; grade against the requirements in the exercise `INSTRUCTIONS.md`, not against an exact match.
-- **SP5 demo** has no provided senior-dog persona panel (personas are seeded live) — see the open decisions in the [README](README.md).
+- **SP5 demo** now has a provided senior-dog persona panel (`synthetic-ab-test/demo/persona-panel-senior-dog.md`); the recorded run should score those three personas. The **SP4 demo** likewise has its senior-dog research asset (`synthetic-persona-interviews/demo/research-snippets-senior-dog.md`).
