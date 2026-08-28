@@ -4,7 +4,7 @@
 
 ## 1. The delegation brief (what I handed the agent)
 
-> **Question:** Competitive landscape + market trends for the smart / hydration-tracking water bottle category, to inform Vessl's launch positioning and pricing.
+> **Question:** Competitive landscape + market trends for the water bottle market (premium reusable brands plus smart/tracking entrants as one segment), to inform Vessl's launch positioning and pricing.
 > **Scope:** 4–6 relevant brands (premium reusable + smart/tracking entrants). For each: positioning, target, rough pricing, app/subscription model, standout features, obvious gaps. Plus 3–4 category trends (hydration, wearables, health-tracking).
 > **Output format:** a short brief; **every meaningful claim carries a source (link + date).**
 > **Guardrails:** prefer credible, recent sources; flag anything you can't verify; don't pad; stop when the scope is covered.

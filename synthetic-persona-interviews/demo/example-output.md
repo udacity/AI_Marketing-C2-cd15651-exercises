@@ -1,6 +1,6 @@
 # Demo Output — Seed a Persona, Run an Interview, Spot the Confabulation
 
-*Actual Claude output — a persona seeded from the senior-dog research, interviewed in character, then annotated. One run; outputs vary.*
+*Actual Claude output — a persona seeded from the senior-dog research ([`research-snippets-senior-dog.md`](research-snippets-senior-dog.md)), interviewed in character, then annotated. One run; outputs vary.*
 
 ## Seeded persona (traits → research)
 

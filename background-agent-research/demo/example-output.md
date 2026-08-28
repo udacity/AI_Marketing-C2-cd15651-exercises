@@ -4,7 +4,7 @@
 
 ## The delegation brief handed to the agent
 
-> Q: competitive landscape + market trends for smart/hydration-tracking bottles, for Vessl's launch. Scope: premium reusable + smart entrants — positioning, pricing, app/subscription, features, gaps; plus category trend. Output: short brief, a source (link + date) per claim. Guardrails: credible + recent sources; flag the unverifiable; stop when scope covered.
+> Q: competitive landscape + market trends for the water bottle market, for Vessl's launch. Scope: premium reusable brands + smart/tracking entrants — positioning, pricing, app/subscription, features, gaps; plus category trend. Output: short brief, a source (link + date) per claim. Guardrails: credible + recent sources; flag the unverifiable; stop when scope covered.
 
 ## Returned brief (excerpt)
 
