@@ -60,3 +60,4 @@ Three connected pieces, all in the Vessl voice:
 - Stay in the brand voice (see the brand-voice guide): encouraging, clear, a little witty, never preachy or clinical.
 - Lead with how people feel, then the tech.
 - No fear or guilt framing about dehydration. Motivate, don't shame.
+- The three pieces have to agree with each other and with the brand-voice guide before this goes to review. Last campaign shipped an email that promised an offer the brief had already changed, so we check now rather than after send.
