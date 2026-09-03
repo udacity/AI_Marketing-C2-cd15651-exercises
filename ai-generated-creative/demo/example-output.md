@@ -6,13 +6,15 @@
 
 **Claude Code's output:**
 
-> **Concept — "On track, without trying."** A real person mid-day with the Vessl bottle naturally in frame — calm, capable, hydrated. Feeling first, product second.
+> **Concept — "The afternoon nobody had to think about."** A real person deep in an ordinary working afternoon, the Vessl bottle in frame with its ring quietly lit. No goal being celebrated, no effort on display — the tracking already happened in the background, which is the whole promise. Feeling first, product second.
 >
 > **Self-contained image prompt (1:1):**
-> *Editorial lifestyle photo, bright natural daylight, airy and fresh. A 30-something person at a sunlit desk mid-task, a matte smart water bottle with a subtle LED ring beside their laptop. Cool aqua and soft-blue palette, clean white desk, one warm coral accent. Candid not posed, shallow depth of field, light condensation on the bottle. Open negative space upper-right for text. No logos, no text in image.*
+> *Editorial lifestyle photo, bright natural daylight, airy and fresh. A 30-something person at a sunlit desk mid-task, a matte smart water bottle with a subtle LED ring beside their laptop. Cool aqua and soft-blue palette, clean white desk, one warm coral accent. Candid not posed, shallow depth of field, light condensation on the bottle. Open negative space upper-right for a headline and tagline, clear space along the bottom edge for a CTA button. No logos, no text in image.*
 >
-> **Copy:** Headline — "It keeps score, so you don't have to." · Tagline — "Hydration, handled."
+> **Copy:** Headline — "Drink up. We'll do the math." · Tagline — "Hydration, handled." · CTA — "Meet Vessl"
 
-**Format adaptation demoed:** re-prompt for **9:16** — subject lower-third, headline stacked top, more negative space; concept, palette, and message held constant.
+**Format adaptation demoed:** re-prompt for **9:16** — subject lower-third, headline stacked top, CTA bottom-centre, more negative space; concept, palette, and message held constant.
+
+**Why the plate has no type:** the prompt ends *"no text in image"* because image tools render type unreliably. The headline, tagline, and CTA are composited onto the reserved space afterwards, which is what keeps them identical across frames.
 
 **Cross-tool point to make on camera:** everything above is baked into the prompt precisely *because* the image tool won't remember what Claude Code knows — writing the self-contained prompt is the craft.

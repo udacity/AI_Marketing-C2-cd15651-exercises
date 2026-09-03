@@ -4,7 +4,9 @@
 
 ## The value is the direction, not the button-press
 
-Start from [`brand-voice-guide.md`](../exercise/starter/brand-voice-guide.md) and [`creative-brief.md`](../exercise/starter/creative-brief.md), and ask Claude to act as creative director: land on one concept for the launch (the single key message — Vessl keeps score, so you don't have to), then produce two things — a self-contained image prompt and on-brand copy. A brief plus brand voice, turned into a concept and precise prompts, is where marketers win.
+Start from [`brand-voice-guide.md`](../exercise/starter/brand-voice-guide.md) and [`creative-brief.md`](../exercise/starter/creative-brief.md), and ask Claude to act as creative director: land on one concept off the brief's single key message (the bottle handles the hydration so you can get on with your day), then produce two things — a self-contained image prompt and on-brand copy. A brief plus brand voice, turned into a concept and precise prompts, is where marketers win.
+
+The concept this run lands on is **"The afternoon nobody had to think about"** — headline *"Drink up. We'll do the math."*, the mandated **"Hydration, handled."** tagline, CTA **"Meet Vessl"**. Say on camera that this is *one* reading of the brief, not the reading: a different concept and a different headline off the same two documents can be just as on-brand, and the learner is expected to land their own.
 
 ## Context doesn't travel between tools
 

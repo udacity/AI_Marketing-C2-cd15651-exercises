@@ -8,7 +8,7 @@
 
 ## Self-contained image prompt (1:1 feed)
 
-> Editorial lifestyle photo, natural daylight, airy and fresh. A 30-something person mid-motion in a bright modern apartment doorway, canvas tote on shoulder, holding a matte-finish smart water bottle with a subtle LED ring. Cool aqua and soft-blue palette, clean white surroundings, one warm coral accent (a scarf). Candid, not posed; shallow depth of field; condensation on the bottle. Lots of open space top-left for text. No logos, no text in image.
+> Editorial lifestyle photo, natural daylight, airy and fresh. A 30-something person mid-motion in a bright modern apartment doorway, canvas tote on shoulder, holding a matte-finish smart water bottle with a subtle LED ring. Cool aqua and soft-blue palette, clean white surroundings, one warm coral accent (a scarf). Candid, not posed; shallow depth of field; condensation on the bottle. Lots of open space top-left for a headline and tagline, plus clear space bottom-left for a CTA button. No logos, no text in image.
 
 *(Self-contained on purpose — the image tool has none of Claude Code's context, so the brand look, mood, and constraints are all baked in.)*
 
@@ -18,13 +18,16 @@ Paste the prompt into the AI image tool of your choice and generate it there. No
 
 - **Headline:** It keeps score, so you don't have to.
 - **Tagline:** Hydration, handled.
+- **CTA:** See how it works
+
+Three lines, in that order, composited onto every frame. The CTA stays plain on purpose — the brief wants clicks to the launch page, and the brand voice rules out hype ("revolutionary," "game-changing") and pressure alike.
 
 ## Variant set (same concept, three frames)
 
 Each variant is a **full standalone prompt**, not a delta off the first — the image tool has no memory of the previous run, so every prompt has to carry the whole brand look on its own.
 
 **9:16 story/reel:**
-> Editorial lifestyle photo, vertical 9:16 crop, natural daylight, airy and fresh. A 30-something person mid-motion in a bright modern apartment doorway, canvas tote on shoulder, holding a matte-finish smart water bottle with a subtle LED ring — subject placed in the lower third of the frame. Cool aqua and soft-blue palette, clean white surroundings, one warm coral accent (a scarf). Candid, not posed; shallow depth of field; condensation on the bottle. Generous open space across the top third for stacked text. No logos, no text in image.
+> Editorial lifestyle photo, vertical 9:16 crop, natural daylight, airy and fresh. A 30-something person mid-motion in a bright modern apartment doorway, canvas tote on shoulder, holding a matte-finish smart water bottle with a subtle LED ring — subject placed in the lower third of the frame. Cool aqua and soft-blue palette, clean white surroundings, one warm coral accent (a scarf). Candid, not posed; shallow depth of field; condensation on the bottle. Generous open space across the top third for stacked text, plus clear space bottom-centre for a CTA button. No logos, no text in image.
 
 **16:9 banner:**
 > Editorial lifestyle photo, wide 16:9 crop, natural daylight, airy and fresh. A 30-something person mid-motion in a bright modern apartment doorway, canvas tote on shoulder, holding a matte-finish smart water bottle with a subtle LED ring — subject pushed to the right third, bottle sharp and in focus. Cool aqua and soft-blue palette, clean white surroundings, one warm coral accent (a scarf). Candid, not posed; shallow depth of field; condensation on the bottle. Open space across the left half for a headline and tagline, plus clear space bottom-left for a CTA button. No logos, no text in image.
