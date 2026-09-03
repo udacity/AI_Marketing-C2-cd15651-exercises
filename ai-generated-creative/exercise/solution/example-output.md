@@ -9,12 +9,14 @@
 
 **Copy:** Headline — "It keeps score, so you don't have to." · Tagline — "Hydration, handled."
 
-**Variant set (same concept, adapted):**
+**Self-contained image prompt (9:16 story):**
+> Editorial lifestyle photo, vertical 9:16 crop, natural daylight, airy and fresh. A 30-something person mid-motion in a bright modern apartment doorway, canvas tote on shoulder, holding a matte smart water bottle with a subtle LED ring — subject in the lower third of the frame. Cool aqua / soft-blue palette, clean white surroundings, one warm coral accent (a scarf). Candid, shallow depth of field, condensation on the bottle. Generous open space across the top third for stacked text. No logos, no text in image.
 
-| Format | Prompt adaptation |
-|---|---|
-| 1:1 feed | doorway shot; copy top-left |
-| 9:16 story | vertical recrop, subject lower-third, headline stacked top, more negative space |
-| 16:9 banner | subject pushed right, bottle in focus; headline + "Hydration, handled." left, CTA bottom-left |
+**Self-contained image prompt (16:9 banner):**
+> Editorial lifestyle photo, wide 16:9 crop, natural daylight, airy and fresh. A 30-something person mid-motion in a bright modern apartment doorway, canvas tote on shoulder, holding a matte smart water bottle with a subtle LED ring — subject pushed to the right third, bottle sharp and in focus. Cool aqua / soft-blue palette, clean white surroundings, one warm coral accent (a scarf). Candid, shallow depth of field, condensation on the bottle. Open space across the left half for a headline and tagline, clear space bottom-left for a CTA button. No logos, no text in image.
+
+Each variant is a full standalone prompt, not a delta off the 1:1 — the image tool remembers nothing between runs. Concept, palette, and message hold constant; only the frame, subject position, and negative space move.
+
+**On "no text in image":** image tools render type unreliably, so these generate clean plates with the space reserved. The headline, **"Hydration, handled."** tagline, and CTA are composited in the layout tool afterwards, which keeps the copy identical across all three frames.
 
 **Iteration note:** the first generation (run in the image tool) came back reading "gym ad" — high-contrast, staged. Adding *soft daylight, matte finish, candid, open negative space* to the prompt produced a calm editorial look on the second pass, on-brand.

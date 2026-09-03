@@ -37,7 +37,7 @@ Advance **C** to a real-world test — it's the safe, broadly-relevant front-run
 
 ## Common mistakes
 
-- Scoring all three directions in one conversation (anchoring) — run each persona fresh.
+- Scoring all three personas in one conversation (anchoring) — run each persona fresh.
 - Declaring a "clear winner" when the top two are within noise.
 - Reporting the winner without confidence + limits.
 - Missing that A is a *polarizing targeted play*, not a safe default.

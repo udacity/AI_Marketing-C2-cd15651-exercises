@@ -39,7 +39,7 @@ IN looks like the worst market. But split LTV **within** acquisition type and ge
 | UK | ~$107 | ~$488 |
 | US | ~$99 | ~$547 |
 
-An IN full-price customer (~$407) is worth about the same as a CA one (~$376). **IN only looks low-value because 79% of its customers were acquired on discount, vs. 25% in CA.** Geography is a confound; **acquisition type is the driver.** (income band is a weaker secondary confound — discount skews slightly lower-income.) See [`ltv-driver-chart.png`](ltv-driver-chart.png).
+An IN full-price customer (~$407) is worth about the same as a CA one (~$376). **IN only looks low-value because 79% of its customers were acquired on discount, vs. 25% in CA.** Geography is a confound; **acquisition type is the driver.** (income band is a weaker secondary confound — discount accounts for 64% of low-income customers vs. 29% of high-income.) See [`ltv-driver-chart.png`](ltv-driver-chart.png).
 
 ## 3. The value signal (for the platform)
 

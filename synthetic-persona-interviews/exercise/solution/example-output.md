@@ -10,11 +10,11 @@
 
 ## Interviews (key excerpts, in character)
 
-**Maya —** *"Finally, a dog bed I wouldn't hide. My apartment's on display and Juniper's current bed ruins every photo. If it genuinely looks like furniture — not 'pet product pretending' — I'm in."* Hesitation: *"I'd want to know it's actually well made, not just marked up for the look."*
+**Maya —** *"Finally, a dog bed I wouldn't hide. My apartment's on display and Juniper's current bed ruins every photo. If it genuinely looks like furniture — not 'pet product pretending' — I'm in."* Hesitation: *"I'd want to know it's actually well made, not just marked up for the look."* On price: *"I'd pay up to $200, no problem."*
 
-**Rick —** *"'Furniture-grade' sounds like 'delicate' to me. I've got three dogs and a chewer. Does it survive that? Can it go in the machine? If not, it's not for my house, however nice it looks."*
+**Rick —** *"'Furniture-grade' sounds like 'delicate' to me. I've got three dogs and a chewer. Does it survive that? Can it go in the machine? If not, it's not for my house, however nice it looks."* Then, unprompted: *"Though if it does hold up, I'd definitely buy two by next month."*
 
-**Priya —** *"It's pretty, and I'd love nice things eventually. But she's still having accidents and chewing everything — I'm not spending a lot on something she might wreck this year."*
+**Priya —** *"It's pretty, and I'd love nice things eventually. But she's still having accidents and chewing everything — I'm not spending a lot on something she might wreck this year."* On spreading the word: *"Once I did get one, I'd tell all my new-mom friends."*
 
 ## Signal vs. confabulation
 
@@ -22,7 +22,7 @@
 |---|---|---|---|
 | Maya | wants decor-grade, doubts "designer = well made" | "I'd pay up to $200, no problem" | specificity beyond seed |
 | Rick | durability/washability gate everything | "I'd definitely buy two by next month" | behavioral prediction, never experienced |
-| Priya | won't invest during puppy phase | "I'd tell all my new-mom friends" | invented advocacy |
+| Priya | won't invest during puppy phase | "I'd tell all my new-mom friends" | behavioral prediction, never experienced |
 
 ## Synthesis
 

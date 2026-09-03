@@ -21,7 +21,7 @@ Asked "is this a good idea?", Claude broadly agrees: sync is sticky, competitors
 
 ## 4. One critique I'd discount
 
-The reviewer warned this could "destroy the brand permanently." **Overstated** for a reversible pricing change with clear comms and grandfathering — discount it. The reviewer's job is to stress the thinking, not to be right about everything.
+Critique 4 — *"expect complaints, reviews, and churn spikes at rollout."* The spike is real but **transient**, and it is the cost of any pricing change; the critique treats launch-week noise as a standing brand cost. Discount the framing, keep the operational point: staff support for launch week and grandfather existing users. The reviewer's job is to stress the thinking, not to be right about everything.
 
 ## 5. Cheap test for the top risk
 

@@ -4,7 +4,7 @@
 
 ## The workflow (how independence was enforced)
 
-1. **Archetypes + attributes.** Define 3–4 archetypes (design-focused urban owner, practical multi-dog owner, new puppy owner, budget-conscious owner) and vary age, location, home type, price sensitivity, and one or two personality traits.
+1. **Archetypes + attributes.** Define 5–6 archetypes (design-focused urban owner, practical multi-dog owner, new puppy owner, budget-conscious owner, senior-dog owner, large-breed owner) and vary age, location, home type, price sensitivity, and one or two personality traits.
 2. **Generate variants.** Use the variant-generation prompt to produce 120 distinct variants across the archetypes.
 3. **Isolated runs.** In Claude Code, run each variant **in its own clean context** (one call per persona, no shared history) asking the single barrier question: *"What would stop you from buying this furniture-grade modern dog bed?"*
 4. **Collect.** Write each response to a common structured format (variant id, archetype, top barrier, verbatim) into one file, then aggregate.
@@ -15,13 +15,13 @@ Independence is the point: if all 120 ran in one conversation, later personas wo
 
 | Rank | Barrier | % raising it | Notes |
 |---|---|---|---|
-| 1 | Durability / "pretty but flimsy" | ~42% | strongest across every archetype |
+| 1 | Durability / "pretty but flimsy" | ~42% | top overall, but raised in 4 of 6 archetypes — not by budget or new-puppy owners |
 | 2 | Price / not worth it for a dog bed | ~25% | budget + puppy owners |
 | 3 | Won't survive chewing / accidents | ~17% | multi-dog and puppy owners |
 | 4 | Washability | ~8% | multi-dog owners |
 | 5 | Won't match my space | ~8% | design owners |
 
-Chart/table of the full breakdown by segment would accompany this (bar chart of barriers × archetype).
+The by-segment breakdown is the other half of the deliverable — see the **Barriers by segment** cross-tab in [`example-output.md`](example-output.md), which shows the same barriers split by archetype. Chart it as a stacked bar of barriers × archetype. The segment view is where the actionable finding lives: a barrier that ranks first overall but is absent in two segments is a targeting instruction, not a universal one.
 
 ## Signal vs. synthetic consensus
 

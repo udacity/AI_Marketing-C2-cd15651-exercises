@@ -11,7 +11,7 @@
 
 *Mechanically correct, but it obeys arbitrary rules instead of speaking to the reader — fake countdown, forced 20% mention, no real reason.*
 
-**Goal-rich brief:** reached the annual-Premium payment screen and left · goal: return to checkout · context: already chose to upgrade, stopped at payment · constraints: no discount, no fake urgency, don't re-explain the product, short.
+**Goal-rich brief:** reached the annual-Premium payment screen and left · goal: return to checkout · context: already chose to upgrade, stopped at payment · constraints: no discount, no fake urgency, don't re-explain the product, short · success: clicks back to the checkout page.
 
 **Rewritten run:**
 > **Subject:** You were one step from Premium
@@ -26,7 +26,7 @@
 
 *Generic welcome; no stage, no action.*
 
-**Goal-rich brief:** free user ~3 days in, no first project yet · goal: create first project · constraints: one CTA, short, in-app.
+**Goal-rich brief:** free user ~3 days in, no first project yet · goal: create first project · context: hasn't reached the product's value yet — this is the activation moment · constraints: one CTA, short, in-app, no feature dump · success: completes the first project, not just opens the app.
 
 **Rewritten run:**
 > You're almost set up. Create your first project to see how Flowline keeps your work moving — takes about a minute. **[Create a project]**
@@ -40,7 +40,7 @@
 
 *No task, no action — pure sentiment.*
 
-**Goal-rich brief:** weekly-active heavy users · goal: a referral ask · constraints: don't over-incentivize, keep it warm.
+**Goal-rich brief:** paying users who log in weekly and use Flowline heavily · goal: a referral ask · context: they already get real value — appreciation is the frame, the referral is the ask · constraints: don't over-incentivize, keep it warm not transactional · success: a qualified referral, not just a warm feeling.
 
 **Rewritten run:**
 > **Subject:** You get more out of Flowline than almost anyone

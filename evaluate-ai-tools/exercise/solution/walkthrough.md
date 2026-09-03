@@ -37,6 +37,6 @@ The baseline loses on **stack integration** (no native CMS/scheduler — copy-pa
 
 ## Common mistakes
 
-- Letting the highest total score win automatically (Penmark) instead of weighing cost/fit/risk.
+- Letting the highest total score win automatically (CopyFlow) instead of weighing cost/fit/risk.
 - Not scoring the **baseline**, so "buy nothing" never gets considered.
 - Missing BrandForge's training-clause → price flip (the no-training tier costs more than Penmark).

@@ -65,7 +65,7 @@ C1062,2025-01,referral,UK,mid,discount,15,2,churned,30,6.27
 C1063,2025-01,search,CA,low,full_price,13,6,active,78,18.79
 C1064,2025-01,referral,US,high,discount,17,4,churned,68,12.31
 C1065,2025-01,referral,IN,low,full_price,13,6,active,78,2.41
-C1066,2025-01,referral,UK,mid,discount,15,6,active,90,-0.02
+C1066,2025-01,referral,UK,mid,discount,15,6,active,90,1.42
 C1067,2025-01,referral,UK,low,full_price,13,6,active,78,5.74
 C1068,2025-01,referral,IN,low,discount,13,3,churned,39,6.99
 C1069,2025-01,referral,US,mid,discount,15,6,active,90,8.39
@@ -282,7 +282,7 @@ C1279,2025-02,referral,US,mid,discount,15,5,active,75,1.53
 C1280,2025-02,paid_social,US,mid,discount,15,5,churned,75,28.65
 C1281,2025-02,referral,US,low,full_price,13,5,active,65,7.61
 C1282,2025-02,referral,CA,low,full_price,13,5,active,65,6.59
-C1283,2025-02,referral,US,mid,full_price,15,5,churned,75,-0.75
+C1283,2025-02,referral,US,mid,full_price,15,5,churned,75,2.18
 C1284,2025-02,search,US,mid,full_price,15,5,active,75,19.05
 C1285,2025-02,referral,UK,mid,discount,15,5,active,75,11.39
 C1286,2025-02,search,UK,high,discount,17,4,churned,68,22.6
@@ -443,7 +443,7 @@ C1440,2025-03,referral,CA,low,discount,13,3,churned,39,7.28
 C1441,2025-03,paid_social,IN,mid,discount,15,2,churned,30,29.81
 C1442,2025-03,referral,CA,mid,full_price,15,4,active,60,8.44
 C1443,2025-03,search,CA,low,full_price,13,4,active,52,22.51
-C1444,2025-03,referral,UK,mid,discount,15,4,active,60,-0.58
+C1444,2025-03,referral,UK,mid,discount,15,4,active,60,0.96
 C1445,2025-03,paid_social,CA,high,full_price,17,4,churned,68,29.78
 C1446,2025-03,search,UK,mid,full_price,15,4,churned,60,20.49
 C1447,2025-03,paid_social,CA,mid,discount,15,3,churned,45,24.8
@@ -488,7 +488,7 @@ C1485,2025-03,referral,US,mid,full_price,15,4,active,60,13.83
 C1486,2025-03,search,UK,low,discount,13,2,churned,26,17.83
 C1487,2025-03,paid_social,IN,mid,discount,15,4,active,60,32.7
 C1488,2025-03,search,IN,mid,discount,15,4,active,60,17.76
-C1489,2025-03,referral,IN,mid,discount,15,4,active,60,-0.22
+C1489,2025-03,referral,IN,mid,discount,15,4,active,60,1.73
 C1490,2025-03,referral,CA,mid,discount,15,4,active,60,12.93
 C1491,2025-03,paid_social,CA,mid,full_price,15,4,active,60,30.68
 C1492,2025-03,referral,CA,high,full_price,17,4,active,68,4.49
@@ -574,7 +574,7 @@ C1571,2025-03,search,IN,mid,discount,15,2,churned,30,19.16
 C1572,2025-03,paid_social,UK,low,discount,13,4,active,52,28.96
 C1573,2025-03,paid_social,UK,high,full_price,17,4,active,68,29.3
 C1574,2025-03,search,US,mid,discount,15,3,churned,45,20.19
-C1575,2025-03,referral,UK,mid,full_price,15,4,active,60,-0.11
+C1575,2025-03,referral,UK,mid,full_price,15,4,active,60,2.61
 C1576,2025-03,paid_social,CA,mid,discount,15,4,active,60,30.5
 C1577,2025-03,paid_social,CA,mid,full_price,15,4,active,60,31.46
 C1578,2025-03,search,IN,mid,full_price,15,4,active,60,20.37

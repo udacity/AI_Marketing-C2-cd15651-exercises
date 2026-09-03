@@ -21,7 +21,7 @@
 
 **Ranked by damage if wrong:** (1) resent-not-pay · (2) sync easily replaced · (3) weakened top-of-funnel · (4) support cost.
 
-**One critique I discount:** "users will leave for a competitor en masse" — overstated; switching a whole workflow is high-friction, so some churn, not an exodus.
+**One critique I discount:** critique 4, "expect complaints, reviews, and churn spikes at rollout" — real but transient, and the cost of any pricing change. A launch-week spike isn't a standing brand cost. Discount the framing; keep the operational point (staff support, grandfather existing users).
 
 **Cheap test for the top risk:** gate sync for a small random slice of *new* signups only; track 30–60 day conversion **and** churn/complaints vs. a control before touching existing users.
 

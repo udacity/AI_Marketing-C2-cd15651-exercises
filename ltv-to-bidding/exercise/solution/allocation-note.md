@@ -6,7 +6,7 @@
 
 **Optimize for acquisition type, not geography.**
 
-- **Bid UP** on channels and campaigns that bring in **full-price** customers (LTV ~$447, ~23× CAC). Referral and search skew full-price and carry the strongest value.
+- **Bid UP** on channels and campaigns that bring in **full-price** customers (LTV ~$447, ~23× CAC). Referral carries the strongest full-price value by a wide margin (~$670, vs. ~$393 search and ~$377 paid social). Note the acquisition mix is near-even across all three channels (50–53% full-price), so this is a value difference, not a mix difference.
 - **Bid DOWN** on **discount-led** acquisition (LTV ~$96, ~5× CAC). It buys volume that churns in ~7 months.
 - **Do NOT cut India.** IN's low raw LTV is an acquisition-mix effect (79% discount). An IN *full-price* customer (~$407) is as valuable as a CA one (~$376). Cutting IN would throw away good full-price demand to avoid a discount problem. Fix the discount reliance in IN instead.
 

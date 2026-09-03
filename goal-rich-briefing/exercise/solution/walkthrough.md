@@ -15,7 +15,7 @@
 - **Constraints:** no discount (protect price integrity); no fake urgency/countdown; short.
 - **Success criteria:** click back to the checkout page.
 
-**Element that changed the output most:** *Audience/Context* — naming "already at the payment screen" flipped the email from a generic re-explainer into a low-friction "pick up where you left off" nudge. The brief is **shorter** than the original prompt.
+**Element that changed the output most:** *Audience* — naming "already at the payment screen" flipped the email from a generic re-explainer into a low-friction "pick up where you left off" nudge. The brief is **shorter** than the original prompt.
 
 ---
 

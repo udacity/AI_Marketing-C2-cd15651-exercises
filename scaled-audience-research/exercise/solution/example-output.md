@@ -2,7 +2,7 @@
 
 *Actual Claude output — a representative isolated run of the barrier question across 12 persona variants. (The exercise asks students for 100+; this worked example uses 12 to show the method and shape — the pattern holds at scale.) One run; outputs vary.*
 
-**Question:** what would stop you from buying this furniture-grade modern dog bed? · **Method:** 12 variants across 4 archetypes, each run in its own clean Claude Code context.
+**Question:** what would stop you from buying this furniture-grade modern dog bed? · **Method:** 12 variants across 6 archetypes, each run in its own clean isolated context.
 
 ## Responses (top barrier per variant)
 
@@ -30,6 +30,18 @@
 | 3 | Won't survive chewing/accidents | 2 (#4,8) | ~17% |
 | 4 | Washability | 1 (#5) | ~8% |
 | 5 | Won't match space | 1 (#2) | ~8% |
+
+## Barriers by segment
+
+| Barrier | urban design (3) | multi-dog (3) | new puppy (2) | budget (2) | senior-dog (1) | large-breed (1) |
+|---|---|---|---|---|---|---|
+| Durability / "pretty but flimsy" | **2** | 1 | — | — | **1** | **1** |
+| Price / not worth it | — | — | 1 | **2** | — | — |
+| Won't survive chewing/accidents | — | 1 | 1 | — | — | — |
+| Washability | — | 1 | — | — | — | — |
+| Won't match space | 1 | — | — | — | — | — |
+
+Read the rows, not the totals: durability is the top barrier overall but it is **absent among budget and new-puppy owners**, who raise price instead. Washability is a multi-dog concern only. Segment structure is the finding here — the ranked list alone would hide it.
 
 ## Signal vs. synthetic consensus
 
