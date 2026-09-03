@@ -10,6 +10,10 @@ Load [`steep_campaign_90day.csv`](../exercise/starter/steep_campaign_90day.csv) 
 
 CPM is easy because it's essentially one cost/inventory trend. Build a 30-day CPM forecast as a **range** — low / mid / high — with the reasoning behind the spread, and chart it. A credible forecast is never a lone point estimate.
 
+Day-by-day: [`forecast-cpm-30day.csv`](forecast-cpm-30day.csv). Chart: [`cpm-forecast-chart.png`](cpm-forecast-chart.png) — 30-day mid averages **$14.31**.
+
+*What the chart shows: the 90 training days with promo week (squares) and the end-of-quarter ramp (triangles) marked as excluded from the fit, then the 30-day forecast mid (dashed) rising from $13.97 to $14.65 inside its ±1σ band. The two excluded windows are visibly off-trend, which is the point — they are why the fit is drawn on the remaining days.*
+
 ## Interrogate the draft
 
 Ask Claude Code to surface its assumptions, then push back on one number that looks off. The first pass is a draft to critique, not a finished forecast to accept.
