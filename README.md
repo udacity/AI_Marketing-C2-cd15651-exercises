@@ -47,7 +47,7 @@ All of the above is learner-facing (demos are watched; solutions are shown on th
 |---|---|---|---|
 | SP1 | `goal-rich-briefing` | Goal-Rich Marketing Briefing | Flowline (freemium SaaS) |
 | SP2 | `stress-test-strategy` | AI as Adversarial Reviewer | Flowline |
-| SP3 | `evaluate-ai-tools` | AI Marketing Tool Evaluation | generic (copywriting) |
+| SP3 | `evaluate-ai-tools` | AI Marketing Tool Evaluation | Cobbleway (commuter rain gear) |
 | SP4 | `synthetic-persona-interviews` | Synthetic Persona Design & Execution | Barkwell (dog beds) |
 | SP5 | `synthetic-ab-test` | Synthetic A/B Testing Discipline | Barkwell |
 | SP6 | `scaled-audience-research` | Scaled Synthetic Audience Research | Barkwell |
