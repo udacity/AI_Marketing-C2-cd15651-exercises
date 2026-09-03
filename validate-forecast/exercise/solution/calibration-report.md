@@ -22,16 +22,16 @@ We treat a miss as **systematic** only if it points one way, persists, and drift
 
 ## What caused it
 
-**Our ads aged faster than the forecast assumed.** The forecast priced in about **$0.11** of cost-per-order drift per day. Actuals ran at roughly **$0.36** per day — about three times the rate. Compounded over a month, that alone accounts for the widening gap.
+**Our ads aged faster than the forecast assumed.** The forecast expected cost per order to creep up gently as the month wore on. It climbed about **three times that fast** — and because the effect compounds day after day, that alone accounts for the widening gap.
 
-The error sits **before the sale, not at it.** Conversion held steady while cost per order climbed, which means we were not losing customers once they arrived — we were paying more to get them there. Click-through rate eroded (about **−0.0057 points/day**) and cost per click rose (about **+$0.013/day**), while conversion stayed flat (**+0.004 points/day**, inside noise). The forecast's conversion assumption was sound; its assumption about ad fatigue slowing down was not.
+The error sits **before the sale, not at it.** Conversion held steady while cost per order climbed, which means we were not losing customers once they arrived — we were paying more to get them there. Across the window, **click-through fell about 12%** from the first ten days to the last, and **cost per click rose about 18%** over the same stretch, while the share of visitors who bought did not move. The forecast's conversion assumption was sound; its assumption about ad fatigue slowing down was not.
 
 ## Reliability verdict, per metric
 
 - **CVR — yes, plan on it.** *High confidence.* Accurate and stable across the full window. Safe to hold as next month's conversion assumption without adjustment.
 - **CPA — yes, with caveats.** *Moderate confidence in the direction, low in the level.* The shape of the forecast is right and cost per order is genuinely rising; the forecast simply understates how fast. **Budget at the high end of the band, not the mid**, until the fatigue assumption is corrected. Treat the midpoint as a best case.
 
-**What that means for the plan:** at the mid-case CPA the same budget buys about 10% fewer orders than the forecast promised. Plan volume off the top of the range and the forecast is safe to use now; plan it off the midpoint and we will miss the order target.
+**What that means for the plan:** at the mid-case CPA the same budget buys about 9% fewer orders than the forecast promised. Plan volume off the top of the range and the forecast is safe to use now; plan it off the midpoint and we will miss the order target.
 
 ## Tuning levers — fix the model, keep using it
 

@@ -2,7 +2,7 @@
 
 *Provided input for the "Use AI to Stress-Test a Marketing Strategy" exercise. This is an internal strategy brief. Your job is to run it through an adversarial review, surface its hidden assumptions, and decide what you would change.*
 
-**Product:** Flowline is a freemium productivity app for managing projects and tasks. The free tier is generous. Premium adds cross-device sync, unlimited projects, and workflow shortcuts.
+**Product:** Flowline is a freemium productivity app for managing projects and tasks. The free tier is generous — it includes cross-device sync. Premium adds unlimited projects and workflow shortcuts.
 
 ---
 
