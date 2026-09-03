@@ -45,6 +45,20 @@
 
 Read the rows, not the totals: durability is the top barrier overall but it is **absent among budget and new-puppy owners**, who raise price instead. Washability is a multi-dog concern only. Segment structure is the finding here — the ranked list alone would hide it.
 
+### Codebook (how responses were coded)
+
+Aggregation is a judgement call, so the rules go in writing before the counting. The consequential one here is durability vs. chewing — merge them and durability jumps to 58%, which changes the headline.
+
+| Category | Includes | Excludes |
+|---|---|---|
+| **Durability / "pretty but flimsy"** | doubts about build quality, longevity, foam flattening, "premium = marked up not well made" | destruction by a specific dog |
+| **Won't survive chewing / accidents** | a named chewer or puppy destroying it; house-training accidents | general build-quality doubt |
+| **Price / not worth it** | cost objection with no quality claim attached | "not worth it *because* it'll break" → durability |
+| **Washability** | machine-washable, cleaning practicality | — |
+| **Won't match my space** | aesthetic or fit-with-decor doubt | — |
+
+**Kept separate on purpose:** the two get different marketing responses. Durability doubt is answered with materials, testing, and warranty. Chewing concern is answered with a chew-resistant SKU or an honest "not for heavy chewers" disclosure. Merging them would produce one 58% barrier you can't act on with a single message.
+
 ## Signal vs. synthetic consensus
 
 Durability is **genuine signal**: it appears across *different* archetypes in *different words* — design owners frame it as "premium = flimsy," multi-dog owners as "chewing survival," the senior owner as "foam flattening." Varied framing + dissent (design owners barely mention chewing) = a real pattern, not one echoed phrase.

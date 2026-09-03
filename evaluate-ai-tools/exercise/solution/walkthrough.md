@@ -22,6 +22,12 @@
 
 **Read the two total rows against each other.** CopyFlow wins the raw total (23) and comes *last* on the heavy three (8). Penmark is the reverse — 21 overall, 14 on what matters. If you let the raw total decide, you buy the tool that is cheapest and easiest at exactly the thing you are not trying to optimise.
 
+## Sizing the decision — this is a two-way door
+
+Before the call, size the stakes. Every option here is a monthly SaaS subscription, and the copy it produces lives in files we already own. Nothing to migrate, nothing to rebuild the workflow around, cancel at the end of any month. Switching cost is low and nothing is locked in — a **two-way door**. That is *why* the recommendation below can be "adopt the baseline now, revisit in a quarter" without exhaustive diligence. A decision you can walk back cheaply does not earn a month of evaluation.
+
+The durability lines size the same way. **Penmark** is the one genuine durability risk in the field: a small, young startup with a limited track record and real uncertainty about support in two years. **CopyFlow** and **BrandForge** are both established and stable. But durability only bites when the door is one-way, and here it isn't — if Penmark folds, we cancel and our copy is still sitting in our files. So its startup risk stays a *minor* factor, not a disqualifier. Change the stakes and that same line becomes decisive: a deep integration, a multi-year commitment, or a publishing workflow built around its API, and Penmark's youth would be enough to pass on the best-scoring product in the field.
+
 ## The call
 
 **Winner: the DIY baseline — "buy nothing new," for now.**
@@ -47,3 +53,4 @@ The baseline loses on two things. **Stack integration** (no native CMS/scheduler
 - Missing BrandForge's training-clause → price flip (the no-training tier costs more than Penmark).
 - Treating brand-voice and brand-safety as one thing. Penmark locks voice tightly and checks claims not at all — a 4 that hides a real gap. Read the finding, not just the number.
 - Skipping the DIY baseline's "check your existing terms" step and scoring its privacy as unknown, when it's a fact you can go and establish.
+- Skipping the sizing step — either running one-way-door diligence on a cancel-anytime subscription, or letting Penmark's startup risk disqualify it when the door swings both ways. Durability is a *sizing input*, not a scored dimension; how much it matters depends entirely on how reversible the decision is.
