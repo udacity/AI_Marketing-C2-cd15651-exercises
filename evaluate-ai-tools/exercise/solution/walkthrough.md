@@ -16,9 +16,11 @@
 | **Heavy three only** | **14** | 8 | 11 | 10 |
 | **Weighted read** | strong output, poor fit | cheap, weak output | good all-round, privacy risk | surprisingly close |
 
-*\*DIY tested hands-on across two models with a goal-rich brief; privacy scored after checking our existing plan terms.*
+*\*DIY tested hands-on across two models on the Cobbleway Overtrousers email, using a goal-rich brief written up from the brand asset; privacy scored after checking our existing plan terms.*
 
 **Dimensions I weighted heaviest:** capability fit and brand-voice/brand-safety (it's a copywriting tool — on-brand output *is* the job) and data & privacy (a training-on-your-inputs clause is a real risk for brand copy).
+
+**What the cost row assumes.** Three seats, which is the team we have: CopyFlow $54/mo, BrandForge $199/mo flat, Penmark $360/mo, BrandForge's no-training tier $447/mo. The profiles give pricing shapes, not a ranking, so the ranking is mine and it moves with the assumption — per-seat pricing (Penmark, the no-training tier) scales with headcount, BrandForge's flat rate doesn't move until seat eleven. At three seats the order above holds; at ten it would tighten considerably. Same for stack fit and adoption: CopyFlow fits *alongside* our stack and BrandForge wants to sit at the *front* of it, and both are defensible 5s for different reasons.
 
 **Read the two total rows against each other.** CopyFlow wins the raw total (23) and comes *last* on the heavy three (8). Penmark is the reverse — 21 overall, 14 on what matters. If you let the raw total decide, you buy the tool that is cheapest and easiest at exactly the thing you are not trying to optimise.
 
@@ -32,7 +34,7 @@ The durability lines size the same way. **Penmark** is the one genuine durabilit
 
 **Winner: the DIY baseline — "buy nothing new," for now.**
 
-With a goal-rich brief, a general model already produces on-brand copy close to BrandForge on everyday pieces, at ~no marginal cost. None of the three specialized tools clearly *beats the baseline enough to justify its cost and risk*:
+With a goal-rich brief, a general model already produces on-brand copy close to BrandForge on everyday pieces, at ~no marginal cost. Tested on the Overtrousers email: one model came back shippable as written, the other drifted straight onto Cobbleway's avoid list until it was steered. None of the three specialized tools clearly *beats the baseline enough to justify its cost and risk*:
 
 - **Penmark** — best output and tightest voice control, and it tops the heavy three (14). But copy-paste-only, premium-priced, and no claims-checking or compliance step: it writes an unsupported claim beautifully. The quality gap over a well-briefed general model is too small to justify the price and workflow friction.
 - **CopyFlow** — cheap and well-integrated, but generic output means more editing and tone drifts across a batch; its banned-words filter catches wording, not claims. It's solving a problem the baseline already handles.
@@ -53,4 +55,6 @@ The baseline loses on two things. **Stack integration** (no native CMS/scheduler
 - Missing BrandForge's training-clause → price flip (the no-training tier costs more than Penmark).
 - Treating brand-voice and brand-safety as one thing. Penmark locks voice tightly and checks claims not at all — a 4 that hides a real gap. Read the finding, not just the number.
 - Skipping the DIY baseline's "check your existing terms" step and scoring its privacy as unknown, when it's a fact you can go and establish.
+- Scoring cost, stack fit and adoption off a sticker instead of a shape. The profiles describe those three as properties, not verdicts — per-seat versus flat, one-way connectors versus a tool that wants to own the front of the workflow, upfront setup versus recurring clean-up. Score them, then say what you assumed; an unstated assumption is what makes a scorecard unarguable-with.
+- Judging the baseline's drafts on general quality rather than against Cobbleway's voice and avoid lists. Model 2's copy reads fine in isolation; it is off-brand in four specific, checkable ways.
 - Skipping the sizing step — either running one-way-door diligence on a cancel-anytime subscription, or letting Penmark's startup risk disqualify it when the door swings both ways. Durability is a *sizing input*, not a scored dimension; how much it matters depends entirely on how reversible the decision is.
