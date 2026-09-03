@@ -12,14 +12,15 @@ Work with a **Claude Code subagent** — a helper Claude Code runs in the backgr
 
 - The agent delegation brief you wrote (question, scope, output format, guardrails).
 - The research brief the agent returned.
-- A source-quality audit note as a table: claim | cited source | credible? | verified against source? | trust / verify-first / drop.
+- A source-quality audit note as a table: claim | cited source | accessed (date) | credible? | verified against source? | trust / verify-first / drop.
 - A two-line verdict: how much of the brief you'd act on as-is, and what you'd verify before it goes to the CMO.
 
 ## Requirements
 
 - Scope the delegation before running it: state the question, the scope, the output format (a claim-by-claim brief with sources), and the guardrails (credible and recent sources, flag the unverifiable, define "done"). A vague request gets a vague brief.
 - Audit real sources, not just the brief's confidence. For each key claim, confirm the source is real and credible, current, and actually supports the claim.
-- Reach a per-claim verdict — trust, verify-first, or drop — not just a general impression.
+- Record the date you accessed the source, claim by claim. Recency is part of whether you can cite something: a price or market figure you last opened weeks ago may already be wrong, and an undated claim gives the CMO no way to judge how current it is.
+- Reach a per-claim verdict — trust, verify-first, or drop — using the rule in the checklist, not just a general impression.
 - Remember you own the brief you pass on. The two-line verdict should reflect what you'd stake your name on.
 
 ## Done when
