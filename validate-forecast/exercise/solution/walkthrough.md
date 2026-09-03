@@ -16,7 +16,7 @@ Day-by-day: [`calibration-comparison.csv`](calibration-comparison.csv). Chart (b
 - **CPA is systematically biased — and it drifts.** Actuals sit *above* the mid on **21 of 30 days**, and the gap **grows from ~+$1.6 in the first 10 days to ~+$5.1 in the last 10**. A consistent, widening, one-directional miss is systematic, not random scatter.
 - **CVR is well-calibrated.** Actual ≈ forecast, inside the band most days.
 
-**Diagnosis:** CVR being on-target while CPA runs high and climbs tells you the error lives on the **click side** (CTR/CPC), not conversion. The sample forecast carried fatigue forward at the gentle training slope (~+$0.22/day); actuals ran ~+$0.36/day, so CPA was under-projected.
+**Diagnosis:** CVR being on-target while CPA runs high and climbs tells you the error lives on the **click side** (CTR/CPC), not conversion.
 
 ## 3. Reliability verdict (per metric)
 
