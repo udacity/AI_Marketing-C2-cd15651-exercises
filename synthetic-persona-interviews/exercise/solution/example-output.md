@@ -8,7 +8,9 @@
 - **Rick, 44** — practical multi-dog household ("only bed that's survived a year"; "if it can't go in the machine, it's useless").
 - **Priya, 27** — new puppy owner ("didn't want to spend a fortune yet"; "all about easy cleanup").
 
-**Flagged as assumptions (no research backing):** the names, the ages, and the pet specifics — Maya's dog Juniper, Rick's "three dogs," Priya's puppy's age. The research gives owner *types* and verbatim quotes, never names, ages or breeds. These are invented scaffolding to make the personas interviewable, and they carry no evidential weight: nothing in the synthesis rests on them.
+**Flagged as assumptions (no research backing):** the names (Maya, Rick, Priya), the ages (31, 44, 27), and the pet details the research never gives — Maya's dog Juniper, and Priya's puppy being 11 weeks old. The research gives owner *types* and verbatim quotes, never names, ages or breeds. These are invented scaffolding to make the personas interviewable, and they carry no evidential weight: nothing in the synthesis rests on them.
+
+**Not flagged, because it *is* traceable:** Rick's "three dogs, one of them a chewer" comes straight from a review quote, as does Priya's puppy still having accidents and chewing. The judgement call is per-detail, not per-category — "pet specifics" is not automatically invention.
 
 ## Interviews (key excerpts, in character)
 

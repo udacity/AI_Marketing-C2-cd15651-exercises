@@ -10,7 +10,7 @@
 
 **3. Priya — new puppy owner.** 11-week puppy, accidents and chewing; wants a safe, cheap starter, will invest later. *Traceable to:* "didn't want to spend a fortune yet"; "all about easy cleanup."
 
-**Flagged as assumptions:** the names, the ages, and the pet specifics ("three dogs," "11-week puppy," Maya's dog Juniper) are **not** traceable — the research provides owner types and quotes, with no names, ages or breeds. Do this in your own answer: invent what you need to make a persona interviewable, then label it, and keep your findings off it. The brief asks you to flag what you can't tie to evidence, and this is what that looks like.
+**Flagged as assumptions:** the names, the ages, and the pet details the research never states — Maya's dog Juniper, and the "11-week" precision on Priya's puppy — are **not** traceable. The research provides owner types and quotes, with no names, ages or breeds. Note what is *not* on that list: Rick's "three dogs incl. a chewer" is quoted research ("Three dogs, one of them a chewer"), and Priya's accidents-and-chewing puppy is quoted research too, so neither gets flagged. Check each detail against the snippets rather than flagging a whole category — over-flagging a grounded trait is the same error as under-flagging an invented one. Do this in your own answer: invent what you need to make a persona interviewable, then label it, and keep your findings off it. The brief asks you to flag what you can't tie to evidence, and this is what that looks like.
 
 ## Interview highlights (furniture-grade modern concept)
 

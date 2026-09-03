@@ -124,11 +124,13 @@ Then each finding against it. New-puppy is seeded for two things (chewing and pr
 | Size / sturdiness | 4/24 (17%) — large-breed | 3/24 (13%) | 3 | 0 | Roster-decided |
 | Won't match my space | 4/24 (17%) — design-focused | 2/24 (8%) | 2 | 0 | Roster-decided |
 
-**Six of seven findings never left the archetypes seeded for them.** Comfort/support, size/sturdiness, and aesthetic fit are each 100% inside a single seeded segment — they are the roster answering back. Price is the sharpest case: a third of the roster was built price-sensitive, price came in at 17%, and *not one* of the 16 variants outside those two archetypes raised it. "Price is a top barrier" is a fact about who was asked.
+**Five of seven findings never left the archetypes seeded for them** — chewing, price, comfort/support, size/sturdiness, and aesthetic fit. Comfort/support, size/sturdiness, and aesthetic fit are each 100% inside a single seeded segment — they are the roster answering back. Price is the sharpest case: a third of the roster was built price-sensitive, price came in at 17%, and *not one* of the 16 variants outside those two archetypes raised it. "Price is a top barrier" is a fact about who was asked.
 
-**Durability is the one finding that crossed.** Only design-focused was seeded durability-skeptical, and 3 of the 5 durability responses came from archetypes that weren't — multi-dog (#7), budget (#16), senior-dog (#19). Leave-one-out check: drop design-focused entirely and durability still shows 3 mentions across 3 of the remaining 5 archetypes (3/20, ~15%). It survives the removal of its own seed.
+**Two findings crossed their seed; only durability crossed decisively.** Only design-focused was seeded durability-skeptical, and 3 of the 5 durability responses came from archetypes that weren't — multi-dog (#7), budget (#16), senior-dog (#19). Leave-one-out check: drop design-focused entirely and durability still shows 3 mentions across 3 of the remaining 5 archetypes (3/20, ~15%). It survives the removal of its own seed.
 
-**Implication:** treat durability as the finding that says something about the category. Treat the other six as segment intelligence, useful for targeting but not evidence of market-wide weight — and re-run price against a roster that isn't a third price-sensitive before spending against it.
+**Washability crossed too, but only once.** Multi-dog was the archetype seeded for washing and supplied 2 of the 3 mentions; the third (#24, mud and drool) came from a large-breed owner who wasn't seeded for it. That is a real crossover and it is why the verdict above reads "one crossover" — but it doesn't survive the same leave-one-out: drop multi-dog and washability is a single response. Treat it as a lead to watch on the next roster, not a cross-segment finding.
+
+**Implication:** treat durability as the finding that says something about the category. Treat the other six as segment intelligence, useful for targeting but not evidence of market-wide weight — washability's one crossover is the only thing in that group worth re-testing on its own — and re-run price against a roster that isn't a third price-sensitive before spending against it.
 
 ## Signal vs. synthetic consensus
 
@@ -136,7 +138,7 @@ Then each finding against it. New-puppy is seeded for two things (chewing and pr
 
 **Durability is genuine signal.** It is raised in four of six archetypes in four different framings: design owners as "marked up, not well made" (#1, #3), a multi-dog owner as "the seams go first" (#7), a budget owner as cost-per-year (#16), a senior-dog owner as loss of shape (#19). Varied framing, plus dissent — new-puppy and large-breed owners never raise it — is what a real pattern looks like. Note what is *not* being counted as durability evidence: multi-dog chewing survival (#5) is a separate category on purpose, and folding it in here to widen the pattern would be the merge the codebook forbids.
 
-**The flat tail is not seven equal barriers.** Three categories tie at 13%, and each sits wholly inside one archetype. That's the roster's shape showing through the tally, not five findings of similar strength.
+**The flat tail is not seven equal barriers.** Three categories tie at 13%, and two of them sit wholly inside one archetype — comfort/support in senior-dog, size/sturdiness in large-breed. Washability is the exception: it splits multi-dog 2 / large-breed 1, so a tie in the tally can hide a barrier with reach as easily as one without. That's mostly the roster's shape showing through the tally, not seven findings of similar strength.
 
 ## Calibration disclosure
 
@@ -144,8 +146,8 @@ Then each finding against it. New-puppy is seeded for two things (chewing and pr
 
 ## Recommendation (directional)
 
-1. **Prove durability.** It's the top barrier, the only cross-segment one, and the only one that survives dropping the archetype seeded for it. Lead with materials, construction, testing, and warranty terms — trust claims, not spec claims.
-2. **Answer price as a segment message, not a launch message.** Price and chewing tie at 17%, and both are confined to budget and new-puppy owners. Give those two segments a cost-per-year and a "wait until she's out of the chewing stage" path rather than discounting at launch. Flagged as roster-decided: validate on a differently seeded roster first.
+1. **Prove durability.** It's the top barrier, the widest-crossing one (4 of 6 segments), and the only one that survives dropping the archetype seeded for it. Lead with materials, construction, testing, and warranty terms — trust claims, not spec claims.
+2. **Answer price as a segment message, not a launch message.** Price and chewing tie at 17%, and neither leaves its seeded segments — price sits inside budget and new-puppy owners, chewing inside multi-dog and new-puppy. Give budget and new-puppy owners a cost-per-year argument, and give multi-dog and new-puppy owners a chew-resistant option or a "wait until she's out of the chewing stage" path, rather than discounting at launch. Flagged as roster-decided: validate on a differently seeded roster first.
 
 Both directional. Neither is a verdict.
 

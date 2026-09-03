@@ -23,7 +23,7 @@ Per-dimension averages (this is where the *why* lives — totals alone hide it):
 | Relevance | 2.67 | 3.00 | **3.67** |
 | Distinctiveness | 3.00 | 2.33 | **3.67** |
 
-Score each dimension separately and the spread becomes the finding: Rick rates A's believability 3 (it does look good) but its relevance 1 (it solves nothing he has). A flat 3/3/3/3 row means the persona never engaged the dimensions independently.
+Score each dimension separately and the spread becomes the finding: Rick rates A's believability 3 (he doesn't doubt the claim, he just doesn't want it) but its relevance 1 (it solves nothing he has). A flat 3/3/3/3 row means the persona never engaged the dimensions independently.
 
 ## Aggregation
 

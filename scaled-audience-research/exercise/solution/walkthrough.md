@@ -37,7 +37,7 @@ The **durability doubt (#1) is genuine signal**: 5 mentions across 4 archetypes 
 
 What must **not** be counted as durability evidence: multi-dog chewing survival. The codebook keeps chewing separate on purpose, and reaching for it to widen durability's spread is exactly the merge the codebook forbids.
 
-And the flat tail is not five barriers of similar weight — three categories tie at ~13% and each sits wholly inside one archetype. That's the roster's shape showing through the tally.
+And the flat tail is not six barriers of similar weight — three categories tie at ~13%, and two of them (comfort/support, size/sturdiness) sit wholly inside one archetype. Washability is the exception: multi-dog 2, large-breed 1. So a tie in the tally is mostly the roster's shape showing through, but check the cross-tab before saying "wholly inside" — one of the three isn't.
 
 ## Roster-bias audit
 
@@ -55,13 +55,15 @@ Then state, per finding, what share of the roster was seeded toward it against w
 | Size / sturdiness | 4/24 (17%) | 3/24 (~13%) | 0 of 3 | Roster-decided |
 | Won't match my space | 4/24 (17%) | 2/24 (~8%) | 0 of 2 | Roster-decided |
 
-**Roster-decided:** six of the seven findings never left the archetypes seeded for them. Price is the clearest — a third of the roster was built price-sensitive, price landed at 17%, and none of the 16 variants outside those two archetypes raised it at all. "Price is a top barrier" is a fact about who you asked.
+**Roster-decided:** five of the seven findings never left the archetypes seeded for them at all — chewing, price, comfort/support, size/sturdiness and aesthetic fit. Price is the clearest — a third of the roster was built price-sensitive, price landed at 17%, and none of the 16 variants outside those two archetypes raised it at all. "Price is a top barrier" is a fact about who you asked.
 
 **Response-decided:** durability only. Design-focused was the sole archetype seeded durability-skeptical, yet 3 of the 5 durability responses came from archetypes that weren't. The leave-one-out check settles it: drop design-focused and durability still appears 3 times across 3 of the remaining 5 archetypes (~15%).
 
+**The near-miss:** washability crossed its seed too — one large-breed owner (#24, mud and drool) raised it outside the multi-dog archetype it was seeded in. Don't call durability the *only* barrier that crossed; call it the only one that crossed decisively. Washability fails the same leave-one-out test — drop multi-dog and one mention is left — so it stays roster-decided, with a crossover worth re-testing on the next roster.
+
 The test to teach here: a barrier is only cross-archetype evidence if the archetypes raising it *weren't seeded for it*. Count the seeded share first, then the response share. If they match and the mentions all sit inside the seeded segments, you've measured your own roster.
 
-Implication: durability is the finding to act on. The other six are segment intelligence — useful for targeting, not evidence of market-wide weight.
+Implication: durability is the finding to act on. The other six are segment intelligence — useful for targeting, not evidence of market-wide weight — with washability's single crossover the one item in that group worth re-testing on its own.
 
 ## Calibration disclosure
 
@@ -69,7 +71,7 @@ Implication: durability is the finding to act on. The other six are segment inte
 
 ## Recommendation
 
-Two barriers to address before launch, **labeled directional**: (1) **prove durability** — the top barrier, the only cross-segment one, and the only one that survives dropping the archetype seeded for it; lead with materials/warranty/testing. (2) **answer price as a segment message**, not a launch-wide one — it never appeared outside budget and new-puppy owners, so it's a targeted cost-per-year argument rather than a launch discount. Validate both with real customers before committing.
+Two barriers to address before launch, **labeled directional**: (1) **prove durability** — the top barrier, the widest-crossing one (4 of 6 segments), and the only one that survives dropping the archetype seeded for it; lead with materials/warranty/testing. (2) **answer price as a segment message**, not a launch-wide one — it never appeared outside budget and new-puppy owners, so it's a targeted cost-per-year argument rather than a launch discount. Validate both with real customers before committing.
 
 ## Surface note
 
