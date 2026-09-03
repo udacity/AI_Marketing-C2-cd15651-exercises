@@ -26,11 +26,11 @@
 
 ## Synthesis (the hard part)
 
-**Where they agree:** the *look* lands as appealing across all three — the concept's aesthetic promise is real signal.
+**Where they agree:** the *look* lands as appealing with two of the three (Maya, Priya) — the concept's aesthetic promise is real signal. Rick is the exception: "furniture-grade" reads as delicate to him, not desirable.
 
 **Where they split:** willingness to buy divides on **proof and price**. Maya is ready if quality is credible; Rick is a hard no until durability/washability are answered; Priya likes it but won't pay during the puppy phase.
 
-**Recurring objection (stronger signal):** two of three doubt a "designer" bed is actually *well made* — proof of durability, not just styling, is the gating concern.
+**Recurring objection (stronger signal):** all three doubt a "designer" bed is actually *well made* — proof of durability, not just styling, is the gating concern for every one of them.
 
 **What I'd carry into real testing:** lead with the look for design-minded urban owners (Maya is the beachhead), but pair every aesthetic claim with hard durability/washability proof — that's what converts the skeptics and de-risks the "pretty but flimsy" fear. Don't chase Rick's segment with this line; don't expect Priya to buy until post-puppy.
 

@@ -1,10 +1,10 @@
 # Solution — One Concept, Three Formats, On Brand
 
-*Worked solution — one strong example. Concept and copy will vary; what matters is one clear concept, self-contained prompts that carry the brand without external context, three consistent formats, and evidence of an iteration loop. (Generated images are produced live in an image tool, so this solution shows the direction, prompts, and copy — the deliverables a reviewer can check.)*
+*Worked solution — one strong example. Concept and copy will vary; what matters is one clear concept, self-contained prompts that carry the brand without external context, three consistent formats, and evidence of an iteration loop. (Generated images are produced live in a separate image tool, so this solution shows the direction, prompts, and copy — the deliverables a reviewer can check.)*
 
 ## The concept
 
-**"Caught mid-day, mid-life — hydrated without trying."** A real person in an unstaged daytime moment (walking out the door, at a sunlit desk) with the Vessl bottle naturally in frame. Feeling first (calm, capable, on-track), product second.
+**"Caught mid-day, mid-life — hydrated without trying."** A real person in an unstaged daytime moment (walking out the door) with the Vessl bottle naturally in frame. Feeling first (calm, capable, on-track), product second.
 
 ## Self-contained image prompt (1:1 feed)
 
@@ -12,12 +12,12 @@
 
 *(Self-contained on purpose — the image tool has none of Claude Code's context, so the brand look, mood, and constraints are all baked in.)*
 
-Use Claude's built-in image generator in claude.ai — open the tool from the attachment menu, paste the self-contained prompt, and iterate in the same conversation.
+Paste the prompt into the AI image tool of your choice and generate it there. Nothing from the Claude Code session travels across with it — you carry the context between the two tools by hand.
 
 ## On-brand copy
 
 - **Headline:** It keeps score, so you don't have to.
-- **Sub:** Hydration, handled.
+- **Tagline:** Hydration, handled.
 
 ## Variant set (same concept, three frames)
 
@@ -35,7 +35,7 @@ Concept, palette, and message held constant; only the frame, the subject's posit
 
 ## Iteration note (two lines)
 
-> First generation put the bottle in shadow and the mood read "gym ad," not calm/editorial. I revised the prompt to specify soft daylight, matte finish, and open negative space — the second pass looked like a real brand moment, not a stock fitness photo.
+> First generation came back high-contrast and staged — the mood read "gym ad," not calm/editorial. I revised the prompt to specify soft daylight, matte finish, candid framing, and open negative space, then ran it again in the image tool — the second pass looked like a real brand moment, not a stock fitness photo.
 
 ## Common mistakes
 

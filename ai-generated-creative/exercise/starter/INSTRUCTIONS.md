@@ -2,7 +2,7 @@
 
 Vessl needs a launch creative set. Using Claude Code as creative director and an AI image tool as the executor, take one concept and produce it as a variant set across three aspect ratios — all on brand.
 
-Work in **Claude Code + an AI image tool of your choice** (ChatGPT, DALL-E, or similar). Use:
+Work in **Claude Code + an AI image tool of your choice** (any AI image generator you can access). Use:
 
 - [`brand-voice-guide.md`](brand-voice-guide.md) — the brand look, mood, and voice.
 - [`creative-brief.md`](creative-brief.md) — the objective, key message, and mandatories.

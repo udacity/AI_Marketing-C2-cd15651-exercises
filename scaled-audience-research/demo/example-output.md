@@ -30,10 +30,10 @@
 | 9 | allergy-conscious | Washable materials |
 | 10 | practical, no-frills | Durability |
 
-**Tally:** durability 3, looks 3, easy-clean/washable 2, comfort 1, price 1, size/portability 2. Real variation and dissent.
+**Tally:** durability 2, looks 2, easy-clean/washable 2, comfort 1, price 1, size/portability 2. Real variation and dissent.
 
 ## Headline + calibration line
 
-> "**~30% name durability, ~30% looks**" — *directional only. Synthetic, n=10, isolated contexts so each response is an independent draw, not an echo. Not a market measurement — validate with real customers.*
+> "**~20% name durability, ~20% looks**" — *directional only. Synthetic, n=10, isolated contexts so each response is an independent draw, not an echo. Not a market measurement — validate with real customers.*
 
 **Takeaway:** same question, two methods, opposite conclusions. Independence is the difference between a finding and synthetic theater.

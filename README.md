@@ -37,7 +37,7 @@ Each module folder is content-named and **unnumbered** (see the rule at the bott
 
 All of the above is learner-facing (demos are watched; solutions are shown on the solution page). Only this README is internal.
 
-> **Note on solutions:** on the `main` branch, `exercise/solution/` is an empty placeholder for the instructor to fill while recording. The `generated-solutions` branch contains generated worked solutions + demo outputs for review.
+> **Note on solutions:** `exercise/solution/` on `main` holds generated worked solutions + demo outputs for review. They are AI-generated stand-ins to be replaced with real on-screen output at recording — see [AUTHOR_NOTE.md](AUTHOR_NOTE.md).
 
 ---
 

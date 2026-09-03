@@ -21,8 +21,8 @@ The verdict isn't a vibe — it follows the rule in [`source-quality-audit-check
 |---|---|---|---|---|---|
 | Reusable pricing ~$29–55 (Hydro Flask, Owala) | Hydro Flask + Owala own product pages | 2026-09-01 | Yes — the manufacturers themselves | Yes — prices match | **Trust** |
 | HidrateSpark PRO ~$70–85 (smart entrant) | HidrateSpark store, Apple, Amazon | 2026-09-01 | Yes | Yes | **Trust** |
-| "Smart bottle market ~12% CAGR" | Four research firms | 2026-09-02 | Unclear — real firms, but incompatible scopes | Partly — the growth direction holds, ~12% isn't in any one of them (they range 6.75%–19.5%, base sizes ~100× apart) | **Verify-first** |
-| "Most consumers want hydration reminders" | None — SEO phrasing, no source given | 2026-09-02 | No | No — nothing to open; opinion stated as data | **Drop** |
+| "Smart bottle market ~12% CAGR" | Four research firms | 2026-09-02 | Unclear — real firms, but incompatible scopes | Partly — the growth direction holds, ~12% isn't in any one of them (they range 7.49%–19.5%, base sizes ~100× apart) | **Verify-first** |
+| "Most consumers want hydration reminders" | None — SEO phrasing, no source given | n/a — no source to open | No | No — nothing to open; opinion stated as data | **Drop** |
 | Wearables/health-tracking adoption rising | Research summaries | 2026-09-03 | Yes (directional) | Partly — supports the direction, not a number | **Verify-first** |
 
 ## 4. Two-line verdict (for the CMO)

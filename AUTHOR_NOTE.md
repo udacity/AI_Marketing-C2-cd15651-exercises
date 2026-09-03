@@ -16,7 +16,7 @@ Outputs (CSVs, charts, numbers) are computed from the real provided datasets and
 `example-output.md` has the real Claude direction + self-contained image prompt + copy, but **no images** (no image tool in the authoring environment). At recording, generate the actual images in your image tool and add them to the solution.
 
 **M9 (background agent) — live web sources, time-sensitive**
-The brief + audit use **real web sources** captured at authoring time (competitor pricing; market-size estimates). Prices and market figures change — **re-verify every cited source at record time** and update. The teaching point should still hold (pricing is trustworthy and consistent; the market-size "CAGR" disagrees wildly across firms — 6.75%–19.5%), but confirm the specific numbers and links.
+The brief + audit use **real web sources** captured at authoring time (competitor pricing; market-size estimates). Prices and market figures change — **re-verify every cited source at record time** and update. The teaching point should still hold (pricing is trustworthy and consistent; the market-size "CAGR" disagrees wildly across firms — 7.49%–19.5%), but confirm the specific numbers and links.
 
 ## Provenance at a glance
 

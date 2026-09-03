@@ -25,4 +25,4 @@
 
 **Cheap test for the top risk:** gate sync for a small random slice of **existing grandfathered free users** — the group whose sync would actually disappear; track 30–60 day conversion **and** churn/complaints vs. a control.
 
-**Revised position:** *Pilot on new signups only. Deciding reason: the play rests entirely on "convert, not resent," which is untested. Changes my call: a clean conversion lift with no churn/complaint spike in the pilot.*
+**Revised position:** *Don't roll out broadly yet — pilot on a small slice of existing grandfathered free users. Deciding reason: the play rests entirely on "convert, not resent," which is untested. Changes my call: a clean conversion lift with no churn/complaint spike in the pilot.*

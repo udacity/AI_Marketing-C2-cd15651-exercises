@@ -17,6 +17,8 @@
 > **Subject:** You were one step from Premium
 > Hi [First name], you'd reached the last step of upgrading to Flowline Premium (annual) when something got in the way — it happens. **[Return to checkout →]**
 
+**Element that changed the output most:** *Audience* — naming "already at the payment screen" flipped it from a generic re-explainer into a low-friction "pick up where you left off" nudge.
+
 ---
 
 ## Prompt 2 — New-user activation — **under-specified**
@@ -30,6 +32,8 @@
 
 **Rewritten run:**
 > You're almost set up. Create your first project to see how Flowline keeps your work moving. **[Create a project]**
+
+**Element that changed the output most:** *Goal* — pinning the single next action turned a vague welcome into a one-CTA push toward first value.
 
 ---
 
@@ -46,6 +50,8 @@
 > **Subject:** You get more out of Flowline than almost anyone
 > Hi [First name] — you're one of our most active users, and it shows. If Flowline's become part of how you work, someone you know would probably get the same value from it. Know a good fit? **[Send them an invite]** — no strings, just passing on something useful.
 
+**Element that changed the output most:** *Goal* — converting fuzzy sentiment ("feel appreciated") into a concrete referral ask gave the model something to actually drive toward.
+
 ---
 
-*Each fix was different: prompt 1 got **shorter** (rules cut), prompt 2 gained a specific goal, prompt 3 gained a task where there was none.*
+*Each fix was different: prompt 1 got **shorter** — arbitrary rules cut, a real audience named; prompt 2 gained a specific goal; prompt 3 gained a task where there was none.*

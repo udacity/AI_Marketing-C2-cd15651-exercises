@@ -1,6 +1,6 @@
 # Source-Quality Audit Checklist
 
-*Provided template for the "Delegate a Marketing Research Task to a Background Agent" exercise. Use it to audit the brief your agent returns before you trust or forward it.*
+*Provided template for the "Delegate, Then Audit for Source Quality" exercise. Use it to audit the brief your agent returns before you trust or forward it.*
 
 An agent's research brief always looks confident and complete. Completeness is not credibility. Your job is to check that the claims are actually backed by real, credible, current sources that say what the brief claims.
 

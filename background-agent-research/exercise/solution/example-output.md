@@ -2,6 +2,8 @@
 
 *Actual Claude output — a real web-sourced research run against the CMO's request, then a source-quality audit. One run; live sources change over time.*
 
+*These sources were captured 2026-09-01 to 2026-09-03. Prices and market-size figures move, so if you open them today and find different numbers, that's expected — not a mistake in your audit.*
+
 ## Delegation brief given to the agent
 
 > **Q:** competitive landscape + market trends for the water bottle market (premium reusable brands plus smart/tracking entrants as one segment), for Vessl's launch positioning + pricing.
@@ -25,7 +27,7 @@ Verdicts follow the rule in the checklist: **Trust** = all four checks pass (rea
 |---|---|---|---|---|---|
 | 1. Reusable pricing $29–$55 | Owala + Hydro Flask own product pages | 2026-09-01 | Yes — the manufacturers themselves | Yes — prices match | **Trust** |
 | 2. HidrateSpark ~$70–$85 | HidrateSpark store, Apple, Amazon | 2026-09-01 | Yes | Yes — list prices match | **Trust** |
-| 3. "~12% CAGR" | 4 market-research firms | 2026-09-02 | Unclear — real firms, but incompatible scopes | Partly — the growth direction holds, but no firm gives ~12%; they give **6.75%–19.5%** and base sizes differ ~100× | **Verify-first** |
+| 3. "~12% CAGR" | 4 market-research firms | 2026-09-02 | Unclear — real firms, but incompatible scopes | Partly — the growth direction holds, but no firm gives ~12%; they give **7.49%–19.5%** and base sizes differ ~100× | **Verify-first** |
 | 4. "Most consumers want reminders" | none / SEO phrasing | n/a — no source to open | No | No — opinion stated as data | **Drop** |
 | 5. Wearables adoption rising | market-research summaries | 2026-09-03 | Yes (directional) | Partly — supports the direction, not a number | **Verify-first** |
 
@@ -33,4 +35,4 @@ Verdicts follow the rule in the checklist: **Trust** = all four checks pass (rea
 
 > About half is solid: competitor pricing (claims 1–2) comes from the manufacturers' own pages, checked on Sept 1, and I'd act on it now; the wearables trend is a directional read I'd verify before quoting. The "~12% CAGR" needs verifying first — reputable firms disagree by an order of magnitude, so I'd pick one clearly-scoped source or cut the number before it reaches the CMO. Claim 4 is dropped outright.
 
-**Sources** (date accessed in brackets)**:** [Owala FreeSip](https://owalalife.com/products/freesip) [2026-09-01] · [Hydro Flask bottles (manufacturer)](https://www.hydroflask.com/shop/bottles) [2026-09-01] · [HidrateSpark](https://hidratespark.com/collections/products) [2026-09-01] · [Fortune Business Insights](https://www.fortunebusinessinsights.com/smart-water-bottle-market-115917) [2026-09-02] · [MarketResearchFuture](https://www.marketresearchfuture.com/reports/smart-water-bottle-market-21726) [2026-09-02] · [market.us](https://market.us/report/smart-water-bottle-market/) [2026-09-02] · [ResearchNester](https://www.researchnester.com/reports/smart-bottles-market/6524) [2026-09-03]
+**Sources** (date accessed in brackets)**:** [Owala FreeSip](https://owalalife.com/products/freesip) [2026-09-01] · [Hydro Flask bottles (manufacturer)](https://www.hydroflask.com/shop/bottles) [2026-09-01] · [HidrateSpark](https://hidratespark.com/collections/products) [2026-09-01] · [Fortune Business Insights](https://www.fortunebusinessinsights.com/smart-water-bottle-market-115917) [2026-09-02] · [MarketResearchFuture](https://www.marketresearchfuture.com/reports/smart-water-bottle-market-21726) [2026-09-02] · [market.us](https://market.us/report/smart-water-bottle-market/) [2026-09-02] · [ResearchNester](https://www.researchnester.com/reports/smart-bottles-market/6524) [2026-09-02]

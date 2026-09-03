@@ -18,6 +18,7 @@ Claude Code will run the subagent in the background and return its brief. Your j
 name: market-researcher
 description: Research a competitive landscape and market trends, returning a claim-by-claim brief with a cited source for every claim.
 tools: WebSearch, WebFetch, Read
+background: true
 ---
 
 You are a market research specialist. When asked to research a market or competitors:

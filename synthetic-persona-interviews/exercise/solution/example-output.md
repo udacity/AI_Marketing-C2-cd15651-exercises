@@ -16,6 +16,12 @@
 
 **Priya —** *"It's pretty, and I'd love nice things eventually. But she's still having accidents and chewing everything — I'm not spending a lot on something she might wreck this year."* On past decisions (Q2): *"Washability. She had accidents on everything the first month — whatever I bought had to go in the machine."* On trust (Q9): *"Other new puppy owners — someone who bought it during the accident phase and didn't regret it."* In one sentence (Q10): *"Something I'd want eventually. Just not yet."* On spreading the word: *"Once I did get one, I'd tell all my new-mom friends."*
 
+## Reactions to the concept (resonates / falls flat / missing)
+
+- **Maya —** *resonates:* a bed she wouldn't have to hide. *Falls flat:* nothing much — she's the target. *Missing:* proof it's actually well made, not just marked up for the look.
+- **Rick —** *resonates:* little. *Falls flat:* "furniture-grade" reads as delicate. *Missing:* durability + washability answers; won't consider it until those land.
+- **Priya —** *resonates:* the look, aspirationally. *Falls flat:* the price during the puppy phase. *Missing:* reassurance it survives a puppy, or a reason to buy now vs. later.
+
 ## Signal vs. confabulation
 
 | Persona | Trustworthy signal | Likely confabulation | Marker |
@@ -26,6 +32,6 @@
 
 ## Synthesis
 
-**Shared signal:** the *look* lands across all three — the aesthetic promise is real. **Real divergence:** willingness to buy splits on **proof and timing** — Maya converts if quality is credible; Rick is a hard no until durability/washability are answered; Priya likes it but won't pay now. **Recurring objection (2 of 3):** doubt that a "designer" bed is actually well made.
+**Shared signal:** the *look* lands with two of three (Maya, Priya) — the aesthetic promise is real, but not universal: Rick is the exception, "furniture-grade" reads as delicate to him. **Real divergence:** willingness to buy splits on **proof and timing** — Maya converts if quality is credible; Rick is a hard no until durability/washability are answered; Priya likes it but won't pay now. **Recurring objection (all three):** doubt that a "designer" bed is actually well made.
 
 **Which market fits:** design-conscious urban owners (Maya is the beachhead). **Carry into real testing:** lead with the look, but pair every aesthetic claim with hard durability proof — that's what converts the skeptics. Don't chase Rick's segment with this line; don't expect Priya until post-puppy. **Confidence: medium** — three synthetic personas are directional; segment sizes need live research.

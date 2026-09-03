@@ -1,6 +1,6 @@
 # Vessl — Brand Voice Guide
 
-*Provided asset for the Claude Code knowledge-work and AI-generated creative modules. Use it as the brand's source of truth for tone, language, and look.*
+*Provided asset for this module. Use it as the brand's source of truth for tone, language, and look.*
 
 ---
 

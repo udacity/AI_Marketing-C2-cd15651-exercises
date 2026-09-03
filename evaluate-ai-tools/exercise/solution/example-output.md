@@ -8,10 +8,10 @@
 |---|---|---|---|---|
 | Capability fit **(heavy)** | 5 | 2 | 4 | 4 |
 | Brand-voice control / brand-safety **(heavy)** | 4 | 2 | 5 | 3 |
-| Fit with stack | 2 | 5 | 5 | 2 |
+| Fit with your stack | 2 | 5 | 5 | 2 |
 | Cost vs. value | 2 | 5 | 3 | 5 |
 | Data & privacy **(heavy)** | 5 | 4 | 2 | 3 |
-| Learning curve | 3 | 5 | 3 | 5 |
+| Learning curve / adoption | 3 | 5 | 3 | 5 |
 | **Total** | 21 | **23** | 22 | 22 |
 | **Heavy three only** | **14** | 8 | 11 | 10 |
 

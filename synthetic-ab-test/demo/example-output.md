@@ -15,10 +15,10 @@
 
 ## Ranked recommendation
 
-- **Winner: C** (16.0) — strongest on relevance/distinctiveness; weakest on believability.
+- **Winner: C** (16.0) — strongest on relevance/distinctiveness; weakest on resonance and believability, tied at 3.7.
 - **Runner-up: B** (15.3), margin **0.7**. Third: A (11.0).
-- **Panel:** C is consistent across all three (15/14/19); B peaks with the vet-driven owner; A trails everywhere.
-- **Confidence: low–medium** — B and C are within ~0.7, effectively tied at the top.
+- **Panel:** C wins on the mean but is the more variable of the two (15/14/19 — spread of 5); B is tighter (15/17/14 — spread of 3) and peaks with the vet-driven owner; A trails everywhere.
+- **Confidence: low** — B and C are within ~0.7, effectively tied at the top, and the panel splits on C.
 
 ## Limits (stated on camera)
 
