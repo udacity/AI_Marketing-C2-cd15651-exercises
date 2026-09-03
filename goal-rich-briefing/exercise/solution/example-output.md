@@ -54,4 +54,4 @@
 
 ---
 
-*Each fix was different: prompt 1 got **shorter** — arbitrary rules cut, a real audience named; prompt 2 gained a specific goal; prompt 3 gained a task where there was none.*
+*Each fix was different: prompt 1 **lost its rules** — five arbitrary mechanics cut, a real audience named; prompt 2 gained a specific goal; prompt 3 gained a task where there was none.*

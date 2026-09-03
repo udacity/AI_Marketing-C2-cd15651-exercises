@@ -15,7 +15,7 @@
 - **Constraints:** no discount (protect price integrity); no fake urgency/countdown; short.
 - **Success criteria:** click back to the checkout page.
 
-**Element that changed the output most:** *Audience* — naming "already at the payment screen" flipped the email from a generic re-explainer into a low-friction "pick up where you left off" nudge. The brief is **shorter** than the original prompt.
+**Element that changed the output most:** *Audience* — naming "already at the payment screen" flipped the email from a generic re-explainer into a low-friction "pick up where you left off" nudge. Note the brief is **longer** than the prompt but **prescribes far less** — five mechanical rules replaced by one real audience.
 
 ---
 
@@ -51,7 +51,7 @@
 
 ## The portable point
 
-The same five-element scaffold fixed three different failures across three audiences and channels — and the fix was **not always "add more"**: the over-prescribed prompt got shorter. Students should be able to name *why* an output was generic (which element was missing), not just feel that it was.
+The same five-element scaffold fixed three different failures across three audiences and channels — and the fix was **not always "add more"**: the over-prescribed prompt lost its rules rather than gaining more. Students should be able to name *why* an output was generic (which element was missing), not just feel that it was.
 
 ## Common mistakes
 
