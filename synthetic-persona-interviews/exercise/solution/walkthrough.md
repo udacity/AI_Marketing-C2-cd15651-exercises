@@ -10,6 +10,8 @@
 
 **3. Priya — new puppy owner.** 11-week puppy, accidents and chewing; wants a safe, cheap starter, will invest later. *Traceable to:* "didn't want to spend a fortune yet"; "all about easy cleanup."
 
+**Flagged as assumptions:** the names, the ages, and the pet specifics ("three dogs," "11-week puppy," Maya's dog Juniper) are **not** traceable — the research provides owner types and quotes, with no names, ages or breeds. Do this in your own answer: invent what you need to make a persona interviewable, then label it, and keep your findings off it. The brief asks you to flag what you can't tie to evidence, and this is what that looks like.
+
 ## Interview highlights (furniture-grade modern concept)
 
 - **Maya —** *resonates:* "finally, something I wouldn't hide." *Falls flat:* nothing much — she's the target. *Missing:* proof it's actually well made, not just marked-up design.

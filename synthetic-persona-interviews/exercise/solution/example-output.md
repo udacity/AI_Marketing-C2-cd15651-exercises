@@ -8,6 +8,8 @@
 - **Rick, 44** — practical multi-dog household ("only bed that's survived a year"; "if it can't go in the machine, it's useless").
 - **Priya, 27** — new puppy owner ("didn't want to spend a fortune yet"; "all about easy cleanup").
 
+**Flagged as assumptions (no research backing):** the names, the ages, and the pet specifics — Maya's dog Juniper, Rick's "three dogs," Priya's puppy's age. The research gives owner *types* and verbatim quotes, never names, ages or breeds. These are invented scaffolding to make the personas interviewable, and they carry no evidential weight: nothing in the synthesis rests on them.
+
 ## Interviews (key excerpts, in character)
 
 **Maya —** *"Finally, a dog bed I wouldn't hide. My apartment's on display and Juniper's current bed ruins every photo. If it genuinely looks like furniture — not 'pet product pretending' — I'm in."* Hesitation: *"I'd want to know it's actually well made, not just marked up for the look."* On past decisions (Q2): *"Last time I bought dog furniture it was impulse — I regretted it. This time I'd look at reviews from people who've actually had it in their apartment, not product shots."* On trust (Q9): *"An interior design account I follow, if I saw it in someone's actual home. Not a pet brand ad."* In one sentence (Q10): *"The dog bed you don't have to hide."* On price: *"I'd pay up to $200, no problem."*
