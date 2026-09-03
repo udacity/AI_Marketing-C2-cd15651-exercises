@@ -111,7 +111,7 @@ paid_social loses on both — dearest CPA *and* a 3.7× ratio, the only channel 
 
 ## 5. The value signal (for the platform)
 
-[`bidding-signal-upload.csv`](bidding-signal-upload.csv) — `segment, predicted_ltv, value_tier`. Format is generic on purpose; platform field specs change often, so learn the concept rather than this week's schema.
+[`bidding-signal-upload.csv`](bidding-signal-upload.csv) — `segment, predicted_value, value_tier`. Format is generic on purpose; platform field specs change often, so learn the concept rather than this week's schema.
 
 | Segment | Predicted LTV | CAC | LTV:CAC | Tier |
 |---|---|---|---|---|
@@ -130,7 +130,7 @@ paid_social loses on both — dearest CPA *and* a 3.7× ratio, the only channel 
 
 Two things to be explicit about, because the file alone won't tell a colleague either:
 
-- **The cut is on LTV:CAC, not on `predicted_ltv`.** That is why `discount | referral` and `discount | search` both carry $51.50 and land in different tiers — same modelled lifetime, half the acquisition cost. If you tier on predicted value alone, every discount segment gets the same label and the signal loses the only thing that separates them.
+- **The cut is on LTV:CAC, not on `predicted_value`.** That is why `discount | referral` and `discount | search` both carry $51.50 and land in different tiers — same modelled lifetime, half the acquisition cost. If you tier on predicted value alone, every discount segment gets the same label and the signal loses the only thing that separates them.
 - **The cuts are conventions, not findings.** 3× is the common payback bar once margin is in; 6× is simply double it. Move the cuts and the labels move — so publish the rule beside the file.
 
 **Why LTV is pooled within acquisition type.** Split the hazard all the way down to segment and the cells stop being informative. Within full_price:

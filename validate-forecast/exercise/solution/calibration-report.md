@@ -8,7 +8,7 @@
 
 | Metric | Forecast (avg) | Actual (avg) | Variance | Days inside the range | Verdict |
 |---|---|---|---|---|---|
-| **CPA** — cost per order | $48.09 | **$52.78** | **+9.75% worse than forecast** | 14 of 30 (~47%) | **Yes, with caveats** |
+| **CPA** — cost per order | $48.10 | **$52.78** | **+9.75% worse than forecast** | 14 of 30 (~47%) | **Yes, with caveats** |
 | **CVR** — conversion rate | 2.992% | 2.993% | **+0.04%** | 22 of 30 (~73%) | **Yes — plan on it** |
 
 Conversion came in almost exactly as forecast. Cost per order came in about **10% higher**, and the forecast only contained it on **fewer than half the days** — so the range itself was too narrow, not just the midpoint too low.

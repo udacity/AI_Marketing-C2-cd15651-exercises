@@ -20,7 +20,7 @@ Let the same hazard run uncapped and expected lifetime is 1 ÷ 7.92% ≈ **12.6 
 
 ## The strategic punchline
 
-A platform optimizing for cheap conversions buys the customers who are cheap to buy, and nothing else. Suppose one source delivers customers at $11 and another at $22 — the bidder chases the $11 source every time, even if the $22 customers are worth several times more over their life. **On lowest CPA alone you can end up buying your *worst* customers.** That is the case for value-based bidding: stop telling the platform what a conversion *costs* and start telling it what a conversion is *worth*.
+A platform optimizing for cheap conversions buys the customers who are cheap to buy, and nothing else. Suppose one source delivers customers at half the cost of another — the bidder chases the cheap one every time, even if the dearer customers turn out to be worth several times more over their life. **On lowest CPA alone you can end up buying your *worst* customers.** That is the case for value-based bidding: stop telling the platform what a conversion *costs* and start telling it what a conversion is *worth*.
 
 The number you hand back here is the one this cohort owns: **$76.37 of 12-month value against $20.95 of acquisition cost — about 3.6× LTV:CAC.**
 

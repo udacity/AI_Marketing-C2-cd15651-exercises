@@ -1,4 +1,4 @@
-segment,predicted_ltv,value_tier
+segment,predicted_value,value_tier
 discount|paid_social,51.5,low
 discount|referral,51.5,mid
 discount|search,51.5,low

@@ -10,12 +10,12 @@ Every `example-output.md` and everything under `exercise/solution/` is an **AI-g
 Outputs are genuine Claude runs, but generative output **varies run to run**. When you demo live (or solve the exercise), capture your actual output and replace `example-output.md` if it differs materially. Content/structure will match; exact wording won't.
 
 **Data modules — SP7, SP8, SP9 (computed — accurate)**
-Outputs (CSVs, charts, numbers) are computed from the real provided datasets and are correct: CPA mid ≈ $49.84 / +9.75% systematic bias / CVR on-target / LTV $51.50 (discount) vs $315.90 (full-price) — **margin-adjusted at 65% gross margin**, per SP9's stated assumption / India-as-confound. Keep as-is, **or** re-run the analysis live and replace. If you ever regenerate the datasets, re-run the analysis so the numbers stay in sync.
+Outputs (CSVs, charts, numbers) are computed from the real provided datasets and are correct. **These belong to different modules and do not compose:** SP7's 30-day CPA mid averages **$49.84**; SP8 validates a *separately constructed* starter forecast averaging **$48.09** against actuals of $52.78, which is the **+9.75%** systematic bias. Feeding SP7's forecast into SP8 would give +5.9%, not +9.75%. CVR on-target. SP9: LTV $51.50 (discount) vs $315.90 (full-price) — **margin-adjusted at 65% gross margin**, per SP9's stated assumption / India-as-confound. Keep as-is, **or** re-run the analysis live and replace. If you ever regenerate the datasets, re-run the analysis so the numbers stay in sync.
 
 **M8 (AI creative) — direction-only**
 `example-output.md` has the real Claude direction + self-contained image prompt + copy, but **no images** (no image tool in the authoring environment). At recording, generate the actual images in your image tool and add them to the solution.
 
-> **Alt text is required for every image you add here — six of them (three exercise variants, three demo).** This module is the only one that ships images as deliverables, and its method deliberately composites the headline, tagline and CTA onto the plate, so each finished image *contains text*. `Accessibility Standards.md` prohibits images of text because screen readers can't reach them and they blur when enlarged.
+> **Alt text is required for every image you add here — five of them (three exercise variants, two demo).** This module is the only one that ships images as deliverables, and its method deliberately composites the headline, tagline and CTA onto the plate, so each finished image *contains text*. `Accessibility Standards.md` prohibits images of text because screen readers can't reach them and they blur when enlarged.
 >
 > Two things keep this compliant, and both need doing at record time:
 > 1. **Write alt text per image** describing the scene, the composition, and the on-image copy verbatim. Don't write "ad creative for Vessl" — describe what a sighted learner sees and reads.
