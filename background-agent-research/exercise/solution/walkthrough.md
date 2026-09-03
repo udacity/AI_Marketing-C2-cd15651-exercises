@@ -23,11 +23,13 @@ The verdict isn't a vibe — it follows the rule in [`source-quality-audit-check
 | HidrateSpark PRO ~$70–85 (smart entrant) | HidrateSpark store, Apple, Amazon | 2026-09-01 | Yes | Yes | **Trust** |
 | "Smart bottle market ~12% CAGR" | Four research firms | 2026-09-02 | Unclear — real firms, but incompatible scopes | Partly — the growth direction holds, ~12% isn't in any one of them (they range 7.49%–19.5%, base sizes ~100× apart) | **Verify-first** |
 | "Most consumers want hydration reminders" | None — SEO phrasing, no source given | n/a — no source to open | No | No — nothing to open; opinion stated as data | **Drop** |
-| Wearables/health-tracking adoption rising | Research summaries | 2026-09-03 | Yes (directional) | Partly — supports the direction, not a number | **Verify-first** |
+| Wearables/health-tracking adoption rising | "Research summaries" — no firm, report, or link named | 2026-09-03 — nothing identifiable to open | Unclear — can't assess an unnamed source | Couldn't check — no source to open | **Drop** |
+
+The last one is the interesting call. The trend is almost certainly real, which is exactly why it's tempting to wave through as "directional." But "research summaries" names no firm, no report, no link — there's no usable source to identify, and the rule makes that a **Drop** on its own. Verify-first is for a claim whose source you can open and whose checks come back mixed; with nothing to open, three of the four checks can't be run at all. **A claim can be directionally true and still have to be dropped for want of a citable source.** Re-source it to a named report and audit it as a new claim.
 
 ## 4. Two-line verdict (for the CMO)
 
-> Competitor pricing (reusable and smart), checked against the manufacturers' own pages on Sept 1, is solid and I'd act on it now; the wearables trend is a safe directional read but not a number I'd put on a slide until I've confirmed it. The "~12% CAGR" needs verifying first: reputable firms disagree by an order of magnitude, so I'd pick one clearly-scoped source or cut the number before it reaches the CMO. The "consumers want reminders" claim is dropped outright (SEO opinion, no source to open).
+> Competitor pricing (reusable and smart), checked against the manufacturers' own pages on Sept 1, is solid and I'd act on it now. The "~12% CAGR" needs verifying first: reputable firms disagree by an order of magnitude, so I'd pick one clearly-scoped source or cut the number before it reaches the CMO. Two claims are dropped — "consumers want reminders" (SEO opinion, no source to open) and the wearables trend (a read I'd bet is right, cited to unnamed "research summaries") — and neither goes in the deck until it's re-sourced to a named report.
 
 ## Common mistakes
 
@@ -35,4 +37,5 @@ The verdict isn't a vibe — it follows the rule in [`source-quality-audit-check
 - Trusting the brief because it *looks* complete and confident.
 - Auditing the writing instead of opening the actual sources.
 - No per-claim verdict — "looks fine overall" isn't an audit.
+- Softening a Drop to Verify-first because the claim *sounds* right. If you can't name a source to open, "directionally true" isn't a verdict — it's a Drop.
 - No access date, so nobody — including you, next month — can tell whether the check is still good.
