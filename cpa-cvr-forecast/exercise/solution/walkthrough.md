@@ -26,6 +26,8 @@ Three patterns to separate:
 
 Full day-by-day projection: [`forecast-cpa-cvr-cpm-30day.csv`](forecast-cpa-cvr-cpm-30day.csv). Chart: [`forecast-chart.png`](forecast-chart.png).
 
+**CPM is carried here for context only** — the exercise asks for CPA and CVR, and CPA is the anchor. It's included because it explains *why* CPA moves (CPM drift feeds CPC feeds CPA), not because it's a required deliverable. A read-out with only CPA and CVR is complete.
+
 ## 4. Assumptions and what drives the spread
 
 - Trend is roughly linear over the horizon; fatigue continues at its recent slope.
