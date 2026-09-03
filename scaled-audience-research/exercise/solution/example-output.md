@@ -4,6 +4,8 @@
 
 **Question:** what would stop you from buying this furniture-grade modern dog bed? · **Method:** 12 variants across 6 archetypes, each run in its own clean isolated context.
 
+**Independence check:** 12 subagent calls fired (count confirmed from the Cowork conversation history — each persona spawn is a discrete tool call). Matches the 12-variant roster. Claude's own write-up said "independent" regardless; the system count is the fact.
+
 ## Responses (top barrier per variant)
 
 | # | Archetype | Top barrier |
@@ -47,6 +49,25 @@ Read the rows, not the totals: durability is the top barrier overall but it is *
 
 Durability is **genuine signal**: it appears across *different* archetypes in *different words* — design owners frame it as "premium = flimsy," multi-dog owners as "chewing survival," the senior owner as "foam flattening." Varied framing + dissent (design owners barely mention chewing) = a real pattern, not one echoed phrase.
 
+## Roster-bias audit
+
+Before reading the barrier rankings as market signal, read them against the roster that produced them.
+
+| Archetype | n | Price-sensitive? | Durability-sensitive? |
+|---|---|---|---|
+| Urban design | 3 | No | Yes (premium = flimsy framing) |
+| Multi-dog | 3 | No | Yes (chewing/washing survival) |
+| New puppy | 2 | Yes | Partially |
+| Budget | 2 | Yes | No |
+| Senior-dog | 1 | No | Yes (support/foam) |
+| Large-breed | 1 | No | Yes (size/sturdiness) |
+
+**Roster-decided findings:** Price (#2 barrier, ~25%) is close to what the seed predicts — 4 of 12 variants (33%) are price-sensitive archetypes. "Price is a top barrier" is partly a fact about this roster, not just about the market.
+
+**Response-decided findings:** Durability (#1, ~42%) appears across archetypes that weren't seeded as durability-focused — budget and new-puppy owners, who were seeded price-sensitive, still did not raise it. That cross-archetype pattern is less likely to be a seed artifact.
+
+Implication: Durability is the stronger signal. Price should be validated against a more balanced roster before treating it as equally actionable.
+
 ## Calibration disclosure
 
 > Synthetic, directional research. Legitimate claim: *which* barriers to investigate and how they differ by segment. Not legitimate: real prevalence — "42%" is a model artifact, not a measurement. Isolated contexts make each response an independent draw; live customer research is still required before acting.
@@ -54,3 +75,12 @@ Durability is **genuine signal**: it appears across *different* archetypes in *d
 ## Recommendation (directional)
 
 Before launch: (1) **prove durability** — the top, cross-segment barrier; lead with materials, testing, warranty. (2) **justify price** for non-design buyers.
+
+## Surface note
+
+At 12 variants this workflow ran cleanly: each subagent fired, costs were modest, and aggregation was a straight count. At 100+ variants, two strains appear:
+
+- **Cost and partial failures.** 100+ subagent calls in a single Cowork session is expensive, and if one call fails mid-run there is no resume point — you start the batch over. Manageable for a one-off research sprint; painful if this is a recurring workflow.
+- **Aggregation becomes estimated.** Past ~30–40 responses, collating verbatim answers into barrier categories starts feeling like re-summarizing rather than counting. The model will group near-synonyms; a human audit of the categorisation is still worth one pass.
+
+**Would I move it?** For a one-time pre-launch read: stay here. For a weekly or monthly cadence, or any n above ~50 where you need the exact counts to be auditable: move to a scripted setup. The deciding factor is frequency and auditability requirement, not whether the tool *can* run at scale.

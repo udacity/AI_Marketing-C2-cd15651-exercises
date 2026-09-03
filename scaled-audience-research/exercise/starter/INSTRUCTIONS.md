@@ -1,8 +1,8 @@
-# Build the Workflow, Find the Barriers
+# Run It at Scale, Then Find the Edge
 
-Barkwell has a furniture-grade modern bed line it's close to launching and wants to know, at scale, what would stop people from buying it. Build a Claude Code workflow that runs 100+ persona variants in independent contexts, surface the top barriers to purchase, and write a findings report with an honest calibration disclosure.
+Barkwell has a furniture-grade modern bed line it's close to launching and wants to know, at scale, what would stop people from buying it. Run 100+ persona variants, write a findings report with an honest calibration disclosure — and notice where the surface you're working on stops being the right one for the job.
 
-Work in Claude Code. Use the [`variant-generation-prompt.md`](variant-generation-prompt.md) template to generate your variants.
+Work in Claude on the agent surface, using subagents to run your variants. Use the [`variant-generation-prompt.md`](variant-generation-prompt.md) template to generate them.
 
 Note the question here is different from the demo's: the demo asks *which feature is preferred*; this exercise asks *what would stop someone from buying*.
 
@@ -10,19 +10,23 @@ Note the question here is different from the demo's: the demo asks *which featur
 
 A structured findings report containing:
 
-- The workflow you built, including how you enforced independence (no shared history between variants).
+- The workflow you specified — the instruction you gave for running variants independently, **plus the evidence it actually ran that way**. Not the tool's summary of itself.
 - A chart or table of aggregated barriers across 100+ responses — the most common ranked, and how they differ across audience segments.
 - A signal-vs-synthetic-consensus check: is the agreement real or manufactured?
-- A calibration disclosure: what this workflow can legitimately claim, what it can't, why independent contexts matter, and what real-world validation would still be needed.
+- A **roster-bias audit**: which of your findings were decided by how you seeded the personas rather than by anything the responses revealed.
+- A calibration disclosure: what this workflow can legitimately claim, what it can't, and what real-world validation would still be needed.
 - A recommendation on which one or two barriers are worth acting on before launch, explicitly labeled directional.
+- A short **surface note**: where this workflow started to strain, and whether you'd move it somewhere else.
 
 ## Requirements
 
-- Each variant must run in an **independent context**. If they share history, later variants anchor on earlier ones and your sample collapses — enforcing isolation is the core of the exercise.
+- Ask for independent contexts — then **verify**. Both the tool's progress checklist and its own write-up will say "independent" whether or not it was, because both are prose it wrote. Find the system-reported count of runs and check it against your variant count. A claim you didn't check isn't a finding.
 - Generate enough variants for 100+ responses; three personas run repeatedly is not a sample.
+- **Audit your own roster.** If you seeded six highly price-sensitive personas, "price is a top barrier" is a fact about your roster, not about the market. Independence does not fix this — no amount of isolation corrects a biased seed, which makes it the more dangerous of the two problems.
+- Watch how your variant prompts shape the answers. Instructing a persona to be "specific and personal" reliably produces specific, personal detail whether or not anything sits behind it. That is confabulation on request, and it will land in your tally looking like data.
 - Check signal against synthetic consensus: genuine signal shows variation and dissent; manufactured consensus looks like everyone saying the same thing in nearly the same words. Look at the spread and the outliers, not just the headline number.
-- The calibration disclosure is required, not optional. A scaled number that looks like survey data is exactly what needs the disclosure.
+- Note where the surface strains. Somewhere past a handful of runs you may hit cost, a run that fails partway with no way to resume, or aggregation that starts feeling estimated rather than counted. Say whether you'd keep this where it is or move it to a scripted setup, and what decides that — the answer is about how often you'd run it, not about whether the tool *can*.
 
 ## Done when
 
-Your report ranks the real barriers, shows how independence was enforced, distinguishes genuine signal from manufactured consensus, and states plainly that the output is a hypothesis to validate, not a verdict.
+Your report ranks the real barriers, shows **evidence** rather than assurance that the runs were independent, separates what your roster decided from what the responses revealed, and states plainly that the output is a hypothesis to validate, not a verdict. And you can say where this workflow's surface boundary sits, and why.

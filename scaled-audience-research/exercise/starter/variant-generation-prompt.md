@@ -35,4 +35,8 @@ Key need: [one sentence]
 
 **Why variants, not repeats:** running the same three personas a hundred times gives you one correlated opinion, not a sample. Generating structured variants across attributes is what lets a scaled read actually span your audience.
 
-**Independence note:** when you run these variants, each should respond in its own clean context. If they all answer in one shared conversation, later variants anchor on earlier ones and your "sample" collapses into a single stream. Run them isolated (this is why the exercise uses Claude Code to orchestrate the runs).
+**Independence note:** when you run these variants, each should respond in its own clean context. If they all answer in one shared conversation, later variants anchor on earlier ones and your "sample" collapses into a single stream. Ask for isolated runs — and then check that you got them. The tool's progress checklist and its own write-up are both prose it wrote; the count of runs the system reports is the fact.
+
+**Roster warning:** the attributes you choose here decide much of what you'll find. If your archetypes skew price-sensitive, price will top your barrier list — that is your roster talking, not the market. Isolation cannot correct a biased seed, so write down your archetype mix before you run, and read your findings against it afterwards.
+
+**A note on wording:** asking a persona to sound "specific" or "personal" reliably produces vivid, concrete detail whether or not anything supports it. Keep the profile detailed and let the answer be whatever length it needs to be, rather than instructing richness you'll later have to discount.
