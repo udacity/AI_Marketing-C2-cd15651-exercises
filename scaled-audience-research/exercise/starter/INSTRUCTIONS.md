@@ -22,10 +22,10 @@ A structured findings report containing:
 
 - Ask for independent contexts — then **verify**. Both the tool's progress checklist and its own write-up will say "independent" whether or not it was, because both are prose it wrote. Find the system-reported count of runs and check it against your variant count. A claim you didn't check isn't a finding.
 - Generate enough variants for 24–30 responses; three personas run repeatedly is not a sample.
-- **Audit your own roster.** If you seeded six highly price-sensitive personas, "price is a top barrier" is a fact about your roster, not about the market. Independence does not fix this — no amount of isolation corrects a biased seed, which makes it the more dangerous of the two problems.
-- Watch how your variant prompts shape the answers. Instructing a persona to be "specific and personal" reliably produces specific, personal detail whether or not anything sits behind it. That is confabulation on request, and it will land in your tally looking like data.
-- Check signal against synthetic consensus: genuine signal shows variation and dissent; manufactured consensus looks like everyone saying the same thing in nearly the same words. Look at the spread and the outliers, not just the headline number.
-- Note where the surface strains. Somewhere past a handful of runs you may hit cost, a run that fails partway with no way to resume, or aggregation that starts feeling estimated rather than counted. Say whether you'd keep this where it is or move it to a scripted setup, and what decides that — the answer is about how often you'd run it, not about whether the tool *can*.
+- **Audit your own roster.** Write down your archetype mix before you run, then read your barrier rankings against it and say, per finding, whether it tells you about the market or about who you asked.
+- Watch how your variant prompts shape the answers. Instructing a persona to be "specific and personal" reliably produces specific, personal detail whether or not anything sits behind it — and it will land in your tally looking like data.
+- Check signal against synthetic consensus. Judge whether your responses are real variation or one answer echoed back at you, and show what in the responses decided it. Read the spread and the outliers, not just the headline number.
+- Note where the surface strains. Run at this scale, watch what it actually costs you to do it here, and report where the workflow starts to strain. Then say whether you'd keep it on this surface or move it to a scripted setup, and what decides that.
 
 ## Done when
 

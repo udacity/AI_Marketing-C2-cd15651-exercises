@@ -1,6 +1,6 @@
 # Design Three, Interview Three, Separate Signal from Noise
 
-Barkwell wants to reach a new market: design-conscious urban dog owners who treat the bed as a piece of furniture, not just a pet product. The concept is a "furniture-grade" modern bed line that fits a stylish home. Design three research-seeded personas, interview each about the concept, and document what you'd trust versus what's likely confabulation.
+Barkwell is weighing a new line: a "furniture-grade" modern bed built to look like real furniture and fit a stylish home, not to look like a pet product — a premium, design-led departure from its durable-and-practical range. Which new market it fits is an open question. Design three research-seeded personas, interview each about the concept, and document what you'd trust versus what's likely confabulation.
 
 Work in Claude Code. Use:
 
