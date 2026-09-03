@@ -46,7 +46,7 @@ So the fix is the same as everywhere else in this exercise: **don't average acro
 
 | Segment | n | Churn events | Monthly churn | Exp. lifetime | LTV | LTV range | CAC | LTV:CAC |
 |---|---|---|---|---|---|---|---|---|
-| **full_price** | 2,425 | 507 | 3.1%/mo | ~32.3 mo | **~$316** | $291 – $346 | ~$22.22 | **~14.2×** |
+| **full_price** | 2,425 | 507 | 3.1%/mo | ~32.3 mo | **~$316** | $290 – $347 | ~$22.22 | **~14.2×** |
 | **discount** | 2,375 | 1,834 | 18.2%/mo | ~5.5 mo | **~$52** | $49 – $54 | ~$19.43 | **~2.7×** |
 
 Full-price customers are worth **~6.1× more**. Note the CACs are nearly identical (~$22 vs ~$19) — **you pay about the same for both.** The entire difference is in what you get. Discount customers churn six times faster and land under a 3× LTV:CAC bar, so they barely clear their own acquisition cost once margin is applied.
@@ -59,9 +59,9 @@ Raw LTV by geo *looks* like geography decides value:
 
 | geo | n | LTV (raw) | LTV range | % discount-acquired |
 |---|---|---|---|---|
-| CA | 765 | ~$161 | $144 – $182 | 25% |
+| CA | 765 | ~$161 | $144 – $183 | 25% |
 | US | 1,625 | ~$128 | $119 – $138 | 40% |
-| UK | 1,209 | ~$113 | $105 – $123 | 47% |
+| UK | 1,209 | ~$113 | $104 – $123 | 47% |
 | **IN** | 1,201 | **~$69** | $64 – $74 | **81%** |
 
 IN's range clears every other geo's by a wide margin, and CA's sits above all three — so the raw gap is real, it just isn't *about geography*. (UK and US do overlap, which is your first hint the ordering is softer than the point estimates look.) Split **within** acquisition type and it all but disappears:
@@ -69,8 +69,8 @@ IN's range clears every other geo's by a wide margin, and CA's sits above all th
 | geo | discount LTV | range | full_price LTV | range | full_price churn events |
 |---|---|---|---|---|---|
 | CA | ~$49 | $42 – $58 | ~$311 | $263 – $380 | 120 |
-| IN | ~$52 | $49 – $56 | ~$325 | **$253 – $453** | **48** |
-| UK | ~$53 | $48 – $58 | ~$304 | $260 – $365 | 138 |
+| IN | ~$52 | $49 – $56 | ~$325 | **$252 – $456** | **48** |
+| UK | ~$53 | $48 – $58 | ~$304 | $260 – $366 | 138 |
 | US | ~$50 | $46 – $55 | ~$325 | $285 – $379 | 201 |
 
 An IN full-price customer (~$325) is worth *more* than a Canadian one (~$311). The spread across all four geos is **7.0% within full_price and 8.2% within discount** — and every one of those eight ranges overlaps every other in its column, so there is no evidence any geo differs from any other once you hold acquisition type fixed. **IN only looks low-value because 81% of its customers were acquired on discount, vs. 25% in CA.** Geography is a confound; **acquisition type is the driver.** See [`ltv-driver-chart.png`](ltv-driver-chart.png).
@@ -88,8 +88,8 @@ Say the thin cell out loud: **IN's full-price estimate rests on 48 churn events*
 | Channel | n | % discount | Churn events | CPA | Blended LTV | LTV range | LTV:CAC |
 |---|---|---|---|---|---|---|---|
 | referral | 1,522 | 69% | 903 | **~$11.12** | **~$81** | $76 – $86 | **~7.2×** |
-| search | 1,583 | 30% | 602 | ~$22.04 | ~$153 | $142 – $166 | ~6.9× |
-| paid_social | 1,695 | 50% | 836 | ~$28.45 | ~$106 | $100 – $114 | ~3.7× |
+| search | 1,583 | 30% | 602 | ~$22.04 | ~$153 | $141 – $166 | ~6.9× |
+| paid_social | 1,695 | 50% | 836 | ~$28.45 | ~$106 | $99 – $114 | ~3.7× |
 
 **Referral is the cheapest traffic and the least valuable** — the case the brief asks you to find. Rank on CPA alone and you buy the lowest-LTV customers in the account, with the ranges nowhere near overlapping ($76–$86 against search's $142–$166). It is not that referral attracts worse people: its full-price customers are worth the same as everyone's. It is that **69% of referral volume arrives on a discount**, because the referral offer *is* a discount. Search costs **2.0× more per customer and returns 1.9× the LTV** on a 30% discount mix — that is what a justified high CPA looks like.
 
