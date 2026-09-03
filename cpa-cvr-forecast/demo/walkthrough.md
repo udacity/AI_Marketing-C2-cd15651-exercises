@@ -14,6 +14,8 @@ Day-by-day: [`forecast-cpm-30day.csv`](forecast-cpm-30day.csv). Chart: [`cpm-for
 
 *What the chart shows: the 90 training days with promo week (squares) and the end-of-quarter ramp (triangles) marked as excluded from the fit, then the 30-day forecast mid (dashed) rising from $13.97 to $14.65 inside its ±1σ band. The two excluded windows are visibly off-trend, which is the point — they are why the fit is drawn on the remaining days.*
 
+Call out what just happened: **that windowing was a choice, not a rule.** It was made for CPM and on a CPM-specific argument — both windows distort what inventory actually cost, so they don't belong in a cost trend — and it goes in the write-up as a stated assumption. It settles nothing for any other metric.
+
 ## Interrogate the draft
 
 Ask Claude Code to surface its assumptions, then push back on one number that looks off. The first pass is a draft to critique, not a finished forecast to accept.
