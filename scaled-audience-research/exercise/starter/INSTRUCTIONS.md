@@ -2,7 +2,13 @@
 
 Barkwell has a furniture-grade modern bed line it's close to launching and wants to know, at scale, what would stop people from buying it. Run 24–30 persona variants, write a findings report with an honest calibration disclosure — and notice where the surface you're working on stops being the right one for the job.
 
-Work in Claude, using subagents to run your variants. Use the [`variant-generation-prompt.md`](variant-generation-prompt.md) template to generate them.
+Work in Claude, using subagents to run your variants. Three templates are provided, one per stage:
+
+- [`variant-generation-prompt.md`](variant-generation-prompt.md) — generate the variant set from your archetypes.
+- [`response-collection-template.md`](response-collection-template.md) — the format every response lands in. **Set this up before you start running**, not after.
+- [`aggregation-prompt.md`](aggregation-prompt.md) — turn the collected responses into ranked barriers and the by-segment cross-tab.
+
+The templates cover generating, collecting and aggregating. Getting each variant to run in a genuinely isolated context — and proving it did — is the part they don't do for you.
 
 Note the question here is different from the demo's: the demo asks *which feature is preferred*; this exercise asks *what would stop someone from buying*.
 
