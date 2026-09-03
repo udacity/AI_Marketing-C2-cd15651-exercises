@@ -13,6 +13,8 @@ Day-by-day: [`calibration-comparison.csv`](calibration-comparison.csv). Chart (b
 
 *What the chart shows: daily actuals (solid line, circles) against the forecast mid (dashed) and its band, over the 30-day holdout. Upper panel, CPA — actuals sit above the mid on most days and drift further above as the month runs, with under half inside the band. Lower panel, CVR — actuals scatter either side of the mid and mostly stay inside it. The contrast between the two panels is the finding.*
 
+**Acceptable ranges.** CPA bias computed as mean-actual over mean-forecast lands at **+9.8%**; computed as the mean of daily percentage errors it lands slightly differently, and either is defensible. **Treat +8% to +12% as correct for CPA, and anything under ±1% as correct for CVR.** What is graded is the verdict those numbers support — CPA systematically biased and worsening, CVR sound — not the second decimal place. A submission reporting +9.1% with the right diagnosis beats one reporting +9.8% without it.
+
 ## 2. Systematic bias vs. noise
 
 - **CPA is systematically biased — and it drifts.** Actuals sit *above* the mid on **22 of 30 days**, and the gap **grows from ~+$2.3 in the first 10 days to ~+$7.9 in the last 10**. A consistent, widening, one-directional miss is systematic, not random scatter.

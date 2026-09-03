@@ -52,4 +52,4 @@ Advance **C** to a real-world test — it's the safe, broadly-relevant front-run
 - Giving a direction the same score on every dimension (3/3/3/3). That's a persona rating an overall vibe, not four distinct dimensions — and it hides the trade-off you ran the test to find.
 - Declaring a "clear winner" when the top two are within noise.
 - Reporting the winner without confidence + limits.
-- Missing that A is a *polarizing targeted play*, not a safe default.
+- Reporting an average without checking whether it hides a split panel. In this run that is A (Maya 18 / Rick 8) — a targeted play, not a safe default. **Your run may show no split at all; reporting that honestly is correct.** The mistake is not looking.

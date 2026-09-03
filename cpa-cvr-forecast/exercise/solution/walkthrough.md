@@ -4,7 +4,7 @@
 
 ## 1. Describe the data first (before forecasting)
 
-Three patterns to separate:
+Three patterns to separate — a fourth is defensible, since CPM drift and CTR erosion are separately significant with different causes, and a learner who splits them is not wrong:
 
 - **Creative fatigue (a trend to carry forward).** CTR erodes across the 90 days, pushing CPA up steadily: daily CPA runs **~$28 in the first 10 days → ~$42 by days 66–75** (just before the spend ramp). This is a genuine trend, not noise.
 - **Promo week (a discrete event to exclude).** Days ~40–46 (`notes = "Promo week (20% off sitewide)"`) spike CVR and drop CPA. Leaving it in the trend fit drags the baseline too optimistic — exclude it before fitting.
@@ -26,6 +26,8 @@ Three patterns to separate:
 
 Full day-by-day projection: [`forecast-cpa-cvr-cpm-30day.csv`](forecast-cpa-cvr-cpm-30day.csv). Chart: [`forecast-chart.png`](forecast-chart.png).
 
+**Two methods are acceptable here, and they land in different places.** The table above fits a trend line directly to CPA. The alternative — forecast CPM, CTR and CVR separately, then derive CPA from them — follows the decomposition more literally and lands nearer **~$54**. It is not wrong; on this dataset it is arguably the better read, because it lets each driver move at its own rate instead of averaging them into one slope. **Treat roughly $46–$55 as the acceptable band for a defensible CPA mid, and grade the reasoning, not the number.** What matters is that the learner states which method they used and why. A submission landing at $54 by decomposition is as good as one landing at $50 by direct fit; a submission landing anywhere without naming its method is not.
+
 *What the chart shows: the 90 training days with promo week (squares) and the end-of-quarter ramp (triangles) marked as excluded from the fit, then the 30-day forecast mid and its ±1σ band — CPA in the upper panel, CVR in the lower. Every figure in it appears in the table above, so the chart is a second view rather than the only place the numbers live.*
 
 **CPM is carried here for context only** — the exercise asks for CPA and CVR, and CPA is the anchor. It's included because it explains *why* CPA moves (CPM drift feeds CPC feeds CPA), not because it's a required deliverable. A read-out with only CPA and CVR is complete.
@@ -42,8 +44,10 @@ At a planned **~$30,000/month** spend (recent non-ramp daily spend ≈ $1,000 ×
 
 > **~600 orders** next month (≈ $30,000 ÷ $50).
 > Range: ~$53.1 CPA → ~565 orders (downside), ~$46.6 CPA → ~644 orders (upside).
+>
+> Off the decomposed mid instead (~$54.30): **~552 orders**. That sits below the direct-fit downside, which is the honest consequence of the two methods disagreeing — not an error in either. Report the read-out off whichever mid you forecast, and say which.
 
-**Biggest risk:** fatigue accelerating faster than the linear trend assumes — if CPA keeps climbing past $54, orders fall below the low case. A creative refresh is the lever that resets it.
+**Biggest risk:** fatigue accelerating faster than the linear trend assumes — if CPA keeps climbing past the high case, orders fall below the low case. A creative refresh is the lever that resets it.
 
 ## Common mistakes
 

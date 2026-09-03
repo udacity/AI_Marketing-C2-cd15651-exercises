@@ -8,7 +8,7 @@
 
 Cobbleway makes everyday rain gear for people who cycle or walk to work: a packable commuter shell, waterproof overtrousers, a shoe cover, a pannier cover. Not technical mountain kit. Clothes you can wear into a meeting.
 
-The copy job the three-person team is trying to cover runs to **about 45 pieces a month** — product-page sections, lifecycle and campaign emails, paid-social variants and the odd landing page. Two of those three people write; neither writes full time. That volume is what the pricing on each profile has to be judged against.
+The copy job the three-person team is trying to cover runs to **about 45 pieces a month** — product-page sections, lifecycle and campaign emails, paid-social variants and the odd landing page. All three generate copy, none of them full time. That volume is what the pricing on each profile has to be judged against.
 
 **Positioning:** dressed for the weather, not dressed for an expedition.
 

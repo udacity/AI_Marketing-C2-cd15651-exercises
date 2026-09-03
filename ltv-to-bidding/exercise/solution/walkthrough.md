@@ -132,6 +132,7 @@ Two things to be explicit about, because the file alone won't tell a colleague e
 
 - **The cut is on LTV:CAC, not on `predicted_value`.** That is why `discount | referral` and `discount | search` both carry $51.50 and land in different tiers — same modelled lifetime, half the acquisition cost. If you tier on predicted value alone, every discount segment gets the same label and the signal loses the only thing that separates them.
 - **The cuts are conventions, not findings.** 3× is the common payback bar once margin is in; 6× is simply double it. Move the cuts and the labels move — so publish the rule beside the file.
+- **The horizon moves the tier, and both answers are acceptable.** This solution projects the hazard forward, giving full-price $315.88 and **high**. A learner who stops at the last observed month (month 10) gets roughly **$83** and **mid** — same data, same rule, different stated horizon. Grade the horizon statement and the tiering rule, not the tier that falls out of them. A submission that lands on **mid** with its truncation named is correct; one that lands on **high** without saying it extrapolated is not.
 
 **Why LTV is pooled within acquisition type.** Split the hazard all the way down to segment and the cells stop being informative. Within full_price:
 

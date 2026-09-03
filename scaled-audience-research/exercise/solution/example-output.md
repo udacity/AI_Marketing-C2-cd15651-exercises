@@ -12,7 +12,7 @@ The instruction given, verbatim:
 
 The variant prompt kept the detail in the *profile* and did not ask for "specific and personal" answers. Instructed richness arrives whether or not anything sits behind it, and it tallies like data.
 
-**Independence check:** 24 subagent calls fired (count read off the run count the tool reported — each persona spawn is a discrete run the system recorded). Matches the 24-variant roster. Claude's own write-up said "independent" regardless; the system count is the fact.
+**Independence check:** all 24 opening sentences compared side by side. No persona referenced another, none used "as mentioned" or "unlike", and the four objections that recur (durability, chewing, price, washability) are phrased differently every time they appear — "marked up, not well made", "the seams go first", "flat in four months". Two openings share a sentence shape but not vocabulary, which is within what independent runs produce. Claude's own write-up said "independent" regardless; the responses are what makes it checkable.
 
 ## Responses (top barrier per variant)
 

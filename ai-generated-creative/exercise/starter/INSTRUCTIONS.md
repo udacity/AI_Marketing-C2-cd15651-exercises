@@ -2,7 +2,7 @@
 
 Vessl needs a launch creative set. Using Claude Code as creative director and an AI image tool as the executor, take one concept and produce it as a variant set across three aspect ratios — all on brand.
 
-Work in **Claude Code + an AI image tool of your choice** (any AI image generator you can access), plus whatever you already use to lay type over an image — a design tool, slides, a presentation app. The copy goes on afterwards, not into the image prompt. Use:
+Work in **Claude Code + an AI image tool of your choice** (any AI image generator you can access). Use:
 
 - [`brand-voice-guide.md`](brand-voice-guide.md) — the brand look, mood, and voice.
 - [`creative-brief.md`](creative-brief.md) — the objective, key message, and mandatories.
@@ -18,7 +18,6 @@ Work in **Claude Code + an AI image tool of your choice** (any AI image generato
 - Have Claude land one concept first, then write a **self-contained** image prompt that bakes in the brand look, mood, and constraints — the image tool won't remember anything Claude knows.
 - Run at least one full critique loop across tools: generate, bring the image back into Claude for feedback against the brand and brief, refine the prompt, regenerate.
 - Keep the concept and brand consistent across all three formats; adapt to the frame, don't start over each time.
-- **Keep text out of the image itself.** End each prompt with *no text in image* and reserve open space in the frame for the copy — image tools render type unreliably, and differently in every format. Generate clean plates, then composite the copy over them in your layout tool. That is also what keeps the wording pixel-identical across all three frames.
 - Include the tagline **"Hydration, handled,"** keep on-image copy short and in the brand voice, and follow the look-and-feel (cool aquas and soft blues, clean white base, one warm accent, bright daylight, candid real-life moments, the bottle as hero).
 
 ## Done when

@@ -11,7 +11,7 @@
 
 Independence is the point: if all 24 ran in one conversation, later personas would anchor on earlier ones and the "sample" would collapse into one correlated voice.
 
-**Evidence of independence (not just the claim).** Claude's own write-up and progress checklist will say "independent" whether or not it was — both are prose it generated. The check is the system-reported count: how many subagent runs actually fired? Each subagent spawn is a discrete run the system records — not a line in Claude's summary — so read the run count your tool reports and compare it to your variant count. 24 variants → 24 subagent calls. A mismatch means some personas ran in shared context. Document the count in your report.
+**Evidence of independence (not just the claim).** Claude's own write-up and progress checklist will say "independent" whether or not it was — both are prose it generated. The check that doesn't depend on the tool's self-report is the **responses themselves**: line up all 24 opening sentences and read down the column. Isolated personas don't know each other exist. Cross-references ("as mentioned above", "unlike the previous persona"), a shared vocabulary settling in for the same objection, or near-duplicate phrasings all mean context leaked, whatever the summary says. Record what you compared and what you saw.
 
 ## Aggregated barriers (n=24)
 
@@ -85,7 +85,7 @@ At this exercise's n (24–30 variants) this workflow runs cleanly in Claude. At
 ## Common mistakes
 
 - Running variants in one shared context (anchoring) — kills independence.
-- Claiming independence without checking the system-reported run count — Claude's own summary will say "independent" either way.
+- Claiming independence without checking the responses against each other — Claude's own summary will say "independent" either way.
 - Defining only 3 persona archetypes and cycling through them — each subagent runs independently, but if the *personas* repeat, you're sampling the same 3 opinions in isolation, not spanning your audience. Generate 24–30 genuinely distinct variants across your archetypes.
 - Reporting the headline % as if it were survey data (no calibration disclosure).
 - Only flagging individual confabulations, never checking aggregate signal vs. consensus.

@@ -12,7 +12,7 @@ The data has a trap built in: the intuitive read (a low-LTV geography) is a *con
 
 ## What to produce
 
-- An LTV forecast per cohort (stated decay assumption + confidence), shown as a chart or table.
+- An LTV forecast per cohort (stated decay assumption + confidence), shown as a chart or table. For confidence, use `hazard × (1 ± 2/√events)` where *events* is that cohort's churn count — small cohorts get wide bands, and that is the point. It is a directional spread, not a statistical confidence interval; say so when you report it.
 - A comparison of LTV against CPA across channel and geography — where low CPA hides low LTV, and where high CPA is justified.
 - A driver analysis: which attribute most strongly separates high- from low-value customers, and at least one case where the intuitive explanation (geography or income) is really a confound for a behavioral driver.
 - The **value signal**: a formatted bidding-signal upload (segment + predicted value + value tier), **plus the rule that assigns the tiers**.
