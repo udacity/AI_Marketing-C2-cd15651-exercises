@@ -35,6 +35,8 @@ Every claim gets exactly one of three verdicts, and the four checks above decide
 
 Use these three labels exactly. "Looks fine overall" is not a verdict.
 
+Note that a claim can carry a real, working link and still land on Drop. A source that publishes a figure without saying how it was measured, or that is flatly contradicted by another source of equal standing, has failed two checks — credible-for-this-claim and supports-the-claim — even though the link opens. A well-behaved agent that cites everything can still hand you claims you shouldn't pass on.
+
 ---
 
 ## Audit note (fill this in)

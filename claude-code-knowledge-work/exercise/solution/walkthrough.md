@@ -2,6 +2,8 @@
 
 *Worked solution — one strong example. Student deliverables will differ in wording; what matters is that the three campaign pieces are on-brand, visibly connected, and built in one persistent workspace so context isn't re-pasted — and that the fourth, the consistency check, reconciles them in a fresh session from the files on disk.*
 
+*The two drifts found below came out of the specific refinement this run happens to make. **Yours will be different drifts, and that is the expected result** — the deliverable is a note that names what disagrees with what, not a note that matches these findings. Finding no drift is also a real result, if the note shows the pairings it checked.*
+
 **Setup:** a Claude Code project folder holding `brand-voice-guide.md` and `campaign-context-sheet.md`, with a short `CLAUDE.md` telling Claude Code to treat both as the campaign's source of truth.
 
 ---

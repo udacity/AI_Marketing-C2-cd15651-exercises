@@ -19,7 +19,7 @@ Then a fourth file, produced in a **fresh session**:
 
 - **Consistency-check note** — close your session, then reopen the same project folder in a new one and have Claude Code read the three saved deliverables back off disk and reconcile them against each other and against the brand-voice guide. Does the email carry the brief's key messages, or has it dropped or invented one? Does the creator profile's audience match the brief's? Does every piece obey the voice guide? Save a short note that names each piece of drift you find — which file, and what disagrees with what — or states that there is none.
 
-Plus a one-line note on where the workspace's persistent context saved you from re-explaining something.
+Plus a one-line note on where the workspace's persistent context saved you from re-explaining something — add it as the last line of the consistency-check file.
 
 ## Requirements
 

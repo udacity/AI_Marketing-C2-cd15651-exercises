@@ -8,6 +8,8 @@ Work with a **Claude Code subagent** — a helper Claude Code runs in the backgr
 - [`research-task-brief.md`](research-task-brief.md) — the CMO's raw request to scope.
 - [`source-quality-audit-checklist.md`](source-quality-audit-checklist.md) — the checklist for auditing the returned brief.
 
+**Before you start:** both halves of this exercise need live web access — the agent researches on the web, and you audit by opening its sources yourself. Claude Code will ask permission the first time it visits each new site; approving as you go is normal, not a fault. And if you create `.claude/agents/` in a session that's already running, restart Claude Code so it picks the new subagent up.
+
 ## What to produce
 
 - The agent delegation brief you wrote (question, scope, output format, guardrails).
@@ -25,4 +27,4 @@ Work with a **Claude Code subagent** — a helper Claude Code runs in the backgr
 
 ## Done when
 
-Your audit note reaches a defensible verdict on each key claim, and your two-line summary tells the CMO exactly how much of the brief is ready to act on and what still needs checking.
+You scoped the delegation in writing before running it, your audit note reaches a defensible verdict on each key claim, and your two-line summary tells the CMO exactly how much of the brief is ready to act on and what still needs checking.
