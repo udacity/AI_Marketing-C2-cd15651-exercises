@@ -15,6 +15,14 @@ Outputs (CSVs, charts, numbers) are computed from the real provided datasets and
 **M8 (AI creative) — direction-only**
 `example-output.md` has the real Claude direction + self-contained image prompt + copy, but **no images** (no image tool in the authoring environment). At recording, generate the actual images in your image tool and add them to the solution.
 
+> **Alt text is required for every image you add here — six of them (three exercise variants, three demo).** This module is the only one that ships images as deliverables, and its method deliberately composites the headline, tagline and CTA onto the plate, so each finished image *contains text*. `Accessibility Standards.md` prohibits images of text because screen readers can't reach them and they blur when enlarged.
+>
+> Two things keep this compliant, and both need doing at record time:
+> 1. **Write alt text per image** describing the scene, the composition, and the on-image copy verbatim. Don't write "ad creative for Vessl" — describe what a sighted learner sees and reads.
+> 2. **Keep the copy present as text nearby.** It already is — headline, tagline and CTA appear in `creative-brief.md`, `brand-voice-guide.md`, and both solution files — so don't strip those when you replace the placeholders. That redundancy is what makes the images supplementary rather than the only carrier of the copy.
+>
+> The compositing method itself is fine: the prohibition targets images used to *present course information* (its examples are data tables and formulas), not depictions of the marketing artifact the module teaches you to make.
+
 **M9 (background agent) — live web sources, time-sensitive**
 *Exercise solution:* the brief + audit use **real web sources** captured at authoring time (competitor pricing; market-size estimates). Prices and market figures change — **re-verify every cited source at record time** and update. The teaching points should still hold (pricing is trustworthy and consistent; the market-size "CAGR" disagrees wildly across firms — 7.49%–19.5%; and the unnamed "market-research summaries" trend claim is a **Drop**, because no usable source can be identified even though the trend is probably real), but confirm the specific numbers and links.
 
