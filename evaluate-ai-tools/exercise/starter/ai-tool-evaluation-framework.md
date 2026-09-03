@@ -17,11 +17,11 @@ Score each dimension 1 to 5 (1 = poor fit, 5 = excellent fit). Note the reasonin
 | Dimension | What you're judging |
 |---|---|
 | **Capability fit** | Does it do the specific job well, and do it dependably? Judge it on your real task, not the demo. |
+| **Brand-voice control / brand-safety** | Can you keep the output on-brand and compliant? Does the tool let you lock tone, restrict vocabulary, or apply brand-safety rules — or does output drift off-brand across a batch? This is the marketing-specific dimension generic software checklists miss. |
 | **Fit with your stack** | Does it connect to the tools you already run, or is it manual copy-paste? Does it duplicate something you already have? Fit beats horsepower. |
 | **Cost vs. value** | Is the price justified by what it does that you couldn't otherwise do? Measure it against your baseline, not against zero. |
 | **Data & privacy** | Where does your data go? Is it used to train their models? Can you get your data back out? |
 | **Learning curve / adoption** | How hard is it for you and your team to actually use, roll out, and maintain? A powerful tool nobody adopts is a weak choice. |
-| **Brand-voice control / brand-safety** | Can you keep the output on-brand and compliant? Does the tool let you lock tone, restrict vocabulary, or apply brand-safety rules — or does output drift off-brand across a batch? This is the marketing-specific dimension generic software checklists miss. |
 
 Not every dimension carries equal weight for every tool. Some tools produce a clean, measurable output you can judge directly. Others do something fuzzier, where capability is more of a judgment call than a score. Weight the dimensions that actually matter for the job in front of you, and say which ones you weighted and why.
 

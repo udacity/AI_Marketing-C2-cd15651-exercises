@@ -2,7 +2,7 @@
 
 Flowline is weighing a growth play, and it's your call whether it's ready. Run the strategy through an adversarial review, surface the assumptions it quietly depends on, and land a defensible position.
 
-Work in Claude Code. The strategy is in [`strategy-brief.md`](strategy-brief.md).
+Work in Claude. The strategy is in [`strategy-brief.md`](strategy-brief.md).
 
 The brief has an obvious first-order story (people who rely on the feature will pay to keep it). The real work is surfacing the second-order effects that story hides — the ones the brief never accounts for.
 

@@ -55,7 +55,7 @@ The variant prompt kept the detail in the *profile* and did not ask for "specifi
 | =4 | Size / sturdiness | 3 (#21,22,23) | ~13% |
 | 7 | Won't match my space | 2 (#2,4) | ~8% |
 
-n=24, so every count maps to a fixed share: 5/24 = 20.8%, 4/24 = 16.7%, 3/24 = 12.5%, 2/24 = 8.3%. Percentages above are rounded up from those, which is why they sum past 100.
+n=24, so every count maps to a fixed share: 5/24 = 20.8%, 4/24 = 16.7%, 3/24 = 12.5%, 2/24 = 8.3%. Percentages above are rounded to the nearest point, which is why they sum a little past 100.
 
 **There is no dominant barrier.** The top category is one response in five, and the six below it span 17% down to 8%. A ranked list this even is a warning not to read the #1 as *the* objection.
 

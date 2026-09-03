@@ -39,6 +39,9 @@ Stated limits:
 - [e.g., a small synthetic panel is directional, not statistically significant]
 - [e.g., brief descriptions, not finished creative]
 - [e.g., synthetic responses over-weight reasoning vs gut reaction]
+Next step: [the one direction you would advance to real-world validation, and
+what specifically you would test with actual customers - not "test it", but
+which metric on which audience would settle it]
 
 SCORES:
 [Claude reads the scores you paste below.]
