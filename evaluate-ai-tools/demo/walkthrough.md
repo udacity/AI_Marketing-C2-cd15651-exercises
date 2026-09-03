@@ -18,15 +18,15 @@ Most tool decisions are made on demo dazzle, not fit. The framework forces the b
 Take a single AI copywriting tool and score it dimension by dimension, narrating the reasoning:
 
 - **Capability fit:** strong — copy comes out sharp and rarely generic on the real task.
-- **Integration:** weak — no native CMS connection; every draft is copy-paste.
-- **Data/privacy:** check whether inputs train their model; assume you must verify the terms.
+- **Fit with your stack:** weak — no native CMS connection; every draft is copy-paste.
+- **Data & privacy:** check whether inputs train their model; assume you must verify the terms.
 - **Brand-voice control / brand-safety:** can you lock tone, or does it drift off-brand across a batch — and is anything checking what the copy claims?
 
-A tool can score high on capability and still be the wrong choice if it fails on integration or data privacy. The scorecard makes those tradeoffs visible instead of letting the demo hide them.
+A tool can score high on capability and still be the wrong choice if it fails on fit with your stack or data & privacy. The scorecard makes those tradeoffs visible instead of letting the demo hide them.
 
 ## Stress-test a score
 
-Ask Claude: *"Am I being too generous on integration given we'd have to copy-paste every draft?"* Use it to challenge the soft scores, not just to total them.
+Ask Claude: *"I gave fit with our stack a 2 — am I being too generous, given we'd have to copy-paste every draft?"* Use it to challenge the soft scores, not just to total them.
 
 ## Build-vs-buy (the beat that matters most)
 
@@ -35,6 +35,8 @@ Run the same copywriting task through a general-purpose LLM with a good brief. C
 ## The verdict
 
 Total the score and state one call — **adopt, pilot, or pass** — with the reason. The value isn't the number; it's the documented reasoning you can hand to a skeptical manager.
+
+The exercise scales this to four options — three tools plus a DIY baseline — where the reasoning no longer fits inside the table: scores stay in the grid, the reasoning moves to a short findings note beneath it (one bullet per option), and the memo carries the call. Same reasoning, relocated so four options fit on a page.
 
 ## Key takeaway
 
