@@ -2,7 +2,7 @@
 
 Barkwell has a furniture-grade modern bed line it's close to launching and wants to know, at scale, what would stop people from buying it. Run 24–30 persona variants, write a findings report with an honest calibration disclosure — and notice where the surface you're working on stops being the right one for the job.
 
-Work in Claude on the agent surface, using subagents to run your variants. Use the [`variant-generation-prompt.md`](variant-generation-prompt.md) template to generate them.
+Work in Claude, using subagents to run your variants. Use the [`variant-generation-prompt.md`](variant-generation-prompt.md) template to generate them.
 
 Note the question here is different from the demo's: the demo asks *which feature is preferred*; this exercise asks *what would stop someone from buying*.
 
@@ -20,7 +20,7 @@ A structured findings report containing:
 
 ## Requirements
 
-- Ask for independent contexts — then **verify**. Both the tool's progress checklist and its own write-up will say "independent" whether or not it was, because both are prose it wrote. Find the system-reported count of runs and check it against your variant count. A claim you didn't check isn't a finding.
+- Ask for independent contexts — then **verify**. Both the tool's progress checklist and its own write-up will say "independent" whether or not it was, because both are prose it wrote. Find the run count your tool reports — the system's own record of what actually executed, not Claude's account of it — and check it against your variant count. A claim you didn't check isn't a finding.
 - Generate enough variants for 24–30 responses; three personas run repeatedly is not a sample.
 - **Audit your own roster.** Write down your archetype mix before you run, then read your barrier rankings against it and say, per finding, whether it tells you about the market or about who you asked.
 - Watch how your variant prompts shape the answers. Instructing a persona to be "specific and personal" reliably produces specific, personal detail whether or not anything sits behind it — and it will land in your tally looking like data.

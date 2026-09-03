@@ -10,9 +10,9 @@ Run 3–4 personas in a single shared chat and ask each which feature matters mo
 
 True independence means each persona runs with **zero history** — the only way each response is a real, separate draw. In one chat, later variants anchor on earlier ones and the "sample" collapses into a single correlated stream.
 
-## The workflow shape in Claude Code
+## The workflow shape in Claude
 
-Claude Code lets you orchestrate this at scale: a variant list goes in, each variant runs in isolation, structured outputs come back, and you aggregate — repeatable and auditable. That can't be done by hand across 100+ chat conversations.
+Claude lets you orchestrate this: a variant list goes in, each variant runs in isolation, structured outputs come back, and you aggregate — repeatable and auditable. Past a handful of personas, opening a separate conversation for each one by hand stops being practical, and you lose the audit trail that proves they *were* separate.
 
 1. Generate a small variant set (≈10) from the [`variant-generation-prompt.md`](../exercise/starter/variant-generation-prompt.md) template.
 2. Run each variant as an independent call, no shared history.

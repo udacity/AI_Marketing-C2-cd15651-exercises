@@ -12,7 +12,7 @@ The instruction given, verbatim:
 
 The variant prompt kept the detail in the *profile* and did not ask for "specific and personal" answers. Instructed richness arrives whether or not anything sits behind it, and it tallies like data.
 
-**Independence check:** 24 subagent calls fired (count confirmed from the Cowork conversation history — each persona spawn is a discrete tool call). Matches the 24-variant roster. Claude's own write-up said "independent" regardless; the system count is the fact.
+**Independence check:** 24 subagent calls fired (count read off the run count the tool reported — each persona spawn is a discrete run the system recorded). Matches the 24-variant roster. Claude's own write-up said "independent" regardless; the system count is the fact.
 
 ## Responses (top barrier per variant)
 
@@ -153,7 +153,7 @@ Both directional. Neither is a verdict.
 
 At this exercise's n (24 variants) this workflow ran cleanly: every subagent fired, the call count matched the roster, costs were modest, and aggregation was a straight count off 24 rows. At 100+ variants, two strains appear:
 
-- **Cost and partial failures.** 100+ subagent calls in a single Cowork session is expensive, and if one call fails mid-run there is no resume point — you start the batch over. Manageable for a one-off research sprint; painful if this is a recurring workflow.
+- **Cost and partial failures.** 100+ subagent calls in a single Claude session is expensive, and if one call fails mid-run there is no resume point — you start the batch over. Manageable for a one-off research sprint; painful if this is a recurring workflow.
 - **Aggregation becomes estimated.** Past ~40 responses, collating verbatim answers into barrier categories starts feeling like re-summarizing rather than counting. The model will group near-synonyms; a human audit of the categorisation is still worth one pass.
 
 **Would I move it?** For a one-time pre-launch read: stay here. For a weekly or monthly cadence, or any n above ~50 where you need the exact counts to be auditable: move to a scripted setup. The deciding factor is frequency and auditability requirement, not whether the tool *can* run at scale.

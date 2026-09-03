@@ -6,12 +6,12 @@
 
 1. **Archetypes + attributes.** Define 5–6 archetypes (design-focused urban owner, practical multi-dog owner, new puppy owner, budget-conscious owner, senior-dog owner, large-breed owner) and vary age, location, home type, price sensitivity, and one or two personality traits.
 2. **Generate variants.** Use the variant-generation prompt to produce 24–30 distinct variants across the archetypes. The worked example uses **24 — four per archetype**, deliberately even: the by-segment cross-tab is the deliverable that carries the finding, and at one or two variants per archetype its cells hit n=1, where a single response reads like a segment pattern. Four per cell is the floor for saying anything about a segment.
-3. **Isolated runs.** In Claude on the agent surface (Cowork), run each variant via a subagent in its own clean context (one subagent call per persona, no shared history) asking the single barrier question: *"What would stop you from buying this furniture-grade modern dog bed?"*
+3. **Isolated runs.** In Claude, run each variant via a subagent in its own clean context (one subagent call per persona, no shared history) asking the single barrier question: *"What would stop you from buying this furniture-grade modern dog bed?"*
 4. **Collect.** Write each response to a common structured format (variant id, archetype, top barrier, verbatim) into one file, then aggregate.
 
 Independence is the point: if all 24 ran in one conversation, later personas would anchor on earlier ones and the "sample" would collapse into one correlated voice.
 
-**Evidence of independence (not just the claim).** Claude's own write-up and progress checklist will say "independent" whether or not it was — both are prose it generated. The check is the system-reported count: how many subagent runs actually fired? In Cowork, each subagent spawn is a discrete tool call visible in the conversation; count them and compare to your variant count. 24 variants → 24 subagent calls. A mismatch means some personas ran in shared context. Document the count in your report.
+**Evidence of independence (not just the claim).** Claude's own write-up and progress checklist will say "independent" whether or not it was — both are prose it generated. The check is the system-reported count: how many subagent runs actually fired? Each subagent spawn is a discrete run the system records — not a line in Claude's summary — so read the run count your tool reports and compare it to your variant count. 24 variants → 24 subagent calls. A mismatch means some personas ran in shared context. Document the count in your report.
 
 ## Aggregated barriers (n=24)
 
@@ -73,9 +73,9 @@ Two barriers to address before launch, **labeled directional**: (1) **prove dura
 
 ## Surface note
 
-At this exercise's n (24–30 variants) this workflow runs cleanly on the agent surface. At 100+ variants, two strains appear:
+At this exercise's n (24–30 variants) this workflow runs cleanly in Claude. At 100+ variants, two strains appear:
 
-- **Cost and partial failures.** 100+ subagent calls in one Cowork session adds up, and has no resume point — a mid-run failure restarts the whole batch.
+- **Cost and partial failures.** 100+ subagent calls in one Claude session adds up, and has no resume point — a mid-run failure restarts the whole batch.
 - **Aggregation becomes estimated.** Past ~40 responses, collating verbatim answers into barrier categories feels like re-summarizing rather than counting. One human audit pass over the model's categorisation is still worth it.
 
 **Move it when:** you need to run this on a weekly cadence, or n is large enough that auditability matters and estimated counts aren't enough. The deciding factor is frequency and auditability requirement, not whether the tool *can* run at scale. For a one-off pre-launch read: stay on this surface.
