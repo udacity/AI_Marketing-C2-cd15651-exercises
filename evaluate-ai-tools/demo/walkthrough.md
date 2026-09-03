@@ -17,10 +17,10 @@ Most tool decisions are made on demo dazzle, not fit. The framework forces the b
 
 Take a single AI copywriting tool and score it dimension by dimension, narrating the reasoning:
 
-- **Capability:** strong — copy comes out sharp and on-brand once trained on samples.
+- **Capability fit:** strong — copy comes out sharp and rarely generic on the real task.
 - **Integration:** weak — no native CMS connection; every draft is copy-paste.
 - **Data/privacy:** check whether inputs train their model; assume you must verify the terms.
-- **Brand-voice control:** can you lock tone, or does it drift off-brand across a batch?
+- **Brand-voice control / brand-safety:** can you lock tone, or does it drift off-brand across a batch — and is anything checking what the copy claims?
 
 A tool can score high on capability and still be the wrong choice if it fails on integration or data privacy. The scorecard makes those tradeoffs visible instead of letting the demo hide them.
 

@@ -6,7 +6,8 @@
 
 | Dimension | Score | Reasoning |
 |---|---|---|
-| Capability / brand voice | 5 | Sharp, rarely generic; holds a defined brand voice once trained on samples. For a copywriting tool this on-brand quality *is* the core capability. |
+| Capability fit | 5 | Sharp, rarely generic, and consistent run to run on our real task. |
+| Brand-voice control / brand-safety | 4 | Holds a defined brand voice once trained on samples, with no drift across a batch — for a copywriting tool that on-brand quality is most of the job. A 4, not a 5: we checked voice control and never checked brand-safety (no prohibited-claims list or compliance step confirmed), so the score rests on voice alone. |
 | Fit with your stack | 2 | Standalone web app, no integrations — everything is copy-paste in and out. |
 | Cost vs. value | 2 | Most expensive option; you're paying up for output quality and giving up integration. |
 | Data & privacy | 5 | Does not use your inputs to train its models; clear terms. |
