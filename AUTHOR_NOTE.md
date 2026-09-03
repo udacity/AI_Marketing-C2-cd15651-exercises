@@ -6,20 +6,25 @@ Every `example-output.md` and everything under `exercise/solution/` is an **AI-g
 
 ## What to replace, by type
 
-**Reasoning modules — SP1–SP6 and M6 (Claude Code, generative)**
+**Reasoning modules — SP1–SP6 and M6 (generative)**
+Surface note: most of these say "Work in Claude Code", but **SP3 and SP6 are deliberately held surface-agnostic** ("Work in Claude") pending the course-wide decision — see README open decision #8. Don't reintroduce a surface name to those two.
 Outputs are genuine Claude runs, but generative output **varies run to run**. When you demo live (or solve the exercise), capture your actual output and replace `example-output.md` if it differs materially. Content/structure will match; exact wording won't.
 
 **Data modules — SP7, SP8, SP9 (computed — accurate)**
 Outputs (CSVs, charts, numbers) are computed from the real provided datasets and are correct. **These belong to different modules and do not compose:** SP7's 30-day CPA mid averages **$49.84**; SP8 validates a *separately constructed* starter forecast averaging **$48.09** against actuals of $52.78, which is the **+9.75%** systematic bias. Feeding SP7's forecast into SP8 would give +5.9%, not +9.75%. CVR on-target. SP9: LTV $51.50 (discount) vs $315.90 (full-price) — **margin-adjusted at 65% gross margin**, per SP9's stated assumption / India-as-confound. Keep as-is, **or** re-run the analysis live and replace. If you ever regenerate the datasets, re-run the analysis so the numbers stay in sync.
 
+> **Hard limit when you record the SP7 demo.** It forecasts **CPM** and stops. Name creative fatigue and the sale week as decisions the learner has to make, then move on — **don't say which one you'd exclude and which you'd carry forward, and don't produce the budget-to-orders read-out.** Both are the exercise's deliverable, and choosing the treatment is the specific thing SP7's INSTRUCTIONS were rewritten to make the learner's work. Same limit SP8's demo already carries by forecasting CPM instead of CPA. The CPA decomposition (CPA = f(spend, CTR, CPC, CVR)) is fine to show — it teaches *why* CPA is hard without answering it.
+
 **M8 (AI creative) — direction-only**
 `example-output.md` has the real Claude direction + self-contained image prompt + copy, but **no images** (no image tool in the authoring environment). At recording, generate the actual images in your image tool and add them to the solution.
+
+> **Hard limit when you record the demo.** The demo and the exercise share the brand, the brief and the method — but **not the copy**. The demo's concept is *"The afternoon nobody had to think about"*, headline **"Drink up. We'll do the math."**, CTA **"Meet Vessl"**; the exercise answer key's are *"Caught mid-day, mid-life"*, **"It keeps score, so you don't have to."**, CTA **"See how it works"**. Only the mandated **"Hydration, handled."** tagline is common to both, because the brief makes it a fixed brand asset. **Don't ad-lib the key's headline or CTA onto the demo plate**, and if your live run lands somewhere else, keep it clear of both key lines. An earlier build shipped the key's whole copy block in the demo, which put the answer on screen. Note the headline *"It keeps score, so you don't have to."* is also a message starter in `brand-voice-guide.md` and a paraphrase of the brief's objective, so it will keep suggesting itself — that is exactly why the demo has to steer away from it.
 
 > **Alt text is required for every image you add here — five of them (three exercise variants, two demo).** This module is the only one that ships images as deliverables, and its method deliberately composites the headline, tagline and CTA onto the plate, so each finished image *contains text*. `Accessibility Standards.md` prohibits images of text because screen readers can't reach them and they blur when enlarged.
 >
 > Two things keep this compliant, and both need doing at record time:
 > 1. **Write alt text per image** describing the scene, the composition, and the on-image copy verbatim. Don't write "ad creative for Vessl" — describe what a sighted learner sees and reads.
-> 2. **Keep the copy present as text nearby.** It already is — headline, tagline and CTA appear in `creative-brief.md`, `brand-voice-guide.md`, and both solution files — so don't strip those when you replace the placeholders. That redundancy is what makes the images supplementary rather than the only carrier of the copy.
+> 2. **Keep the copy present as text nearby.** It already is — the tagline is in `creative-brief.md` and `brand-voice-guide.md`, and the full headline / tagline / CTA block sits as text in **both solution files** (exercise) and in `demo/example-output.md` (demo, its own copy). Don't strip those when you replace the placeholders. That redundancy is what makes the images supplementary rather than the only carrier of the copy.
 >
 > The compositing method itself is fine: the prohibition targets images used to *present course information* (its examples are data tables and formulas), not depictions of the marketing artifact the module teaches you to make.
 
