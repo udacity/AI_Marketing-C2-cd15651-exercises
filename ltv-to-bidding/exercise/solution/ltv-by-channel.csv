@@ -1,0 +1,4 @@
+channel,n,pct_discount,churn_events,mo_churn,exp_life_mo,fee,LTV,LTV_lo,LTV_hi,CAC,LTV:CAC
+referral,1522,69,903,0.1185,8.4,14.69,80.6,75.5,86.3,11.12,7.2
+search,1583,30,602,0.0633,15.8,14.88,152.9,141.3,166.4,22.04,6.9
+paid_social,1695,50,836,0.0898,11.1,14.67,106.2,99.4,114.1,28.45,3.7

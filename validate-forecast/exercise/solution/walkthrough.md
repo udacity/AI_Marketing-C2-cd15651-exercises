@@ -1,6 +1,6 @@
 # Solution — Can We Rely On It, and How Do We Tune It?
 
-*Worked solution. Numbers computed by comparing the provided sample forecast against the held-out actuals. Artifacts: [`calibration-comparison.csv`](calibration-comparison.csv) and [`calibration-chart.png`](calibration-chart.png).*
+*Worked solution. Numbers computed by comparing the provided sample forecast against the held-out actuals. Artifacts: [`calibration-comparison.csv`](calibration-comparison.csv), [`calibration-chart.png`](calibration-chart.png), and the calibration report [`calibration-report.md`](calibration-report.md).*
 
 ## 1. Forecast vs. actuals
 
@@ -10,6 +10,8 @@
 | **CVR** | 2.993% | 2.992% | +0.0% | ~73% of days |
 
 Day-by-day: [`calibration-comparison.csv`](calibration-comparison.csv). Chart (band vs actuals): [`calibration-chart.png`](calibration-chart.png).
+
+*What the chart shows: daily actuals (solid line, circles) against the forecast mid (dashed) and its band, over the 30-day holdout. Upper panel, CPA — actuals sit above the mid on most days and drift further above as the month runs, with under half inside the band. Lower panel, CVR — actuals scatter either side of the mid and mostly stay inside it. The contrast between the two panels is the finding.*
 
 ## 2. Systematic bias vs. noise
 
@@ -37,7 +39,11 @@ Throw the forecast out and rebuild if any of these break the learned pattern:
 - A **creative refresh** that resets the fatigue curve.
 - A **channel/audience change** that shifts the CPC regime.
 
-## 6. One-line for the CFO
+## 6. The deliverable
+
+[`calibration-report.md`](calibration-report.md) — the calibration report itself, written the way a CFO should receive it. Compare your own report against it. Headline: **conversion is reliable, cost per order is not** — plan on CVR, budget CPA to the top of its band, and tune the fatigue assumption rather than rebuilding.
+
+Its one-line summary for the CFO:
 
 > "Plan next month on this: conversion is reliable, cost-per-order is running about 10% higher than forecast and worsening as our ads age — budget to the top of the range and we'll tighten the model by steepening the fatigue assumption. If we change price or refresh creative, we re-forecast."
 

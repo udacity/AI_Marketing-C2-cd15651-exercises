@@ -26,6 +26,8 @@ Three patterns to separate:
 
 Full day-by-day projection: [`forecast-cpa-cvr-cpm-30day.csv`](forecast-cpa-cvr-cpm-30day.csv). Chart: [`forecast-chart.png`](forecast-chart.png).
 
+*What the chart shows: the 90 training days with promo week (squares) and the end-of-quarter ramp (triangles) marked as excluded from the fit, then the 30-day forecast mid and its ±1σ band — CPA in the upper panel, CVR in the lower. Every figure in it appears in the table above, so the chart is a second view rather than the only place the numbers live.*
+
 **CPM is carried here for context only** — the exercise asks for CPA and CVR, and CPA is the anchor. It's included because it explains *why* CPA moves (CPM drift feeds CPC feeds CPA), not because it's a required deliverable. A read-out with only CPA and CVR is complete.
 
 ## 4. Assumptions and what drives the spread

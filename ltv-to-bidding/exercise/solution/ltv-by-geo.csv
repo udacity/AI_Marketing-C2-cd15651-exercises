@@ -1,5 +1,5 @@
-geo,n,pct_discount,LTV_raw,LTV_discount,LTV_full_price,CAC
-CA,765,25,161.0,48.6,310.8,21.57
-IN,1201,81,68.7,52.3,324.5,20.0
-UK,1209,47,113.0,52.6,303.9,20.84
-US,1625,40,127.7,50.3,325.1,21.12
+geo,n,pct_discount,churn_events,LTV_raw,LTV_raw_lo,LTV_raw_hi,discount_events,LTV_discount,LTV_discount_lo,LTV_discount_hi,full_price_events,LTV_full_price,LTV_full_price_lo,LTV_full_price_hi,CAC
+CA,765,25,279,161.0,143.8,182.9,159,48.6,42.0,57.8,120,310.8,262.8,380.2,21.57
+IN,1201,81,784,68.7,64.1,74.0,736,52.3,48.7,56.5,48,324.5,251.8,456.2,20.0
+UK,1209,47,570,113.0,104.3,123.4,432,52.6,48.0,58.3,138,303.9,259.7,366.2,20.84
+US,1625,40,708,127.7,118.7,138.1,507,50.3,46.2,55.2,201,325.1,284.9,378.5,21.12
