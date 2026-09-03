@@ -26,7 +26,9 @@ Outputs (CSVs, charts, numbers) are computed from the real provided datasets and
 **M9 (background agent) — live web sources, time-sensitive**
 *Exercise solution:* the brief + audit use **real web sources** captured at authoring time (competitor pricing; market-size estimates). Prices and market figures change — **re-verify every cited source at record time** and update. The teaching points should still hold (pricing is trustworthy and consistent; the market-size "CAGR" disagrees wildly across firms — 7.49%–19.5%; and the unnamed "market-research summaries" trend claim is a **Drop**, because no usable source can be identified even though the trend is probably real), but confirm the specific numbers and links.
 
-*Demo:* runs a **different research question** from the exercise on purpose — which sustainability claims the category already makes, from `background-agent-research/demo/sustainability-claims-research-request.md` — so the demo doesn't pre-solve the exercise. Its `example-output.md` is **placeholders only**: `[Brand A]`, `[N]%`, `[YYYY-MM-DD]`, no URLs, nothing verified. Run the subagent live on camera, audit what it actually returns, and replace the file. Target verdict mix is 1 Trust / 2 Verify-first / 1 Drop, deliberately unlike the exercise's 2 / 1 / 2.
+*Demo:* runs the **same CMO request as the exercise**, by design — the authoring outline specifies the shared scenario (`exercises-and-demos/exercise_demo_planning.md`, the Module 9 demo section). The separation is **depth, not scenario**: the demo audits **three** claims and stops, one per verdict (Trust / Verify-first / Drop). An earlier build re-scenarioed this demo to sustainability claims with `[Brand A]` placeholders; that was walked back, and `demo/sustainability-claims-research-request.md` is deleted. **Don't re-scenario it again** — the defect the review found was over-delivery (the demo audited the exercise's CAGR claim in full), not overlap.
+> **Two hard limits when you record.** Don't audit the **market-size / growth-rate** claim, and don't audit **competitor list pricing** — those are the exercise's finds. The three shipped claims (LARQ positioning → Trust; "HidrateSpark's app is free, no subscription" → Verify-first; an unattributed roundup's segment-share figure → Drop) stay clear of both.
+> Claims 1 and 2 in `demo/example-output.md` were verified against the linked primary sources on **2026-09-04** and are real; claim 3 is the unattributed-roundup pattern, deliberately unlinked because the finding is that no publisher can be identified. Re-open every link at record time and replace the file with your live run.
 
 ## Provenance at a glance
 
@@ -35,7 +37,7 @@ Outputs (CSVs, charts, numbers) are computed from the real provided datasets and
 | SP1–SP6, M6 | genuine Claude run (varies run to run) | re-run live; replace if materially different |
 | SP7, SP8, SP9 | computed from real datasets (accurate) | keep, or re-run analysis |
 | M8 | Claude direction only, **no images** | generate real images, add to solution |
-| M9 | exercise: **live web sources** (time-sensitive); demo: **placeholders only** | re-verify sources + update numbers/links; capture the demo run live |
+| M9 | **live web sources** for both (time-sensitive) — exercise: 5 claims; demo: 3 claims on the same request | re-verify every link + update numbers; capture the demo run live |
 
 ## Also worth knowing
 
