@@ -14,15 +14,15 @@ Three patterns to separate:
 
 - **Exclude** promo week from the baseline trend fit.
 - **Carry forward** the fatigue trend (don't forecast a flat line).
-- **Note** the ramp's CPM effect but don't assume next month repeats the ramp unless budget says so.
+- **Exclude** the ramp from the trend fit for the same reason as promo week — it's a distinct spend-driven cause, not the underlying fatigue signal. CPM will revert if the ramp doesn't repeat.
 
 ## 3. 30-day forecast (linear trend on non-promo days; band = mid ± 1 residual σ)
 
 | Metric | Low (avg) | Mid (avg) | High (avg) |
 |---|---|---|---|
-| **CPA** | ~$47.7 | **~$51.1** | ~$54.5 |
+| **CPA** | ~$46.6 | **~$49.8** | ~$53.1 |
 | **CVR** | ~2.8% | **~3.0%** | ~3.2% |
-| CPM | ~$13.9 | ~$15.0 | ~$16.1 |
+| CPM | ~$13.9 | **~$14.3** | ~$14.7 |
 
 Full day-by-day projection: [`forecast-cpa-cvr-cpm-30day.csv`](forecast-cpa-cvr-cpm-30day.csv). Chart: [`forecast-chart.png`](forecast-chart.png).
 
@@ -34,10 +34,10 @@ Full day-by-day projection: [`forecast-cpa-cvr-cpm-30day.csv`](forecast-cpa-cvr-
 
 ## 5. Budget → orders read-out
 
-At a planned **~$30,000/month** spend (recent non-ramp daily spend ≈ $1,000 × 30) and the **mid CPA of ~$51**:
+At a planned **~$30,000/month** spend (recent non-ramp daily spend ≈ $1,000 × 30) and the **mid CPA of ~$50**:
 
-> **~588 orders** next month (≈ $30,000 ÷ $51).
-> Range: ~$54.5 CPA → ~550 orders (downside), ~$47.7 CPA → ~630 orders (upside).
+> **~600 orders** next month (≈ $30,000 ÷ $50).
+> Range: ~$53.1 CPA → ~565 orders (downside), ~$46.6 CPA → ~644 orders (upside).
 
 **Biggest risk:** fatigue accelerating faster than the linear trend assumes — if CPA keeps climbing past $54, orders fall below the low case. A creative refresh is the lever that resets it.
 

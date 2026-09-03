@@ -12,6 +12,8 @@
 
 *(Self-contained on purpose — the image tool has none of Claude Code's context, so the brand look, mood, and constraints are all baked in.)*
 
+Use Claude's built-in image generator in claude.ai — open the tool from the attachment menu, paste the self-contained prompt, and iterate in the same conversation.
+
 ## On-brand copy
 
 - **Headline:** It keeps score, so you don't have to.

@@ -17,6 +17,8 @@
 
 Each variant is a full standalone prompt, not a delta off the 1:1 — the image tool remembers nothing between runs. Concept, palette, and message hold constant; only the frame, subject position, and negative space move.
 
+Use Claude's built-in image generator in claude.ai — open the tool from the attachment menu, paste the self-contained prompt, and iterate in the same conversation.
+
 **On "no text in image":** image tools render type unreliably, so these generate clean plates with the space reserved. The headline, **"Hydration, handled."** tagline, and CTA are composited in the layout tool afterwards, which keeps the copy identical across all three frames.
 
 **Iteration note:** the first generation (run in the image tool) came back reading "gym ad" — high-contrast, staged. Adding *soft daylight, matte finish, candid, open negative space* to the prompt produced a calm editorial look on the second pass, on-brand.
