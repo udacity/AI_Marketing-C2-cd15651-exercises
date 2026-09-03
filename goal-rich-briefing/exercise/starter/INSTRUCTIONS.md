@@ -16,7 +16,7 @@ A single document containing, for each of the three prompts:
 
 ## Requirements
 
-- Diagnose each prompt before you rewrite it. The fix follows from the failure type — and it is not always "add more." An over-prescribed prompt gets *shorter*: cut the arbitrary rules and replace them with a clear goal.
+- Diagnose each prompt before you rewrite it. The fix follows from the failure type — and it is not always "add more." An over-prescribed prompt trades rules for direction: cut the arbitrary mechanics and put real direction in their place. Which element does the heavy lifting is yours to work out and defend — it is not the same one every time.
 - Every element of each brief must carry a real decision, not a placeholder. "Audience: our users" is not a decision; "free users active in the last 30 days who never hit the paywall" is.
 - Keep the three briefs independent. Each situation stands on its own — don't carry facts from one into another.
 - The three rewrites should not converge on the same shape. Different failures and different audiences should produce visibly different briefs.

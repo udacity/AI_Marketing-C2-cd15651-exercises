@@ -53,7 +53,7 @@ A general-purpose model you may already pay for (Claude, ChatGPT, or similar), u
 - **Capability fit:** test it and see. With a strong brief the quality may surprise you, though it has no saved brand-voice profile to lean on.
 - **Fit with your stack:** no connectors, same as Penmark — copy comes out of a window or a file and gets pasted where it's going. What it does sit next to is everything else you already do in that window.
 - **Cost vs. value:** no line item beyond the subscription you already have, and no per-seat or per-piece meter. That's exactly why it's the bar the others have to clear.
-- **Data & privacy:** depends on the plan you already have; check your existing terms.
+- **Data & privacy:** depends on the plan you already have. Cobbleway is on a **paid business tier that does not train on inputs**, and has been for a year — so for this evaluation the baseline carries no new data risk. Score it on that, not on the free-tier terms.
 - **Learning curve / adoption:** nothing to configure, nothing to roll out, nobody to train. Adoption means three people actually using the same brief file and keeping it current — no product enforces that, so it holds for as long as the habit does.
 - **Brand-voice control / brand-safety:** test it. No saved voice profile, so your brand rules live in the brief and get re-pasted each session — tone holds within a conversation but drifts between them. No guardrails at all, but total control: whatever prohibitions you write into the brief are enforced only as well as the model follows them, and nothing is logged for review.
 

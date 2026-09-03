@@ -25,6 +25,8 @@ Score each dimension 1 to 5 (1 = poor fit, 5 = excellent fit). Note the reasonin
 
 Not every dimension carries equal weight for every tool. Some tools produce a clean, measurable output you can judge directly. Others do something fuzzier, where capability is more of a judgment call than a score. Weight the dimensions that actually matter for the job in front of you, and say which ones you weighted and why.
 
+**The weighted score narrows the field; it does not make the call.** Expect the leader on your heavy dimensions to be a tool you still decide against — price, switching friction and risk sit outside the scorecard and are yours to weigh. If your recommendation simply reads off the highest score, you have skipped the judgement this framework exists to support. Say plainly which candidate the numbers favour, and if you are not choosing it, why not.
+
 ---
 
 ## Step 3 — Size the decision (is it a two-way door?)
