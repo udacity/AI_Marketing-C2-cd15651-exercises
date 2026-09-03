@@ -22,6 +22,7 @@ The data has a trap built in: the intuitive read (a low-LTV geography) is a *con
 ## Requirements
 
 - Model retention/churn and project forward. Reading "average revenue-to-date" as final LTV will badly under-value young cohorts whose best customers haven't finished their lifespans — account for that censoring.
+- **Name your horizon, and say whether you projected past the data.** The longest tenure in this file is 10 months. A survival estimate that stops at the last observed month and one that carries the churn rate forward indefinitely are both defensible, and they produce very different numbers — the second can put most of a customer's modelled value beyond anything you actually observed. State which you did, and roughly how much of your LTV sits past the last data point.
 - **State a margin assumption.** A subscription dollar is not a margin dollar — Steep ships physical tea. If you compare lifetime *revenue* to CAC and call the result LTV:CAC, every ratio comes out flattering. Say what margin you assumed and why.
 - **Say how you tiered.** A value tier a colleague can't reproduce isn't a signal, it's an opinion. Give the rule that maps a predicted value to high / mid / low, and a reason for where you put the cuts.
 - Follow the data to the real driver. Form a hypothesis, but let the data lead; don't stop at the first attribute that looks predictive, and control for more than one variable.
