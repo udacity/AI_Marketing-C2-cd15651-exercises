@@ -25,7 +25,7 @@ A goal-rich brief front-loads five decisions the marketer already owns:
 - **Audience:** free users active in the last 30 days who have never hit the paywall
 - **Goal:** drive a click to the pricing page — not brand warmth
 - **Context:** they already get value from the free tier; this is a value message, not a first-touch intro
-- **Constraints:** no discounting; this is a value message, not a promo
+- **Constraints:** no discount; short; one CTA
 - **Success criteria:** the email earns a click to pricing, not just an open
 
 Running this brief produces an email that speaks to a specific person at a specific moment.
