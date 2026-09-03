@@ -12,15 +12,15 @@ Work in Claude Code. Use:
 A short calibration report a non-technical decision-maker (think CFO) could act on, covering CPA and CVR:
 
 - A forecast-vs-actual comparison shown as a chart or table (forecast band vs. actuals): variance, and whether actuals landed inside each range.
-- The systematic bias per metric, with a diagnosis of the cause (did the sale-week handling help or hurt? did fatigue keep accelerating?).
+- The systematic bias per metric, with a diagnosis of the cause — which of the forecast's assumptions the actuals contradict, and where in the funnel the error sits.
 - A reliability verdict per metric: can this be trusted to plan next month — yes, no, or yes-with-caveats — and why.
 - The tuning levers: specific adjustments that would make the next forecast more reliable.
 - Override conditions: events that would invalidate the forecast and force a full rebuild rather than a tune.
 
 ## Requirements
 
-- Distinguish a **systematic** (directional) miss from random scatter, and say which each metric is. Treating a real directional miss as mere noise is the trap to avoid.
-- Diagnose per metric. CPA and CVR can behave differently, and which one misses tells you where the error lives.
+- Judge each metric against a stated rule for what separates a **systematic** (directional) miss from random scatter — direction, persistence, drift over the window — and say which each metric is. Decide it by the rule, not by an impression of the chart.
+- Diagnose per metric. CPA and CVR can behave differently, so judge each on its own evidence, then read the two together — how they behave relative to each other is what locates the error.
 - Write for a CFO: put in the verdict, the confidence, the one-line reason, and the recommended action. Keep out the raw variance math and model internals — they need the call and the why, not the calculations.
 - Separate tuning levers (adjust the model) from override conditions (throw it out and rebuild). They're different responses to different kinds of miss.
 
