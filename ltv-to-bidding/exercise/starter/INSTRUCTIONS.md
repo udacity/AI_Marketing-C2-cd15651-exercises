@@ -2,7 +2,9 @@
 
 Steep runs a tea subscription, and not all customers are worth the same. Forecast lifetime value across cohorts, dig past the obvious attribute to the real driver of value, and produce two outputs: a bidding-signal upload the platform can optimize against automatically, and an allocation call that's your own decision.
 
-Work in Claude Code. The dataset is [`steep_cohorts.csv`](steep_cohorts.csv) — cohorts carrying acquisition channel, geography, an income proxy (AOV band), and acquisition type (full-price vs. discount-acquired), with retention and revenue by period.
+Work in Claude Code. The dataset is [`steep_cohorts.csv`](steep_cohorts.csv) — 4,800 **customer-level** records, one row per customer: acquisition month, channel, geography, an income proxy (AOV band), acquisition type (full-price vs. discount-acquired), monthly fee, observed tenure in months, current status (`active` or `churned`), revenue banked to date (money already collected — **not** a lifetime value), and acquisition cost.
+
+There is **no retention curve and no revenue-by-period series in the file.** You derive retention, churn and expected lifetime yourself from tenure plus status, then roll customers up into cohorts. That derivation is the skill — nobody hands you a curve at work either.
 
 **Scope:** this is cohort-level value analysis (channel, geography, acquisition type), not persona-level "who they are as people." Stay in the cohort lane.
 
