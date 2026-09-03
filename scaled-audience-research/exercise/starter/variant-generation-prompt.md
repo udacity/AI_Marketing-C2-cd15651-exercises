@@ -8,11 +8,14 @@
 I am running scaled synthetic audience research for [BRAND / PRODUCT]. I have defined
 [N] core archetypes. For each archetype, generate [NUMBER] distinct variants.
 
-ARCHETYPES:
+ARCHETYPES (define 5-6 — three is not a roster):
 1. [Archetype name] — [2-3 sentences: who they are, their situation, their primary
    reason to care about this product]
 2. [Archetype name] — [...]
 3. [Archetype name] — [...]
+4. [Archetype name] — [...]
+5. [Archetype name] — [...]
+6. [Archetype name] — [...]
 
 VARIANT INSTRUCTIONS:
 Each variant should:
