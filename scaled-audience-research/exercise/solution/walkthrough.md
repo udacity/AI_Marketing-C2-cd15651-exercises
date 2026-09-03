@@ -35,7 +35,7 @@ A **red flag to watch:** if 90%+ had returned the same barrier in near-identical
 
 Before reading the barrier rankings as market signal, read them against the roster that produced them. The ~30-variant roster breaks as: design-focused (~4–5), multi-dog (~4–5), new-puppy (~4–5), budget-conscious (~4–5), senior-dog (~4–5), large-breed (~4–5) — roughly equal.
 
-**Roster-decided:** Price (#2, ~25%) is close to what the seed predicts — ~40% of the roster is price-sensitive archetypes (new-puppy + budget). A finding that tracks the roster proportion is informative, but it's partly a fact about who you asked, not just about the market.
+**Roster-decided:** Price (#2, ~25%) is close to what the seed predicts — ~33% of the roster is price-sensitive archetypes (new-puppy + budget, 2 of the 6). A finding that tracks the roster proportion is informative, but it's partly a fact about who you asked, not just about the market.
 
 **Response-decided:** Durability (#1, ~42%) appears across archetypes that weren't seeded as durability-focused. That cross-archetype pattern is less likely to be a seed artifact and more likely to reflect something real about the product category.
 
@@ -51,9 +51,9 @@ Two barriers to address before launch, **labeled directional**: (1) **prove dura
 
 ## Surface note
 
-At low n (12–24 variants) this workflow runs cleanly on the agent surface. At 24–30 variants, two strains appear:
+At this exercise's n (24–30 variants) this workflow runs cleanly on the agent surface. At 100+ variants, two strains appear:
 
-- **Cost and partial failures.** 24–30 subagent calls in one Cowork session adds up, and has no resume point — a mid-run failure restarts the whole batch.
+- **Cost and partial failures.** 100+ subagent calls in one Cowork session adds up, and has no resume point — a mid-run failure restarts the whole batch.
 - **Aggregation becomes estimated.** Past ~40 responses, collating verbatim answers into barrier categories feels like re-summarizing rather than counting. One human audit pass over the model's categorisation is still worth it.
 
 **Move it when:** you need to run this on a weekly cadence, or n is large enough that auditability matters and estimated counts aren't enough. The deciding factor is frequency and auditability requirement, not whether the tool *can* run at scale. For a one-off pre-launch read: stay on this surface.

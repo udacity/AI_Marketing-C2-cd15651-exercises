@@ -92,9 +92,9 @@ Before launch: (1) **prove durability** — the top, cross-segment barrier; lead
 
 ## Surface note
 
-At 12 variants this workflow ran cleanly: each subagent fired, costs were modest, and aggregation was a straight count. At 100+ variants, two strains appear:
+At 12 variants this workflow ran cleanly: each subagent fired, costs were modest, and aggregation was a straight count — and it holds at the exercise's 24–30. At 100+ variants, two strains appear:
 
 - **Cost and partial failures.** 100+ subagent calls in a single Cowork session is expensive, and if one call fails mid-run there is no resume point — you start the batch over. Manageable for a one-off research sprint; painful if this is a recurring workflow.
-- **Aggregation becomes estimated.** Past ~30–40 responses, collating verbatim answers into barrier categories starts feeling like re-summarizing rather than counting. The model will group near-synonyms; a human audit of the categorisation is still worth one pass.
+- **Aggregation becomes estimated.** Past ~40 responses, collating verbatim answers into barrier categories starts feeling like re-summarizing rather than counting. The model will group near-synonyms; a human audit of the categorisation is still worth one pass.
 
 **Would I move it?** For a one-time pre-launch read: stay here. For a weekly or monthly cadence, or any n above ~50 where you need the exact counts to be auditable: move to a scripted setup. The deciding factor is frequency and auditability requirement, not whether the tool *can* run at scale.

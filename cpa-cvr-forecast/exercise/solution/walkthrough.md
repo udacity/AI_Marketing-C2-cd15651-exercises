@@ -16,7 +16,7 @@ Three patterns to separate:
 - **Carry forward** the fatigue trend (don't forecast a flat line).
 - **Exclude** the ramp from the trend fit for the same reason as promo week — it's a distinct spend-driven cause, not the underlying fatigue signal. CPM will revert if the ramp doesn't repeat.
 
-## 3. 30-day forecast (linear trend on non-promo days; band = mid ± 1 residual σ)
+## 3. 30-day forecast (linear trend on non-promo, non-ramp days; band = mid ± 1 residual σ)
 
 | Metric | Low (avg) | Mid (avg) | High (avg) |
 |---|---|---|---|
@@ -29,7 +29,7 @@ Full day-by-day projection: [`forecast-cpa-cvr-cpm-30day.csv`](forecast-cpa-cvr-
 ## 4. Assumptions and what drives the spread
 
 - Trend is roughly linear over the horizon; fatigue continues at its recent slope.
-- Promo excluded as a one-off; no comparable promo assumed next month.
+- Promo week and the end-of-quarter ramp both excluded from the fit as one-offs; neither is assumed to repeat next month.
 - Band = ±1 residual standard deviation from the trend fit — widen it if you expect another creative refresh or budget shift. CPA carries more uncertainty than CVR because it compounds CTR and CPC movement. This is a fixed-width uncertainty band, not a prediction interval — widen it manually if you expect volatility to compound (e.g. a creative refresh mid-month).
 
 ## 5. Budget → orders read-out
