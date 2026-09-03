@@ -1,6 +1,6 @@
 # Sample Output — Findings Report
 
-*Actual Claude output — a representative isolated run of the barrier question across 12 persona variants. (The exercise asks students for 100+; this worked example uses 12 to show the method and shape — the pattern holds at scale.) One run; outputs vary.*
+*Actual Claude output — a representative isolated run of the barrier question across 12 persona variants. (The exercise asks students for 24–30; this worked example uses 12 to show the method and shape — the pattern holds at scale.) One run; outputs vary.*
 
 **Question:** what would stop you from buying this furniture-grade modern dog bed? · **Method:** 12 variants across 6 archetypes, each run in its own clean isolated context.
 

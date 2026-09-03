@@ -30,7 +30,7 @@ Full day-by-day projection: [`forecast-cpa-cvr-cpm-30day.csv`](forecast-cpa-cvr-
 
 - Trend is roughly linear over the horizon; fatigue continues at its recent slope.
 - Promo excluded as a one-off; no comparable promo assumed next month.
-- Band = ±1 residual standard deviation from the trend fit — widen it if you expect another creative refresh or budget shift. CPA carries more uncertainty than CVR because it compounds CTR and CPC movement.
+- Band = ±1 residual standard deviation from the trend fit — widen it if you expect another creative refresh or budget shift. CPA carries more uncertainty than CVR because it compounds CTR and CPC movement. This is a fixed-width uncertainty band, not a prediction interval — widen it manually if you expect volatility to compound (e.g. a creative refresh mid-month).
 
 ## 5. Budget → orders read-out
 

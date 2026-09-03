@@ -23,6 +23,6 @@
 
 **One critique I discount:** critique 4, "expect complaints, reviews, and churn spikes at rollout" — real but transient, and the cost of any pricing change. A launch-week spike isn't a standing brand cost. Discount the framing; keep the operational point (staff support, grandfather existing users).
 
-**Cheap test for the top risk:** gate sync for a small random slice of *new* signups only; track 30–60 day conversion **and** churn/complaints vs. a control before touching existing users.
+**Cheap test for the top risk:** gate sync for a small random slice of **existing grandfathered free users** — the group whose sync would actually disappear; track 30–60 day conversion **and** churn/complaints vs. a control.
 
 **Revised position:** *Pilot on new signups only. Deciding reason: the play rests entirely on "convert, not resent," which is untested. Changes my call: a clean conversion lift with no churn/complaint spike in the pilot.*

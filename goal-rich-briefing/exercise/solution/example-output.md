@@ -15,7 +15,7 @@
 
 **Rewritten run:**
 > **Subject:** You were one step from Premium
-> Hi [First name], you'd reached the last step of upgrading to Flowline Premium (annual) when something got in the way — it happens. Your plan is still saved, so you can pick up exactly where you left off in a couple of clicks. **[Return to checkout →]**
+> Hi [First name], you'd reached the last step of upgrading to Flowline Premium (annual) when something got in the way — it happens. **[Return to checkout →]**
 
 ---
 
@@ -29,7 +29,7 @@
 **Goal-rich brief:** free user ~3 days in, no first project yet · goal: create first project · context: hasn't reached the product's value yet — this is the activation moment · constraints: one CTA, short, in-app, no feature dump · success: completes the first project, not just opens the app.
 
 **Rewritten run:**
-> You're almost set up. Create your first project to see how Flowline keeps your work moving — takes about a minute. **[Create a project]**
+> You're almost set up. Create your first project to see how Flowline keeps your work moving. **[Create a project]**
 
 ---
 

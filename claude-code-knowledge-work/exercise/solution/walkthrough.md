@@ -41,6 +41,14 @@ Carries key messages 1, 2, and 4 from the brief, in the brand voice, no fear/gui
 
 ---
 
+## Refinement step
+
+With all three files in the workspace, one follow-up prompt refines without re-pasting context:
+
+> Tighten the email's opening paragraph to two sentences. It should open on the feeling, not the feature — no mention of tracking in the first line.
+
+Claude has the email already open in the workspace and returns the revision in context — no copy-pasting the draft back in.
+
 ## Where persistent context helped (the one-line note)
 
 > Writing the launch email, I didn't re-paste the brand voice or the brief — Claude Code already had both from the project folder, so the email inherited the key messages and tone automatically.

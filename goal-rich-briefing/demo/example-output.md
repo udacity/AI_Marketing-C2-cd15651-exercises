@@ -33,7 +33,7 @@
 >
 > Hi [First name],
 >
-> You've logged in most days this month — Flowline's clearly become part of how you work. If you've started bumping into the edges of the free plan (a cap on projects, no sync between your phone and laptop, the shortcuts that trim the repetitive stuff), that's exactly what Premium opens up.
+> Flowline's clearly become part of how you work. If you've started bumping into the edges of the free plan (a cap on projects, no sync between your phone and laptop, the shortcuts that trim the repetitive stuff), that's exactly what Premium opens up.
 >
 > No discount, no countdown — just take a look at what's included and decide whether it fits how you work.
 >
@@ -43,4 +43,4 @@
 
 ## What changed
 
-Sharper CTA (*see pricing*, not *upgrade now*), a concrete moment ("you've logged in most days → you're hitting the ceiling"), and it speaks to someone who already knows the product instead of re-pitching it.
+Sharper CTA (*see pricing*, not *upgrade now*), a concrete moment (hitting the ceiling), and it speaks to someone who already knows the product instead of re-pitching it.

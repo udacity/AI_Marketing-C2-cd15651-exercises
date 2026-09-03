@@ -22,5 +22,17 @@
 ## 3. `creator-profile.md`
 > **Who Vessl should partner with:** an active, health-aware creator — fitness, wellness, or "day in the life" — whose real routine already includes movement and hydration. **Audience:** 25–45, health-curious, skeptical of hype. **Content style:** candid, daylight, real-moment; product in-frame, not staged. **Values fit:** helpful over preachy, celebrates small wins — matches Vessl's "supportive friend" voice. **Why:** their audience *is* our audience, and authentic daily use is the campaign's whole creator-led thesis.
 
+## Refinement (`launch-email.md` opening, revised)
+
+Prompt: *"Tighten the email's opening paragraph to two sentences. Open on the feeling — no feature mention in the first line."*
+
+**Before:**
+> Staying hydrated shouldn't take willpower or math. Meet Vessl — it tracks every sip and gives you a gentle nudge when you're falling behind, so hitting your goal just… happens. No logging, no guessing, no lectures.
+
+**After:**
+> You're already doing the hard part — moving, sleeping, showing up. Vessl handles the one thing that quietly makes all of it work better.
+
+*(One prompt, no re-pasting. Claude held the brand voice and the brief's "feeling first" instruction from the project files.)*
+
 ## Persistent-context note
 > Writing the launch email, I didn't re-paste the brand voice or the brief — Claude Code already had both from the project folder, so the email inherited the positioning and the "keeps score" hook automatically. The creator profile then built on the brief's audience without restating it.

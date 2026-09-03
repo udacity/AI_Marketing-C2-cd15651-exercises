@@ -8,14 +8,26 @@
 
 | Persona | A | B | C |
 |---|---|---|---|
-| Maya — design apartment | 5/4/5/4 = **18** | 3/3/3/3 = **12** | 4/5/4/4 = **17** |
-| Rick — practical multi-dog | 2/2/2/2 = **8** | 2/2/2/2 = **8** | 4/4/3/4 = **15** |
-| Priya — new puppy | 3/3/3/3 = **12** | 4/3/4/3 = **14** | 4/4/4/4 = **16** |
+| Maya — design apartment | 5/4/5/4 = **18** | 3/4/3/2 = **12** | 4/5/4/4 = **17** |
+| Rick — practical multi-dog | 2/3/1/2 = **8** | 1/3/2/2 = **8** | 4/4/3/4 = **15** |
+| Priya — new puppy | 4/3/2/3 = **12** | 4/3/4/3 = **14** | 4/5/4/3 = **16** |
 | **Average** | **12.7** | **11.3** | **16.0** |
+
+## Per-dimension averages
+
+| Dimension | A | B | C |
+|---|---|---|---|
+| Resonance | 3.67 | 2.67 | **4.00** |
+| Believability | 3.33 | 3.33 | **4.67** |
+| Relevance | 2.67 | 3.00 | **3.67** |
+| Distinctiveness | 3.00 | 2.33 | **3.67** |
+| **Total** | **12.7** | **11.3** | **16.0** |
+
+Note no row is flat across dimensions. Rick rates A's *believability* 3 (it does look good) but its *relevance* 1 (it solves nothing he has) — that spread is the finding. A flat 3/3/3/3 means the persona didn't engage the dimensions separately.
 
 ## Ranked recommendation (aggregation prompt output)
 
-- **Winner: C** — avg **16.0**. Strongest dimension: relevance (names a real, universal moment). Most vulnerable: distinctiveness.
+- **Winner: C** — avg **16.0**. Strongest dimension: **believability (4.67)** — the honesty angle is credible on its face. Most vulnerable: **relevance and distinctiveness (both 3.67)** — still ahead of A and B on both, but where C has least headroom.
 - **Runner-up: A** — avg 12.7, margin **3.3**. Third: B — 11.3.
 - **Panel split:** **A polarizes hard** (Maya 18 / Rick 8) — a targeted play, not a safe default. **C is the most consistent** (17 / 15 / 16) across very different owners.
 - **Confidence: medium** — C wins on both margin (~3.3) and agreement, but a 3-persona synthetic panel is directional.

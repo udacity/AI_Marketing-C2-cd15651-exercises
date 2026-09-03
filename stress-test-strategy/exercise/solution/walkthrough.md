@@ -18,11 +18,11 @@ Critique 4 — *"expect complaints, reviews, and churn spikes at rollout."* The 
 
 ## 4. Cheap test for the top risk
 
-Before a full rollout, gate sync behind Premium for a **small random slice of new signups only** (not existing users), and watch 30–60 day conversion *and* churn/complaint rates against a control. Cheap, reversible, and it answers "convert vs. resent" before we bet the free tier on it. *(Illustrative test design — swap for your own.)*
+Before a full rollout, gate sync behind Premium for a **small random slice of existing grandfathered free users** — the group whose sync would actually disappear — and watch 30–60 day conversion *and* churn/complaint rates against a control. Cheap, reversible, and it answers "convert vs. resent" before we bet the free tier on it. *(Illustrative test design — swap for your own.)*
 
 ## 5. Revised position (one tight statement)
 
-> **Recommendation:** don't roll this out broadly yet — pilot it on new signups only. **Deciding reason:** the whole play rests on "users convert, not churn," and that's exactly the untested assumption. **What would change my call:** if the new-signup pilot shows conversion lift without a churn/complaint spike, expand it.
+> **Recommendation:** don't roll this out broadly yet — pilot it on a small slice of existing grandfathered free users first. **Deciding reason:** the whole play rests on "users convert, not churn," and that's exactly the untested assumption. **What would change my call:** if the pilot shows conversion lift without a churn/complaint spike, expand it.
 
 ## Common mistakes
 

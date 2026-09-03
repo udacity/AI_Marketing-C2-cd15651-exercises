@@ -14,9 +14,20 @@
 | Priya | 12 | 14 | 16 | C |
 | **Avg** | **12.7** | **11.3** | **16.0** | — |
 
+Per-dimension averages (this is where the *why* lives — totals alone hide it):
+
+| Dimension | A | B | C |
+|---|---|---|---|
+| Resonance | 3.67 | 2.67 | **4.00** |
+| Believability | 3.33 | 3.33 | **4.67** |
+| Relevance | 2.67 | 3.00 | **3.67** |
+| Distinctiveness | 3.00 | 2.33 | **3.67** |
+
+Score each dimension separately and the spread becomes the finding: Rick rates A's believability 3 (it does look good) but its relevance 1 (it solves nothing he has). A flat 3/3/3/3 row means the persona never engaged the dimensions independently.
+
 ## Aggregation
 
-- **Winner: Direction C ("won't hide when guests come over")** — avg 16.0. Strongest on *relevance* (it names a real, universal moment); most vulnerable on *distinctiveness*.
+- **Winner: Direction C ("won't hide when guests come over")** — avg 16.0. Strongest on *believability* (4.67 — the honesty angle is credible on its face); most vulnerable on *relevance* and *distinctiveness* (both 3.67), though it still beats A and B on each.
 - **Runner-up: A** — avg 12.7, margin 3.3. Wins big with Maya, loses badly with Rick.
 - **Third: B** — avg 11.3.
 - **Panel split:** A polarizes hard (Maya 18 / Rick 8). C is the most *consistent* across very different owners.
@@ -38,6 +49,7 @@ Advance **C** to a real-world test — it's the safe, broadly-relevant front-run
 ## Common mistakes
 
 - Scoring all three personas in one conversation (anchoring) — run each persona fresh.
+- Giving a direction the same score on every dimension (3/3/3/3). That's a persona rating an overall vibe, not four distinct dimensions — and it hides the trade-off you ran the test to find.
 - Declaring a "clear winner" when the top two are within noise.
 - Reporting the winner without confidence + limits.
 - Missing that A is a *polarizing targeted play*, not a safe default.
