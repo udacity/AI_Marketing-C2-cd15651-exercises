@@ -1,6 +1,6 @@
-# Sample Output — Three Connected Deliverables
+# Sample Output — Four Connected Deliverables
 
-*Actual Claude output — three files produced in one Claude Code project workspace, each drawing on the brand + campaign files (and the earlier deliverables) without re-pasting, then reconciled in a fresh session from the saved files. One run; outputs vary.*
+*Actual Claude output — three campaign files produced in one Claude Code project workspace, each drawing on the brand + campaign files (and the earlier deliverables) without re-pasting, then a fourth file reconciling them in a fresh session from the saved files. One run; outputs vary.*
 
 ## 1. `messaging-brief.md`
 - **Positioning:** Hydration, handled.
@@ -90,4 +90,4 @@ Session closed, folder reopened. One prompt, nothing pasted in:
 > **Summary:** two drifts, both introduced downstream of the brief, both fixable in this session. One is load-bearing — the email sells a feeling with no product behind it.
 
 ## Persistent-context note
-> Writing the launch email, I didn't re-paste the brand voice or the brief — Claude Code already had both from the project folder, so the email inherited the positioning and the "keeps score" hook automatically. The creator profile then built on the brief's audience without restating it. The real payoff came in the fresh session: a session that had never seen any of these files read all five off disk and caught a hook my own refinement had deleted — something I would have signed off on, because I remembered writing it.
+> I never re-pasted the brand voice or the brief to write the launch email, and I didn't have to re-explain them in the fresh session either — it read all five files off disk and caught the "keeps score" hook my own refinement had deleted.

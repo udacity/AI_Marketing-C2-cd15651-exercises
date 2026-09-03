@@ -1,6 +1,6 @@
-# Solution — Run the Session, Produce Three Connected Deliverables
+# Solution — Run the Session, Produce Four Connected Deliverables
 
-*Worked solution — one strong example. Student deliverables will differ in wording; what matters is that all three are on-brand, visibly connected, built in one persistent workspace so context isn't re-pasted, and then reconciled against each other in a fresh session from the files on disk.*
+*Worked solution — one strong example. Student deliverables will differ in wording; what matters is that the three campaign pieces are on-brand, visibly connected, and built in one persistent workspace so context isn't re-pasted — and that the fourth, the consistency check, reconciles them in a fresh session from the files on disk.*
 
 **Setup:** a Claude Code project folder holding `brand-voice-guide.md` and `campaign-context-sheet.md`, with a short `CLAUDE.md` telling Claude Code to treat both as the campaign's source of truth.
 
@@ -77,7 +77,9 @@ Both findings are fixable in the same fresh session, because the files are right
 
 ## Where persistent context helped (the one-line note)
 
-> Writing the launch email, I didn't re-paste the brand voice or the brief — Claude Code already had both from the project folder, so the email inherited the key messages and tone automatically. A week later a session that had never seen any of it caught a claim the refinement had dropped, just by reading the files.
+> I never re-pasted the brand voice or the brief to write the launch email, and I didn't have to re-explain them in the fresh session either — it read all five files off disk and caught the "keeps score" hook my own refinement had deleted.
+
+One line, and it names a moment. A note that says "the persistent context was really helpful" names nothing and can't be checked against the work.
 
 ## Common mistakes
 

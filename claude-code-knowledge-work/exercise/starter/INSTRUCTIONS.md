@@ -1,6 +1,6 @@
-# Run the Session, Produce Three Connected Deliverables
+# Run the Session, Produce Four Connected Deliverables
 
-Vessl is running a creator-led summer launch, and you're producing the campaign's core pieces. Set up a Claude Code project workspace and produce three connected deliverables, each building on the last, all in the Vessl brand voice. Then, before the campaign goes to review, check that the three pieces actually agree with each other.
+Vessl is running a creator-led summer launch, and you're producing the campaign's core pieces. Set up a Claude Code project workspace and produce four connected deliverables: three campaign pieces, each building on the last, all in the Vessl brand voice — then, before the campaign goes to review, a fourth that checks whether those three actually agree with each other.
 
 Work in Claude Code, in a project folder that holds the campaign's files. Put these in the folder as your persistent context:
 
@@ -9,7 +9,7 @@ Work in Claude Code, in a project folder that holds the campaign's files. Put th
 
 ## What to produce
 
-Three connected deliverables, each saved as a file in the project folder:
+Three campaign pieces, each saved as a file in the project folder:
 
 - **Messaging brief** — positioning, three to four key messages, tone, and target audience. Refine it over a few turns until it's on-brand.
 - **Launch email copy** — drawing on the messaging brief and brand voice already in the folder, without re-pasting them. It should clearly carry the brief's key messages.
@@ -32,4 +32,4 @@ Plus a one-line note on where the workspace's persistent context saved you from 
 
 ## Done when
 
-You have three files that share one brand voice and visibly build on each other, plus a consistency-check note — produced in a fresh session, from the saved files rather than anything you re-pasted — that names the drift between them or confirms there is none.
+You have three files that share one brand voice and visibly build on each other, plus a consistency-check note — produced in a fresh session, from the saved files rather than anything you re-pasted — that names the drift between them or confirms there is none. And your one-line note points at a specific moment the workspace's persistent context saved you from re-explaining something, not a general claim that it helped.
