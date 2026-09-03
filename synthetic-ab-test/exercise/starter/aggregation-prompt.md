@@ -46,4 +46,4 @@ SCORES:
 
 ---
 
-**What to do with the output:** the winner becomes your recommended direction, but pair it with the confidence and limits. Watch for a direction that wins overall while polarizing the panel; that's a targeted play, not a safe default.
+**What to do with the output:** the winner becomes your recommended direction, but pair it with the confidence and limits. Watch for a direction whose average hides a split panel — one persona scoring it high and another low. That is a targeted play, not a safe default, and it can happen at any rank, including to a direction that does not win.

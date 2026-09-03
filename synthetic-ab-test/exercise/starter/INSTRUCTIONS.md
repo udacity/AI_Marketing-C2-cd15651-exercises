@@ -26,7 +26,7 @@ Work in Claude Code. Use:
 
 - Run each persona in a **fresh conversation** so earlier scores don't anchor later ones.
 - The confidence level must have a stated basis (spread between concepts, agreement across personas) — not a vibe.
-- Call out any concept that wins overall while polarizing the panel. Those are targeted plays, not safe defaults.
+- Call out any concept whose average hides a split panel — strong for one persona, weak for another. A concept like that is a targeted play, not a safe default, and the average alone will not tell you.
 - Treat this as a first check that narrows the field, not the final call. The next-step validation is part of the deliverable, not an afterthought.
 
 ## Done when
