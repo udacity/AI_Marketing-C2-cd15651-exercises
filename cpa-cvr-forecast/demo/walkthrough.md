@@ -1,6 +1,6 @@
 # Worked Demo — Forecast the Easy Metric, Then Name the Hard One
 
-*The real content: the finished walkthrough the demo produces. Reflects the baked-in patterns of the provided dataset (per the instructor answer key), so it reveals the intended conclusions.*
+*The real content: the finished walkthrough the demo produces. The CPM forecast is computed from the provided dataset, so those numbers are the intended ones. The demo stops short of the exercise's CPA work on purpose: it names the decisions and leaves them open — making them is the learner's job.*
 
 ## Describe before you project
 
@@ -22,14 +22,18 @@ Ask Claude Code to surface its assumptions, then push back on one number that lo
 
 Pivot to CPA and decompose it: **CPA is composed**, moving when CTR, CPC, or CVR move. That's why it can't be extrapolated as a single line the way CPM can — forecasting it means understanding its drivers.
 
-Then point at the two patterns and decide their treatment:
+Then put two of CPA's moving parts on screen and leave them there:
 
-- **Creative fatigue** — CTR eroding gradually — is a *trend* you carry forward.
-- **The sale week** is a discrete *event* you exclude from the baseline, or it drags the trend line optimistic.
+- **Creative fatigue** — CTR eroding gradually across the campaign's life.
+- **The sale week** — a spike bounded to one window.
 
-## Payoff: budget to orders
+Ask the question; don't answer it. *Which of these do you carry forward into the next 30 days, and which do you leave out of the baseline?* One is a gradual drift, the other sits inside a boundary you can draw — different shapes, so the same treatment can't be right for both. Which gets which, and why, is the call.
 
-Translate the mid-case into plain terms: at this CPA, a given monthly spend buys roughly this many orders. That's the budget/orders read-out the exercise asks students to produce.
+## Why the call matters
+
+Say out loud what rides on it. Every number downstream — the CPA mid, the spread around it, and the budget read-out that comes off that mid — inherits whatever you decided here. Get the treatment wrong and the arithmetic still comes out clean; it's just built on a baseline that never happened. That's why this is a judgement you state and defend in your assumptions, not a setting you pick.
+
+Stop here. Naming the decision is the demo's job. Making it — for these patterns and any others in the 90 days — is the exercise.
 
 ## Key takeaway
 
