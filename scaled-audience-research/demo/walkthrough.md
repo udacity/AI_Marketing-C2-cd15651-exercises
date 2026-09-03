@@ -20,7 +20,7 @@ Claude Code lets you orchestrate this at scale: a variant list goes in, each var
 
 ## Tally, then interrogate
 
-Aggregate to a quick number — say "62% prefer feature X." Then stop and interrogate it: scale makes the number *look* like survey data, which is exactly the danger. Write the calibration disclosure line that must travel with it — what it can and can't claim.
+Aggregate to a quick number — whatever your top category comes to. Then stop and interrogate it: scale makes the number *look* like survey data, which is exactly the danger. Write the calibration disclosure line that must travel with it — what it can and can't claim.
 
 ## Key takeaway
 
