@@ -15,6 +15,7 @@ Work with a **Claude Code subagent** — a helper Claude Code runs in the backgr
 - The agent delegation brief you wrote (question, scope, output format, guardrails).
 - The research brief the agent returned.
 - A source-quality audit note as a table: claim | cited source | accessed (date) | credible? | verified against source? | trust / verify-first / drop.
+- A scope-coverage check: which of the CMO's asks the brief actually answered, and which came back empty.
 - A two-line verdict: how much of the brief you'd act on as-is, and what you'd verify before it goes to the CMO.
 
 ## Requirements
@@ -23,8 +24,9 @@ Work with a **Claude Code subagent** — a helper Claude Code runs in the backgr
 - Audit real sources, not just the brief's confidence. For each key claim, confirm the source is real and credible, current, and actually supports the claim.
 - Record the date you accessed the source, claim by claim. Recency is part of whether you can cite something: a price or market figure you last opened weeks ago may already be wrong, and an undated claim gives the CMO no way to judge how current it is.
 - Reach a per-claim verdict — trust, verify-first, or drop — using the rule in the checklist, not just a general impression.
+- Audit the delegation too, not only the claims. Source quality tells you whether a claim is trustworthy; it tells you nothing about whether the brief answered the question you asked. Read the CMO's request line by line against what came back and say which asks are unanswered. A brief can cite every claim impeccably and still leave half the request untouched — and that gap won't show up anywhere in your verdict column.
 - Remember you own the brief you pass on. The two-line verdict should reflect what you'd stake your name on.
 
 ## Done when
 
-You scoped the delegation in writing before running it, your audit note reaches a defensible verdict on each key claim, and your two-line summary tells the CMO exactly how much of the brief is ready to act on and what still needs checking.
+You scoped the delegation in writing before running it, your audit note reaches a defensible verdict on each key claim, you can say which of the CMO's asks came back unanswered, and your two-line summary tells the CMO exactly how much of the brief is ready to act on and what still needs checking.

@@ -33,6 +33,25 @@ Verdicts follow the rule in the checklist: **Trust** = all four checks pass (rea
 
 **Why claim 5 is a Drop, not a Verify-first.** The trend is almost certainly real — that's what makes it tempting. But "market-research summaries" names no firm, no report, and no link, so there is no usable source to identify, and the rule is explicit: that alone is a **Drop**. Verify-first is for a claim whose *source* you can open and whose checks come back mixed; here there's nothing to open, so three of the four checks can't even be run. A claim can be directionally true and still have to be dropped for want of a citable source. If you want the trend in the deck, re-source it to a named report and re-audit it as a new claim — don't launder it through a softer verdict.
 
+## Scope-coverage check
+
+Every claim above was audited for sourcing, and two survived. That still doesn't tell us whether the agent answered the CMO's question. Read the request line by line against what came back:
+
+| The CMO asked for | Came back? |
+|---|---|
+| Key players (premium reusable + smart entrants) | **Yes** — Hydro Flask, Owala, HidrateSpark |
+| Pricing — roughly where they land | **Yes** — claims 1–2, both Trust |
+| How they package it / any app or subscription | **Partial** — "pairs with a companion app," nothing on packaging or subscription pricing |
+| Category trends | **Yes, but** — the only two claims carrying it are the Verify-first and a Drop |
+| Their positioning — how each frames itself | **No** |
+| Who they target | **No** |
+| Standout features — what they lead with | **No** |
+| Obvious gaps in the category | **No** |
+
+Four of the CMO's eight asks came back empty, and a fifth arrived attached to claims that failed the audit. What survives is competitor pricing: genuinely useful, impeccably sourced, and roughly a quarter of what was requested.
+
+This is the failure the verdict column cannot show you. Every row in the audit table asks whether a claim is *trustworthy*; none of them asks whether the brief is *responsive*. An agent stops when it has written something confident and complete-looking, not when it has covered your scope — so the delegation needs auditing alongside the citations. Positioning, target, features and gaps were all in the brief that was handed over; they have to be asked for again, specifically.
+
 ## Two-line verdict
 
 > Two of the five claims are solid: competitor pricing (claims 1–2) comes from the manufacturers' own pages, checked on Sept 1, and I'd act on it now. The "~12% CAGR" needs verifying first — reputable firms disagree by an order of magnitude, so I'd pick one clearly-scoped source or cut the number before it reaches the CMO. Claims 4 and 5 are dropped: 4 is opinion dressed as data, 5 is a trend I'd bet is true with nothing citable behind it — both get re-sourced to a named report or they don't reach the CMO at all.

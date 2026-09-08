@@ -14,6 +14,8 @@
 
 ## Interview highlights (furniture-grade modern concept)
 
+All ten core questions were run with each persona; what follows is the concept-reaction slice (Q4, Q5, Q6, Q8). The warm-up questions matter more than they look — Q1 and Q2 are what later let you tell a grounded answer from an invented one, because you can check a persona's objection against the shopping behaviour they described before they saw the concept. See [`example-output.md`](example-output.md) for the fuller per-question excerpts.
+
 - **Maya —** *resonates:* "finally, something I wouldn't hide." *Falls flat:* nothing much — she's the target. *Missing:* proof it's actually well made, not just marked-up design.
 - **Rick —** *resonates:* little. *Falls flat:* "furniture-grade" reads as delicate/precious. *Missing:* durability + washability answers; won't consider it until those are addressed.
 - **Priya —** *resonates:* the look, aspirationally. *Falls flat:* price for a puppy phase. *Missing:* reassurance it survives a puppy, or a reason to buy now vs. later.
@@ -45,3 +47,4 @@
 - Inventing traits with no research backing (should be flagged as assumptions).
 - Running all three in one conversation (anchoring) instead of fresh chats.
 - A synthesis that lists each persona instead of finding the shared pattern and the real divergence.
+- Skipping the warm-up and opening with the concept. Q1 and Q2 are the baseline you audit the rest against; without them a persona's objection has nothing to be checked against, and confabulation gets much harder to spot.

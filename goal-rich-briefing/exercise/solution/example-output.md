@@ -47,7 +47,7 @@
 **Goal-rich brief:** audience: paying users who log in weekly and use Flowline heavily · goal: a referral ask · context: they already get real value — appreciation is the frame, the referral is the ask · constraints: don't over-incentivize, keep it warm not transactional · success: a qualified referral, not just a warm feeling.
 
 **Rewritten run:**
-> **Subject:** You get more out of Flowline than almost anyone
+> **Subject:** You get a lot out of Flowline
 > Hi [First name] — you're one of our most active users, and it shows. If Flowline's become part of how you work, someone you know would probably get the same value from it. Know a good fit? **[Send them an invite]** — no strings, just passing on something useful.
 
 **Element that changed the output most:** *Goal* — converting fuzzy sentiment ("feel appreciated") into a concrete referral ask gave the model something to actually drive toward.

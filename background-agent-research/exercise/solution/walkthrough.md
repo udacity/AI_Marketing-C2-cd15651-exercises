@@ -27,7 +27,17 @@ The verdict isn't a vibe — it follows the rule in [`source-quality-audit-check
 
 The last one is the interesting call. The trend is almost certainly real, which is exactly why it's tempting to wave through as "directional." But "research summaries" names no firm, no report, no link — there's no usable source to identify, and the rule makes that a **Drop** on its own. Verify-first is for a claim whose source you can open and whose checks come back mixed; with nothing to open, three of the four checks can't be run at all. **A claim can be directionally true and still have to be dropped for want of a citable source.** Re-source it to a named report and audit it as a new claim.
 
-## 4. Two-line verdict (for the CMO)
+## 4. Scope-coverage check
+
+The audit above says which claims are trustworthy. It says nothing about whether the agent answered the question — so read the delegation back against what returned, ask by ask.
+
+Against the scope in §1: **positioning, target, standout features and obvious gaps came back empty** — four of the eight things asked for. Category trends did come back, but only in the Verify-first claim and one of the Drops, so nothing survives there either. What's left is competitor pricing and the three brand names: well-sourced, useful, and about a quarter of the brief.
+
+That gap is invisible in the verdict column by construction. Every check in the checklist — real, credible, current, supported — interrogates a claim that *is* there; none of them can flag a claim that isn't. An agent stops when its output looks complete, not when your scope is covered, and a brief with five impeccably-cited claims reads as finished whether it answered one ask or eight. Auditing sourcing without auditing coverage is how a quarter-answer gets forwarded as a market read.
+
+The fix is a re-delegation, not a rewrite: hand back the same scope with the four missing dimensions named explicitly, and audit the second return the same way.
+
+## 5. Two-line verdict (for the CMO)
 
 > Competitor pricing (reusable and smart), checked against the manufacturers' own pages on Sept 1, is solid and I'd act on it now. The "~12% CAGR" needs verifying first: reputable firms disagree by an order of magnitude, so I'd pick one clearly-scoped source or cut the number before it reaches the CMO. Two claims are dropped — "consumers want reminders" (SEO opinion, no source to open) and the wearables trend (a read I'd bet is right, cited to unnamed "research summaries") — and neither goes in the deck until it's re-sourced to a named report.
 
@@ -39,3 +49,4 @@ The last one is the interesting call. The trend is almost certainly real, which 
 - No per-claim verdict — "looks fine overall" isn't an audit.
 - Softening a Drop to Verify-first because the claim *sounds* right. If you can't name a source to open, "directionally true" isn't a verdict — it's a Drop.
 - No access date, so nobody — including you, next month — can tell whether the check is still good.
+- Auditing only the claims that came back. A brief that answers two of your eight asks, with every citation perfect, passes a source-quality audit cleanly. Check your scope against the return before you check the sources.
