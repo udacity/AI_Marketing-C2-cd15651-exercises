@@ -18,7 +18,7 @@ A recommendation memo containing:
 - The DIY-LLM baseline scored on the same dimensions, and tested hands-on by running the Cobbleway copy task through a couple of models with a brief you write from the brand asset.
 - A four-way head-to-head comparison and a chosen winner.
 - The key tradeoff you accepted — which dimension your winner lost on, and why that was acceptable.
-- The call for your winner: **adopt now** or **pilot first**.
+- An explicit call on every candidate *and* the baseline — **adopt**, **pilot**, or **pass** — as the framework's Step 4 asks. Say which one your winner gets: adopt now, or pilot first.
 
 ## Requirements
 

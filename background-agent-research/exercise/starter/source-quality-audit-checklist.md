@@ -41,9 +41,12 @@ Note that a claim can carry a real, working link and still land on Drop. A sourc
 
 ## Audit note (fill this in)
 
+*One row per key claim — add or delete rows so the table matches what your brief actually returned.*
+
 | Claim | Cited source | Accessed | Credible? | Verified against source? | Verdict |
 |---|---|---|---|---|---|
 | | | YYYY-MM-DD | Yes / No / Unclear | Yes / Partly / No / Couldn't check | Trust / Verify-first / Drop |
+| | | | | | |
 | | | | | | |
 | | | | | | |
 | | | | | | |

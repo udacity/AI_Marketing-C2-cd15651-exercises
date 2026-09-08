@@ -12,7 +12,7 @@ Take the **2025-01 cohort: 800 customers, 438 churn events across 5,532 observed
 
 > **12-month LTV ≈ $76.37**, directionally **$73.60 – $79.29**.
 
-Both halves matter. The decay assumption is **constant monthly hazard** — the same churn rate in month 12 as in month 1, which is a choice, not a finding. The range comes from how many churn events sit behind the hazard: relative precision ≈ 1 ÷ √events, so recompute at hazard × (1 ± 2 ÷ √events). 438 events buys about ±4%; a thin segment with 40 events would be four times looser. Chart the cumulative curve ([`cohort-ltv-curve.png`](cohort-ltv-curve.png)) so the flattening is visible.
+Both halves matter. The decay assumption is **constant monthly hazard** — the same churn rate in month 12 as in month 1, which is a choice, not a finding. The range comes from how many churn events sit behind the hazard: relative precision ≈ 1 ÷ √events, so recompute at hazard × (1 ± 2 ÷ √events). 438 events buys about **±9.6% on the hazard**, which works through to roughly **±4% on the 12-month LTV** — the band above. A thin segment with 40 events would be about **3.3× looser** (√(438 ÷ 40)), on either measure. Chart the cumulative curve ([`cohort-ltv-curve.png`](cohort-ltv-curve.png)) so the flattening is visible.
 
 ## Name your horizon — it moves the number
 

@@ -12,36 +12,38 @@ The instruction given, verbatim:
 
 The variant prompt kept the detail in the *profile* and did not ask for "specific and personal" answers. Instructed richness arrives whether or not anything sits behind it, and it tallies like data.
 
-**Independence check:** all 24 opening sentences compared side by side. No persona referenced another, none used "as mentioned" or "unlike", and the four objections that recur (durability, chewing, price, washability) are phrased differently every time they appear — "marked up, not well made", "the seams go first", "flat in four months". Two openings share a sentence shape but not vocabulary, which is within what independent runs produce. Claude's own write-up said "independent" regardless; the responses are what makes it checkable.
+**Independence check:** all 24 opening sentences compared side by side. No persona referenced another, none used "as mentioned" or "unlike", and the three most common objections (durability, chewing, price) are phrased differently every time they appear — "marked up, not well made", "the seams go first", "flat in four months". Two openings share a sentence shape but not vocabulary, which is within what independent runs produce. Claude's own write-up said "independent" regardless; the responses are what makes it checkable.
 
-## Responses (top barrier per variant)
+## Responses (one row per variant)
 
-| # | Archetype | Top barrier |
-|---|---|---|
-| 1 | design-focused | "Looks great in the photo — but is it built well, or just marked up?" |
-| 2 | design-focused | "Will that oatmeal actually read right next to a grey sofa, or look off in person?" |
-| 3 | design-focused | "'Furniture-grade' usually means veneer and staples. Will it hold up?" |
-| 4 | design-focused | "The footprint. Right bed, wrong scale for my living room." |
-| 5 | multi-dog | "Won't survive Duke — he's opened up every bed we've owned." |
-| 6 | multi-dog | "Does the whole cover come off and go in a machine, or is it spot-clean only?" |
-| 7 | multi-dog | "I've replaced three 'premium' beds. The seams go first, every time." |
-| 8 | multi-dog | "Two shedders. If the cover can't be washed weekly it's out." |
-| 9 | new-puppy | "Too expensive while she's still destroying things." |
-| 10 | new-puppy | "He's not house-trained yet. One accident and it's ruined." |
-| 11 | new-puppy | "Can't justify that number this year. Nothing to do with the bed." |
-| 12 | new-puppy | "She chews anything with a seam, and this has seams." |
-| 13 | budget-conscious | "Not worth the price for a dog bed. He sleeps on the rug by choice." |
-| 14 | budget-conscious | "Price. Hard to justify against a $40 one that works." |
-| 15 | budget-conscious | "I'd wait for a sale before I'd even click through." |
-| 16 | budget-conscious | "Cheap ones flatten, sure — but does this last five times longer, or just cost five times more?" |
-| 17 | senior-dog | "Is it actually supportive under arthritic hips, or just firm-looking?" |
-| 18 | senior-dog | "The bolster looks too high. He can't lift his back legs over it." |
-| 19 | senior-dog | "Her last bed's foam was flat in four months. Does this one hold its shape?" |
-| 20 | senior-dog | "Thick foam runs hot, and he already overheats at night." |
-| 21 | large-breed | "Will 'large' actually be large enough? It usually isn't." |
-| 22 | large-breed | "Will the base take 110 lb landing on it all at once?" |
-| 23 | large-breed | "Sturdiness. Big dogs flop; light frames rack and go crooked." |
-| 24 | large-breed | "Mud, drool, and a lot of coat. Can I wash the cover?" |
+Four columns, as the collection template specifies: the **coded** category is what gets counted, the verbatim is what lets a reader check the coding and disagree with it. Codes below are the codebook's categories in short form — `Durability` = *Durability / "pretty but flimsy"*, `Chewing` = *Won't survive chewing / accidents*, `Price` = *Price / not worth it*.
+
+| # | Archetype | Top barrier (coded) | Verbatim |
+|---|---|---|---|
+| 1 | design-focused | Durability | "Looks great in the photo — but is it built well, or just marked up?" |
+| 2 | design-focused | Won't match my space | "Will that oatmeal actually read right next to a grey sofa, or look off in person?" |
+| 3 | design-focused | Durability | "'Furniture-grade' usually means veneer and staples. Will it hold up?" |
+| 4 | design-focused | Won't match my space | "The footprint. Right bed, wrong scale for my living room." |
+| 5 | multi-dog | Chewing | "Won't survive Duke — he's opened up every bed we've owned." |
+| 6 | multi-dog | Washability | "Does the whole cover come off and go in a machine, or is it spot-clean only?" |
+| 7 | multi-dog | Durability | "I've replaced three 'premium' beds. The seams go first, every time." |
+| 8 | multi-dog | Washability | "Two shedders. If the cover can't be washed weekly it's out." |
+| 9 | new-puppy | Chewing | "Too expensive while she's still destroying things." |
+| 10 | new-puppy | Chewing | "He's not house-trained yet. One accident and it's ruined." |
+| 11 | new-puppy | Price | "Can't justify that number this year. Nothing to do with the bed." |
+| 12 | new-puppy | Chewing | "She chews anything with a seam, and this has seams." |
+| 13 | budget-conscious | Price | "Not worth the price for a dog bed. He sleeps on the rug by choice." |
+| 14 | budget-conscious | Price | "Price. Hard to justify against a $40 one that works." |
+| 15 | budget-conscious | Price | "I'd wait for a sale before I'd even click through." |
+| 16 | budget-conscious | Durability | "Cheap ones flatten, sure — but does this last five times longer, or just cost five times more?" |
+| 17 | senior-dog | Comfort / support | "Is it actually supportive under arthritic hips, or just firm-looking?" |
+| 18 | senior-dog | Comfort / support | "The bolster looks too high. He can't lift his back legs over it." |
+| 19 | senior-dog | Durability | "Her last bed's foam was flat in four months. Does this one hold its shape?" |
+| 20 | senior-dog | Comfort / support | "Thick foam runs hot, and he already overheats at night." |
+| 21 | large-breed | Size / sturdiness | "Will 'large' actually be large enough? It usually isn't." |
+| 22 | large-breed | Size / sturdiness | "Will the base take 110 lb landing on it all at once?" |
+| 23 | large-breed | Size / sturdiness | "Sturdiness. Big dogs flop; light frames rack and go crooked." |
+| 24 | large-breed | Washability | "Mud, drool, and a lot of coat. Can I wash the cover?" |
 
 ## Ranked barriers
 
@@ -76,6 +78,8 @@ Read the rows, not the totals. Durability is the only barrier that appears in fo
 
 Four responses per archetype is the minimum that makes this table readable. At one or two per archetype, a single response becomes a "segment pattern."
 
+**Name the thin cells, because the table won't.** Only 13 of the 42 cells are occupied at all, and 9 of those 13 rest on one or two responses. **Six cells are a single response:** durability in multi-dog (#7), in budget (#16) and in senior-dog (#19); chewing in multi-dog (#5); price in new-puppy (#11); washability in large-breed (#24). **Three rest on two:** durability (#1, #3) and aesthetic fit (#2, #4) in design-focused, washability in multi-dog (#6, #8). Only four cells reach three — chewing×new-puppy, price×budget, comfort×senior-dog, size×large-breed — and they are the only cells doing any work. Everything else is a row total in disguise, so read the row and cite the id, not the cell.
+
 ### Codebook (how responses were coded)
 
 Aggregation is a judgement call, so the rules go in writing before the counting. The consequential one here is durability vs. chewing — merge them and durability jumps to 9 of 24 (~38%), which changes the headline.
@@ -90,12 +94,13 @@ Aggregation is a judgement call, so the rules go in writing before the counting.
 | **Size / sturdiness** | will it be big enough; will it hold the dog's weight | build quality over time → durability |
 | **Comfort / support** | support under joints, bolster height, sleeping hot | loss of shape over time → durability |
 
-**Coding notes (the four rows that could have gone either way):**
+**Coding notes (the rows that could have gone either way):**
 
 - **#9** "too expensive while she's still destroying things" → **chewing**, not price. The cost objection carries a destruction claim, so the codebook sends it out of Price.
 - **#16** "does this last five times longer, or just cost five times more?" → **durability**, not price. Same rule: a quality claim is attached.
 - **#19** foam flat in four months → **durability** (it's loss of shape over time). **#17** and **#20** are about support and heat *now* → **comfort/support**.
 - **#22, #23** load-bearing and racking → **size/sturdiness**, not durability. Durability is build quality over time, not whether the thing is big and strong enough today.
+- **#4** "right bed, wrong scale for my living room" → **won't match my space**, not size/sturdiness. This is the closest call in the set, and the rule that decides it: room-fit is aesthetic, dog-fit is size. #4 asks whether the bed fits the *room*; #21 ("will 'large' be large enough") asks whether it fits the *dog*. The codebook's size exclusion covers scale the frame has to carry, not scale the living room has to accommodate.
 
 **Kept separate on purpose:** durability and chewing get different marketing responses. Durability doubt is answered with materials, testing, and warranty. Chewing concern is answered with a chew-resistant SKU or an honest "not for heavy chewers" disclosure. Merging them would produce one ~38% barrier you can't act on with a single message. Size/sturdiness and comfort/support stay separate for the same reason — they're spec answers, not trust answers.
 
@@ -138,7 +143,7 @@ Then each finding against it. New-puppy is seeded for two things (chewing and pr
 
 **Durability is genuine signal.** It is raised in four of six archetypes in four different framings: design owners as "marked up, not well made" (#1, #3), a multi-dog owner as "the seams go first" (#7), a budget owner as cost-per-year (#16), a senior-dog owner as loss of shape (#19). Varied framing, plus dissent — new-puppy and large-breed owners never raise it — is what a real pattern looks like. Note what is *not* being counted as durability evidence: multi-dog chewing survival (#5) is a separate category on purpose, and folding it in here to widen the pattern would be the merge the codebook forbids.
 
-**The flat tail is not seven equal barriers.** Three categories tie at 13%, and two of them sit wholly inside one archetype — comfort/support in senior-dog, size/sturdiness in large-breed. Washability is the exception: it splits multi-dog 2 / large-breed 1, so a tie in the tally can hide a barrier with reach as easily as one without. That's mostly the roster's shape showing through the tally, not seven findings of similar strength.
+**The flat tail is not six equal barriers.** Three categories tie at 13%, and two of them sit wholly inside one archetype — comfort/support in senior-dog, size/sturdiness in large-breed. Washability is the exception: it splits multi-dog 2 / large-breed 1, so a tie in the tally can hide a barrier with reach as easily as one without. That's mostly the roster's shape showing through the tally, not six findings of similar strength.
 
 ## Calibration disclosure
 

@@ -2,13 +2,15 @@
 
 *Actual Claude output — three campaign files produced in one Claude Code project workspace, each drawing on the brand + campaign files (and the earlier deliverables) without re-pasting, then a fourth file reconciling them in a fresh session from the saved files. One run; outputs vary.*
 
+*The filenames below are this run's own. The exercise asks for one file per deliverable and doesn't prescribe names — any clear name works, as long as the consistency check names the files it actually read.*
+
 ## 1. `messaging-brief.md`
 - **Positioning:** Hydration, handled.
 - **Key messages:** (1) your bottle keeps score, so you don't have to; (2) automatic tracking, no logging; (3) gentle nudges in a busy day; (4) feel your best, without the effort.
 - **Tone:** encouraging, clear, a little witty — feeling first, tech second.
 - **Audience:** active, health-aware, 25–45; already track steps/sleep; skeptical of hype.
 
-## 2. `launch-email.md`
+## 2. `launch-email.md` — as first drafted
 > **Subject:** Your water bottle just got a lot smarter
 >
 > Staying hydrated shouldn't take willpower or math. Meet Vessl — the smart water bottle that keeps score so you don't have to. It tracks every sip and gently nudges you when you're falling behind, so hitting your goal just… happens.
@@ -19,7 +21,7 @@
 >
 > *Hydration, handled.* → **[Get Vessl]**
 
-*(Carries key messages 1, 2, and 3; brand voice; no fear/guilt framing.)*
+*(As first drafted, this carries key messages 1, 2, and 3, in the brand voice, with no fear/guilt framing. The refinement below rewrites the opening and costs it two of those — the final file is at the end of that section, and §4 is the audit that catches it.)*
 
 ## 3. `creator-profile.md`
 > **Who Vessl should partner with:** an active, health-aware creator — fitness, wellness, or "day in the life" — whose real routine already includes movement and hydration. **Audience:** 25–45, health-curious, skeptical of hype. **Content style:** candid, daylight, real-moment; product in-frame, not staged. **Values fit:** helpful over preachy, celebrates small wins — matches Vessl's "supportive friend" voice. **Why:** their audience *is* our audience, and authentic daily use is the campaign's whole creator-led thesis.
@@ -35,6 +37,20 @@ Prompt: *"Tighten the email's opening paragraph to two sentences. Open on the fe
 > You're already doing the hard part — moving, sleeping, showing up. Vessl handles the one thing that quietly makes all of it work better.
 
 *(One prompt, no re-pasting. Claude held the brand voice and the brief's "feeling first" instruction from the project files.)*
+
+**Final `launch-email.md`, as it now sits on disk:**
+
+> **Subject:** Your water bottle just got a lot smarter
+>
+> You're already doing the hard part — moving, sleeping, showing up. Vessl handles the one thing that quietly makes all of it work better.
+>
+> No logging. No guessing. Just a quiet tap on the shoulder when you need it, and the good feeling of being on track by the end of the day.
+>
+> **This summer only:** early buyers get free shipping and three months of premium in the app.
+>
+> *Hydration, handled.* → **[Get Vessl]**
+
+**This assembled version is what §4 audits, and it no longer carries all three key messages.** Message 1 — "keeps score, so you don't have to" — left with the paragraph that got tightened, and the tracking half of message 2 went with it. Nothing in this session says so: the file reads better and scores worse against the brief, and only a reader coming to it cold would catch that. Don't quietly repair it before you run the check — the consistency check is the deliverable, and it needs something real to find.
 
 ## 4. `consistency-check.md` — written in a fresh session
 
@@ -88,6 +104,7 @@ Session closed, folder reopened. One prompt, nothing pasted in:
 > - The creator profile's content style (candid, daylight, real-moment) matches the voice guide's look-and-feel section.
 >
 > **Summary:** two drifts, both introduced downstream of the brief, both fixable in this session. One is load-bearing — the email sells a feeling with no product behind it.
+>
+> **Where persistent context saved me:** I never re-pasted the brand voice or the brief to write the launch email, and I didn't have to re-explain them in the fresh session either — it read all five files off disk and caught the "keeps score" hook my own refinement had deleted.
 
-## Persistent-context note
-> I never re-pasted the brand voice or the brief to write the launch email, and I didn't have to re-explain them in the fresh session either — it read all five files off disk and caught the "keeps score" hook my own refinement had deleted.
+*That last line is the required one-line persistent-context note, and it lives inside the consistency-check file as its final line — not in a fifth file of its own.*

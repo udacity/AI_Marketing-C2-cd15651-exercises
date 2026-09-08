@@ -10,6 +10,8 @@
 
 ## Run 2 — adversarial reviewer
 
+**Prompt:** `Act as a skeptical growth lead. Your job is to find the 3–5 assumptions this strategy quietly depends on and would fail on, and to name the strongest case against it. Be specific about second-order effects.`
+
 > 1. **Assumes users pay rather than resent.** Removing a free feature people already depend on daily can trigger backlash and churn, not conversion — loss aversion cuts both ways.
 > 2. **Assumes sync isn't easily replaced.** Users may bridge devices another way, or leave for a competitor's free tier that still includes it.
 > 3. **Assumes the free tier stays attractive.** Gutting a loved feature can slow the signups that feed all future conversion.
@@ -19,10 +21,12 @@
 
 ## Learner's analysis
 
-**Ranked by damage if wrong:** (1) resent-not-pay · (2) sync easily replaced · (3) weakened top-of-funnel · (4) support cost.
+**Ranked by damage if wrong:** (1) resent-not-pay · (2) weakened top-of-funnel · (3) sync easily replaced · (4) support cost.
+
+*Not the reviewer's order — it had replaceability second. Wrong on damage: replaceability is a bounded miss that the same pilot would surface anyway, while a free tier that stops feeding signups compounds across every future cohort and is the slowest to detect. Top-of-funnel gets promoted over it.*
 
 **One critique I discount:** critique 4, "expect complaints, reviews, and churn spikes at rollout" — real but transient, and the cost of any pricing change. A launch-week spike isn't a standing brand cost. Discount the framing; keep the operational point (staff support, grandfather existing users).
 
-**Cheap test for the top risk:** gate sync for a small random slice of **existing grandfathered free users** — the group whose sync would actually disappear; track 30–60 day conversion **and** churn/complaints vs. a control.
+**Cheap test for the top risk:** gate sync for a small random slice of **existing free users** — the group who would otherwise be grandfathered, and the only group whose sync actually disappears; track 30–60 day conversion **and** churn/complaints vs. a control.
 
-**Revised position:** *Don't roll out broadly yet — pilot on a small slice of existing grandfathered free users. Deciding reason: the play rests entirely on "convert, not resent," which is untested. Changes my call: a clean conversion lift with no churn/complaint spike in the pilot.*
+**Revised position:** *Don't roll out broadly yet — pilot on a small slice of existing free users, carved out of the grandfathering. Deciding reason: the play rests entirely on "convert, not resent," which is untested. Changes my call: a clean conversion lift with no churn/complaint spike in the pilot.*

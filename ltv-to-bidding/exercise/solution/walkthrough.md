@@ -57,12 +57,14 @@ The ranges do not come close to touching, so this is the one finding you can sta
 
 Raw LTV by geo *looks* like geography decides value:
 
-| geo | n | LTV (raw) | LTV range | % discount-acquired |
-|---|---|---|---|---|
-| CA | 765 | ~$161 | $144 – $183 | 25% |
-| US | 1,625 | ~$128 | $119 – $138 | 40% |
-| UK | 1,209 | ~$113 | $104 – $123 | 47% |
-| **IN** | 1,201 | **~$69** | $64 – $74 | **81%** |
+| geo | n | LTV (raw) | LTV range | CAC | LTV:CAC | % discount-acquired |
+|---|---|---|---|---|---|---|
+| CA | 765 | ~$161 | $144 – $183 | $21.57 | 7.5× | 25% |
+| US | 1,625 | ~$128 | $119 – $138 | $21.12 | 6.0× | 40% |
+| UK | 1,209 | ~$113 | $104 – $123 | $20.84 | 5.4× | 47% |
+| **IN** | 1,201 | **~$69** | $64 – $74 | **$20.00** | **3.4×** | **81%** |
+
+**CAC barely moves across geography** — $20.00 to $21.57, a 7.9% spread — while LTV:CAC runs from 3.4× to 7.5×. So the entire efficiency gap sits on the LTV side of the ratio: geography does not change what a customer costs to acquire, only what they turn out to be worth. And note which way it points. **IN is the cheapest geo to buy in and has the worst return** — the textbook case of a low acquisition cost hiding a low lifetime value, and exactly the trap you would fall into by bidding on CAC alone.
 
 IN's range clears every other geo's by a wide margin, and CA's sits above all three — so the raw gap is real, it just isn't *about geography*. (UK and US do overlap, which is your first hint the ordering is softer than the point estimates look.) Split **within** acquisition type and it all but disappears:
 
@@ -75,9 +77,11 @@ IN's range clears every other geo's by a wide margin, and CA's sits above all th
 
 An IN full-price customer (~$325) is worth *more* than a Canadian one (~$311). The spread across all four geos is **7.0% within full_price and 8.2% within discount** — and every one of those eight ranges overlaps every other in its column, so there is no evidence any geo differs from any other once you hold acquisition type fixed. **IN only looks low-value because 81% of its customers were acquired on discount, vs. 25% in CA.** Geography is a confound; **acquisition type is the driver.** See [`ltv-driver-chart.png`](ltv-driver-chart.png).
 
+Run the ratio the same way inside each acquisition type and IN moves from worst to **best**: full-price LTV:CAC is **16.2× in IN**, against 15.4× US, 14.6× UK and 14.4× CA — while every discount cell sits between 2.3× and 2.6×. The 3.4× that made IN look like a bad market was its offer mix, not its customers. This is the geography half of the LTV-vs-CPA comparison, and it lands the opposite way round from the channel half in §4: there, cost is what differs; here, cost is flat and only value moves.
+
 *What the chart shows: two panels side by side. Left, raw LTV by geography — CA $161, US $128, UK $113, and IN lowest at $69, each bar labelled with its discount share, IN cross-hatched to mark it as the outlier. Right, the same data split by acquisition type — full-price bars solid, discount bars hatched — where all four geographies land within 7% of each other on full-price customers and within 8% on discount. The visual point is that the dramatic left-hand gap tracks the discount share, not the geography.*
 
-Say the thin cell out loud: **IN's full-price estimate rests on 48 churn events**, the fewest in the table, so its range runs $253–$453. It is enough to kill the "IN is a bad market" story — the range sits far above IN's raw $69 either way — but not enough to rank IN against US. Report it as "indistinguishable," not as a winner.
+Say the thin cell out loud: **IN's full-price estimate rests on 48 churn events**, the fewest in the table, so its range runs $252–$456. It is enough to kill the "IN is a bad market" story — the range sits far above IN's raw $69 either way — but not enough to rank IN against US. Report it as "indistinguishable," not as a winner.
 
 **Income is a second, weaker story — and only partly a confound.** Discount accounts for 68% of low-band customers vs. 26% of high-band, so most of the raw income gap is the same mix effect. A residual does survive inside full_price (~$247 low vs. ~$344 mid and ~$342 high), and part of it is real: higher bands pay a higher fee. Note the fee is *not* determined by the band — all three fees appear in all three bands — so you can separate price from income here rather than having to assume.
 
@@ -91,7 +95,7 @@ Say the thin cell out loud: **IN's full-price estimate rests on 48 churn events*
 | search | 1,583 | 30% | 602 | ~$22.04 | ~$153 | $141 – $166 | ~6.9× |
 | paid_social | 1,695 | 50% | 836 | ~$28.45 | ~$106 | $99 – $114 | ~3.7× |
 
-**Referral is the cheapest traffic and the least valuable** — the case the brief asks you to find. Rank on CPA alone and you buy the lowest-LTV customers in the account, with the ranges nowhere near overlapping ($76–$86 against search's $142–$166). It is not that referral attracts worse people: its full-price customers are worth the same as everyone's. It is that **69% of referral volume arrives on a discount**, because the referral offer *is* a discount. Search costs **2.0× more per customer and returns 1.9× the LTV** on a 30% discount mix — that is what a justified high CPA looks like.
+**Referral is the cheapest traffic and the least valuable** — the case the brief asks you to find. Rank on CPA alone and you buy the lowest-LTV customers in the account, with the ranges nowhere near overlapping ($76–$86 against search's $141–$166). It is not that referral attracts worse people: its full-price customers are worth the same as everyone's. It is that **69% of referral volume arrives on a discount**, because the referral offer *is* a discount. Search costs **2.0× more per customer and returns 1.9× the LTV** on a 30% discount mix — that is what a justified high CPA looks like.
 
 **Now the part that matters most, because it is where this analysis can fool you: the answer changes with the metric.**
 
@@ -132,16 +136,16 @@ Two things to be explicit about, because the file alone won't tell a colleague e
 
 - **The cut is on LTV:CAC, not on `predicted_value`.** That is why `discount | referral` and `discount | search` both carry $51.50 and land in different tiers — same modelled lifetime, half the acquisition cost. If you tier on predicted value alone, every discount segment gets the same label and the signal loses the only thing that separates them.
 - **The cuts are conventions, not findings.** 3× is the common payback bar once margin is in; 6× is simply double it. Move the cuts and the labels move — so publish the rule beside the file.
-- **The horizon moves the tier, and both answers are acceptable.** This solution projects the hazard forward, giving full-price $315.88 and **high**. A learner who stops at the last observed month (month 10) gets roughly **$83** and **mid** — same data, same rule, different stated horizon. Grade the horizon statement and the tiering rule, not the tier that falls out of them. A submission that lands on **mid** with its truncation named is correct; one that lands on **high** without saying it extrapolated is not.
+- **The horizon moves the tier, and both answers are acceptable.** This solution projects the hazard forward, giving full-price $315.88 and **high**. A learner who stops at the last observed month (month 10) gets roughly **$85** and **mid** — that is §7's 8.7 in-window months at the same 65% margin and $15.04 average fee, so ~3.8× against full-price CAC. Same data, same rule, different stated horizon. Grade the horizon statement and the tiering rule, not the tier that falls out of them. A submission that lands on **mid** with its truncation named is correct; one that lands on **high** without saying it extrapolated is not.
 
 **Why LTV is pooled within acquisition type.** Split the hazard all the way down to segment and the cells stop being informative. Within full_price:
 
 | | n | events | hazard | hazard range |
 |---|---|---|---|---|
-| **pooled** | 2,425 | 507 | 3.09% | 2.82 – 3.36% |
-| \| referral | 467 | 92 | 2.92% | 2.32 – 3.52% |
-| \| search | 1,103 | 234 | 3.14% | 2.74 – 3.54% |
-| \| paid_social | 855 | 181 | 3.13% | 2.68 – 3.59% |
+| **pooled** | 2,425 | 507 | 3.09% | 2.82 – 3.37% |
+| \| referral | 467 | 92 | 2.92% | 2.31 – 3.53% |
+| \| search | 1,103 | 234 | 3.14% | 2.73 – 3.55% |
+| \| paid_social | 855 | 181 | 3.13% | 2.67 – 3.60% |
 
 All three segment intervals contain the pooled estimate. There is **no evidence channel changes retention within an acquisition type** — so pool the hazard where it is well-powered and let segments differ on the thing that genuinely does differ: **CAC**. Publishing six separate hazards would ship noise as signal, which is the §1 mistake wearing a different hat.
 
@@ -153,7 +157,7 @@ All three segment intervals contain the pooled estimate. There is **no evidence 
 
 - **You are projecting years from months.** The longest tenure anywhere in this file is **10 months** (the oldest cohort; the newest reaches 5), yet full_price's expected lifetime comes out at **32.3 months**. At a 3.09% hazard only 8.7 of those 32.3 expected months fall inside the observation window, so **~73% of full_price LTV is extrapolation past the last data point** — no customer in the dataset has lived long enough to confirm month 11, let alone month 32. (Discount LTV is the opposite: at 18% churn, 87% of its modelled value lands inside 10 months, which is why $51.50 is the sturdier of the two numbers despite being the smaller one.) Constant hazard is doing all the work out there, and nothing in the range above prices that. It is the single largest source of error in this analysis, and it is not a statistical problem you can shrink with more rows — only more *time* fixes it. If the number has to support a spend decision now, sanity-check it against a bounded horizon (say a 12-month LTV) as well, where the projection is a stretch rather than a leap.
 - **Young cohorts carry the most forecast risk** — least observed tenure, widest ranges, and the mixture bias in §1 works against them specifically.
-- **Segment hazards are underpowered** below roughly 500 customers; hence the pooling in §5. The thinnest cell reported is IN full_price at **48 churn events** ($253–$453) — quoted to kill a bad story, not to rank a market. Re-estimate per segment once volume supports it.
+- **Segment hazards are underpowered** below roughly 500 customers; hence the pooling in §5. The thinnest cell reported is IN full_price at **48 churn events** ($252–$456) — quoted to kill a bad story, not to rank a market. Re-estimate per segment once volume supports it.
 - **The ranges cover sampling noise only.** They answer "how many churn events is this hazard built on," not "is constant hazard the right model" or "is 65% the right margin." Both of those move the numbers further than the ranges do.
 - Geometric decay imposes a **constant** monthly hazard. Real churn is usually front-loaded, which would lower early-life LTV and raise it later.
 - Validate against **held-out cohorts over time** — its own discipline.

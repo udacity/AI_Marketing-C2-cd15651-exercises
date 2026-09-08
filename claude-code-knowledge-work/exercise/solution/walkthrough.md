@@ -4,6 +4,8 @@
 
 *The two drifts found below came out of the specific refinement this run happens to make. **Yours will be different drifts, and that is the expected result** — the deliverable is a note that names what disagrees with what, not a note that matches these findings. Finding no drift is also a real result, if the note shows the pairings it checked.*
 
+*Filenames are this run's own. The exercise asks for one file per deliverable and doesn't prescribe names — any clear name works, provided the consistency-check note names the files it actually read.*
+
 **Setup:** a Claude Code project folder holding `brand-voice-guide.md` and `campaign-context-sheet.md`, with a short `CLAUDE.md` telling Claude Code to treat both as the campaign's source of truth.
 
 ---
@@ -43,7 +45,7 @@ Written after the brief was refined, so it inherits the sharpened key messages w
 >
 > *Hydration, handled.* → [Get Vessl]
 
-Carries key messages 1, 2, and 3 from the brief, in the brand voice, no fear/guilt framing.
+**As drafted here**, this carries key messages 1, 2, and 3 from the brief, in the brand voice, with no fear/guilt framing. The refinement pass below rewrites the opening and takes two of those with it, which is what the consistency check goes on to find — so read this claim as true of the draft, not of the file that ends up on disk. The assembled final version is in [`example-output.md`](example-output.md).
 
 ## Deliverable 3 — Creator profile (`creator-profile.md`)
 
@@ -55,9 +57,9 @@ Carries key messages 1, 2, and 3 from the brief, in the brand voice, no fear/gui
 
 ---
 
-## Refinement step
+## Refinement pass — revising Deliverable 2 in place
 
-With all three files in the workspace, one follow-up prompt refines without re-pasting context:
+Not a fourth deliverable: this is Deliverable 2 being edited on disk, after all three pieces exist. With all three files in the workspace, one follow-up prompt refines without re-pasting context:
 
 > Tighten the email's opening paragraph to two sentences. It should open on the feeling, not the feature — no mention of tracking in the first line.
 
@@ -65,19 +67,21 @@ Claude has the email already open in the workspace and returns the revision in c
 
 **Watch what this costs.** The revision opens on the feeling as asked, but the paragraph it replaced was where "keeps score so you don't have to" and "tracks every sip" lived — the campaign's stated hook and the tracking claim behind it. The email is now shorter, better, and quietly no longer says what the product does. Nothing in the session flags it, because the session is looking at one file and it was asked to cut, not to keep.
 
-## Fresh session — reconcile the three files (`consistency-check.md`)
+## Deliverable 4 — Consistency check (`consistency-check.md`), in a fresh session
 
 Close the session. Reopen the same folder and ask for the check in one prompt, without describing what's in any of the files:
 
 > Read messaging-brief.md, launch-email.md and creator-profile.md in this folder. Check them against each other and against brand-voice-guide.md: does the email carry the brief's key messages, does the creator profile's audience match the brief's, and does every piece follow the voice guide? Write what you find to consistency-check.md, naming the file and the specific disagreement.
 
-Claude Code reads all four files off disk and returns two findings plus a clean voice check — see [`example-output.md`](example-output.md) for the note it wrote. The headline finding is the cost of the refinement above: the tightened email lost key message 1 outright and kept only half of message 2, so it now promises "no logging, no guessing" without ever saying that Vessl tracks. The subtler one is a one-word audience slide in the creator profile — the brief's "health-aware, already tracking" became "health-curious," a softer, browsing audience.
+Claude Code reads the named files off disk — plus the campaign sheet, which it opens on its own to check the hook — and returns two drift findings plus a voice check that clears all three pieces with one judgment call flagged: the subject line's "got a lot smarter" leans hypier than the guide's "calm and capable," without crossing into its banned words. See [`example-output.md`](example-output.md) for the note it wrote. The headline finding is the cost of the refinement above: the tightened email lost key message 1 outright and kept only half of message 2, so it now promises "no logging, no guessing" without ever saying that Vessl tracks. The subtler one is a one-word audience slide in the creator profile — the brief's "health-aware, already tracking" became "health-curious," a softer, browsing audience.
 
 **Why this needs a fresh session, not a scroll-back.** Two things are being tested at once. The files have to still be on disk after the session that made them is gone — that's the persistent workspace. And the reconciliation has to be a *read*, not a recollection: a session that drafted the email remembers writing "tracks every sip" and will happily tell you it's still there. A session that has never seen the email only knows what the file says. That is the whole reason the check catches the drift.
 
 Both findings are fixable in the same fresh session, because the files are right there: restore the "keeps score" hook to the email as a third sentence that keeps the feeling-first opening, and align the creator profile's audience line to the brief's wording.
 
 ## Where persistent context helped (the one-line note)
+
+Not a fifth file — it goes in as the last line of the consistency-check file, in the same fresh session that wrote it:
 
 > I never re-pasted the brand voice or the brief to write the launch email, and I didn't have to re-explain them in the fresh session either — it read all five files off disk and caught the "keeps score" hook my own refinement had deleted.
 

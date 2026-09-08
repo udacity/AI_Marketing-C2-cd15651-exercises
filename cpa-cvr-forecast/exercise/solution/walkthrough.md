@@ -4,7 +4,7 @@
 
 ## 1. Describe the data first (before forecasting)
 
-Three patterns to separate — a fourth is defensible, since CPM drift and CTR erosion are separately significant with different causes, and a learner who splits them is not wrong:
+Three patterns to separate — a fourth is defensible, since CPM drift and CTR erosion are separately significant with different causes, and a learner who splits them is not wrong. *Day numbers below are 0-based, matching the chart's x-axis: day index 0 = `2025-08-01`, the first row of the CSV, so day 40 is CSV row 41.*
 
 - **Creative fatigue (a trend to carry forward).** CTR erodes across the 90 days, pushing CPA up steadily: daily CPA runs **~$28 in the first 10 days → ~$42 by days 66–75** (just before the spend ramp). This is a genuine trend, not noise.
 - **Promo week (a discrete event to exclude).** Days ~40–46 (`notes = "Promo week (20% off sitewide)"`) spike CVR and drop CPA. Leaving it in the trend fit drags the baseline too optimistic — exclude it before fitting.

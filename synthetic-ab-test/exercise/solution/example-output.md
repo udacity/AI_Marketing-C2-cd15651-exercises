@@ -6,12 +6,18 @@
 
 ## Scores (1–5: Resonance / Believability / Relevance / Distinctiveness → total /20)
 
-| Persona | A | B | C |
-|---|---|---|---|
-| Maya — design apartment | 5/4/5/4 = **18** | 3/4/3/2 = **12** | 4/5/4/4 = **17** |
-| Rick — practical multi-dog | 2/3/1/2 = **8** | 1/3/2/2 = **8** | 4/4/3/4 = **15** |
-| Priya — new puppy | 4/3/2/3 = **12** | 4/3/4/3 = **14** | 4/5/4/3 = **16** |
-| **Average** | **12.7** | **11.3** | **16.0** |
+| Persona | A | B | C | Top pick |
+|---|---|---|---|---|
+| Maya — design apartment | 5/4/5/4 = **18** | 3/4/3/2 = **12** | 4/5/4/4 = **17** | **A** |
+| Rick — practical multi-dog | 2/3/1/2 = **8** | 1/3/2/2 = **8** | 4/4/3/4 = **15** | **C** |
+| Priya — new puppy | 4/3/2/3 = **12** | 4/3/4/3 = **14** | 4/5/4/3 = **16** | **C** |
+| **Average** | **12.7** | **11.3** | **16.0** | — |
+
+Each persona's top pick is its own highest total, with the one-sentence reason in that persona's voice (the last two lines of the scoring prompt's output format):
+
+- **Maya → A (18, one point clear of C):** *"A is the first one that treats a dog bed like something I'd choose for the room rather than tolerate in it."*
+- **Rick → C (15, versus 8 and 8):** *"C is the only one that talks about the bed getting used instead of admired — though none of them told me whether it survives a chewer."*
+- **Priya → C (16):** *"C says the honest thing out loud without pretending my puppy needs a luxury she'd wreck this year."*
 
 ## Per-dimension averages
 

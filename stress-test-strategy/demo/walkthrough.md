@@ -23,6 +23,7 @@ Now the useful assumptions surface:
 - That a free month creates a *lasting habit* rather than a free ride that ends the moment billing starts.
 - That the people who claim the free month were not already about to convert — otherwise you're cannibalizing revenue you'd have earned anyway.
 - That one month is long enough to reach the product's aha moment.
+- That the cost is worth it — you absorb the Premium cost for the entire free base in order to convert a fraction of it.
 
 ## Pick the most dangerous assumption
 

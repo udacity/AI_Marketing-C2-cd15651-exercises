@@ -29,7 +29,8 @@ Showing more than one type keeps confabulation from looking price-only.
 
 - **Signal (grounded):** the persona says comfort matters more than looks — straight from the survey quotes. Trust it.
 - **Signal (grounded):** the persona references a vet's arthritis mention — traceable to a review. Trust it.
-- **Confabulation:** the persona names an exact price it would pay — specificity beyond the seed (marker 2), and a behavioral prediction about a purchase it never made (marker 1). Discard it.
+- **Confabulation:** the persona names an exact price it would pay — specificity beyond the seed (marker 2). Discard it.
+- **Confabulation:** the persona says how many nights a week its dog would sleep on the bed — a behavioral prediction about a product it has never used (marker 1). Discard that too.
 
 ## Key takeaway
 

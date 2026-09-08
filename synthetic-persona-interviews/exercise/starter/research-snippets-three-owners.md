@@ -12,10 +12,12 @@
 - "Works great, but let's be honest, it's an eyesore. I shove it in the closet when people come over."
 - "Why do all dog beds look like they belong in a garage? I live in a small apartment and everything is on display. I want something I'm not embarrassed by."
 - "Functionally fine. Aesthetically, it clashes with everything I own. I'd pay a premium for one that actually looked like furniture."
+- "I bought a 'designer' pet bed on impulse once because it photographed well, and I regretted it — same bed, nicer cover, higher price. Show me it's actually built well, not just styled well."
 
 **Survey quotes**
 - "My apartment is small, so every object has to earn its place. A dog bed that looks like a piece of decor? Instant yes."
 - "I care how my home looks. The dog bed is the one thing that always ruins the photo."
+- "I find this stuff through the interiors accounts I follow. If I see it in someone's actual home instead of a product shot, I'll go look it up."
 
 **Support-ticket themes**
 - Questions about color and fabric options that match modern interiors.
@@ -27,10 +29,12 @@
 - "Three dogs, one of them a chewer. This is the only bed that's survived a year. That's all I need to know."
 - "I wash these things constantly. If it can't go in the machine, it's useless to me."
 - "Don't care what it looks like, care that it lasts. Fancy beds are a waste of money in my house."
+- "I checked the stitching in the store before I bought this one. That's how little I trust the marketing on these."
 
 **Survey quotes**
 - "With multiple big dogs, durability and easy cleaning beat everything else. I'm not decorating, I'm surviving."
 - "I've thrown away too many 'premium' beds that fell apart. I want tough and washable, full stop."
+- "I only listen to reviews from people with big dogs or a chewer — someone whose house is like mine has actually stress-tested it. Lifestyle blogs tell me nothing."
 
 **Support-ticket themes**
 - Questions about weight limits, chew resistance, and washability.
@@ -46,6 +50,7 @@
 **Survey quotes**
 - "New puppy, no idea what I'm doing. I just want something that won't get destroyed while she's little."
 - "I'll invest in nicer stuff once she's out of the chewing phase. Right now it's all about easy cleanup."
+- "I go on what other first-time owners say — the guides and the new-owner groups I joined. A brand telling me it's fine doesn't help me."
 
 **Support-ticket themes**
 - Questions about what bed is "right for a puppy" and whether to size up.

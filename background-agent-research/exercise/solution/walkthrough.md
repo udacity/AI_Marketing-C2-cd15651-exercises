@@ -31,15 +31,21 @@ The last one is the interesting call. The trend is almost certainly real, which 
 
 The audit above says which claims are trustworthy. It says nothing about whether the agent answered the question — so read the delegation back against what returned, ask by ask.
 
-Against the scope in §1: **positioning, target, standout features and obvious gaps came back empty** — four of the eight things asked for. Category trends did come back, but only in the Verify-first claim and one of the Drops, so nothing survives there either. What's left is competitor pricing and the three brand names: well-sourced, useful, and about a quarter of the brief.
+Against the CMO's request — the same list §1 scoped from — **positioning, target, standout features and obvious gaps came back empty**, and the app/subscription ask came back only partially. Category trends did come back, but only in the Verify-first claim and one of the Drops, so nothing survives there either. What's left is competitor pricing and the three brand names: well-sourced, useful, and a fraction of the brief.
 
-That gap is invisible in the verdict column by construction. Every check in the checklist — real, credible, current, supported — interrogates a claim that *is* there; none of them can flag a claim that isn't. An agent stops when its output looks complete, not when your scope is covered, and a brief with five impeccably-cited claims reads as finished whether it answered one ask or eight. Auditing sourcing without auditing coverage is how a quarter-answer gets forwarded as a market read.
+Don't grade this on a count. How many asks the CMO's prose contains is a judgement — several bullets carry two — so the discipline is to split it your own way *before* you read the return, and then hold the agent to your own list. A scope defined after seeing the answer always looks satisfied.
+
+That gap is invisible in the verdict column by construction. Every check in the checklist — real, credible, current, supported — interrogates a claim that *is* there; none of them can flag a claim that isn't. An agent stops when its output looks complete, not when your scope is covered, and a brief with five impeccably-cited claims reads as finished whether it answered one ask or all of them. Auditing sourcing without auditing coverage is how a part-answer gets forwarded as a market read.
 
 The fix is a re-delegation, not a rewrite: hand back the same scope with the four missing dimensions named explicitly, and audit the second return the same way.
 
 ## 5. Two-line verdict (for the CMO)
 
-> Competitor pricing (reusable and smart), checked against the manufacturers' own pages on Sept 1, is solid and I'd act on it now. The "~12% CAGR" needs verifying first: reputable firms disagree by an order of magnitude, so I'd pick one clearly-scoped source or cut the number before it reaches the CMO. Two claims are dropped — "consumers want reminders" (SEO opinion, no source to open) and the wearables trend (a read I'd bet is right, cited to unnamed "research summaries") — and neither goes in the deck until it's re-sourced to a named report.
+Two lines is the deliverable, not a shorthand for "short": one line on what's ready to act on, one on what has to be checked first. Anything longer is the audit table restated.
+
+> **Act on as-is:** competitor pricing (reusable and smart), checked against the manufacturers' own pages on Sept 1 — and nothing else, since that's two of five claims and a fraction of the asks.
+>
+> **Verify or cut first:** the "~12% CAGR" needs one clearly-scoped source (reputable firms disagree by an order of magnitude), and both Drops — "consumers want reminders" and the wearables trend — stay out of the deck until they're re-sourced to a named report.
 
 ## Common mistakes
 
@@ -49,4 +55,4 @@ The fix is a re-delegation, not a rewrite: hand back the same scope with the fou
 - No per-claim verdict — "looks fine overall" isn't an audit.
 - Softening a Drop to Verify-first because the claim *sounds* right. If you can't name a source to open, "directionally true" isn't a verdict — it's a Drop.
 - No access date, so nobody — including you, next month — can tell whether the check is still good.
-- Auditing only the claims that came back. A brief that answers two of your eight asks, with every citation perfect, passes a source-quality audit cleanly. Check your scope against the return before you check the sources.
+- Auditing only the claims that came back. A brief that answers two of your asks and ignores the rest, with every citation perfect, passes a source-quality audit cleanly. Check your scope against the return before you check the sources.

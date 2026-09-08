@@ -48,12 +48,18 @@ Every claim above was audited for sourcing, and two survived. That still doesn't
 | Standout features — what they lead with | **No** |
 | Obvious gaps in the category | **No** |
 
-Four of the CMO's eight asks came back empty, and a fifth arrived attached to claims that failed the audit. What survives is competitor pricing: genuinely useful, impeccably sourced, and roughly a quarter of what was requested.
+Four of the CMO's asks came back empty, one came back partial, and another arrived attached to claims that failed the audit. What survives is competitor pricing and the three brand names: genuinely useful, impeccably sourced, and a fraction of what was requested.
 
-This is the failure the verdict column cannot show you. Every row in the audit table asks whether a claim is *trustworthy*; none of them asks whether the brief is *responsive*. An agent stops when it has written something confident and complete-looking, not when it has covered your scope — so the delegation needs auditing alongside the citations. Positioning, target, features and gaps were all in the brief that was handed over; they have to be asked for again, specifically.
+How many asks the request contains is a judgement call, not a fact — the CMO wrote prose, not a numbered list, and several of those bullets carry two asks apiece. Split it your own way; what matters is that you split it *before* reading the return, then hold the agent to your own list. A scope you define after seeing the answer will always look satisfied.
+
+This is the failure the verdict column cannot show you. Every row in the audit table asks whether a claim is *trustworthy*; none of them asks whether the brief is *responsive*. An agent stops when it has written something confident and complete-looking, not when it has covered your scope — so the delegation needs auditing alongside the citations. Positioning, target, features and gaps were all in the delegation brief we handed the agent; they have to be asked for again, specifically.
 
 ## Two-line verdict
 
-> Two of the five claims are solid: competitor pricing (claims 1–2) comes from the manufacturers' own pages, checked on Sept 1, and I'd act on it now. The "~12% CAGR" needs verifying first — reputable firms disagree by an order of magnitude, so I'd pick one clearly-scoped source or cut the number before it reaches the CMO. Claims 4 and 5 are dropped: 4 is opinion dressed as data, 5 is a trend I'd bet is true with nothing citable behind it — both get re-sourced to a named report or they don't reach the CMO at all.
+> **Act on as-is:** competitor pricing only — claims 1–2, from the manufacturers' own pages, checked Sept 1 — which is two of five claims and a fraction of what you asked for.
+>
+> **Verify or cut before it reaches you:** the "~12% CAGR" needs one clearly-scoped source (reputable firms disagree by an order of magnitude), and claims 4 and 5 are dropped — opinion dressed as data, and a trend I'd bet is true with nothing citable behind it — until they're re-sourced to a named report.
+
+Two lines, because that is the deliverable: one on what's ready to act on, one on what has to be checked first. Anything longer is the audit table again, and the CMO already has that.
 
 **Sources** (date accessed in brackets)**:** [Owala FreeSip](https://owalalife.com/products/freesip) [2026-09-01] · [Hydro Flask bottles (manufacturer)](https://www.hydroflask.com/shop/bottles) [2026-09-01] · [HidrateSpark](https://hidratespark.com/collections/products) [2026-09-01] · [Fortune Business Insights](https://www.fortunebusinessinsights.com/smart-water-bottle-market-115917) [2026-09-02] · [MarketResearchFuture](https://www.marketresearchfuture.com/reports/smart-water-bottle-market-21726) [2026-09-02] · [market.us](https://market.us/report/smart-water-bottle-market/) [2026-09-02] · [ResearchNester](https://www.researchnester.com/reports/smart-bottles-market/6524) [2026-09-02]

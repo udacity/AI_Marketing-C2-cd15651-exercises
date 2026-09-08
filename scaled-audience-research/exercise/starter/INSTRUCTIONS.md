@@ -16,7 +16,7 @@ Note the question here is different from the demo's: the demo asks *which featur
 
 > *"What would stop you from buying this furniture-grade modern dog bed?"*
 
-No price, no positioning, no adjectives beyond the product description above. Price sensitivity belongs in your **archetype attributes** — where some personas have it and others don't — not in the question every persona hears. Put "premium" or a price tag in the shared stimulus and you've seeded price into all 24 variants at once; price will then top your rankings, and your roster-bias audit can no longer tell you whether that's the market talking or you.
+No price, no positioning, no adjectives beyond the product description above. Price sensitivity belongs in your **archetype attributes** — where some personas have it and others don't — not in the question every persona hears. Put "premium" or a price tag in the shared stimulus and you've seeded price into all your variants at once; price will then top your rankings, and your roster-bias audit can no longer tell you whether that's the market talking or you.
 
 ## What to produce
 
@@ -32,7 +32,7 @@ A structured findings report containing:
 
 ## Requirements
 
-- Ask for independent contexts — then **verify**. Both the tool's progress checklist and its own write-up will say "independent" whether or not it was, because both are prose it wrote. So check the responses themselves, which is evidence you can hold: paste the opening sentence of all 24 side by side and read down the column. Genuinely isolated personas don't know each other exist — no "as mentioned above," no "unlike the previous persona," no drift into a shared vocabulary for the same objection, and near-duplicate phrasings should be rare. If several openings echo each other or the answers converge on one house style, they shared context, whatever the summary claims. Say in your report what you checked and what you found. A claim you didn't check isn't a finding.
+- Ask for independent contexts — then **verify**. Both the tool's progress checklist and its own write-up will say "independent" whether or not it was, because both are prose it wrote. So check the responses themselves, which is evidence you can hold: paste the opening sentence of all your variants side by side and read down the column. Genuinely isolated personas don't know each other exist — no "as mentioned above," no "unlike the previous persona," no drift into a shared vocabulary for the same objection, and near-duplicate phrasings should be rare. If several openings echo each other or the answers converge on one house style, they shared context, whatever the summary claims. Say in your report what you checked and what you found. A claim you didn't check isn't a finding.
 - Generate enough variants for 24–30 responses; three personas run repeatedly is not a sample.
 - **Audit your own roster.** Write down your archetype mix before you run, then read your barrier rankings against it and say, per finding, whether it tells you about the market or about who you asked.
 - Watch how your variant prompts shape the answers. Instructing a persona to be "specific and personal" reliably produces specific, personal detail whether or not anything sits behind it — and it will land in your tally looking like data.

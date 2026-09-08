@@ -11,8 +11,8 @@
 **Goal-rich brief:**
 - **Audience:** a user who reached the annual-Premium payment screen and left without completing — one step from paying.
 - **Goal:** recover that specific upgrade; earn the click back to checkout.
-- **Context:** they already chose to upgrade, so don't re-sell the product; something stopped them at payment.
-- **Constraints:** no discount (protect price integrity); no fake urgency/countdown; short.
+- **Context:** they already chose to upgrade; something stopped them at payment.
+- **Constraints:** no discount (protect price integrity); no fake urgency/countdown; don't re-explain the product; short.
 - **Success criteria:** click back to the checkout page.
 
 **Element that changed the output most:** *Audience* — naming "already at the payment screen" flipped the email from a generic re-explainer into a low-friction "pick up where you left off" nudge. Note the brief is **longer** than the prompt but **prescribes far less** — five mechanical rules replaced by one real audience.

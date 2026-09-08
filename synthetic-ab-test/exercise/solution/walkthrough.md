@@ -14,7 +14,7 @@
 | Priya | 12 | 14 | 16 | C |
 | **Avg** | **12.7** | **11.3** | **16.0** | — |
 
-Per-dimension averages (this is where the *why* lives — totals alone hide it):
+Per-dimension averages (this is where the *why* lives — totals alone hide it). The per-persona, per-dimension scores these average, and each persona's one-sentence reason for its top pick, are in [`example-output.md`](example-output.md):
 
 | Dimension | A | B | C |
 |---|---|---|---|

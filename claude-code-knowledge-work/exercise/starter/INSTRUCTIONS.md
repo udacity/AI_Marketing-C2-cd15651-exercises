@@ -11,7 +11,7 @@ Work in Claude Code, in a project folder that holds the campaign's files. Put th
 
 Three campaign pieces, each saved as a file in the project folder:
 
-- **Messaging brief** — positioning, three to four key messages, tone, and target audience. Refine it over a few turns until it's on-brand.
+- **Messaging brief** — positioning, three to four key messages, tone, and target audience. Refine it in place until it's on-brand — at least one follow-up pass, not a single-shot draft.
 - **Launch email copy** — drawing on the messaging brief and brand voice already in the folder, without re-pasting them. It should clearly carry the brief's key messages.
 - **Creator profile** — the type of creator Vessl should engage for sponsorships: their audience, content style, values, and why they fit the brand and campaign, grounded in the brief's audience and positioning.
 

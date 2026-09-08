@@ -17,8 +17,8 @@
 
 - **Winner: C** (16.0) — strongest on relevance/distinctiveness; weakest on resonance and believability, tied at 3.7.
 - **Runner-up: B** (15.3), margin **0.7**. Third: A (11.0).
-- **Panel:** C wins on the mean but is the more variable of the two (15/14/19 — spread of 5); B is tighter (15/17/14 — spread of 3) and peaks with the vet-driven owner; A trails everywhere.
-- **Confidence: low** — B and C are within ~0.7, effectively tied at the top, and the panel splits on C.
+- **Panel:** C wins on the mean and no persona rates it weak — its spread (15/14/19) is the wider of the two but sits entirely on the upside, driven by the practical/outcome owner's 19; B is tighter (15/17/14 — spread of 3) and peaks with the vet-driven owner; A is last with all three (14/10/9) — weak everywhere rather than strong for one owner and weak for another. So there is no split panel to report in this run, and saying that out loud is part of the job.
+- **Confidence: low** — B and C are within ~0.7, effectively tied at the top, and C's lead rests on one persona's 19: drop that owner and B leads 16.0 to 14.5.
 
 ## Limits (stated on camera)
 

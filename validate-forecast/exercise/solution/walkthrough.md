@@ -6,7 +6,7 @@
 
 | Metric | Actual (avg) | Forecast mid (avg) | Miss | Actuals inside band |
 |---|---|---|---|---|
-| **CPA** | **$52.78** | $48.09 | **+9.8%** | ~47% of days |
+| **CPA** | **$52.78** | $48.10 | **+9.8%** | ~47% of days |
 | **CVR** | 2.993% | 2.992% | +0.0% | ~73% of days |
 
 Day-by-day: [`calibration-comparison.csv`](calibration-comparison.csv). Chart (band vs actuals): [`calibration-chart.png`](calibration-chart.png).
