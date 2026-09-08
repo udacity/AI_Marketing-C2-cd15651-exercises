@@ -17,6 +17,7 @@ A recommendation memo containing:
 - Each of the three specialized tools scored against the framework dimensions, using the profiles as your findings (optionally enriched with light web research).
 - The DIY-LLM baseline scored on the same dimensions, and tested hands-on by running the Cobbleway copy task through a couple of models with a brief you write from the brand asset.
 - A four-way head-to-head comparison and a chosen winner.
+- How big the decision is — a two-way door you can walk back cheaply, or a one-way one — using each profile's durability line, as the framework's Step 3 asks. The size of the decision sets how much diligence it earns.
 - The key tradeoff you accepted — which dimension your winner lost on, and why that was acceptable.
 - An explicit call on every candidate *and* the baseline — **adopt**, **pilot**, or **pass** — as the framework's Step 4 asks. Say which one your winner gets: adopt now, or pilot first.
 

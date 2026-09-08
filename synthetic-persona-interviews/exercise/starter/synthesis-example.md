@@ -22,7 +22,9 @@ Two of the three raised control: they wanted to choose or at least veto what cam
 
 ### What I would carry into real testing
 
-The convenience angle is the strongest and most universal hook, so lead with it. But the concept as framed (fully curated, fixed monthly) alienates the budget and control-sensitive segments. Worth testing a version with customization and a flexible cadence, and worth deciding early whether this is a premium play for the single-dog owner or a mass play, because it cannot easily be both.
+The convenience angle is the strongest and most universal hook, so lead with it. But the concept as framed (fully curated, fixed monthly) alienates the budget and control-sensitive segments. Worth testing a version with customization and a flexible cadence.
+
+**Which market it fits: a premium play for the single-dog owner.** She was the only one who valued curation rather than tolerating it, and the only one for whom the price was part of the appeal. The budget multi-dog owner is not winnable on this product shape — her objection was arithmetic (three dogs versus buying in bulk), and no amount of reframing changes that sum. The new puppy owner is a *later*, not a *no*: her hesitation was not knowing what her puppy can eat yet, which time resolves on its own. It cannot be a premium play and a mass play at once, and this evidence points at premium.
 
 ### Confidence
 

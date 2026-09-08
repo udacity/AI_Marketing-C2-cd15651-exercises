@@ -16,7 +16,7 @@ Work in Claude Code. Use:
 ## What to produce
 
 - All three directions scored by each of the three personas on the fixed dimensions.
-- An aggregation table (totals by concept and by persona).
+- An aggregation table (totals by concept and by persona), **plus the average score per dimension per concept** — the totals hide which dimension carried a concept and which one sank it.
 - The winner, plus any concept that split the panel (strong for one persona, weak for another).
 - A confidence level — high / medium / low — with an explicit basis.
 - The ranked recommendation with at least three stated limits of the test.

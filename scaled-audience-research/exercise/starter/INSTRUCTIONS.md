@@ -27,6 +27,7 @@ A structured findings report containing:
 - A signal-vs-synthetic-consensus check: is the agreement real or manufactured?
 - A **roster-bias audit**: which of your findings were decided by how you seeded the personas rather than by anything the responses revealed.
 - A calibration disclosure: what this workflow can legitimately claim, what it can't, and what real-world validation would still be needed.
+- **What the counts won't support** — name the cells resting on one or two responses, and any ranking gap narrow enough that recoding a single answer would reorder it. At this sample size most cross-tab cells are thin, and a table won't tell you which.
 - A recommendation on which one or two barriers are worth acting on before launch, explicitly labeled directional.
 - A short **surface note**: where this workflow started to strain, and whether you'd move it somewhere else.
 
@@ -34,6 +35,7 @@ A structured findings report containing:
 
 - Ask for independent contexts — then **verify**. Both the tool's progress checklist and its own write-up will say "independent" whether or not it was, because both are prose it wrote. So check the responses themselves, which is evidence you can hold: paste the opening sentence of all your variants side by side and read down the column. Genuinely isolated personas don't know each other exist — no "as mentioned above," no "unlike the previous persona," no drift into a shared vocabulary for the same objection, and near-duplicate phrasings should be rare. If several openings echo each other or the answers converge on one house style, they shared context, whatever the summary claims. Say in your report what you checked and what you found. A claim you didn't check isn't a finding.
 - Generate enough variants for 24–30 responses; three personas run repeatedly is not a sample.
+- **Write your barrier codebook before you count.** Decide what each category includes and excludes, then code every response into one of them — the collection template wants your coded category, not the persona's wording. Coding after you've seen the totals is how you talk yourself into the ranking you expected, and where two categories nearly tie, the codebook is the only thing that makes the order defensible.
 - **Audit your own roster.** Write down your archetype mix before you run, then read your barrier rankings against it and say, per finding, whether it tells you about the market or about who you asked.
 - Watch how your variant prompts shape the answers. Instructing a persona to be "specific and personal" reliably produces specific, personal detail whether or not anything sits behind it — and it will land in your tally looking like data.
 - Check signal against synthetic consensus. Judge whether your responses are real variation or one answer echoed back at you, and show what in the responses decided it. Read the spread and the outliers, not just the headline number.
