@@ -38,7 +38,7 @@ Key need: [one sentence]
 
 **Why variants, not repeats:** running the same three personas a hundred times gives you one correlated opinion, not a sample. Generating structured variants across attributes is what lets a scaled read actually span your audience.
 
-**Independence note:** when you run these variants, each should respond in its own clean context. If they all answer in one shared conversation, later variants anchor on earlier ones and your "sample" collapses into a single stream. Ask for isolated runs — and then check that you got them. The tool's progress checklist and its own write-up are both prose it wrote; the count of runs the system reports is the fact.
+**Independence note:** when you run these variants, each should respond in its own clean context. If they all answer in one shared conversation, later variants anchor on earlier ones and your "sample" collapses into a single stream. Ask for isolated runs — and then check that you got them. The tool's progress checklist and its own write-up are both prose it wrote; the **responses themselves** are the evidence. Put the opening sentences side by side and read down the column: genuinely isolated personas don't know each other exist.
 
 **Roster warning:** the attributes you choose here decide much of what you'll find. Write down your archetype mix before you run, and read your findings against it afterwards.
 
