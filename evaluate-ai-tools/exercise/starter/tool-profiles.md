@@ -2,7 +2,7 @@
 
 *Provided input for the "Evaluate and Select AI Tools" exercise. Treat these profiles as your diligence findings, organized by the framework's dimensions. Score each tool against the framework, and also score the DIY baseline (a general-purpose model with a good brief) by testing it yourself. No single tool wins on every dimension. Three dimensions — **fit with your stack**, **cost vs. value** and **learning curve / adoption** — are described as properties rather than verdicts, and have no obvious right answer; what they're worth depends on assumptions you have to make and state. Your judgment on the tradeoffs is the exercise.*
 
-**The need:** a tool to help Cobbleway produce a steady stream of marketing copy (emails, ads, social, landing-page sections) that stays on brand. The brand, its voice and the copy task you'll test with are in [`brand-and-copy-task.md`](brand-and-copy-task.md). Three people touch copy today: you and two colleagues.
+**The need:** a tool to help your team produce a steady stream of marketing copy (emails, ads, social, landing-page sections) that stays on brand. Three people touch copy today: you and two colleagues.
 
 *(The "Durability" line under each tool isn't a scored dimension. It feeds the two-way-door sizing step: it only matters much if this is a one-way-door commitment.)*
 
@@ -48,12 +48,12 @@ An all-around AI content tool aimed at marketing teams.
 
 ## The DIY baseline (score this too)
 
-A general-purpose model you may already pay for (Claude, ChatGPT, or similar), used with a goal-rich brief. Test it on the real copywriting task across a couple of models.
+A general-purpose model you may already pay for (Claude, ChatGPT, or similar), used with a goal-rich brief. Weigh it as a fourth option against the three tools.
 
 - **Capability fit:** test it and see. With a strong brief the quality may surprise you, though it has no saved brand-voice profile to lean on.
 - **Fit with your stack:** no connectors, same as Penmark — copy comes out of a window or a file and gets pasted where it's going. What it does sit next to is everything else you already do in that window.
 - **Cost vs. value:** no line item beyond the subscription you already have, and no per-seat or per-piece meter. That's exactly why it's the bar the others have to clear.
-- **Data & privacy:** depends on the plan you already have. Cobbleway is on a **paid business tier that does not train on inputs**, and has been for a year — so score it on that tier, not the free-tier terms, and treat the training-on-inputs question as settled. What the business tier does *not* give you: nothing is logged, and there is no review trail or retention control you could show an auditor. Adopting the baseline adds no *new* risk, but no-training is one check of several, so this is a middling score rather than a top one.
+- **Data & privacy:** depends on the plan you already have. Assume your team is on a **paid business tier that does not train on inputs**, and has been for a year — so score it on that tier, not the free-tier terms, and treat the training-on-inputs question as settled. What the business tier does *not* give you: nothing is logged, and there is no review trail or retention control you could show an auditor. Adopting the baseline adds no *new* risk, but no-training is one check of several, so this is a middling score rather than a top one.
 - **Learning curve / adoption:** nothing to configure, nothing to roll out, nobody to train. Adoption means three people actually using the same brief file and keeping it current — no product enforces that, so it holds for as long as the habit does.
 - **Brand-voice control / brand-safety:** test it. No saved voice profile, so your brand rules live in the brief and get re-pasted each session — tone holds within a conversation but drifts between them. No guardrails at all, but total control: whatever prohibitions you write into the brief are enforced only as well as the model follows them, and nothing is logged for review.
 
