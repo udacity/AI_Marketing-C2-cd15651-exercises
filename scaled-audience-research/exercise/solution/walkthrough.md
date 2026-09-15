@@ -73,6 +73,14 @@ Implication: durability is the finding to act on. The other six are segment inte
 
 Two barriers to address before launch, **labeled directional**: (1) **prove durability** — the top barrier, the widest-crossing one (4 of 6 segments), and the only one that survives dropping the archetype seeded for it; lead with materials/warranty/testing. (2) **answer price as a segment message**, not a launch-wide one — it never appeared outside budget and new-puppy owners, so it's a targeted cost-per-year argument rather than a launch discount. Validate both with real customers before committing.
 
+## If every barrier comes back roster-decided
+
+The walkthrough above lands one response-decided barrier (durability) and acts on it. That is not guaranteed. A common and instructive outcome is that **every** barrier fails the audit — each one appears at its seeded proportion, inside its seeded archetype, and nowhere else. That means the personas were written with a "key need" pointed straight at a barrier, so each subagent elaborated the concern already scripted into its profile instead of discovering one. The run didn't measure the audience; it played back the roster.
+
+This is a result, not a failure, and the roster-bias audit is what caught it. The wrong move is to default to "validate the top barrier" — there is no real finding to validate. The correct next step is to **fix the roster and re-run**: rewrite the personas so each has a rich, specific *situation* (three large dogs and a tight budget, a heavy-coat breed in a hot climate) but **no pre-assigned "key need"** pointed at a barrier. Keep the archetype scaffolding so the segment cross-tab still means something; just drop the conclusion. Then a barrier that surfaces from a situation you didn't prescribe is genuinely response-decided.
+
+So the readout for this outcome states plainly that no barrier survived the audit, and recommends reworking the personas and re-running, rather than carrying a manufactured finding into a launch deck.
+
 ## Surface note
 
 At this exercise's n (24–30 variants) this workflow runs cleanly in Claude. At 100+ variants, two strains appear:
