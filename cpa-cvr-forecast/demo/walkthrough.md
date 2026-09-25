@@ -1,42 +1,52 @@
-# Worked Demo — Forecast the Easy Metric, Then Name the Hard One
+# Worked Demo: Detect First, Then Forecast CPA
 
-*The real content: the finished walkthrough the demo produces. The CPM forecast is computed from the provided dataset, so those numbers are the intended ones. The demo stops short of the exercise's CPA work on purpose: it names the decisions and leaves them open — making them is the learner's job.*
+*The finished walkthrough the demo produces. The dataset is [`steep_campaign_90day_demo.csv`](steep_campaign_90day_demo.csv), 90 days of daily paid-media data for a DTC brand. It has no notes column on purpose: the demo has the model find what is unusual first, then the human supplies the business context. Numbers are computed from the data, so they are the intended ones; a live run will land close, not identical.*
 
-## Describe before you project
+## Detect before you explain
 
-Load [`steep_campaign_90day.csv`](../exercise/starter/steep_campaign_90day.csv) and ask Claude Code to describe the data first — trends, seasonality, and the notes-flagged events. Two events are flagged in the notes: a promo/sale week and an end-of-quarter spend ramp. Never forecast off a sale spike or a fatigue drift you haven't named.
+Don't tell the model what happened. Ask it to find what looks unusual, so you see what the numbers flag before you start explaining anything away. On this data it surfaces three things without being told:
 
-## Forecast CPM (the easy one)
+- A **conversion spike, Sep 10 to 16**: orders roughly double, CVR jumps to 5 to 6 percent, and CPA drops to its lowest in the 90 days. Spend and CPM stay normal, so the move is on the conversion side only.
+- A **gradual CTR decline from mid-September on**, with CPC drifting up alongside it. Not a spike, a sustained shift that does not revert.
+- An **accelerating spend and CPM step-up in the last two weeks (Oct 18 to 29)**, where CPA climbs to the worst values in the set.
 
-CPM is easy because it's essentially one cost/inventory trend. Build a 30-day CPM forecast as a **range** — low / mid / high — with the reasoning behind the spread, and chart it. A credible forecast is never a lone point estimate.
+## Add the business context
 
-Day-by-day: [`forecast-cpm-30day.csv`](forecast-cpm-30day.csv). Chart: [`cpm-forecast-chart.png`](cpm-forecast-chart.png) — 30-day mid averages **$14.31**.
+The model can see that something changed. It cannot know why. That part is the human's job, and it is the point of the demo:
 
-*What the chart shows: the 90 training days with promo week (squares) and the end-of-quarter ramp (triangles) marked as excluded from the fit, then the 30-day forecast mid (dashed) rising from $13.97 to $14.65 inside its ±1σ band. The two excluded windows are visibly off-trend, which is the point — they are why the fit is drawn on the remaining days.*
+- The Sep 10 to 16 conversion spike was a **promotional week**, 20 percent off sitewide.
+- The late-October spend and CPM climb was an **end-of-quarter budget ramp**: more money pushed into the auction raised what we paid for impressions.
+- One the data cannot show at all: we were **between performance-marketing agencies** recently, which held execution back for a stretch. It is resolved now, so going forward we would expect to run a little more efficiently than the raw recent trend implies.
 
-Call out what just happened: **that windowing was a choice, not a rule.** It was made for CPM and on a CPM-specific argument — both windows distort what inventory actually cost, so they don't belong in a cost trend — and it goes in the write-up as a stated assumption. It settles nothing for any other metric.
+The first two sit in the numbers. The third lives only in the marketer's head, and briefing the model on what it cannot infer is the skill.
 
-## Interrogate the draft
+## Decide what carries into the next 30 days
 
-Ask Claude Code to surface its assumptions, then push back on one number that looks off. The first pass is a draft to critique, not a finished forecast to accept.
+For each pattern, ask one question: will it be true again next month? If yes, it belongs in the forecast. If no, it comes out of the baseline.
 
-## Name the hard one: CPA
+- **Promo week**: nothing scheduled next month, so exclude it from the baseline trend. Left in, it makes CPA look better than it will be.
+- **End-of-quarter ramp**: next month is not a quarter end, so exclude it too. This is a controllable input, not a trend to extrapolate.
+- **Creative fatigue** (the gradual CTR decline): ongoing, so carry it forward. Do not forecast a flat line.
+- **Agency transition**: resolved, so nudge the baseline modestly more efficient than the naive trend, and label that a stated assumption, not a data-derived result.
 
-Pivot to CPA and decompose it: **CPA is composed**, moving when CTR, CPC, or CVR move. That's why it can't be extrapolated as a single line the way CPM can — forecasting it means understanding its drivers.
+## Forecast CPA
 
-Then put two of CPA's moving parts on screen and leave them there:
+Fit a linear trend to daily CPA on the baseline days only (Aug 1 to Sep 9 and Sep 17 to Oct 17), excluding the promo week and the ramp. That trend captures the fatigue drift: CPA rising about $0.22 a day. Extrapolate it 30 days forward, then give three cases that differ only in how much credit the resolved-agency assumption gets:
 
-- **Creative fatigue** — CTR eroding gradually across the campaign's life.
-- **The sale week** — a spike bounded to one window.
+| Case | 30-day avg CPA | What it assumes |
+|---|---|---|
+| High | ~$49.9 | Pure trend, no efficiency credit yet (resolution unproven until it shows in the data) |
+| Mid | ~$48.4 | Trend plus a small 3% efficiency nudge for the resolved transition |
+| Low | ~$47.4 | Trend plus a slightly larger 5% nudge, the optimistic end of the same assumption |
 
-Ask the question; don't answer it. *Which of these do you carry forward into the next 30 days, and which do you leave out of the baseline?* One is a gradual drift, the other sits inside a boundary you can draw — different shapes, so the same treatment can't be right for both. Which gets which, and why, is the call.
+All three share the identical trend and slope. They differ only on the one lever the human introduced, which is exactly what makes them a defensible range rather than three guesses. Day-to-day actuals will still bounce roughly plus or minus $3 to 6 around whichever line lands.
 
-## Why the call matters
+One honest flag: the non-promo, non-ramp days from mid-September on run above the fitted line, so the series may be curving upward. If fatigue is accelerating rather than staying linear, the high case understates the risk, and a curved fit would capture it.
 
-Say out loud what rides on it. Every number downstream — the CPA mid, the spread around it, and the budget read-out that comes off that mid — inherits whatever you decided here. Get the treatment wrong and the arithmetic still comes out clean; it's just built on a baseline that never happened. That's why this is a judgement you state and defend in your assumptions, not a setting you pick.
+## Turn it into a decision
 
-Stop here. Naming the decision is the demo's job. Making it — for these patterns and any others in the 90 days — is the exercise.
+That CPA range is what the budget plans against. It says what an order is likely to cost next month, so you can decide whether to hold spend, put more behind it, or move some elsewhere. One caveat if you scale up: CPA will not hold flat. Bigger budgets buy pricier inventory and efficiency slips, which is what the quarter-end ramp already showed. So spending more is its own forecast, not this same cost stretched across a bigger budget.
 
 ## Key takeaway
 
-Forecasting is fast; the discipline is human — describe before you project, always give a range, state assumptions. And know which metric drives the decision: CPM is easy and mostly irrelevant, CPA is hard and the one you budget against.
+Forecasting is fast. The judgment is the job: let the model find what is unusual, supply the context it cannot see, decide together what carries forward, and end on what the number means for the budget.
