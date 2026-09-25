@@ -1,27 +1,34 @@
-# Forecast CPA and CVR, Model the Month
+# Forecast Next Month's CPC
 
-Steep needs to plan next month's budget. Build a 30-day forecast for **CPA** (the anchor metric you budget against) and **CVR** from 90 days of campaign data, handle the distinct patterns baked into the history (there are at least three; if you can defend a fourth, name it), and translate the forecast into what next month's spend will actually buy.
+You run paid media for Steep, a direct-to-consumer tea brand. This is a traffic campaign, so the metric you budget against is CPC, your cost per click. You have 90 days of daily data covering March through May, and you need a defensible CPC forecast for next month, June, so the team can plan spend.
 
-Work in Claude Code. The dataset is [`steep_campaign_90day.csv`](steep_campaign_90day.csv) — daily spend, impressions, CPM, clicks, CTR, CPC, orders, CPA, CVR, and notes.
+Work in Claude. The dataset is [`steep_traffic_90day.csv`](steep_traffic_90day.csv): date, campaign, spend, impressions, CPM, clicks, CTR, and CPC.
 
-**Scope:** the data is campaign-level (spend, impressions, clicks, orders, and the rates derived from them). It does not include creative-level metrics like engagement rate or video hook rate, so don't go looking for those.
+**Scope:** the data is campaign-level. It does not include creative-level metrics like engagement rate or hook rate, so don't go looking for those.
+
+## What you already know
+
+Three things about this period, which you'll reconcile against what the data shows:
+
+1. **Seasonal demand.** The campaign runs from late winter into early summer, and tea sells less as the weather warms. Demand softened across the stretch.
+2. **A new product launch.** Steep launched a new product in early May, and it brought performance back up. The product is staying in the line. The launch came with a short burst of extra spend that was a one-off push, not the normal budget.
+3. **A competitor move (not in the data).** A well-known coffee brand is launching its own tea line next month. You expect the added competition to push your CPMs up for a while.
 
 ## What to produce
 
-A forecast read-out containing:
-
-- 30-day forecasts for CPA and CVR, each with low/mid/high ranges, shown as a chart or table.
-- How you handled each pattern you found in the history, and why that treatment.
-- The assumptions behind each forecast and what drives the confidence spread.
-- A budget-to-orders translation: at the mid-case CPA, what does a given spend buy in orders next month, and where's the biggest risk?
+- A 30-day CPC forecast for June as a range: low, mid, and high, with the reasoning and the calculation behind each case.
+- How you treated each pattern you found (carry it forward, exclude it, or adjust for it) and why.
+- The assumptions behind the forecast and what drives the width of the range.
+- A short read on what the range means for next month's plan.
 
 ## Requirements
 
-- Have Claude Code describe the patterns *before* forecasting. **At least three** distinct patterns sit in the 90 days — the `notes` column flags some but not all of them, so read the metrics too. Find them, then decide the right treatment for each. They don't all get handled the same way, and choosing the treatment is the work.
+- Have Claude describe the patterns in the data before you forecast. Find them first, then line them up against the three facts above.
+- Decide what carries into June. Next month is deeper into summer, so ask of each pattern whether it will still be true.
+- The seasonal decline and the product-launch lift pull in opposite directions. Say how they net out. That tension is the real work here.
 - Give ranges, not point estimates, and state the assumptions behind each.
-- CPA is the anchor. Don't stop at CVR — the budget decision rides on CPA.
-- End with the budget/orders read-out. A forecast that doesn't say what the spend buys isn't finished.
+- The competitor pressure is not in the data. If you account for it, label it a stated assumption, not a data-derived result.
 
 ## Done when
 
-Your read-out shows how each pattern you identified was handled, gives defensible CPA and CVR ranges, and turns "here's next month's spend" into "here's what next month's spend will buy."
+Your forecast gives a defensible CPC range for June, shows how each pattern was handled and why, and a stakeholder could plan next month's spend from it without redoing your work.

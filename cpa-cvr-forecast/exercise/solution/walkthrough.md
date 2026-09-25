@@ -1,57 +1,55 @@
-# Solution — Forecast CPA and CVR, Model the Month
+# Solution: Forecast Next Month's CPC
 
-*Worked solution. Numbers computed from the provided `steep_campaign_90day.csv`; a reasonable submission will land close, not identical, depending on method and band width. Artifacts in this folder: [`forecast-cpa-cvr-cpm-30day.csv`](forecast-cpa-cvr-cpm-30day.csv) and [`forecast-chart.png`](forecast-chart.png).*
+*Worked solution, one strong example. Numbers are computed from [`steep_traffic_90day.csv`](../starter/steep_traffic_90day.csv); a reasonable submission will land close, not identical, depending on method and band width. What matters is that the three patterns are handled on their own terms and the two that pull against each other are reconciled, not that the CPC lands on a specific number. Charts render live in the tool, so read the figures off the chart in your session; every number below also appears in this text.*
 
 ## 1. Describe the data first (before forecasting)
 
-Three patterns to separate — a fourth is defensible, since CPM drift and CTR erosion are separately significant with different causes, and a learner who splits them is not wrong. *Day numbers below are 0-based, matching the chart's x-axis: day index 0 = `2025-08-01`, the first row of the CSV, so day 40 is CSV row 41.*
+Have the model review the 90 days (Mar 1 to May 29) before any forecasting. Three patterns show up, and they map onto the three business facts in the brief.
 
-- **Creative fatigue (a trend to carry forward).** CTR erodes across the 90 days, pushing CPA up steadily: daily CPA runs **~$28 in the first 10 days → ~$42 by days 66–75** (just before the spend ramp). This is a genuine trend, not noise.
-- **Promo week (a discrete event to exclude).** Days ~40–46 (`notes = "Promo week (20% off sitewide)"`) spike CVR and drop CPA. Leaving it in the trend fit drags the baseline too optimistic — exclude it before fitting.
-- **End-of-quarter spend ramp (a different cause).** Days ~76–89 (`notes = "End-of-quarter spend ramp"`) push daily spend up and lift CPM as more expensive inventory is bought. CPA rises here for an *auction-pressure* reason, distinct from fatigue.
+- **Seasonal decline, Mar 1 to early May.** CTR falls almost monotonically from ~2.9% to ~1.75%, and CPC nearly doubles from ~$0.40 to ~$0.72 over the same window. A sustained slide, not noise.
+- **A step-change in early May.** Around May 6 the metrics jump: CTR back up to ~2.5%, CPC back down to ~$0.48. This does not resume the old decline afterward, it holds at a new, better plateau through May 29.
+- **A one-off spend spike, May 6 to 12.** Daily spend doubles (from ~$1,000 to ~$1,900 to $2,200) for seven days, then drops back to baseline in a single day. CPM ticks up slightly during that window, a byproduct of the heavier spend.
 
-## 2. Handle each anomaly
+## 2. Map each pattern to the business context, and set its treatment
 
-- **Exclude** promo week from the baseline trend fit.
-- **Carry forward** the fatigue trend (don't forecast a flat line).
-- **Exclude** the ramp from the trend fit for the same reason as promo week — it's a distinct spend-driven cause, not the underlying fatigue signal. CPM will revert if the ramp doesn't repeat.
+The brief gives you three facts. Line them up:
 
-## 3. 30-day forecast (linear trend on non-promo, non-ramp days; band = mid ± 1 residual σ)
+- **Seasonal softening** explains the Mar to April decline. It is a genuine ongoing trend. **Carry it forward**, June is deeper into summer, so demand keeps softening.
+- **The new product launch** explains the early-May step-up. Split it in two. The **durable lift** (the new, higher CTR plateau) is the product staying in the line, so **carry the new level**. The **launch-week spend spike** is a one-off push, so **exclude it from the baseline**, or it overstates normal spend.
+- **The competitor tea launch** is nowhere in the data. It is a forward-looking risk, so **adjust the forecast**, expect upward CPM pressure in June, layered on as a stated assumption.
 
-| Metric | Low (avg) | Mid (avg) | High (avg) |
-|---|---|---|---|
-| **CPA** | ~$46.6 | **~$49.8** | ~$53.1 |
-| **CVR** | ~2.8% | **~3.0%** | ~3.2% |
-| CPM | ~$13.9 | **~$14.3** | ~$14.7 |
+The trap to avoid: treating the May step-up like the promo weeks taught elsewhere and excluding it. It is not a bounded event, it is a permanent shift, and the right move is to forecast off the post-launch plateau, not the pre-launch decline.
 
-Full day-by-day projection: [`forecast-cpa-cvr-cpm-30day.csv`](forecast-cpa-cvr-cpm-30day.csv). Chart: [`forecast-chart.png`](forecast-chart.png).
+## 3. The 30-day forecast (June)
 
-**Two methods are acceptable here, and they land in different places.** The table above fits a trend line directly to CPA. The alternative — forecast CPM, CTR and CVR separately, then derive CPA from them — follows the decomposition more literally and lands nearer **~$54**. It is not wrong; on this dataset it is arguably the better read, because it lets each driver move at its own rate instead of averaging them into one slope. **Treat roughly $46–$55 as the acceptable band for a defensible CPA mid, and grade the reasoning, not the number.** What matters is that the learner states which method they used and why. A submission landing at $54 by decomposition is as good as one landing at $50 by direct fit; a submission landing anywhere without naming its method is not.
+Anchor to the **post-launch plateau** (May 13 to 29): CTR ~2.51%, CPC ~$0.48, CPM ~$12.05, spend ~$1,000/day. From there, carry the seasonal CTR decline forward (about −0.0175 points per day, measured off the Mar to April slope) and add a small competitor CPM nudge. CPC is CPM divided by CTR, so a softening CTR and a firmer CPM both push CPC up.
 
-*What the chart shows: the 90 training days with promo week (squares) and the end-of-quarter ramp (triangles) marked as excluded from the fit, then the 30-day forecast mid and its ±1σ band — CPA in the upper panel, CVR in the lower. Every figure in it appears in the table above, so the chart is a second view rather than the only place the numbers live.*
+| Case | June CPC (avg) | What it assumes |
+|---|---|---|
+| Low | ~$0.52 | Seasonal decline flattens, launch lift fully holds, competitor adds ~1% to CPM |
+| Mid | ~$0.55 | Seasonal decline continues at its measured rate, competitor adds ~3% to CPM |
+| High | ~$0.63 | Steeper seasonal decline, some fade in the launch lift, competitor adds ~6% to CPM |
 
-**CPM is carried here for context only** — the exercise asks for CPA and CVR, and CPA is the anchor. It's included because it explains *why* CPA moves (CPM drift feeds CPC feeds CPA), not because it's a required deliverable. A read-out with only CPA and CVR is complete.
+The three cases share the same starting point and differ in how the two opposing forces net out. That spread, not the mid alone, is the deliverable.
 
 ## 4. Assumptions and what drives the spread
 
-- Trend is roughly linear over the horizon; fatigue continues at its recent slope.
-- Promo week and the end-of-quarter ramp both excluded from the fit as one-offs; neither is assumed to repeat next month.
-- Band = ±1 residual standard deviation from the trend fit — widen it if you expect another creative refresh or budget shift. CPA carries more uncertainty than CVR because it compounds CTR and CPC movement. This is a fixed-width uncertainty band, not a prediction interval — widen it manually if you expect volatility to compound (e.g. a creative refresh mid-month).
+- The post-launch plateau is the right baseline, the pre-launch decline is not, because the product change is durable.
+- The seasonal decline continues into June rather than reversing.
+- The launch-week spend spike is excluded as a one-off.
+- The competitor effect is a stated assumption, not derived from the data, since it has not happened yet.
 
-## 5. Budget → orders read-out
+The biggest source of uncertainty is that the **seasonal drag and the launch lift pull in opposite directions**. If the lift fades faster than the season softens, CPC runs toward the high case; if the lift holds and the season is mild, it runs toward the low case. That tension is the width of the band. Widen it further if you expect a stronger competitor push or a weaker product follow-through. This is a fixed-width uncertainty band, not a statistical prediction interval.
 
-At a planned **~$30,000/month** spend (recent non-ramp daily spend ≈ $1,000 × 30) and the **mid CPA of ~$50**:
+## 5. What the range means for the plan
 
-> **~600 orders** next month (≈ $30,000 ÷ $50).
-> Range: ~$53.1 CPA → ~565 orders (downside), ~$46.6 CPA → ~644 orders (upside).
->
-> Off the decomposed mid instead (~$54.30): **~552 orders**. That sits below the direct-fit downside, which is the honest consequence of the two methods disagreeing — not an error in either. Report the read-out off whichever mid you forecast, and say which.
-
-**Biggest risk:** fatigue accelerating faster than the linear trend assumes — if CPA keeps climbing past the high case, orders fall below the low case. A creative refresh is the lever that resets it.
+CPC is what a click costs, so the range tells you roughly how much traffic a given June budget buys. At ~$1,000/day held flat, the mid case buys meaningfully fewer clicks than the pre-launch baseline would have implied, because costs are drifting up. Use the range to decide whether to hold spend, scale, or reallocate, and remember that scaling up raises CPC on its own (pricier inventory), so a budget increase is a separate forecast.
 
 ## Common mistakes
 
-- Forecasting a **flat** CPA (ignoring fatigue) — the single most common error; it over-promises orders.
-- Leaving **promo week** in the baseline — makes CVR/CPA look better than they'll be.
-- Reporting a **single number** instead of a range.
-- Blaming the ramp's CPA rise on fatigue — they're two different causes.
+- Forecasting off the whole 90 days as one trend, which averages the pre-launch decline with the post-launch plateau and lands nowhere real. Forecast off the post-launch level.
+- Excluding the May step-up as if it were a promo. It is a durable change, not a bounded event, so it carries forward.
+- Leaving the launch-week spend spike in the baseline, which overstates normal spend and traffic.
+- Forecasting a flat CPC and ignoring the seasonal softening that continues into June.
+- Treating the competitor pressure as a fact in the data instead of a labeled forward assumption.
+- Reporting a single number instead of a range, when the whole point is that two forces pull against each other.
