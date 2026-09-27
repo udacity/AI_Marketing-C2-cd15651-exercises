@@ -1,48 +1,36 @@
-# Solution — One Concept, Three Formats, On Brand
+# Solution: Take the Brand Into a New Market
 
-*Worked solution — one strong example. Concept and copy will vary; what matters is one clear concept, self-contained prompts that carry the brand without external context, three consistent formats, and evidence of an iteration loop. (Generated images are produced live in a separate image tool, so this solution shows the direction, prompts, and copy — the deliverables a reviewer can check.)*
+*Worked solution, one strong example. Image tools produce different results each run, so this describes the direction and the reasoning rather than a fixed picture. What matters: the brand flexes into an intense new market without breaking, the aesthetic addendum drives the look, and the choice is defended against the inputs, not taste.*
 
-## The concept
+## 1. Assemble the stack, including the addendum
 
-**"Caught mid-day, mid-life — hydrated without trying."** A real person in an unstaged daytime moment (walking out the door) with the Vessl bottle naturally in frame. Feeling first (calm, capable, on-track), product second.
+Load all three inputs before directing: the core brand guide, the "In Your Corner" campaign brief, and the campaign aesthetic addendum. The addendum is the input that makes this exercise work; it tells Claude which parts of the calm, bright core brand flex (palette goes to deep Marine and near-black, dramatic gym light, gritty candid athletes) and which stay sacred (aqua present and identifying, the tagline, no fear/guilt, the bottle as kit not pedestal).
 
-## Self-contained image prompt (1:1 feed)
+## 2. Direct concepts, then narrow to a testable pair
 
-> Editorial lifestyle photo, natural daylight, airy and fresh. A 30-something person mid-motion in a bright modern apartment doorway, canvas tote on shoulder, holding a matte-finish smart water bottle with a subtle LED ring. Cool aqua and soft-blue palette, clean white surroundings, one warm coral accent (a scarf). Candid, not posed; shallow depth of field; condensation on the bottle. Lots of open space top-left for a headline and tagline, plus clear space bottom-left for a CTA button. No logos, no text in image.
+Ask for several concept directions first, then narrow. A strong pair is distinct enough that a real result tells you something, for example:
 
-*(Self-contained on purpose — the image tool has none of Claude Code's context, so the brand look, mood, and constraints are all baked in.)*
+- **Mid-Round (kinetic).** Fighter mid-strike or working the bag, motion blur, frozen sweat, near-monochrome high contrast, aqua isolated as the one surviving color on the bottle. Loudest, poster energy; tests whether raw stopping-power drives the scan.
+- **The Corner (recovery/preparation).** Fighter on the stool between rounds, single hard spotlight against near-black, aqua as a rim-light on the bottle. Quieter, earned-confidence; tests whether the "part of being a serious athlete" moment earns more trust.
 
-Paste the prompt into the AI image tool of your choice and generate it there. Nothing from the Claude Code session travels across with it — you carry the context between the two tools by hand.
+Both hold the non-negotiables, and both feature the athlete at comparable production value, so a winner tells you *action vs. stillness*, not just "photo with a person vs. without." That's a clean A/B.
 
-## On-brand copy
+## 3. Write a self-contained prompt (copy stays placeholder)
 
-- **Headline:** It keeps score, so you don't have to.
-- **Tagline:** Hydration, handled.
-- **CTA:** See how it works
+For the chosen concept, write a prompt the image tool can run cold: bake in the addendum's palette by name and hex (deep Marine `#12414E` / near-black grounds, Vessl Aqua `#16B1C7` as the charged accent, Coral `#FF7A59` reserved for the CTA area), the dramatic directional gym lighting, the gritty candid athlete, and the bottle as part of the kit. Lay out the fixed tagline plus placeholder text blocks so you can judge composition and hierarchy without writing final copy.
 
-Three lines, in that order, composited onto every frame. The CTA stays plain on purpose — the brief wants clicks to the launch page, and the brand voice rules out hype ("revolutionary," "game-changing") and pressure alike.
+## 4. Generate, then iterate against the standard
 
-## Variant set (same concept, three frames)
+Generate in the image tool, then bring the result back into Claude and critique it against the brand guide and the addendum, not taste. The calibrated critique is the point: it can catch that the frame went so dark the aqua disappeared (breaking the "aqua must identify the brand" rule), or that the coral leaked onto a glove instead of the CTA, or that the shot drifted toward a staged product photo. Refine the prompt to fix the specific miss and regenerate. That is the required iteration.
 
-Each variant is a **full standalone prompt**, not a delta off the first — the image tool has no memory of the previous run, so every prompt has to carry the whole brand look on its own.
+## 5. The decision memo
 
-**9:16 story/reel:**
-> Editorial lifestyle photo, vertical 9:16 crop, natural daylight, airy and fresh. A 30-something person mid-motion in a bright modern apartment doorway, canvas tote on shoulder, holding a matte-finish smart water bottle with a subtle LED ring — subject placed in the lower third of the frame. Cool aqua and soft-blue palette, clean white surroundings, one warm coral accent (a scarf). Candid, not posed; shallow depth of field; condensation on the bottle. Generous open space across the top third for stacked text, plus clear space bottom-centre for a CTA button. No logos, no text in image.
-
-**16:9 banner:**
-> Editorial lifestyle photo, wide 16:9 crop, natural daylight, airy and fresh. A 30-something person mid-motion in a bright modern apartment doorway, canvas tote on shoulder, holding a matte-finish smart water bottle with a subtle LED ring — subject pushed to the right third, bottle sharp and in focus. Cool aqua and soft-blue palette, clean white surroundings, one warm coral accent (a scarf). Candid, not posed; shallow depth of field; condensation on the bottle. Open space across the left half for a headline and tagline, plus clear space bottom-left for a CTA button. No logos, no text in image.
-
-Concept, palette, and message held constant; only the frame, the subject's position, and where the negative space sits change.
-
-**Why every prompt ends "no text in image":** image tools render type unreliably and inconsistently across formats. Generate clean plates with the negative space reserved, then composite the headline, tagline, and CTA in your layout tool. That is how the required **"Hydration, handled."** tagline lands — and it keeps the copy pixel-identical across all three frames.
-
-## Iteration note (two lines)
-
-> First generation came back high-contrast and staged — the mood read "gym ad," not calm/editorial. I revised the prompt to specify soft daylight, matte finish, candid framing, and open negative space, then ran it again in the image tool — the second pass looked like a real brand moment, not a stock fitness photo.
+Close with a short memo: the visual direction you're leading with, why it fits the campaign brief and the addendum while staying on brand, what you considered and set aside (and why), and the one improvement the iteration made. Note that copy is still to be written; this aligned the visual direction.
 
 ## Common mistakes
 
-- A prompt that relies on context the image tool doesn't have ("use our brand colors") — must be spelled out.
-- Three unrelated images instead of one concept in three frames.
-- Re-rolling the same prompt instead of *revising* it (no real iteration).
-- On-image copy that drifts clinical or fear-based, off the Vessl voice.
+- Ignoring the addendum and producing the bright, calm core-brand look, which reads as soft in this market.
+- Flexing so hard the brand disappears: no aqua, or a look that could be any energy-drink ad.
+- Slipping into fear or guilt framing because the market is "intense." Intensity is fine; shaming the athlete is not.
+- Getting bogged down writing flyer copy instead of aligning the visual direction (keep copy as placeholder).
+- Accepting the first generation. The iteration loop, and a critique against the actual inputs, is the deliverable.

@@ -1,6 +1,6 @@
-# Vessl — Launch Creative Brief
+# Vessl: Launch Creative Brief
 
-*Provided input for the AI-generated marketing creative module. Use this brief, plus the brand-voice guide, to direct the concept and generate the creative set.*
+*Provided input for the AI-generated marketing creative module. Use this brief, plus the brand guide, to direct the concept and generate the creative set.*
 
 ---
 
@@ -35,7 +35,7 @@ Each variant should share the same concept, brand look, and core message, adapte
 
 ## Mandatories
 
-- Follow the look-and-feel in the brand-voice guide: cool aquas and soft blues, a clean white base, one warm accent, bright daylight, candid real-life moments, the bottle as the hero.
+- Follow the look-and-feel in the brand guide: cool aquas and soft blues, a clean white base, one warm accent, bright daylight, candid real-life moments, the bottle as the hero.
 - Include the tagline: **Hydration, handled.**
 - Keep any on-image copy short and in the brand voice.
 
