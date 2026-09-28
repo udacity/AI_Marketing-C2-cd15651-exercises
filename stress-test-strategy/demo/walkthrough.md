@@ -1,42 +1,49 @@
-# Worked Demo — Turn Claude Into an Adversarial Reviewer
+# Worked Demo: Turn Claude Into an Adversarial Reviewer
 
-*The real content: the finished walkthrough the demo produces.*
+*The finished walkthrough the demo produces.*
 
-## The strategy under test
+## The real trap isn't flattery, it's execution mode
 
-> "Offer every free user their first month of Premium free — let them live in the paid tier for a month and they'll be hooked enough to keep paying."
+Modern Claude does not just tell you your plan is great. Ask its opinion ("is this a good idea?") and you get a balanced answer with real pros and cons. The trap is subtler and more dangerous. Ask Claude to **help you build a plan** and it adopts your premise as settled and starts building, it never stops to ask whether the plan is a good idea in the first place. That is the sycophancy that matters, because it doesn't feel like flattery. It feels like progress.
 
-It sounds obviously right — which is exactly why it needs stress-testing.
+## Watch it adopt the premise
 
-## The naive ask
+Give Claude an execution request:
 
-Prompt Claude with *"Is this a good idea?"* The answer comes back agreeable and largely useless: it validates the plan and lists generic upsides. Asking the model what it thinks gets you flattery.
+> "We want to offer every free user their first month of Premium free, so they get hooked on the paid features and keep paying. Help me craft a plan for executing that tactic."
+
+It asks a couple of scoping questions, then hands back a full rollout plan: eligibility logic, billing mechanics, a lifecycle table, a phased launch. Useful work, and notice what it never did, it never asked whether this tactic is a good idea. It took "we want to do this" as the starting point and got to work.
+
+## The pause
+
+This is the moment to catch. Before you let Claude build out a whole rollout for an idea nobody has pressure-tested, stop. And don't ask its opinion, opinions come back diplomatic and are easy to read selectively when you're already invested. Instead, assign it a hostile role and give it a job.
 
 ## The adversarial reframe
 
-Reassign the role:
+> "Now act as a skeptical growth lead who thinks this idea is flawed. Your north star is incremental growth in paying subscribers. Find the 3 to 5 assumptions this strategy quietly depends on and would fail on, and name the strongest case against it. Be specific about second-order effects, not generic risks."
 
-> "You are a skeptical growth lead. Your job is to find the 3–5 assumptions this strategy quietly depends on and would fail on, and to name the strongest case against it."
+Now it turns on the plan it just helped write, and the useful assumptions surface. For the free-month play, for example:
 
-Now the useful assumptions surface:
+- That the barrier is discovery, not fit or price, that people are free because they haven't tried Premium, not because they've already decided it isn't for them.
+- That trial usage causes durable preference, rather than being consumed because it's free and then collapsing when a price returns.
+- That the users who redeem aren't disproportionately the high-intent users who would have converted anyway (adverse selection, you cannibalize organic conversions and relabel them as wins).
+- That auto-converted, effectively-coerced payers behave like normal subscribers, rather than driving chargebacks, disputes, and "sneaky billing" sentiment that spills onto organic signups.
+- That giving it away doesn't reset what the market expects to pay, training future cohorts to wait for the free month.
 
-- That a free month creates a *lasting habit* rather than a free ride that ends the moment billing starts.
-- That the people who claim the free month were not already about to convert — otherwise you're cannibalizing revenue you'd have earned anyway.
-- That one month is long enough to reach the product's aha moment.
-- That the cost is worth it — you absorb the Premium cost for the entire free base in order to convert a fraction of it.
+The strongest case against: the program is built to look like a success on the metric most likely to get it funded (Day-30 conversion) while hiding its failure on the timeline where the damage shows (Day-90 incremental net-new, once you strip out cannibalization and post-charge churn).
 
-## Pick the most dangerous assumption
+## Judge the critique, don't obey it
 
-The sharpest risk: *the strategy assumes users convert when billing kicks in, rather than churning the instant the free month ends.* If that's wrong, the whole play loses money.
+The adversarial reviewer isn't automatically right. If it claims something like the promo will "permanently devalue the brand," that's likely overstated for a time-boxed campaign, discount it, and say why. Its job is to challenge your thinking, not to be correct about everything.
 
-## Judge the critique itself
+## Close the loop into a better plan
 
-The adversarial reviewer isn't automatically right. For instance, if it claims the promo will "devalue the brand permanently" *(illustrative — not from source)*, that's likely overstated for a time-boxed trial — discount it, and say why. The reviewer's job is to challenge your thinking, not to be right about everything.
+The goal isn't to kill the idea, it's to make it survivable. Turn the critique back into concrete changes:
 
-## Turn it into a cheap test
+> "What changes would you make to the plan based on this analysis?"
 
-Ask Claude how to test the most dangerous assumption before committing: e.g., run the free month for a *single cohort* and measure retention at day 30–60 against a control, rather than rolling it out to everyone. *(Illustrative test design — not from source; swap for your own.)*
+It maps a fix to each risk: target users showing real intent instead of the whole base; drop auto-charge for a no-card trial; protect and acknowledge existing payers; measure incremental revenue against a held-out control instead of a vanity conversion rate; soften the day-30 cliff and add a cancellation survey; set kill-switch thresholds that pause the rollout. That is a materially better plan than the one you started with, and you only have it because you stopped to attack your own idea before building it.
 
 ## Key takeaway
 
-AI's default mode is agreement. The value is in the adversarial reframe — you use it to attack your own thinking before the market does, and the payoff is the cheap test that saves the expensive mistake.
+When you ask AI to execute, it inherits your premise and never questions it. So the discipline is yours: before the how runs away with the whether, deliberately turn Claude into an adversary, get the strongest case against your own plan, judge it, and fold it back in. You use AI to attack your thinking before the market does.

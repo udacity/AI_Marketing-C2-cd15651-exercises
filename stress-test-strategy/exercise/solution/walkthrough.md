@@ -1,40 +1,62 @@
-# Solution — Stress-Test a Strategy, Surface the Assumptions
+# Solution: Run a Real Red Team on High-Stakes Copy
 
-*Worked solution — one strong example. What matters: a real adversarial-reviewer prompt, ranked assumptions, one critique honestly discounted, a cheap test for the top risk, and a tight revised position.*
+*Worked solution, one strong example. Outputs vary, what matters is a well-constructed red team (persona + goal + explicit attack + mitigations), a V2 that visibly fixes the surfaced risks, and a change memo that ties each edit back to a risk.*
 
-**Strategy under test:** move cross-device sync (currently free, used daily by most active free users) behind the Premium paywall.
+## 1. Write V1 (and notice it doesn't push back)
 
-## 1. Naive evaluation (saved for contrast)
+Ask Claude to write the launch email, and give it the angle:
 
-Asked "is this a good idea?", Claude broadly agrees: sync is sticky, competitors charge for it, high-intent users will convert. Agreeable and low-value — it never names what has to be *true* for the play to work.
+> "Write a launch email announcing Flowline AI... Lead with a bold, confident promise that Flowline AI basically runs your day for you, and drive hard to the upgrade."
 
-## 2. Adversarial-reviewer prompt (used)
+It writes a polished, confident email built exactly around that promise, and it never flags that "runs your day for you" is a claim the feature can't keep. On its own, it runs with your premise. That's V1, and it's exactly why the review is your job.
 
-> "Act as a skeptical growth lead. Your job is to find the 3–5 assumptions this strategy quietly depends on and would fail on, and to name the strongest case against it. Be specific about second-order effects."
+## 2. Set the red team up deliberately
 
-## 3. The assumptions, ranked by damage if wrong
+A good adversarial prompt has three moving parts. Weak prompts ("any feedback?") get you line edits; this gets you a real critique:
 
-1. **Users convert rather than resent.** The whole play rests here, and nothing tests it.
-2. **The free tier stays attractive enough** to keep feeding future conversion.
-3. **Sync isn't easily replaced.** If it is, they bridge devices another way or leave.
-4. **The support and goodwill cost is tolerable** at rollout.
+> "Act as a skeptical Product Marketing Manager who thinks this email is a mistake to send as written. Your goal is durable trust and paid retention, not click-through. Red-team the email you just wrote: call out each thing that isn't working and why it's a risk, be specific about second-order effects like trust, refunds, and unsubscribes, and give me a mitigation for each."
 
-Rank them by damage, not likelihood — the ordering is what decides which one earns a test. Note this is **not** the order the reviewer listed them in: it put replaceability second, because that is the obvious rebuttal to the play's own logic. But being wrong about replaceability is a *bounded* miss — you lose some of this cohort, and the same pilot that answers "convert vs. resent" would surface it. Being wrong about the free tier damages every future cohort's conversion pipeline, compounds quietly, and is the slowest of the four to detect and the hardest to walk back. On damage, it outranks replaceability. Promoting it is the judgment call; the reviewer's order was a listing order, not a ranking.
+- **Persona:** skeptical PMM (a hostile lens, not a helpful assistant).
+- **Goal:** durable trust and retention, not click-through (this is what makes it attack overpromising instead of optimizing for opens).
+- **Explicit job:** red-team, name the risk and the second-order effect, propose a fix.
 
-## 4. One critique I'd discount
+## 3. What a strong red team surfaces
 
-Critique 4 — *"expect complaints, reviews, and churn spikes at rollout."* The spike is real but **transient**, and it is the cost of any pricing change; the critique treats launch-week noise as a standing brand cost. Discount the framing, keep the operational point: staff support for launch week and grandfather existing users. The reviewer's job is to stress the thinking, not to be right about everything.
+For this email, the high-value critiques are all about what happens *after* the click:
 
-## 5. Cheap test for the top risk
+- **Overpromise on an unproven feature.** "Runs your day for you" breaks the moment the first suggested plan is even slightly off, week-1 refunds, chargebacks, tickets that quote the email.
+- **A bold claim with zero proof.** No beta stat, no hedge, reads as AI-hype bravado to a skeptical freemium list.
+- **No off-ramp.** No trial or money-back, "trust us and pay" converts the people most likely to cancel in month one.
+- **No failure framing.** Nothing says "you're in control, it suggests and you override," so every disagreement becomes a broken-promise moment.
+- **Unsegmented blast.** Cold, unearned claim to dormant users, raises unsubscribe/spam-complaint risk and hurts future deliverability.
+- **No humility, and a dark-pattern P.S.** ("upgrade sooner") that sophisticated users clock immediately.
 
-Before a full rollout, gate sync behind Premium for a **small random slice of existing free users** — the group who would otherwise be grandfathered, and the only group whose sync actually disappears — and watch 30–60 day conversion *and* churn/complaint rates against a control. Cheap, reversible, and it answers "convert vs. resent" before we bet the free tier on it. *(Illustrative test design — swap for your own.)*
+Optional but sharp: judge the critique. A note like "this will permanently damage the brand" is overstated for one email, keep the substantive fix, discount the doom framing.
 
-## 6. Revised position (one tight statement)
+## 4. Turn it into V2
 
-> **Recommendation:** don't roll this out broadly yet — pilot it on a small slice of existing free users first, carved out of the grandfathering, since they are the only group whose sync actually disappears. **Deciding reason:** the whole play rests on "users convert, not churn," and that's exactly the untested assumption. **What would change my call:** if the pilot shows conversion lift without a churn/complaint spike, expand it.
+V2 has to visibly fix the risks, not just soften tone. A strong V2:
+
+- Reframes the headline from "runs your day for you" to something honest about what it does (a daily starting plan built around what matters), removing the pass/fail promise.
+- Makes user control an explicit, named feature (overriding a suggestion is normal, not a failure).
+- Adds an upfront humility line about day-one imperfection, which does the job the missing beta data would have.
+- Softens the CTA when there's no trial/refund to de-risk the ask (e.g., "See Flowline AI" and "judge for yourself" instead of a hard upgrade push).
+- Repurposes the P.S. from manufactured urgency into a feedback invitation.
+
+## 5. The change memo
+
+A tight, skimmable list, each change tied to the risk it fixes:
+
+> - Softened the headline claim, removes the all-or-nothing promise that breaks trust the moment one suggestion is off.
+> - Made user control an explicit feature, reframes overriding a bad suggestion as expected behavior.
+> - Added an upfront humility line, substitutes for beta data we can't cite; sets honest expectations.
+> - Replaced the hard CTA with a softer ask, appropriate with no trial/refund to de-risk it.
+> - Dropped the manufactured-urgency P.S., removes a dark pattern skeptics would notice.
+> - Wrote the copy to hold up for the whole unsegmented list, lowers unsubscribe/spam risk.
 
 ## Common mistakes
 
-- Treating the adversarial output as the answer instead of ranking and judging it.
-- Skipping the "discount one critique" step — the AI's pushback isn't automatically right.
-- A "cheap test" that isn't cheap ("launch it and monitor").
+- Skipping the persona and goal, "review this" gets you copy edits, not a red team.
+- Collecting the critique but never producing a V2 that addresses it.
+- Optimizing V2 for click-through when the stated goal was durable trust.
+- No memo, so there's no evidence the review changed anything or why.

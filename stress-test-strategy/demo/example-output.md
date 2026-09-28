@@ -1,30 +1,28 @@
-# Demo Output — Turn Claude Into an Adversarial Reviewer
+# Demo Output: Turn Claude Into an Adversarial Reviewer
 
-*Actual Claude output — the naive prompt then the adversarial-reviewer prompt, run on the demo strategy. One run; outputs vary.*
+*Illustrative Claude output for the execution-mode reframe: an execution request, then the adversarial reframe, then folding the critique back in. One run; outputs vary.*
 
-**Strategy:** "Offer every free user their first month of Premium free — they'll be hooked enough to keep paying."
+**Strategy:** "Offer every free user their first month of Premium free, they'll be hooked enough to keep paying."
 
-## Run 1 — the naive ask (`Is this a good idea?`)
+## Run 1: execution mode (`Help me craft a plan for executing that tactic`)
 
-> Yes, this is a strong play. A "reverse trial" that puts users into Premium is one of the most reliable ways to drive conversion — people convert on value they've actually experienced, not features they read about. It builds habit, showcases your best capabilities, and lowers the psychological barrier to paying. Many successful SaaS businesses use exactly this model. Just make sure the onboarding highlights your most valuable Premium features early.
+> Here's a rollout plan. **Eligibility:** one-time-per-account flag to prevent repeat redemption. **Billing:** collect a payment method up front and auto-convert unless canceled (converts better than card-free trials). **Lifecycle:** a day-by-day touchpoint schedule with reminders before the charge. **Rollout:** pilot a cohort, instrument it, then flip it on for the full base...
 
-*Agreeable and generic — it never names what has to be true for this to work.*
+*It never asked whether the tactic is a good idea. It took the premise as settled and started building, that's the trap.*
 
-## Run 2 — adversarial reviewer
+## Run 2: the adversarial reframe
 
-**Prompt:** `Act as a skeptical growth lead. Your job is to find the 3–5 assumptions this strategy quietly depends on and would fail on, and to name the strongest case against it.`
+**Prompt:** `Act as a skeptical growth lead who thinks this is flawed. Your north star is incremental paying subscribers. Find the 3-5 assumptions it depends on and would fail on, and the strongest case against.`
 
-> As a skeptical growth lead, here's where this could fall apart:
+> 1. **The barrier is discovery, not fit or price.** If free users have already decided Premium isn't worth it, 30 days of exposure just delays the same "no."
+> 2. **Trial usage causes durable preference,** rather than being consumed because it's free and collapsing when the price returns.
+> 3. **Redeemers aren't the high-intent users who'd have converted anyway** (adverse selection, you cannibalize organic conversions and call them wins).
+> 4. **Auto-converted, coerced payers behave normally,** rather than driving chargebacks, disputes, and "sneaky billing" sentiment that spills onto organic signups.
+> 5. **Giving it away doesn't reset expected price,** training future cohorts to wait for the free month.
 >
-> 1. **That users convert when billing starts, rather than churn.** The whole plan assumes the free month creates lasting habit. It may just create a month of free usage that ends the moment the card is charged.
-> 2. **That claimers weren't going to convert anyway.** If you give Premium to everyone, you're discounting revenue from users who'd have paid full price — cannibalization you won't see in the headline conversion number.
-> 3. **That one month is enough to reach the "aha" moment.** For a workflow tool, real habit may take longer than 30 days to form.
-> 4. **That the cost is worth it.** You're absorbing Premium cost for your entire free base to convert a fraction.
->
-> **Strongest case against:** you may be spending to teach price-sensitive users that Premium is something they get for free, while giving away margin on users who'd have paid regardless.
+> **Strongest case against:** it's built to look like a success on Day-30 conversion (the metric that gets it funded) while hiding failure on Day-90 incremental net-new, once you strip out cannibalization and post-charge churn.
 
 ## Demo beats on top of this
 
-- **Most dangerous assumption:** #1 (convert vs. churn at billing).
-- **Discount one critique:** if it also claimed "this will permanently devalue the brand," that's overstated for a time-boxed trial — set it aside.
-- **Cheap test:** run the free month for one new-signup cohort, measure day-30/60 retention vs. a control before rolling out to everyone.
+- **Judge, don't obey:** a claim like "this will permanently devalue the brand" is overstated for a time-boxed campaign, discount the framing, keep the point.
+- **Close the loop (`What changes would you make?`):** intent-based targeting instead of the whole base; no-card trial; protect existing payers; measure incremental revenue vs. a held-out control; soften the day-30 cliff plus a cancellation survey; kill-switch thresholds. A materially better plan, only because you stopped to attack your own idea before building it.
