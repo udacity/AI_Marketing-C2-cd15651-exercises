@@ -1,61 +1,45 @@
-# Solution — Rewrite Three, Compare Three
+# Solution: One Goal, Four Prompts
 
-*Worked solution — one strong example. Student wording will differ; what matters is a correct failure diagnosis, a five-element brief with real decisions, and a named element that changed the output most.*
+*Worked solution, one strong example. Outputs vary; what matters is a correct diagnosis of each weak prompt, a goal-rich brief that carries real decisions, and a concrete comparison of the four.*
 
----
+## The setup
 
-## Prompt 1 — Checkout abandonment recovery email
+Same task four times: an abandoned-cart email for a user who reached checkout for annual Premium and left. Holding the task constant means the only variable is the prompt, so the four outputs isolate what prompt quality actually buys you.
 
-**Diagnosis: over-prescribed.** Stuffed with mechanics (exactly four sentences, open with a question, countdown timer, P.S.) but never says who the reader is or what the email is for. The fix *removes* rules and adds a goal.
+An honest note up front: current models are good enough that even a weak prompt produces a *competent-looking* email. So the lesson isn't "weak prompt, bad email." It's that **weak prompts make the model guess, and its guesses can be wrong or off-brand**, while a goal-rich brief makes it execute your intent.
 
-**Goal-rich brief:**
-- **Audience:** a user who reached the annual-Premium payment screen and left without completing — one step from paying.
-- **Goal:** recover that specific upgrade; earn the click back to checkout.
-- **Context:** they already chose to upgrade; something stopped them at payment.
-- **Constraints:** no discount (protect price integrity); no fake urgency/countdown; don't re-explain the product; short.
-- **Success criteria:** click back to the checkout page.
+## Diagnosing the three weak prompts
 
-**Element that changed the output most:** *Audience* — naming "already at the payment screen" flipped the email from a generic re-explainer into a low-friction "pick up where you left off" nudge. Note the brief is **longer** than the prompt but **prescribes far less** — five mechanical rules replaced by one real audience.
+- **Prompt 1 is over-prescribed.** It's all mechanics (exactly four sentences, a countdown, a mandatory question, a P.S.) and no direction. Run it and the model doesn't just sound robotic, it **invents a "20% launch discount" and a countdown that were never authorized**, to satisfy the "countdown timer" rule. That's the teachable failure: an over-prescribed prompt forced a guess that contradicts Flowline's no-discount policy and could train customers to wait for discounts. Fix: cut the arbitrary rules and put real direction in their place.
+- **Prompt 2 is under-specified.** "Write an abandoned-cart email for Flowline" gives the model nothing about who this is, what they abandoned, or why they'd care. It produces a reasonable generic cart email, but it has to guess the trigger and invents details (a "48-hour hold"). Fix: add the missing facts.
+- **Prompt 3 is vague.** "Write something to reconnect with them" has a vibe but no goal. "Reconnect" isn't an ask, so the output wanders (subject-line options, offers to draft a follow-up sequence) and never drives the one action. Fix: give it a real goal, completing the purchase.
 
----
+## The goal-rich brief
 
-## Prompt 2 — New-user activation in-app message
+Front-load the five decisions you already own, using the real Flowline facts:
 
-**Diagnosis: under-specified.** "Write an in-app message for new users" is missing which users, at what stage, to do what.
+> **Audience:** a user who reached checkout for annual Premium and left without completing.
+> **Goal:** get them back to finish the annual Premium purchase.
+> **Context:** they were one step from paying, so they already want it; the usual hesitation is the annual commitment, even though annual ($96/year, about $8/month) is ~33% cheaper than monthly. This is a reassuring nudge, not a fresh pitch.
+> **Constraints:** short and warm; one clear CTA straight back to checkout; no countdown gimmick; **no discount** (we don't discount), reassure with cancel-anytime and the 14-day money-back guarantee instead.
+> **Success:** they click back to checkout and complete.
 
-**Goal-rich brief:**
-- **Audience:** free-tier users ~3 days in who have never created their first project.
-- **Goal:** drive that one first action — create a first project.
-- **Context:** they haven't reached the product's value yet; this is the activation moment.
-- **Constraints:** one clear CTA; in-app tone, short; no feature dump.
-- **Success criteria:** completes the first project (not just opens the app).
+This produces a tight, on-brief email that reassures on the exact hesitation (the annual commitment), offers a real safety net (cancel-anytime, money-back) instead of an invented discount, and drives one action.
 
-**Element that changed the output most:** *Goal* — pinning the single next action turned a vague welcome into a one-CTA push toward first value.
+## The comparison (the payoff)
 
----
+Put the four side by side and name the difference concretely:
 
-## Prompt 3 — Power-user referral
+- **Over-prescribed:** invented a discount that violates policy, robotic, gimmicky. Actively risky.
+- **Under-specified:** competent but generic; guessed the trigger and a hold time.
+- **Vague:** pleasant but aimless; never makes the ask.
+- **Goal-rich:** speaks to the real hesitation, offers an honest reassurance, one CTA, no invented anything.
 
-**Diagnosis: vague.** "Make our best users feel appreciated" has no task or action in it at all.
-
-**Goal-rich brief:**
-- **Audience:** paying users who log in weekly and use Flowline heavily.
-- **Goal:** a referral ask — invite a colleague/friend who'd benefit.
-- **Context:** they already get real value; appreciation is the frame, the referral is the ask.
-- **Constraints:** don't over-incentivize (protect referral quality); keep it warm, not transactional.
-- **Success criteria:** a qualified referral, not just a warm feeling.
-
-**Element that changed the output most:** *Goal* — converting a fuzzy sentiment ("feel appreciated") into a concrete referral ask gave the model something to actually drive toward.
-
----
-
-## The portable point
-
-The same five-element scaffold fixed three different failures across three audiences and channels — and the fix was **not always "add more"**: the over-prescribed prompt lost its rules rather than gaining more. Students should be able to name *why* an output was generic (which element was missing), not just feel that it was.
+The goal-rich email wins not because it's longer, it's often shorter, but because every line was aimed at the real moment, and it replaced the model's guesses with your decisions.
 
 ## Common mistakes
 
-- Misdiagnosing the failure type — e.g., treating the over-prescribed prompt as under-specified and piling on *more* rules instead of cutting them.
-- Filling brief elements with placeholders ("Audience: our users") instead of real decisions.
-- Making all three rewrites converge on the same shape, when different failures and audiences should produce visibly different briefs.
-- Naming an element that changed the output without explaining *why* it mattered.
+- Treating "the weak output looks fine" as proof the prompt was fine, missing the guesses baked into it (the invented discount is the clearest tell).
+- Diagnosing every weak prompt as "needs more detail." The over-prescribed one needs *less*.
+- A goal-rich brief full of placeholders ("Audience: our users") instead of real decisions.
+- A comparison that says "the last one is better" without naming the specific decision that made it better.

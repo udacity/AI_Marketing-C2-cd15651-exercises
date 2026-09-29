@@ -1,26 +1,33 @@
-# Rewrite Three, Compare Three
+# One Goal, Four Prompts
 
-You run lifecycle and conversion messaging for **Flowline**, a freemium productivity app. You've been handed three throwaway prompts, each written for a different audience and moment in the funnel, and each weak in a *different* way. Your job is to turn each one into a goal-rich brief and prove the upgrade with a before-and-after comparison.
+You run lifecycle and conversion messaging for **Flowline**, a freemium productivity app. You're going to write the *same* email four different ways and put the results side by side, so the only thing that varies is the quality of the prompt.
 
-Work in Claude Code. The three starter prompts are in [`starter-prompts.md`](starter-prompts.md).
+The task, every time: an **abandoned-cart email** to a user who reached checkout for annual Premium and left without completing the purchase. You've been handed three deliberately weak prompts for it, each broken in a different way. Run each, diagnose the failure, then write your own goal-rich brief for the same email and compare all four.
+
+Work in Claude. The three weak prompts and the product facts are in [`starter-prompts.md`](starter-prompts.md).
+
+## The three failure modes
+
+- **Over-prescribed**, stuffed with rigid rules but no real direction. The fix is usually to *cut*.
+- **Under-specified**, missing the key facts.
+- **Vague**, no real goal at all.
 
 ## What to produce
 
-A single document containing, for each of the three prompts:
+A single document containing:
 
-- The original prompt and the output it produced, run as-is.
-- The failure type you diagnosed: **over-prescribed**, **under-specified**, or **vague**.
-- Your rewritten goal-rich brief, built on the five-element scaffold: **Audience, Goal, Context, Constraints, Success criteria**.
-- The output the brief produced, placed next to the original.
-- One sentence naming the single brief element that changed the output most, and why.
+- The three weak prompts, each run as-is, with the failure type you diagnosed for it.
+- Your **goal-rich brief** for the same email, built on the five-element scaffold: **Audience, Goal, Context, Constraints, Success criteria** (use the real Flowline facts).
+- All four outputs placed next to each other.
+- A short comparison: which output is most likely to get the abandoner back to complete the purchase, and what specifically the weaker three were missing.
 
 ## Requirements
 
-- Diagnose each prompt before you rewrite it. The fix follows from the failure type — and it is not always "add more." An over-prescribed prompt trades rules for direction: cut the arbitrary mechanics and put real direction in their place. Which element does the heavy lifting is yours to work out and defend — it won't always be the same one.
-- Every element of each brief must carry a real decision, not a placeholder. "Audience: our users" is not a decision; "free users active in the last 30 days who never hit the paywall" is.
-- Keep the three briefs independent. Each situation stands on its own — don't carry facts from one into another.
-- The three rewrites should not converge on the same shape. Different failures and different audiences should produce visibly different briefs.
+- **Diagnose before you rewrite.** The fix follows from the failure type, and it isn't always "add more." The over-prescribed prompt needs its arbitrary mechanics cut and real direction put in their place.
+- **Watch for guessing.** Because current models fill gaps competently, a weak prompt often produces a *decent-looking* email built on guesses, some of them wrong or off-brand. (Notice whether a prompt makes the model invent things you never authorized, like a discount, when Flowline doesn't discount.) The goal-rich brief's job is to replace those guesses with your actual intent.
+- **Every brief element must carry a real decision,** not a placeholder. "Audience: our users" is not a decision; "a user who reached checkout for annual Premium and left" is.
+- **Make the comparison concrete.** Name the specific thing that separates the goal-rich output from the weak three, not just "it's better."
 
 ## Done when
 
-You can point to each before/after pair and name the one decision that moved the output — and your diagnosis of *why* the original was generic holds up, rather than just a feeling that it was.
+You can point to the four outputs and explain why the goal-rich one wins, and your diagnosis of how each weak prompt failed holds up, rather than just a feeling that its output was worse.

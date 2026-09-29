@@ -1,57 +1,32 @@
-# Sample Output — Rewrite Three, Compare Three
+# Sample Output: One Goal, Four Prompts
 
-*Actual Claude output — each starter prompt run as-is, then rewritten via a goal-rich brief and re-run. One run; generative outputs vary run to run.*
+*Illustrative Claude output, the same abandoned-cart email written four ways. One run; outputs vary. Emails trimmed for readability.*
 
----
+## Email 1: over-prescribed prompt
 
-## Prompt 1 — Checkout recovery — **over-prescribed**
+> **Still deciding between free and Premium?** Premium members finish their to-do lists 20% faster thanks to workflow shortcuts, cross-device sync, and unlimited projects, all waiting in your cart. **Your 20% launch discount holds for the next [COUNTDOWN 23:59:59]**, so lock it in before it resets to full price. Complete your upgrade now and start moving through your projects faster today.
+> *P.S. Still have questions? Just reply, we're happy to help.*
 
-**Naked run** (`Write a checkout-recovery email. Exactly four sentences. Open with a question. Mention our 20-percent-faster workflow. Add a countdown timer. End with a P.S.`):
-> Ready to work 20% faster? You were about to upgrade to Flowline Premium, but your checkout is still waiting. Complete it in the next 24 hours — ⏳ 23:59:00 — and put that faster workflow to work today. P.S. We saved your cart, but this reminder won't last long!
+*The tell: to satisfy the rigid rules, it invented a **20% launch discount and a countdown** nobody authorized, which contradicts Flowline's no-discount policy. Rules without direction produced a risky guess.*
 
-*Mechanically correct, but it obeys arbitrary rules instead of speaking to the reader — fake countdown, forced 20% mention, no real reason.*
+## Email 2: under-specified prompt
 
-**Goal-rich brief:** audience: a user who reached the annual-Premium payment screen and left · goal: return to checkout · context: already chose to upgrade, stopped at payment · constraints: no discount, no fake urgency, don't re-explain the product, short · success: clicks back to the checkout page.
+> **Subject: You left Premium in your cart.** Looks like you were checking out Flowline Premium and got pulled away. No worries, your cart's still there. Here's what's waiting: sync across every device, unlimited projects, and workflow shortcuts. [Finish upgrading to Premium →] *P.S. Your cart will hold for 48 hours.*
 
-**Rewritten run:**
-> **Subject:** You were one step from Premium
-> Hi [First name], you'd reached the last step of upgrading to Flowline Premium (annual) when something got in the way — it happens. **[Return to checkout →]**
+*Competent but generic. It had to guess the trigger and invented a "48-hour hold." It even flagged its own assumption ("let me know if it's a paywall-hit instead").*
 
-**Element that changed the output most:** *Audience* — naming "already at the payment screen" flipped it from a generic re-explainer into a low-friction "pick up where you left off" nudge.
+## Email 3: vague prompt
 
----
+> **Subject: Still thinking it over?** Looks like you started upgrading and didn't quite finish, no worries. Here's what you'd unlock: [benefits]. If something got in the way, hit reply. Otherwise, picking back up takes about 30 seconds: [Finish upgrading →]
 
-## Prompt 2 — New-user activation — **under-specified**
+*Pleasant but aimless, it offered subject-line options and to draft a follow-up sequence. "Reconnect" gave it no single goal to drive.*
 
-**Naked run** (`Write an in-app message for new users.`):
-> 👋 Welcome to Flowline! We're glad you're here. Take a look around and explore everything Flowline has to offer — and reach out if you need a hand. Happy organizing!
+## Email 4: goal-rich brief
 
-*Generic welcome; no stage, no action.*
+> **Subject: Your Premium cart is still here.** Hi [First Name], looks like you got right up to the finish line on annual Premium and got pulled away, your cart's still ready when you are. Annual works out to about $8 a month, a third less than monthly, and it's cancel-anytime with a 14-day money-back guarantee, so there's no risk in finishing now. [Finish your purchase] If something didn't look right or you had a question about the plan, just reply, happy to help. The Flowline Team
 
-**Goal-rich brief:** audience: a free user ~3 days in, no first project yet · goal: create first project · context: hasn't reached the product's value yet — this is the activation moment · constraints: one CTA, short, in-app, no feature dump · success: completes the first project, not just opens the app.
+*Speaks to the real hesitation (the annual commitment), reassures with an honest safety net instead of an invented discount, one CTA. Shorter than Email 1, and the only one that isn't guessing.*
 
-**Rewritten run:**
-> You're almost set up. Create your first project to see how Flowline keeps your work moving. **[Create a project]**
+## Comparison
 
-**Element that changed the output most:** *Goal* — pinning the single next action turned a vague welcome into a one-CTA push toward first value.
-
----
-
-## Prompt 3 — Power-user referral — **vague**
-
-**Naked run** (`Make our best users feel appreciated.`):
-> 💙 Thank you for being one of our favorite Flowline users! We appreciate everything you do. You're the best!
-
-*No task, no action — pure sentiment.*
-
-**Goal-rich brief:** audience: paying users who log in weekly and use Flowline heavily · goal: a referral ask · context: they already get real value — appreciation is the frame, the referral is the ask · constraints: don't over-incentivize, keep it warm not transactional · success: a qualified referral, not just a warm feeling.
-
-**Rewritten run:**
-> **Subject:** You get a lot out of Flowline
-> Hi [First name] — you're one of our most active users, and it shows. If Flowline's become part of how you work, someone you know would probably get the same value from it. Know a good fit? **[Send them an invite]** — no strings, just passing on something useful.
-
-**Element that changed the output most:** *Goal* — converting fuzzy sentiment ("feel appreciated") into a concrete referral ask gave the model something to actually drive toward.
-
----
-
-*Each fix was different: prompt 1 **lost its rules** — five arbitrary mechanics cut, a real audience named; prompt 2 gained a specific goal; prompt 3 gained a task where there was none.*
+The goal-rich email wins because every line targets the actual moment: it reassures on the annual commitment, cites the real 33% saving and the money-back guarantee, and asks for one thing. The weak three each failed in their own way, an invented discount, guessed details, or no ask, because the prompt left those decisions to the model instead of making them.
