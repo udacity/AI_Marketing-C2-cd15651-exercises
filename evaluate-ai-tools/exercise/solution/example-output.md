@@ -8,9 +8,9 @@
 
 **Decision:** Buy. Adopt CopyFlow.
 
-**What we compared.** We scored three specialized tools, Penmark, CopyFlow, and BrandForge, against a six-dimension rubric (capability fit, brand-voice control / brand-safety, fit with our stack, cost vs. value, data & privacy, learning curve / adoption), and we weighed all three against the option of using the AI we already pay for. Given our team is small and stretched, we weighted cost vs. value and ease of adoption most heavily.
+**What we compared.** We scored three specialized tools, Penmark, CopyFlow, and BrandForge, against a six-dimension rubric (capability fit, brand-voice control / brand-safety, fit with our stack, cost vs. value, data & privacy, learning curve / adoption), and we weighed all three against the option of building the capability in-house with our current team and tools. Given our team is small and stretched, we weighted cost vs. value and ease of adoption most heavily.
 
-**Why CopyFlow.** On the two dimensions that matter most for us, it wins clearly. Cost: about $54 a month for our three seats, versus roughly $360 for Penmark and $447-plus for the safe (no-training) tier of BrandForge. Adoption: nothing to configure and no rollout to own, so the team can use it today. It also connects to our existing CMS, email, and social tools, and does not train on our inputs.
+**Why CopyFlow.** On the two dimensions that matter most for us, it wins clearly. Cost: about $54 a month for our three seats, versus roughly $360 for Penmark and $447-plus for the safe (no-training) tier of BrandForge. Adoption: nothing to configure and no rollout to own, so the team can use it today. It also connects to our existing CMS, email, and social tools, and does not train on our inputs. It beats building in-house too: the cost of redirecting our own people to build this is higher than the cost of onboarding CopyFlow.
 
 **Main concern.** CopyFlow is the weakest of the options on brand-voice control and capability fit. Output tends generic and tone drifts across a batch, so it needs a human edit pass before anything ships.
 

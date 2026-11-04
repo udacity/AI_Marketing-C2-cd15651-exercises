@@ -1,35 +1,24 @@
-# Forecast LTV, Compare Cohorts, Build the Value Signal
+# Find What Drives LTV and Make One Spend Change
 
-Steep runs a tea subscription, and not all customers are worth the same. Forecast lifetime value across cohorts, dig past the obvious attribute to the real driver of value, and produce two outputs: a bidding-signal upload the platform can optimize against automatically, and an allocation call that's your own decision.
+It is time to find out what actually drives customer lifetime value so you can bid smarter.
 
-Work in Claude Code. The dataset is [`steep_cohorts.csv`](steep_cohorts.csv) — 4,800 **customer-level** records, one row per customer: acquisition month, channel, geography, an income proxy (AOV band), acquisition type (full-price vs. discount-acquired), monthly fee, observed tenure in months, current status (`active` or `churned`), revenue banked to date (money already collected — **not** a lifetime value), and acquisition cost.
+## What you're given
 
-There is **no retention curve and no revenue-by-period series in the file.** You derive retention, churn and expected lifetime yourself from tenure plus status, then roll customers up into cohorts. That derivation is the skill — nobody hands you a curve at work either.
+You are working with Steep, a direct-to-consumer tea brand. The goal is to move toward value-based bidding. This approach tells ad platforms how much a customer is worth ("here is how much I can spend to acquire a user") instead of simply asking them to get new customers as cheaply as possible. To do that, you need to look past the blended LTV, which is just the average value across all customers. You must find out what actually makes one customer more valuable than another.
 
-**Scope:** this is cohort-level value analysis (channel, geography, acquisition type), not persona-level "who they are as people." Stay in the cohort lane.
+The dataset is [`steep_cohorts_exercise.csv`](steep_cohorts_exercise.csv). This file contains 4,800 customer records to help you analyze what drives value, including acquisition channels, geography, income bands, plan types, and monthly fees.
 
-The data has a trap built in: the intuitive read (a low-LTV geography) is a *confound*. Digging past the obvious attribute to the actual driver is the exercise.
+For this analysis, you will use a simplified LTV calculation: Average observed tenure multiplied by the average monthly fee. Keep in mind that this is a simplification that undervalues customers who are still active, but it provides a clear enough baseline to compare different segments. You will also need to watch out for a confound: An attribute that appears to drive lifetime value but is actually explained away by a different underlying factor.
 
-## What to produce
+## Your task
 
-- An LTV forecast per cohort (stated decay assumption + confidence), shown as a chart or table. For confidence, use `hazard × (1 ± 2/√events)` where *events* is that cohort's churn count — small cohorts get wide bands, and that is the point. It is a directional spread, not a statistical confidence interval; say so when you report it.
-- A comparison of LTV against CPA across channel and geography — where low CPA hides low LTV, and where high CPA is justified.
-- A driver analysis: which attribute most strongly separates high- from low-value customers, and at least one case where the intuitive explanation (geography or income) is really a confound for a behavioral driver.
-- The **value signal**: a formatted bidding-signal upload (segment + predicted value + value tier), **plus the rule that assigns the tiers**.
-- The **human call**: a short allocation note — which channels/segments to bid up or down given predicted value and the real driver, not the demographic story.
-- Stated limits.
-
-## Requirements
-
-- Model retention/churn and project forward. Reading "average revenue-to-date" as final LTV will badly under-value young cohorts whose best customers haven't finished their lifespans — account for that censoring.
-- **Name your horizon, and say whether you projected past the data.** The longest tenure in this file is 10 months. A survival estimate that stops at the last observed month and one that carries the churn rate forward indefinitely are both defensible, and they produce very different numbers — the second can put most of a customer's modelled value beyond anything you actually observed. State which you did, and roughly how much of your LTV sits past the last data point.
-- **State a margin assumption.** A subscription dollar is not a margin dollar — Steep ships physical tea. If you compare lifetime *revenue* to CAC and call the result LTV:CAC, every ratio comes out flattering. Say what margin you assumed and why.
-- **Say how you tiered.** A value tier a colleague can't reproduce isn't a signal, it's an opinion. Give the rule that maps a predicted value to high / mid / low, and a reason for where you put the cuts.
-- Follow the data to the real driver. Form a hypothesis, but let the data lead; don't stop at the first attribute that looks predictive, and control for more than one variable.
-- **Watch what you average over.** A number computed across a mixed population can mislead even when the arithmetic is right — that applies to cohorts, geographies and channels alike. If a segment's estimate rests on very few churn events, say so rather than publishing it as fact.
-- Produce both outputs. The signal is what the platform optimizes automatically; the allocation note is the call the platform can't make. One without the other is half the deliverable.
-- State the limits, including that young cohorts carry the most forecast risk and that these forecasts should be validated against held-out cohorts over time.
+1. Hand the dataset to Claude and ask it to segment the customers to find the highest and lowest lifetime value groups.
+2. Ask the AI tool to identify the single customer attribute that drives lifetime value the most.
+3. Have the chat assistant check for confounds to find one attribute that looks like a driver but is actually explained by something else.
+4. Review Claude's findings and decide on one specific change to how you will spend your acquisition budget.
 
 ## Done when
 
-Your driver analysis identifies the real separator of value rather than the demographic story that's easiest to see, and both the bidding signal and the allocation note follow from it.
+- You have isolated the true driver of lifetime value rather than a demographic distraction.
+- You have translated the segment analysis into a clear business decision.
+- The finished work is a short recommendation answering the four questions and ending with one specific spend change.

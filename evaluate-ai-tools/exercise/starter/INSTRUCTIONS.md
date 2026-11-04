@@ -1,30 +1,29 @@
 # Evaluate the Field, Make a Recommendation
 
-You run marketing at a growing consumer brand. Every month your small team produces a lot of copy across lifecycle emails, product pages, and paid social, and you're stretched thin. You're evaluating AI copywriting tools to help, and you need to make a recommendation. Score three specialized tools against a rubric, weigh them against the option of using the AI you already have, and deliver a clear build-vs-buy recommendation a manager could act on.
+You are evaluating AI copywriting tools to help your stretched team, and you need to make a clear recommendation to your manager.
 
-Work in Claude. Use:
+## What you're given
+
+You run marketing at a growing consumer brand. Every month, your small team produces a high volume of copy across lifecycle emails, product pages, and paid social. Three people touch copy today: you and two colleagues.
+
+You will evaluate three specialized tools (Penmark, CopyFlow, and BrandForge) against the option of building the capability in-house. You will score them on a scale of 1 to 5, where 1 is a poor fit and 5 is an excellent fit.
+
+Work in Claude. To set up your workspace, create a Claude Project and upload the provided files:
 
 - [`ai-tool-evaluation-framework.md`](ai-tool-evaluation-framework.md) — the six-dimension rubric.
-- [`tool-profiles.md`](tool-profiles.md) — your diligence findings on the three candidate tools.
+- [`tool-profiles.md`](tool-profiles.md) — your diligence findings on the three candidate tools and the build option.
 
-## What to produce
+## Your task
 
-A short recommendation to your manager, containing:
-
-- Each of the three tools scored against the six rubric dimensions, with a one-line rationale per score.
-- Your review of those scores: where you agree, and where you would adjust them and why. The scoring is a starting point; the judgment is yours.
-- A build-vs-buy call: could a general AI you already pay for, with a good brief, do this job well enough that you would not need a specialized tool? Weigh that against the three tools.
-- Which dimensions you weighted most heavily for this team, and why.
-- The recommendation: buy (which tool, and why) or do not buy (use what you have). Include your main concern about the recommended option, and why it is manageable.
-
-## Requirements
-
-- Weight the dimensions that matter for this team. Not every dimension matters equally; say which ones and why.
-- Consider build-vs-buy explicitly. "Buy nothing new" is a legitimate recommendation.
-- Do not let the highest raw total win automatically. The scores narrow the field; your judgment makes the call.
-- Cost is a shape, not a sticker. A per-seat rate and a flat rate rank differently depending on team size, so say what your cost scores assume.
-- The recommendation must name a concern and why it is manageable. That is what makes it a decision, not a summary.
+1. Score the three tools and the in-house build option against the six rubric dimensions, providing a one-line rationale per score.
+2. Review those scores to see where you agree, and adjust them using your own judgment.
+3. Decide which dimensions you should weight most heavily for your lean team, and explain why.
+4. Make a build-versus-buy call that weighs building the capability internally against buying a specialized tool.
+5. Write a short recommendation to your manager that names your choice, your main concern, and why that concern is manageable.
 
 ## Done when
 
-Your recommendation names a clear build-vs-buy call, the reasoning behind it, and the one concern you would flag, and a manager could act on it without redoing your analysis.
+- You have weighted the evaluation dimensions specifically for the needs of this lean marketing team.
+- You make an explicit build-versus-buy call, briefly noting cost assumptions for your small three-person group.
+- You apply your own judgment to the final scores rather than just accepting the highest raw total.
+- You provide a short recommendation a manager can act on, naming the choice, reasoning, and one manageable concern.

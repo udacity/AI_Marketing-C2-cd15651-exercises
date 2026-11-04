@@ -28,7 +28,18 @@ This team is lean and stretched thin, so the binding constraints are **cost vs. 
 
 ## 4. Build-vs-buy
 
-Before recommending a purchase, weigh the option you already have: a general AI, with a good brief, doing the job. On everyday copy it often matches the mid-tier tools at no marginal cost. Where it loses is the plumbing, no integration and no brand-safety guardrails or audit trail. "Buy nothing new" is a legitimate result and should stay on the table.
+Before buying software, evaluate the cost of building the capability in-house with your own people. Score your current team on the same six dimensions, then ask the AI to compare it with the leading tool.
+
+| Dimension | Your current team |
+|---|---|
+| Capability fit | 3 |
+| Brand-voice control / brand-safety | 3 |
+| Fit with your stack | 4 |
+| Cost vs. value | 2 |
+| Data & privacy | 3 |
+| Learning curve / adoption | 5 |
+
+Building in-house wins on capability fit and brand safety (3 vs. 2), while the leading tool wins on cost vs. value (4 vs. 2) and data & privacy. Because cost matters most for this lean team, buying comes out ahead: the cost of redirecting internal resources to build is higher than the cost of onboarding CopyFlow.
 
 ## 5. The recommendation
 
@@ -40,12 +51,12 @@ Before recommending a purchase, weigh the option you already have: a general AI,
 
 **Why it is manageable:** it ships a configurable banned-words and blocked-topics filter (the only vocabulary-level guardrail in the field), a short human review is already part of how this team ships copy, and we would run a 30-day pilot that measures edit time per piece, and revisit if clean-up erodes the cost advantage.
 
-*(A submission that weights capability and brand-safety instead, and recommends BrandForge or "buy nothing," is equally strong if the reasoning holds.)*
+*(A submission that weights capability and brand-safety instead, and recommends BrandForge or building in-house, is equally strong if the reasoning holds.)*
 
 ## Common mistakes
 
 - Letting the highest raw total win automatically, instead of weighting what matters for this team.
-- Never weighing the build-vs-buy option, so "buy nothing" is never considered.
+- Skipping the build-vs-buy evaluation, so the real cost of redirecting internal resources is never considered.
 - Treating brand-voice and brand-safety as one thing. Penmark locks voice tightly and checks claims not at all.
 - Scoring cost off a sticker instead of a shape (per-seat versus flat at your real team size and volume).
 - A recommendation with no named concern. That is a summary, not a decision.

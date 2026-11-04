@@ -1,47 +1,38 @@
-# Worked Demo — From Cohort Curve to Bidding Signal
+# Worked Demo — Slicing LTV to Find the Real Driver
 
-*The real content: the finished walkthrough the demo produces. Scoped to a single acquisition cohort — the demo shows the mechanism end to end; comparing segments to find the real driver of value is the exercise's job, not this one's.*
+*The finished walkthrough the demo produces. Ad platforms default to acquiring customers as cheaply as possible, which often means buying the lowest-value users. To use value-based bidding effectively, marketers need to tell the platform exactly how much different types of customers are actually worth.*
 
-## LTV is a projection, not a number
+In this demo, we use Claude to find what truly drives lifetime value for Steep. The dataset is [`steep_cohorts.csv`](steep_cohorts.csv): about 4,800 customer records with geography, monthly fee, active or churned status, and whether each customer paid full price or got a discount.
 
-Load [`steep_cohorts.csv`](../exercise/starter/steep_cohorts.csv) and have Claude Code describe what is actually in the file: one row per customer, with observed tenure in months and a status of `active` or `churned`. There is no retention curve to read — you build one. Churn events ÷ total observed tenure months gives a monthly churn hazard; carry the surviving fraction forward month by month and multiply by the average monthly fee for value. The decay is an assumption you state, not a shape you find.
+## How the baseline is set up
 
-## Project one cohort
+We start by establishing a baseline metric. The chat assistant calculates a blended lifetime value using a simple formula: Average observed tenure multiplied by the average monthly fee. While this is a useful simplification, it undervalues customers who are still active because their final tenure is not yet known. Still, it provides a starting point before we slice the data to see how different segments perform against that $81.24 average.
 
-Take the **2025-01 cohort: 800 customers, 438 churn events across 5,532 observed customer-months** — a **7.92% monthly churn hazard**. At an average fee of **$14.80** and a **65% gross margin** (state the margin out loud; a subscription dollar is not a margin dollar), project survival forward twelve months:
+A request like this works well to establish the baseline:
 
-> **12-month LTV ≈ $76.37**, directionally **$73.60 – $79.29**.
+> Using the attached customer file, compute a single blended average lifetime value as the average observed tenure in months multiplied by the average monthly fee, across all customers. Return only that one LTV number and the two averages behind it. Do not segment by anything, do not adjust for customers still active, and do not add any caveats or commentary.
 
-Both halves matter. The decay assumption is **constant monthly hazard** — the same churn rate in month 12 as in month 1, which is a choice, not a finding. The range comes from how many churn events sit behind the hazard: relative precision ≈ 1 ÷ √events, so recompute at hazard × (1 ± 2 ÷ √events). 438 events buys about **±9.6% on the hazard**, which works through to roughly **±4% on the 12-month LTV** — the band above. A thin segment with 40 events would be about **3.3× looser** (√(438 ÷ 40)), on either measure. Chart the cumulative curve ([`cohort-ltv-curve.png`](cohort-ltv-curve.png)) so the flattening is visible.
+## How to spot a confound
 
-## Name your horizon — it moves the number
+Next, we ask the AI tool to cut the data by different customer attributes to see what actually drives value. A naive cut by geography makes India look like a terrible market, returning a lifetime value of just $69.02 compared to Canada's $90.33. However, comparing segments side by side reveals a confound. When we cross-reference geography with acquisition type, we find that 80.6% of Indian customers buy at a discount, and discount buyers have a significantly lower lifetime value across the board.
 
-Let the same hazard run uncapped and expected lifetime is 1 ÷ 7.92% ≈ **12.6 months** of survival value, which reads **~$122** for this cohort instead of $76.37. **Capping at twelve months gives up roughly 37% of the modelled value.** Neither number is wrong; they answer different questions, and "LTV" on its own doesn't say which one you mean. Pick the horizon that matches the payback window you plan against: if the spend has to earn back inside a year, the 12-month figure is the one you bid on, and the lifetime figure is upside you haven't observed yet.
+| Geography | Raw LTV | % on discount | Full-price LTV |
+| --- | --- | --- | --- |
+| CA | $90.33 | 25.2% | $100.32 |
+| US | $85.58 | 39.8% | $102.80 |
+| UK | $82.00 | 46.9% | $100.49 |
+| IN | $69.02 | 80.6% | $102.84 |
 
-## The strategic punchline
+As the table shows, a full-price customer in India is worth about the same as a full-price customer in Canada, the US or the UK (around $100 to $103). The geography does not drive the value; the acquisition type does.
 
-A platform optimizing for cheap conversions buys the customers who are cheap to buy, and nothing else. Suppose one source delivers customers at half the cost of another — the bidder chases the cheap one every time, even if the dearer customers turn out to be worth several times more over their life. **On lowest CPA alone you can end up buying your *worst* customers.** That is the case for value-based bidding: stop telling the platform what a conversion *costs* and start telling it what a conversion is *worth*.
+## What the result tells you
 
-The number you hand back here is the one this cohort owns: **$76.37 of 12-month value against $20.95 of acquisition cost — about 3.6× LTV:CAC.**
+Finally, we use an open prompt asking Claude to look holistically at the trends. This confirms that acquisition type dominates everything else, with full-price customers worth roughly 66% more than discount buyers ($101.60 vs. $61.20). This judgment supports value-based bidding: Instead of feeding the ad platform a blanket target, we can instruct it to value full-price sign-ups higher and discount sign-ups lower in the bids.
 
-## Make the prediction actionable
+To check for broader patterns, we hand over the analysis:
 
-A prediction only matters if it leaves the spreadsheet. Format the LTV as a representative bidding-signal upload:
+> Look holistically at the customer data and tell me what trends you see around the best and worst LTV by user profile
 
-```
-segment / customer_id, predicted_value, value_tier
-```
+**Takeaway:** Instead of just applying a blanket $80 blended LTV, we can get much more nuanced.
 
-(Teach a generic value-signal shape, not exact current platform field specs — those change constantly.)
-
-Show the tiering **rule** next to the file, or the tier is just an opinion. In [`bidding-signal-sample.csv`](bidding-signal-sample.csv) the cut is on LTV:CAC — **high ≥ 6×, mid 3–6×, low < 3×** — so this cohort's 3.6× lands **mid**: healthy, hold and optimise. Two things to say out loud. The cut is on the **ratio**, not on `predicted_value` alone, which is why two rows can carry the same predicted value and still tier differently — same modelled lifetime, different acquisition cost. And the cuts are **conventions, not findings**: 3× is the common payback bar once margin is in, 6× is simply double it. Move the cuts and the labels move, so publish the rule beside the file.
-
-Then explain how the platform uses it: bidding up toward high-value profiles, down on low-value ones, automatically.
-
-## The second output: the human call
-
-The LTV forecast pays off two ways. Beyond the automatic signal, show the marketer's own allocation note — which cohorts to bid up or down. This is the judgment the platform can't make for you, and it's what the exercise asks students to write alongside the signal file.
-
-## Key takeaway
-
-The frontier isn't cheaper conversions — it's valuable ones. LTV forecasting closes the loop only when the prediction becomes a bidding signal the platform can act on.
+**Try it:** Attach your own customer data and ask the chat assistant to cross-reference your lowest-value segment against acquisition channels to check for confounds.
