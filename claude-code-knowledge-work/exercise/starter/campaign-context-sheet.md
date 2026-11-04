@@ -1,6 +1,6 @@
 # Vessl — Summer Launch Campaign Context
 
-*Provided input for the Claude Code knowledge-work module. Keep this in your project folder alongside the brand-voice guide. It gives you what you need to produce the campaign's connected deliverables.*
+*Provided input for the Claude Project knowledge-work module. Keep this in your project alongside the brand-voice guide. It gives you what you need to produce the campaign's connected deliverables.*
 
 ---
 

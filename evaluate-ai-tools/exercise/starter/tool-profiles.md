@@ -4,7 +4,7 @@
 
 **The need:** a tool to help your team produce a steady stream of marketing copy (emails, ads, social, landing-page sections) that stays on brand. Three people touch copy today: you and two colleagues.
 
-*(The "Durability" line under each tool isn't a scored dimension. It feeds the two-way-door sizing step: it only matters much if this is a one-way-door commitment.)*
+*(The "Durability" line under each tool isn't a scored dimension.)*
 
 ---
 
