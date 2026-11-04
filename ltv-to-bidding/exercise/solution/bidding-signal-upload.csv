@@ -1,7 +1,3 @@
 segment,predicted_value,value_tier
-discount|paid_social,51.5,low
-discount|referral,51.5,mid
-discount|search,51.5,low
-full_price|paid_social,315.9,high
-full_price|referral,315.9,high
-full_price|search,315.9,high
+annual,102.74,high
+monthly,74.34,low

@@ -1,2 +1,3 @@
 segment,predicted_value,value_tier
-cohort|2025-01,76.37,mid
+full_price,101.60,high
+discount,61.20,low

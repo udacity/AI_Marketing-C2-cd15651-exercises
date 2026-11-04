@@ -1,0 +1,4 @@
+income_band,customers,avg_tenure_months,avg_monthly_fee,avg_ltv,churn_rate_pct,pct_annual,avg_ltv_annual,avg_ltv_monthly
+high,1374,6.28,14.81,93.1,28.2,69.7,101.6,73.6
+mid,1743,5.92,14.81,87.74,40.4,46.3,103.33,74.31
+low,1683,5.57,14.8,82.43,48.6,26.5,104.11,74.61

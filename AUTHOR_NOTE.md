@@ -47,7 +47,7 @@ Outputs (CSVs, charts, numbers) are computed from the real provided datasets and
 |---|---|---|
 | SP1–SP6, M6 | genuine Claude run (varies run to run) | re-run live; replace if materially different |
 | SP7, SP8 | computed from real datasets (accurate) | keep, or re-run analysis |
-| SP9 | text matches the live pages; solution CSVs and demo outputs still from the old method | replace CSVs/PNG with your run's outputs |
+| SP9 | text matches the live pages; solution CSVs and demo outputs computed from the real datasets with the live pages' method (tenure × fee); `ltv-by-cohort.csv` is still from the old method (no cohort cut on the live pages) | keep; delete `ltv-by-cohort.csv` if not needed |
 | M8 | Claude direction only, **no images** | generate real images, add to solution |
 | M9 | **live web sources** for both (time-sensitive) — exercise: 5 claims; demo: 3 claims on the same request | re-verify every link + update numbers; capture the demo run live; **regenerate the scope-coverage table** if your run returns different claims |
 
