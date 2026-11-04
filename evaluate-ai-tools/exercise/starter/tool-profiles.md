@@ -1,6 +1,6 @@
 # Candidate AI Copywriting Tools — Profiles
 
-*Provided input for the "Evaluate and Select AI Tools" exercise. Treat these profiles as your diligence findings, organized by the framework's dimensions. Score each tool against the framework, and also score the DIY baseline (a general-purpose model with a good brief) by testing it yourself. No single tool wins on every dimension. Three dimensions — **fit with your stack**, **cost vs. value** and **learning curve / adoption** — are described as properties rather than verdicts, and have no obvious right answer; what they're worth depends on assumptions you have to make and state. Your judgment on the tradeoffs is the exercise.*
+*Provided input for the "Evaluate and Select AI Tools" exercise. Treat these profiles as your diligence findings, organized by the framework's dimensions. Score each tool against the framework, and also score the build option (building an internal tool in-house) by evaluating your existing tools and capabilities. No single tool wins on every dimension. Three dimensions — **fit with your stack**, **cost vs. value** and **learning curve / adoption** — are described as properties rather than verdicts, and have no obvious right answer; what they're worth depends on assumptions you have to make and state. Your judgment on the tradeoffs is the exercise.*
 
 **The need:** a tool to help your team produce a steady stream of marketing copy (emails, ads, social, landing-page sections) that stays on brand. Three people touch copy today: you and two colleagues.
 
@@ -46,15 +46,15 @@ An all-around AI content tool aimed at marketing teams.
 
 ---
 
-## The DIY baseline (score this too)
+## The build option (score this too)
 
-A general-purpose model you may already pay for (Claude, ChatGPT, or similar), used with a goal-rich brief. Weigh it as a fourth option against the three tools.
+Building the capability in-house as your own internal tool. AI has made it easier to build internal tools, so weigh this as a fourth option against the three specialized tools.
 
-- **Capability fit:** test it and see. With a strong brief the quality may surprise you, though it has no saved brand-voice profile to lean on.
-- **Fit with your stack:** no connectors, same as Penmark — copy comes out of a window or a file and gets pasted where it's going. What it does sit next to is everything else you already do in that window.
-- **Cost vs. value:** no line item beyond the subscription you already have, and no per-seat or per-piece meter. That's exactly why it's the bar the others have to clear.
-- **Data & privacy:** depends on the plan you already have. Assume your team is on a **paid business tier that does not train on inputs**, and has been for a year — so score it on that tier, not the free-tier terms, and treat the training-on-inputs question as settled. What the business tier does *not* give you: nothing is logged, and there is no review trail or retention control you could show an auditor. Adopting the baseline adds no *new* risk, but no-training is one check of several, so this is a middling score rather than a top one.
-- **Learning curve / adoption:** nothing to configure, nothing to roll out, nobody to train. Adoption means three people actually using the same brief file and keeping it current — no product enforces that, so it holds for as long as the habit does.
-- **Brand-voice control / brand-safety:** test it. No saved voice profile, so your brand rules live in the brief and get re-pasted each session — tone holds within a conversation but drifts between them. No guardrails at all, but total control: whatever prohibitions you write into the brief are enforced only as well as the model follows them, and nothing is logged for review.
+- **Capability fit:** you are exploring other options because you are not super happy with your current capability. You will need to evaluate if the AI tools you already use deliver on your expectations for quality and speed.
+- **Fit with your stack:** whatever you build will sit in your existing environment, so it is already in your stack, though there may be a few things you wish it integrated with better.
+- **Cost vs. value:** building internally has a material value. You have a lean team and do not have a ton of engineering, product or design resources at your disposal. You cannot readily get someone to go build this without a significant business case and pulling them off other revenue-generating projects, making the cost of redirecting internal resources high.
+- **Data & privacy:** an internal build would live in an environment that is already approved for your existing setup, which is neutral at best.
+- **Learning curve / adoption:** whatever you build internally using your current tools is already adopted by the team, so there is no new tool to roll out.
+- **Brand-voice control / brand-safety:** you have not invested enough time to figure out how to get your brand voice exactly right. Unless you invest a lot of time building in brand guardrails, an internal tool built on generic AI may not be particularly good at generating brand-safe content.
 
-A specialized tool has to clearly beat this baseline to justify its cost and its spot in your stack.
+A specialized tool has to clearly beat this build option to justify its cost and its spot in your stack.
